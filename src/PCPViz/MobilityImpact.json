@@ -1,0 +1,352 @@
+[
+  {
+    "state": "AL",
+    "stay_at_home": 936135.7143,
+    "not_stay_at_home": 3951735.286,
+    "num_trips": 13667692,
+    "cases": 32012
+  },
+  {
+    "state": "AK",
+    "stay_at_home": 216579.7143,
+    "not_stay_at_home": 520858.2857,
+    "num_trips": 1850654.429,
+    "cases": 1597
+  },
+  {
+    "state": "AZ",
+    "stay_at_home": 1992888.143,
+    "not_stay_at_home": 5178757.857,
+    "num_trips": 16777008.43,
+    "cases": 53178
+  },
+  {
+    "state": "AR",
+    "stay_at_home": 588908,
+    "not_stay_at_home": 2424917,
+    "num_trips": 8540822.714,
+    "cases": 14234
+  },
+  {
+    "state": "CA",
+    "stay_at_home": 10989806.14,
+    "not_stay_at_home": 28567238.86,
+    "num_trips": 84681811.57,
+    "cases": 163249
+  },
+  {
+    "state": "CO",
+    "stay_at_home": 1500050.143,
+    "not_stay_at_home": 4195513.857,
+    "num_trips": 18182549.71,
+    "cases": 10025
+  },
+  {
+    "state": "CT",
+    "stay_at_home": 875882.2857,
+    "not_stay_at_home": 2696782.714,
+    "num_trips": 10917589.43,
+    "cases": 2280
+  },
+  {
+    "state": "DE",
+    "stay_at_home": 231308.8571,
+    "not_stay_at_home": 735862.1429,
+    "num_trips": 2953345.286,
+    "cases": 2097
+  },
+  {
+    "state": "FL",
+    "stay_at_home": 4791292.286,
+    "not_stay_at_home": 16508032.71,
+    "num_trips": 58710612.43,
+    "cases": 197593
+  },
+  {
+    "state": "GA",
+    "stay_at_home": 2337668.857,
+    "not_stay_at_home": 8181806.143,
+    "num_trips": 30810528.71,
+    "cases": 69443
+  },
+  {
+    "state": "HI",
+    "stay_at_home": 395202.7143,
+    "not_stay_at_home": 1025288.286,
+    "num_trips": 3166545.429,
+    "cases": 1156
+  },
+  {
+    "state": "ID",
+    "stay_at_home": 428739.7143,
+    "not_stay_at_home": 1325468.286,
+    "num_trips": 4590254.286,
+    "cases": 9712
+  },
+  {
+    "state": "IL",
+    "stay_at_home": 3212380.857,
+    "not_stay_at_home": 9528699.143,
+    "num_trips": 40241731.29,
+    "cases": 25677
+  },
+  {
+    "state": "IN",
+    "stay_at_home": 1524756.571,
+    "not_stay_at_home": 5167121.429,
+    "num_trips": 21006297.71,
+    "cases": 15269
+  },
+  {
+    "state": "IA",
+    "stay_at_home": 749429.2857,
+    "not_stay_at_home": 2406715.714,
+    "num_trips": 9290682.714,
+    "cases": 9476
+  },
+  {
+    "state": "KS",
+    "stay_at_home": 726403.5714,
+    "not_stay_at_home": 2185101.429,
+    "num_trips": 8344837,
+    "cases": 7942
+  },
+  {
+    "state": "KY",
+    "stay_at_home": 1027510.286,
+    "not_stay_at_home": 3440891.714,
+    "num_trips": 14505434.57,
+    "cases": 11070
+  },
+  {
+    "state": "LA",
+    "stay_at_home": 989618.2857,
+    "not_stay_at_home": 3670359.714,
+    "num_trips": 14563095.43,
+    "cases": 37705
+  },
+  {
+    "state": "ME",
+    "stay_at_home": 318468.8571,
+    "not_stay_at_home": 1019935.143,
+    "num_trips": 4097093.857,
+    "cases": 379
+  },
+  {
+    "state": "MD",
+    "stay_at_home": 1471311.429,
+    "not_stay_at_home": 4571406.571,
+    "num_trips": 18241084.43,
+    "cases": 15838
+  },
+  {
+    "state": "MA",
+    "stay_at_home": 1860931.857,
+    "not_stay_at_home": 5041217.143,
+    "num_trips": 24553737.86,
+    "cases": 6328
+  },
+  {
+    "state": "MI",
+    "stay_at_home": 2373430,
+    "not_stay_at_home": 7622485,
+    "num_trips": 30300944.14,
+    "cases": 12634
+  },
+  {
+    "state": "MN",
+    "stay_at_home": 1393823.571,
+    "not_stay_at_home": 4217355.429,
+    "num_trips": 15134612.86,
+    "cases": 13009
+  },
+  {
+    "state": "MS",
+    "stay_at_home": 540114,
+    "not_stay_at_home": 2446416,
+    "num_trips": 8379762.429,
+    "cases": 23201
+  },
+  {
+    "state": "MO",
+    "stay_at_home": 1481860.286,
+    "not_stay_at_home": 4644591.714,
+    "num_trips": 17349841,
+    "cases": 23368
+  },
+  {
+    "state": "MT",
+    "stay_at_home": 280357.4286,
+    "not_stay_at_home": 781947.5714,
+    "num_trips": 2799579.429,
+    "cases": 2241
+  },
+  {
+    "state": "NE",
+    "stay_at_home": 456059.8571,
+    "not_stay_at_home": 1473208.143,
+    "num_trips": 5443165,
+    "cases": 4992
+  },
+  {
+    "state": "NV",
+    "stay_at_home": 857925.4286,
+    "not_stay_at_home": 2176466.571,
+    "num_trips": 7408612.429,
+    "cases": 20586
+  },
+  {
+    "state": "NH",
+    "stay_at_home": 301686.4286,
+    "not_stay_at_home": 1054771.571,
+    "num_trips": 4603826.857,
+    "cases": 545
+  },
+  {
+    "state": "NJ",
+    "stay_at_home": 2390639.714,
+    "not_stay_at_home": 6517880.286,
+    "num_trips": 29267758.57,
+    "cases": 6730
+  },
+  {
+    "state": "NM",
+    "stay_at_home": 519915.1429,
+    "not_stay_at_home": 1575512.857,
+    "num_trips": 6665244,
+    "cases": 5505
+  },
+  {
+    "state": "NY",
+    "stay_at_home": 6088008.714,
+    "not_stay_at_home": 13454200.29,
+    "num_trips": 66803528.29,
+    "cases": 12837
+  },
+  {
+    "state": "NC",
+    "stay_at_home": 2263866,
+    "not_stay_at_home": 8119754,
+    "num_trips": 30679171,
+    "cases": 36350
+  },
+  {
+    "state": "ND",
+    "stay_at_home": 177202.5714,
+    "not_stay_at_home": 582874.4286,
+    "num_trips": 2022750.286,
+    "cases": 2172
+  },
+  {
+    "state": "OH",
+    "stay_at_home": 2763597.571,
+    "not_stay_at_home": 8925844.429,
+    "num_trips": 35945552.57,
+    "cases": 25234
+  },
+  {
+    "state": "OK",
+    "stay_at_home": 922044,
+    "not_stay_at_home": 3021035,
+    "num_trips": 10750320.14,
+    "cases": 16986
+  },
+  {
+    "state": "OR",
+    "stay_at_home": 1164969.714,
+    "not_stay_at_home": 3025743.286,
+    "num_trips": 11443520.29,
+    "cases": 6379
+  },
+  {
+    "state": "PA",
+    "stay_at_home": 3234600.286,
+    "not_stay_at_home": 9572459.714,
+    "num_trips": 37672202,
+    "cases": 17194
+  },
+  {
+    "state": "RI",
+    "stay_at_home": 251777,
+    "not_stay_at_home": 805538,
+    "num_trips": 3361139.571,
+    "cases": 1766
+  },
+  {
+    "state": "SC",
+    "stay_at_home": 1048803.714,
+    "not_stay_at_home": 4035323.286,
+    "num_trips": 15543180,
+    "cases": 32596
+  },
+  {
+    "state": "SD",
+    "stay_at_home": 193271.4286,
+    "not_stay_at_home": 688963.5714,
+    "num_trips": 2589397.429,
+    "cases": 1969
+  },
+  {
+    "state": "TN",
+    "stay_at_home": 1441226.857,
+    "not_stay_at_home": 5328783.143,
+    "num_trips": 20414969.71,
+    "cases": 42910
+  },
+  {
+    "state": "TX",
+    "stay_at_home": 6223578.571,
+    "not_stay_at_home": 22478266.43,
+    "num_trips": 74751173.29,
+    "cases": 166172
+  },
+  {
+    "state": "UT",
+    "stay_at_home": 806738.1429,
+    "not_stay_at_home": 2354366.857,
+    "num_trips": 9603951.714,
+    "cases": 10504
+  },
+  {
+    "state": "VT",
+    "stay_at_home": 149417.4286,
+    "not_stay_at_home": 476881.5714,
+    "num_trips": 2097395.714,
+    "cases": 109
+  },
+  {
+    "state": "VA",
+    "stay_at_home": 2006701.429,
+    "not_stay_at_home": 6510983.571,
+    "num_trips": 26195194.29,
+    "cases": 18553
+  },
+  {
+    "state": "WA",
+    "stay_at_home": 1986356.143,
+    "not_stay_at_home": 5549234.857,
+    "num_trips": 20642908.29,
+    "cases": 15787
+  },
+  {
+    "state": "WV",
+    "stay_at_home": 439124.7143,
+    "not_stay_at_home": 1366707.286,
+    "num_trips": 5292906.571,
+    "cases": 2515
+  },
+  {
+    "state": "WI",
+    "stay_at_home": 1359061.571,
+    "not_stay_at_home": 4454506.429,
+    "num_trips": 16526682,
+    "cases": 17060
+  },
+  {
+    "state": "WY",
+    "stay_at_home": 141554.4286,
+    "not_stay_at_home": 436182.5714,
+    "num_trips": 1884989.714,
+    "cases": 866
+  }
+]
