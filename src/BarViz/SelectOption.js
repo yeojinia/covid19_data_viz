@@ -13,7 +13,7 @@ class SelectOption extends React.Component{
         const handleOnSelect = this.props.handleOnSelect;
         return(
             <form>
-                <select value ={this.props.usState} onChange={event => handleOnSelect(event)}>
+                <select value ={this.props.usState} onChange={event => handleOnSelect(event)} style={{float:"right"}}>
                     <option value ="AL">AL</option>
                     <option value ="AK">AK</option>
                     <option value ="AZ">AZ</option>

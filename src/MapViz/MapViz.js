@@ -15,16 +15,16 @@ function MapViz(){
     const refTextStyle= {
         "height": "50px",
         "width": "90%",
-        "text-align": "right",
+        "textAlign": "right",
         "position": "relative"
     }
 
-    const [cState, setCState] = useState("cases");
+    const [cstate, setCstate] = useState("cases");
     // onSelect event
     const handleOnSelect = (event) => {
         const value = event.currentTarget.value;
-        console.log(value);
-        setCState(value);
+       // console.log(value);
+        setCstate(value);
 
     }
 
@@ -38,7 +38,7 @@ function MapViz(){
     var sampleData ={};	/* Sample random data. */
 
     data.forEach(function(d){
-        if(!cState.localeCompare("cases")) {
+        if(!cstate.localeCompare("cases")) {
             sampleData[d[""]] = {
                 sum: d["sum"], color: d3.interpolate("#ffffcc", "#800026")(+(d["sum"]) / 500000), death: d["death"]
             };
@@ -62,7 +62,7 @@ function MapViz(){
             .attr("id", "statesmap")
 
         uStates.draw("#statesmap", sampleData, tooltipHtml);
-    }, [cState])
+    }, [cstate])
 
     return (
         <div className="cases">
@@ -70,7 +70,7 @@ function MapViz(){
                 Confirmed Cases / Deaths
             </h2>
                 <form>
-                    <select cState={cState} onChange={handleOnSelect}>
+                    <select cstate={cstate} onChange={handleOnSelect}>
                         <option value ="cases">confirmed cases</option>
                         <option value ="death">deaths</option>
                     </select>

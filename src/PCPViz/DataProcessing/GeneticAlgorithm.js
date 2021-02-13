@@ -1,6 +1,5 @@
-import React, {useEffect, useRef} from 'react';
 import {CorrelationMatrix} from './CorrelationTable.js';
-import casesFactors from './../CasesFactors.json';
+import casesFactors from '../Data/CasesFactors.json';
 var POP_SIZE = 20;
 var corrMatrix;
 

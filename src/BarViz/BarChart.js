@@ -1,6 +1,9 @@
 import React, { useRef, useEffect } from 'react';
 import * as d3 from 'd3';
-import ConfirmedCases from './ConfirmedCases2.json';
+import ConfirmedCases from './ConfirmedCases3.json';
+import TempOverTime from './temperatureOverTime.json';
+import HumidOverTime from './humidityOverTime.json';
+import {Checkbox} from "rsuite";
 import SelectOption from "./SelectOption";
 
 const BarChart = (props) => {
@@ -9,12 +12,10 @@ const BarChart = (props) => {
     const bar_width = 800 - 2* side_margin;
     const bar_height = 400 - 2* side_margin;
     var usState = props.usState;
-    console.log(usState);
+    // console.log(usState);
 
     useEffect(() => {
        // var state_selected = d3.select("#state_single_select").value()
-        console.log(props.count);
-
         const barChartElement = d3.select("#barchart-group-container");
 
         barChartElement.selectAll('g').remove()
@@ -46,18 +47,15 @@ const BarChart = (props) => {
         //console.log(formatMonth(ConfirmedCases.map(d=> d.date)));
         const xTickScale = d3.scaleBand()
             //.domain(ConfirmedCases.map(d=> d.date))
-            .domain(["March","April","May","June", "July", "August", "September"])
+            .domain(["March","April","May","June", "July", "August", "September","October","November","December"])
             .range([0, bar_width]);
 
         const xAxisG = chart.append('g')
             .attr('transform', `translate(0, ${bar_height})`)
 
-
         xAxisG.call(d3.axisBottom(xTickScale))
             .selectAll('.tick line');
 //            .remove();
-
-
 
         xAxisG.append('text')
             .attr('y', 33)
@@ -65,7 +63,6 @@ const BarChart = (props) => {
             .attr('fill','black')
             .style('font-size', '15px')
             .text('Month');
-
 
         var barchart = d3.select(".barchart-wrapper")
 /*
@@ -122,6 +119,38 @@ const BarChart = (props) => {
             .enter()
             .append('rect')
             .style('fill','orange')
+            .attr('x', (s) => xScale(s.date))
+            .attr('y', (s) => yScale(s[usState]))
+            .attr('height', (s) => bar_height - yScale(s[usState]))
+            .attr('width', xScale.bandwidth())
+            .attr('value', (s) => s[usState])
+            .attr('date', s => s.date)
+            .on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave)
+
+        chart.selectAll()
+            //.data(goals)
+            .data(TempOverTime, function(d) {return d[usState];})
+            .enter()
+            .append('rect')
+            .style('fill','Red')
+            .attr('x', (s) => xScale(s.date))
+            .attr('y', (s) => yScale(s[usState]))
+            .attr('height', (s) => bar_height - yScale(s[usState]))
+            .attr('width', xScale.bandwidth())
+            .attr('value', (s) => s[usState])
+            .attr('date', s => s.date)
+            .on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave)
+
+        chart.selectAll()
+            //.data(goals)
+            .data(HumidOverTime, function(d) {return d[usState];})
+            .enter()
+            .append('rect')
+            .style('fill','Green')
             .attr('x', (s) => xScale(s.date))
             .attr('y', (s) => yScale(s[usState]))
             .attr('height', (s) => bar_height - yScale(s[usState]))

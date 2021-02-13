@@ -1,8 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import BarChart from "./BarChart";
 import * as d3 from "d3";
 import SelectOption from "./SelectOption";
 import cases from './ConfirmedCases2.json';
+import {Checkbox} from "rsuite";
 
 function BarViz() {
 
@@ -41,6 +42,8 @@ function BarViz() {
                 <div className="interaction-container-state-select">
                     {/*send the state-value and onSelect*/}
                     <SelectOption usState={usState} handleOnSelect={handleOnSelect}></SelectOption>
+                    <Checkbox style={{float:"left"}}> Temperature </Checkbox>
+                    <Checkbox style={{float:"left"}}> Humidity </Checkbox>
                 </div>
 
             </div>

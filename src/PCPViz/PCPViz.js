@@ -1,34 +1,14 @@
-import React, {Component, useEffect, useState} from 'react';
-import SelectOption from './SelectOption.js';
+//import React, {Component, useEffect, useState} from 'react';
+import React, {Component} from 'react';
 import './style.css';
-import CorrelationTable from './DataProcessing/CorrelationTable.js'
-import GeneticAlgorithm from './DataProcessing/GeneticAlgorithm.js'
 import worker from "./../worker.js";
 import WebWorker from "./../workerSetup";
-import CovidCasesPCPGL from "./CovidCasesPCPGL";
-import CovidDeathsPCPGL from "./CovidDeathsPCPGL";
-import {Canvas} from "react-three-fiber";
-import {Slider} from 'rsuite';
+import CasesMain from "./MainPanels/CasesMain";
+import DeathsMain from "./MainPanels/DeathsMain";
 import 'rsuite/dist/styles/rsuite-default.css';
 
 class PCPViz extends Component{
-    // state-variable & setter
-    /*const [seq, setSeq] = useState("1,2,3,4,5");
 
-    const longEvent = async () => {
-        for (let i=0; i<100; i++) {
-            console.log(i);
-        }
-    };
-    // onSelect event
-    const handleOnClick = (event) => {
-        setSeq("Calculating...");
-        return longEvent().then(() => {
-            const value = "1,4,3,2,5";
-            console.log(value);
-            setSeq(value);
-        });
-    }*/
     componentDidMount = () => {
         this.worker = new WebWorker(worker);
     };
@@ -57,15 +37,15 @@ class PCPViz extends Component{
         //init('webgl');
         return (
             <div className="pcp">
-                <div className = "pcp-wrapper">
+                <div className = "cases-pcp">
                     <h2>
-                        (1) What are the variables that are related to COVID-19 confirmed cases?
+                        (1) What are explanatory variables that can explain COVID-19 confirmed cases?
                     </h2>
                     &nbsp;
 
-                    <CovidCasesPCPGL></CovidCasesPCPGL>
+                    <CasesMain></CasesMain>
 
-                    <div id="pcp-ui-wrapper">
+                    <div id="pcp-ui-wrapper" key="ui-">
                         {/*&nbsp;*/}
                         {/*<button onClick={GeneticAlgorithm(4)}> Generate Maximum Correlation Order</button>*/}
                         {/*&nbsp;*/}
@@ -75,23 +55,24 @@ class PCPViz extends Component{
                     </div>
 
                     &nbsp;
-                    <div id="corr-table-wrapper">
+                    {/*<div id="corr-table-wrapper">*/}
 
-                        <b>Correlation Table For Variables</b>
-                        <table id="correlation-table">
-                            <CorrelationTable id={1}></CorrelationTable>
-                        </table>
-                    </div>
+                    {/*    <b>Correlation Table For Variables</b>*/}
+                    {/*    <table id="correlation-table">*/}
+                    {/*        <CorrelationTable></CorrelationTable>*/}
+                    {/*    </table>*/}
+                    {/*</div>*/}
                 </div>
 
-                <div className="deaths-pcp">
-                     <h2>
-                         (2) What are the conditions contributing to deaths the most involving covid-19 (Cormorbities)?
-                     </h2>
-                     &nbsp;
-                            <CovidDeathsPCPGL></CovidDeathsPCPGL>
-                     &nbsp;
-                </div>
+
+                {/*<div className="deaths-pcp">*/}
+                {/*     <h2>*/}
+                {/*         (3) What are the disease conditions contributing to deaths the most involving covid-19 (Cormorbities)?*/}
+                {/*     </h2>*/}
+                {/*     &nbsp;*/}
+                {/*     <DeathsMain></DeathsMain>*/}
+                {/*     &nbsp;*/}
+                {/*</div>*/}
 
             </div>
 

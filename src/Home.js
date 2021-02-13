@@ -11,6 +11,7 @@ class Home extends Component {
         this.state = {
             count: 0
         };
+
     }
 
     fetchWebWorker = () => {
@@ -32,18 +33,20 @@ class Home extends Component {
         this.worker = new WebWorker(worker);
     };
 
+
     render() {
         return (
             <div className="App-bottom">
 
 
                 <section className="App-right">
-                    <ReactCountdownClock
-                        seconds={100}
-                        color="#e56"
-                        alpha={0.9}
-                        size={300}
-                    />
+                    {/*<ReactCountdownClock*/}
+                    {/*    seconds={100}*/}
+                    {/*    color="#e56"*/}
+                    {/*    alpha={0.9}*/}
+                    {/*    size={300}*/}
+                    {/*    ref = {this.count}*/}
+                    {/*/>*/}
                     <p className="text-center">Total User Count: {this.state.count}</p>
                     <button className="btn-worker" onClick={this.fetchWebWorker}>
                         Fetch Users with Web Worker

@@ -7,26 +7,23 @@
     stroke: black;
     stroke-width: 1px;
 }
-#axes-control-wrapper {
-    display: grid;
-    text-align: left;
-}
-#cases-brush-wrapper{
+#cases-brush-wrapper, #deaths-brush-wrapper{
     display:grid;
 }
-#my-vis-wrapper{
+#my-cases-vis-wrapper, #my-deaths-vis-wrapper{
     display: flex;
 }
 #pcp-labels{
 
 }
-#cases-pcp{
+#cases-vis-brush-and-pcp, #deaths-vis-brush-and-pcp{
     border: 3px solid #fff;
     padding: 20px;
     display: flex;
     height: 600px;
+
 }
-#cases-pcp-wrapper{
+#cases-pcp{
     display:grid;
     position: relative;
     /*top:0px; left:0px;*/
@@ -36,16 +33,72 @@
 }
 
 #pcp-cases-brush-wrapper{
-    position:relative;
+    /*border: 3px solid #fff;*/
+    /*position:relative;*/
     width:50%;
-    height:400px;
+    height:570px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+
+    -moz-box-shadow: #555 0 0 8px;
+    -webkit-box-shadow: #555 0 0 8px;
+    -o-box-shadow: #555 0 0 8px;
+    box-shadow: #555 0 0 8px;
+}
+#cases-sub-heatmap-vis, #deaths-sub-heatmap-vis{
+    display: flex;
+    margin-left: 115px;
+    margin-top: 5px;
+    /*-moz-box-shadow: #555 0 0 8px;*/
+    /*-webkit-box-shadow: #555 0 0 8px;*/
+    /*-o-box-shadow: #555 0 0 8px;*/
+    /*box-shadow: #555 0 0 8px;*/
+}
+#cases-sub-scatterplot-vis, #deaths-sub-scatterplot-vis{
+
+    margin-left: 25px;
+    margin-top: 5px;
+
+    -moz-box-shadow: #555 0 0 8px;
+    -webkit-box-shadow: #555 0 0 8px;
+    -o-box-shadow: #555 0 0 8px;
+    box-shadow: #555 0 0 8px;
+}
+#cases-sub-multibrush{
+    flex-direction: column;
+}
+#cases-sub-multi-brush-vis{
+    margin-left: 25px;
+    margin-top: 25px;
+    -moz-box-shadow: #555 0 0 8px;
+    -webkit-box-shadow: #555 0 0 8px;
+    -o-box-shadow: #555 0 0 8px;
+    box-shadow: #555 0 0 8px;
 }
 #pcp-cases-pcp-wrapper, #pcp-deaths-wrapper{
     position:relative;
+    margin: 5px;
+
+    -moz-box-shadow: #555 0 0 8px;
+    -webkit-box-shadow: #555 0 0 8px;
+    -o-box-shadow: #555 0 0 8px;
+    box-shadow: #555 0 0 8px;
     /*margin: auto;*/
     /*width:50%;*/
  /*   width:600px;
     height:400px;*/
+}
+#cases-svg-interpolation-container, #deaths-svg-interpolation-container{
+    /*position: relative;*/
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+
+}
+#cases-sub-wrapper, #deaths-sub-wrapper{
+    display:flex;
+    /*flex-direction: row;*/
+   /* display: inline-block;*/
 }
 #cases_webgl,#text,#deaths_webgl,#text2,#axes_label_canvas,#webgl2_canvas{
     position:absolute; top:0px; left:0px;
