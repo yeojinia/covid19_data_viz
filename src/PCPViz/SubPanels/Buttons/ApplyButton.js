@@ -30,7 +30,7 @@ export default function ApplyButton(props){
         setLoading(true);
         // console.log("handle Click");
         var {axesLineSet, lineSet, hLineSet, weightPos, controlPointSet, mi} = Parallel_Lines(props.corrSlider, props.corrThreshold, props.miSlider, props.miThreshold, props.selectedData);
-        var {label_margin, axes_labels} = Parallel_Labels(props.corrSlider, props.corrThreshold, props.miSlider, props.miThreshold);
+        var {label_margin, axes_labels, axes_minimums, axes_maximums} = Parallel_Labels(props.corrSlider, props.corrThreshold, props.miSlider, props.miThreshold);
 
     }
 

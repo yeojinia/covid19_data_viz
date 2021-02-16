@@ -81,8 +81,8 @@ const linearRegressionWeights = () => {
     var keys = Object.keys(deathsFactor[0]);
     keys.shift();
     Object.keys(keys).forEach(function (item, index) {
-        minimums[keys[item]] = (Math.min.apply(null, casesFactor.map((v) => v[keys[item]])));
-        maximums[keys[item]] = (Math.max.apply(null, casesFactor.map((v) => v[keys[item]])));
+        minimums[keys[item]] = (Math.min.apply(null, deathsFactor.map((v) => v[keys[item]])));
+        maximums[keys[item]] = (Math.max.apply(null, deathsFactor.map((v) => v[keys[item]])));
     });
 
     var data = deathsFactor.map(r => {

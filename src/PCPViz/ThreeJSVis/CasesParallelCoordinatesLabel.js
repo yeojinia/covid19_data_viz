@@ -3,6 +3,7 @@ import {CorrelationMatrix} from "../DataProcessing/CorrelationTable";
 import casesFactor from "../Data/CasesFactors.json";
 import MI from "../Data/MutualInfo.json";
 import MutualInfo from "../Data/MutualInfo.json";
+import {AxesNumericalRange} from "./CasesParallelCoordinates";
 
 let [labels, corrMat] = CorrelationMatrix(casesFactor);
 
@@ -18,7 +19,7 @@ export function Parallel_Labels(corrSlider, corrThreshold, miSlider, miThreshold
     var axesChosen = {};
     if(corrSlider === false) {
         for (var pos in caseObj) {
-            if (1 - Math.abs(caseObj[pos]) < corrThreshold["corrThreshold"]) {
+            if (1 - Math.abs(caseObj[pos]) <= corrThreshold["corrThreshold"]) {
                 axesChosen[pos] = caseObj[pos];
             }
         }
@@ -51,18 +52,56 @@ export function Parallel_Labels(corrSlider, corrThreshold, miSlider, miThreshold
         axes_labels.push(<p key={label} style={{marginLeft:-{span}+'px', width:span, writingMode: 'vertical-rl',  textOrientation: 'mixed', textAlign:'left', fontFamily:'Helvetica'}}>{label}</p>);
         idx = idx +1;
     }
+
+    var [axes_minimums, axes_maximums] = AxesNumericalRange(casesFactor, axesChosen);
+
+    var axesMins = Object.values(axes_minimums);
+    var axesMaxs = Object.values(axes_maximums);
+
+    axesMins.map(a=> {a.toFixed(2)});
+    axesMaxs.map(a=> {a.toFixed(2)});
+
+    // console.log(axesMins,  axesMaxs);
     // setDisplayLabels(labels);
-    return {label_margin, axes_labels};
+    if(axes_labels.length<=1){
+        axes_labels = [];
+        axesMins = [];
+        axesMaxs = [];
+    }
+    return {label_margin, axes_labels, axesMins, axesMaxs};
 }
 
 export default function CasesPCPLabels(props) {
 
-    const {label_margin, axes_labels} = props;
+    const {label_margin, axes_labels, axesMins, axesMaxs} = props;
+   // console.log(label_margin, axes_labels, axesMins, axesMaxs);
+    return (
+            <div style={{display:'flex', fontSize:'13px', transform: 'translate('+label_margin+'px, 0)'}}>
+                {axes_labels}
+            </div>
+    )
+};
 
+export function CasesMinLabel(props){
+
+    const {label_margin, axes_labels, axesMins, axesMaxs} = props;
+
+    //console.log(axes_labels);
+    console.log(label_margin, axes_labels, axesMins, axesMaxs);
     return (
         <div style={{display:'flex', fontSize:'13px', transform: 'translate('+label_margin+'px, 0)'}}>
-            {axes_labels}
+            {axesMins}
         </div>
     )
 
-};
+}
+export function CasesMaxLabel(props){
+
+    const {label_margin, axes_labels, axesMins, axesMaxs} = props;
+
+    return (
+        <div style={{display:'flex', fontSize:'13px', transform: 'translate('+label_margin+'px, 0)'}}>
+            {axesMaxs}
+        </div>
+    )
+}
