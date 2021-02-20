@@ -46,13 +46,11 @@ const HeatMap = () => {
             .attr("transform","rotate(90)" )
             .style("text-anchor", "start")
 
-
         // Build Y scales and axis
         var y = scaleBand()
             .range([height, 0])
             .domain(disease_correlation.map(d=>d.variable))
             .padding(0.05)
-
 
         heatMapElement.append("g")
             .style("font-size", 10)

@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import ResetButton from "../SubPanels/Buttons/ResetButton";
 import {Slider} from "rsuite";
-import DeathsMultiBrushes from '../SubPanels/BrushOnTsne/DeathsMultiBrushes';
+import DeathsMultiBrushes from './BrushOnTsne/DeathsMultiBrushes';
 import deathsFactor from '../Data/DeathsFactors.json';
 import DeathsAxesLines from "../ThreeJSVis/DeathsAxesLines";
 import DeathParallelLabels from "../ThreeJSVis/DeathsLabel";

@@ -39,7 +39,7 @@ class PCPViz extends Component{
             <div className="pcp">
                 <div className = "cases-pcp">
                     <h2>
-                        (1) What are explanatory variables that can explain COVID-19 confirmed cases?
+                        Suspected influential variables for COVID-19 confirmed cases
                     </h2>
                     &nbsp;
 

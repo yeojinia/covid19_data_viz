@@ -1,11 +1,22 @@
+.dropdown {
+    width: 100%;
+}
 .btn-primary{
+    float: right;
+    /*margin-top: -2rem;*/
+}
+.btn-ui-primary{
     float: left;
-    margin-top: -2rem;
+    margin-left: 10px;
+    /*margin-top: -2rem;*/
 }
 .selected {
     opacity: 1 !important;
     stroke: black;
     stroke-width: 1px;
+}
+#brush-release-button-wrapper{
+    margin-left: 10px;
 }
 #cases-brush-wrapper, #deaths-brush-wrapper{
     display:grid;
@@ -15,6 +26,20 @@
 }
 #pcp-labels{
 
+}
+#multi-brushes-wrapper{
+    flex-direction: column;
+}
+#brush-container{
+    display: flex;
+}
+#cases-interaction-board{
+    flex-direction: column;
+
+    -moz-box-shadow: #555 0 0 8px;
+    -webkit-box-shadow: #555 0 0 8px;
+    -o-box-shadow: #555 0 0 8px;
+    box-shadow: #555 0 0 8px;
 }
 #cases-vis-brush-and-pcp, #deaths-vis-brush-and-pcp{
     border: 3px solid #fff;
@@ -31,7 +56,9 @@
     /*height:400px;*/
     /*padding:10px;*/
 }
-
+#axis-order-slider-wrapper{
+    margin-left: 10px;
+}
 #pcp-cases-brush-wrapper{
     /*border: 3px solid #fff;*/
     /*position:relative;*/
@@ -47,31 +74,47 @@
 }
 #cases-sub-heatmap-vis, #deaths-sub-heatmap-vis{
     display: flex;
-    margin-left: 115px;
+    margin-left: 35px;
     margin-top: 5px;
     /*-moz-box-shadow: #555 0 0 8px;*/
     /*-webkit-box-shadow: #555 0 0 8px;*/
     /*-o-box-shadow: #555 0 0 8px;*/
     /*box-shadow: #555 0 0 8px;*/
 }
+#color-text-wrapper{
+    margin-left: 10px;
+}
+#cases-feature-extraction-slider, #selection-method-wrapper{
+    margin-left: 10px;
+}
+#button-wrapper{
+    display:flex;
+}
 #cases-sub-scatterplot-vis, #deaths-sub-scatterplot-vis{
-
-    margin-left: 25px;
+    display:flex;
+    /*margin-left: 25px;*/
     margin-top: 5px;
 
-    -moz-box-shadow: #555 0 0 8px;
-    -webkit-box-shadow: #555 0 0 8px;
-    -o-box-shadow: #555 0 0 8px;
-    box-shadow: #555 0 0 8px;
+    /*-moz-box-shadow: #555 0 0 8px;*/
+    /*-webkit-box-shadow: #555 0 0 8px;*/
+    /*-o-box-shadow: #555 0 0 8px;*/
+    /*box-shadow: #555 0 0 8px;*/
+}
+#covid19-cases-wrapper{
+    /*-moz-box-shadow: #555 0 0 8px;*/
+    /*-webkit-box-shadow: #555 0 0 8px;*/
+    /*-o-box-shadow: #555 0 0 8px;*/
+    /*box-shadow: #555 0 0 8px;*/
+}
+#cases-sub-scatterplot-vis-right{
+    flex-direction: column;
 }
 #cases-sub-multibrush{
     flex-direction: column;
 }
 #cases-sub-multi-brush-vis{
-    margin-left: 25px;
-    margin-top: 25px;
-    -moz-box-shadow: #555 0 0 8px;
-    -webkit-box-shadow: #555 0 0 8px;
+    /*-moz-box-shadow: #555 0 0 8px;*/
+    /*-webkit-box-shadow: #555 0 0 8px;*/
     -o-box-shadow: #555 0 0 8px;
     box-shadow: #555 0 0 8px;
 }
@@ -92,7 +135,8 @@
     /*position: relative;*/
     flex-direction: column;
     align-items: center;
-    width: 60px;
+    width: 100px;
+    margin-left: 10px;
 
 }
 #cases-sub-wrapper, #deaths-sub-wrapper{

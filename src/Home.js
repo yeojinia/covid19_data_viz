@@ -38,7 +38,6 @@ class Home extends Component {
         return (
             <div className="App-bottom">
 
-
                 <section className="App-right">
                     {/*<ReactCountdownClock*/}
                     {/*    seconds={100}*/}
@@ -47,10 +46,10 @@ class Home extends Component {
                     {/*    size={300}*/}
                     {/*    ref = {this.count}*/}
                     {/*/>*/}
-                    <p className="text-center">Total User Count: {this.state.count}</p>
-                    <button className="btn-worker" onClick={this.fetchWebWorker}>
-                        Fetch Users with Web Worker
-                    </button>
+                    {/*<p className="text-center">Total User Count: {this.state.count}</p>*/}
+                    {/*<button className="btn-worker" onClick={this.fetchWebWorker}>*/}
+                    {/*    Fetch Users with Web Worker*/}
+                    {/*</button>*/}
                 </section>
             </div>
         );

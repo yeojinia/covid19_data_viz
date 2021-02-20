@@ -307,6 +307,8 @@ export default function CasesParallelCoordinates(props) {
     var arr = Object.values(modelWeights);
     let wMax = Math.max.apply(null, arr.map(Math.abs));
     let wMin = 0;
+
+    console.log(wMax);
     // let wMin = Math.min(...arr);
     // let wMax = Math.max(...arr);
     // console.log(vertices, hVertices, axes);

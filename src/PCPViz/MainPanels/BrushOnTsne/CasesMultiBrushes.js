@@ -3,8 +3,16 @@ import React, {useEffect, useState} from "react";
 import {Button} from "react-bootstrap";
 import casesFactor from "../../Data/CasesFactors.json";
 import TSNE from "tsne-js";
+import {PCA} from "ml-pca";
+import * as hdsp from "hdsp2";
+import Select from 'react-select';
 
-let colorSet = ["#E7E84C", "#FBFF87", "#FFDF00","#E8D051","#FFF249"];
+let colorSet = ["#E7E84C", "#FBFF87", "#FFDF00", "#E8D051", "#FFF249"];
+const projection_methods = [
+    {label: "t-SNE", value: 0},
+    {label: "PCA", value: 1},
+    // {label: "MDS", value: 2}
+];
 
 function simulateNetworkRequest() {
     return new Promise((resolve) => setTimeout(resolve, 500));
@@ -13,10 +21,10 @@ function simulateNetworkRequest() {
 function ReleaseButton(props) {
     const buttonStyle = {
         color: "#fff",
-        fontSize: '10px',
+        fontSize: '12px',
         backgroundColor: "#5a6268",
         borderColor: "#6c757d",
-        width: "100px",
+        width: "120px",
         height: "30px",
     };
 
@@ -97,7 +105,7 @@ function brushed(myCircle, setSelectedData, x, y) {
 
 // A function that return TRUE or FALSE according if a dot is in the selection or not
 function isBrushed(brush_coords, cx, cy) {
-    if(brush_coords === null) return false;
+    if (brush_coords === null) return false;
     var x0 = brush_coords[0][0],
         x1 = brush_coords[1][0],
         y0 = brush_coords[0][1],
@@ -187,11 +195,73 @@ function newBrush(gBrushes, myCircle, setSelectedData, x, y) {
     }
 }
 
+function projectedScaledData(data, normalizedData, label)
+{
+    const pca = new PCA(data);
+    var pca_projected_data = pca.predict(data, {nComponents: 2}).data;
+    var pca_primary_min= (Math.min.apply(null, pca_projected_data.map((v) => v[0])));
+    var pca_primary_max= (Math.max.apply(null, pca_projected_data.map((v) => v[0])));
+    var pca_secondary_min = (Math.min.apply(null, pca_projected_data.map((v) => v[1])));
+    var pca_secondary_max = (Math.max.apply(null, pca_projected_data.map((v) => v[1])));
+
+    var mds_projected_data = hdsp.MDSSGD.project(normalizedData, 2);
+    var mds_first_min=(Math.min.apply(null, mds_projected_data.map((v) => v[0])));
+    var mds_first_max=(Math.max.apply(null, mds_projected_data.map((v) => v[0])));
+    var mds_second_min=(Math.min.apply(null, mds_projected_data.map((v) => v[1])));
+    var mds_second_max=(Math.max.apply(null, mds_projected_data.map((v) => v[1])));
+
+    var pcaOutputScaled = [];
+    var mdsOutputScaled = [];
+    for(var i=0; i<pca_projected_data.length; i++){
+        pcaOutputScaled.push(
+            [2*((pca_projected_data[i][0] - pca_primary_min)/(pca_primary_max-pca_primary_min)) -1,
+            2*((pca_projected_data[i][1] - pca_secondary_min)/(pca_secondary_max - pca_secondary_min))-1]);
+    }
+    for(var i=0; i<mds_projected_data.length; i++){
+        mdsOutputScaled.push(
+            [2*((mds_projected_data[i][0]-mds_first_min)/(mds_first_max-mds_first_min))-1,
+            2*((mds_projected_data[i][1]-mds_second_min)/(mds_second_max-mds_second_min))-1]);
+    }
+
+
+    let model = new TSNE({
+        dim: 2,
+        perplexity: 30.0,
+        earlyExaggeration: 4.0,
+        learningRate: 100.0,
+        nIter: 1000,
+        metric: 'euclidean'
+    });
+
+    model.init({
+        data: data,
+        type: 'dense'
+    });
+
+    // note: computation-heavy action happens here
+    let [error, iter] = model.run();
+
+    // `output` is unpacked ndarray (regular nested javascript array)
+    let output = model.getOutput();
+
+    // `outputScaled` is `output` scaled to a range of [-1, 1]
+    let tsneOutputScaled = model.getOutputScaled();
+    for (let i = 0; i < tsneOutputScaled.length; i++) {
+        pcaOutputScaled[i].push(label[i]);
+        mdsOutputScaled[i].push(label[i]);
+        tsneOutputScaled[i].push(label[i]);
+    }
+    return [pcaOutputScaled, mdsOutputScaled, tsneOutputScaled];
+}
+
 export default function MultipleBrushes(props) {
 
     const [selectedData, setSelectedData] = useState({});
-    let window_width = 340;
-    let window_height = 340;
+
+    const [projectMethod, setProjectMethod] = useState(0);
+
+    let window_width = 450;
+    let window_height = 450;
     var side_margin = (window_width - 0) / (2 * casesFactor.length);
     var keys = [];
     var minimums = {};
@@ -207,42 +277,22 @@ export default function MultipleBrushes(props) {
     });
 
     var inputData = [];
+    var normalizedInputData = [];
     var inputLabel = [];
     for (var i = 0; i < casesFactor.length; i++) {
         inputLabel.push(casesFactor[i]["states"]);
         var examples = [];
+        var normalized_examples = [];
         for (var key of keys) {
             examples.push(casesFactor[i][key]);
+            normalized_examples.push((casesFactor[i][key] - minimums[key]) / (maximums[key] - minimums[key]))
         }
         inputData.push(examples);
+        normalizedInputData.push(normalized_examples);
     }
 
-    // inputData;
-    let model = new TSNE({
-        dim: 2,
-        perplexity: 30.0,
-        earlyExaggeration: 4.0,
-        learningRate: 100.0,
-        nIter: 1000,
-        metric: 'euclidean'
-    });
-
-    model.init({
-        data: inputData,
-        type: 'dense'
-    });
-
-    // note: computation-heavy action happens here
-    let [error, iter] = model.run();
-
-    // `output` is unpacked ndarray (regular nested javascript array)
-    let output = model.getOutput();
-
-    // `outputScaled` is `output` scaled to a range of [-1, 1]
-    let outputScaled = model.getOutputScaled();
-    for (let i = 0; i < outputScaled.length; i++) {
-        outputScaled[i].push(inputLabel[i]);
-    }
+    var [pcaOutputScaled, mdsOutputScaled, tsneOutputScaled]
+        = projectedScaledData(inputData, normalizedInputData, inputLabel);
 
     var margin = {
             top: 10,
@@ -254,8 +304,10 @@ export default function MultipleBrushes(props) {
         height = window_height - margin.top - margin.bottom;
 
     useEffect(() => {
+
+        d3.select("#cases-projection").remove();
         var svg = d3.select("#cases-sub-multi-brush-vis").append("svg")
-            .attr("id", "cases-tsne")
+            .attr("id", "cases-projection")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
@@ -296,7 +348,11 @@ export default function MultipleBrushes(props) {
             .range([height, 0]);
 
         myCircle = svg.selectAll('g')
-            .data(outputScaled)
+            .data(function(){
+                if(projectMethod == 0) return tsneOutputScaled;
+                else if(projectMethod == 1) return pcaOutputScaled;
+                return mdsOutputScaled;
+            })
             .enter()
             .append("circle")
             .attr("cx", function (d) {
@@ -312,7 +368,11 @@ export default function MultipleBrushes(props) {
             .style("opacity", 0.5);
 
         var myText = svg.selectAll("g")
-            .data(outputScaled)
+            .data( function(){
+                if(projectMethod == 0) return tsneOutputScaled;
+                else if(projectMethod == 1) return pcaOutputScaled;
+                return mdsOutputScaled;
+            })
             .enter()
             .append("text")
             .text(function (d) {
@@ -330,21 +390,26 @@ export default function MultipleBrushes(props) {
         newBrush(gBrushes, myCircle, props.setSelectedData, x, y);
         drawBrushes(gBrushes);
 
-    }, [props.selectedData]);
+    }, [props.selectedData, projectMethod]);
 
     return (
-        <>
+        <div id="multi-brushes-wrapper">
+            <div id="brush-container" style={{height: '50px'}}>
+                <div style={{width: '250px'}}>
+                    <Select options={projection_methods} defaultValue={{label: "t-SNE", value: 0}}
+                            onChange={v => {
+                                setProjectMethod(v.value);
+                            }}
+                            style={{width: '100%'}}/>
+                </div>
+                <div id="brush-release-button-wrapper">
+                    <ReleaseButton class="btn-float-right" selectedData={props.selectedData}
+                                   setSelectedData={props.setSelectedData}
+                                   setSelectedAxes={props.setSelectedAxes}></ReleaseButton>
+                </div>
+            </div>
             <div id="cases-sub-multi-brush-vis" style={{marginTop: '0.5rem'}}>
             </div>
-
-            <div>
-                <ReleaseButton class="btn-float-right" selectedData={props.selectedData}
-                               setSelectedData={props.setSelectedData}
-                               setSelectedAxes={props.setSelectedAxes}></ReleaseButton>
-            </div>
-
-            {/*<div style={ {marginRight: '2.1rem', marginBottom:'1.3rem', marginTop:'5.0rem', backgroundColor:'white'}}>*/}
-            {/*</div>*/}
-        </>
+        </div>
     );
 }
