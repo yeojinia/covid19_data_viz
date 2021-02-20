@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import * as d3 from 'd3';
 import casesFactor from './../../Data/CasesFactors.json';
 import calculateCorrelation from 'calculate-correlation';
@@ -95,22 +95,22 @@ const CasesScatterPlot = (props) => {
             myColor = ColorScale(corr_coef);
         }
         else if(props.colorScheme === "RdBu"){
-            var ColorScale = d3.scaleSequential()
+            var ColorScale2 = d3.scaleSequential()
                 .interpolator(d3.interpolateRdBu)
                 .domain([-1, 1]);
-            myColor = ColorScale(corr_coef);
+            myColor = ColorScale2(corr_coef);
         }
         else if(props.colorScheme === "RdYlGn"){
-            var ColorScale = d3.scaleSequential()
+            var ColorScale3 = d3.scaleSequential()
                 .interpolator(d3.interpolateRdYlGn)
                 .domain([-1, 1]);
-            myColor = ColorScale(corr_coef);
+            myColor = ColorScale3(corr_coef);
         }
         else{ // if(props.colorScheme === "RdGy")
-            var ColorScale = d3.scaleSequential()
+            var ColorScale4 = d3.scaleSequential()
                 .interpolator(d3.interpolateRdGy)
                 .domain([-1, 1]);
-            myColor = ColorScale(corr_coef);
+            myColor = ColorScale4(corr_coef);
         }
         // console.log(hor.horizon , ver.vert);
 
@@ -158,7 +158,7 @@ export const CasesScatterPlotBottomLabel = (props) => {
             myNode.removeChild(myNode.firstChild);
 
         // append the svg object to the body of the page
-        var svg = d3.select("#cases-sub-scatterplot-vis-right-bot")
+        d3.select("#cases-sub-scatterplot-vis-right-bot")
             .append("svg")
 
         // text label for the x axis

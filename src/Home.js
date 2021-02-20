@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import ReactCountdownClock from "react-countdown-clock";
 import worker from "./worker.js";
 import WebWorker from "./workerSetup";
 import "./App.css";

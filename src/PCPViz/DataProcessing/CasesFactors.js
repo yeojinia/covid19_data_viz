@@ -21,7 +21,7 @@ if (casesFactor.length > 0) {
     })
 
     casesFactor.map((factor) => {
-        dimensions.forEach(function (dimension, index) {
+        return dimensions.forEach(function (dimension, index) {
             minimums[dimension] = Math.min(minimums[dimension], factor[dimension]);
             maximums[dimension] = Math.max(maximums[dimension], factor[dimension]);
         })
@@ -42,6 +42,7 @@ if (casesFactor.length > 0) {
     const model = regression.fit(data);
     dimensions.map((dimension, index) => {
         modelWeights[dimension] = model.theta[index];
+        return 1;
     });
 }
 

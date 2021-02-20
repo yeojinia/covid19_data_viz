@@ -4,7 +4,6 @@ import './style.css';
 import worker from "./../worker.js";
 import WebWorker from "./../workerSetup";
 import CasesMain from "./MainPanels/CasesMain";
-import DeathsMain from "./MainPanels/DeathsMain";
 import 'rsuite/dist/styles/rsuite-default.css';
 
 class PCPViz extends Component{

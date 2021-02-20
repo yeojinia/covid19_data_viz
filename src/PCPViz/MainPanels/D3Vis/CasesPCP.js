@@ -5,7 +5,7 @@ import MI from "./../../Data/MutualInfo.json";
 import {CorrelationMatrix} from "../../DataProcessing/CorrelationTable";
 import {dimensions, maximums, minimums, modelWeights} from "../../DataProcessing/CasesFactors";
 
-let [labels, corrMat] = CorrelationMatrix(casesFactor);
+let [_, corrMat] = CorrelationMatrix(casesFactor);
 
 var caseObj = {};
 corrMat.forEach(function (item) {
@@ -24,9 +24,9 @@ export function OptAxes(corrSlider, corrThreshold, miSlider, miThreshold) {
             }
         }
     } else if (miSlider === false) {
-        for (var pos in MI) {
-            if (MI[pos]["mutualInfo"] >= miThreshold["miThreshold"]) {
-                axesChosen[MI[pos]["label"]] = MI[pos]["mutualInfo"];
+        for (var pos1 in MI) {
+            if (MI[pos1]["mutualInfo"] >= miThreshold["miThreshold"]) {
+                axesChosen[MI[pos1]["label"]] = MI[pos1]["mutualInfo"];
             }
         }
     }
@@ -79,12 +79,12 @@ export default function CasesPCP(props) {
         var selectedAxisOrder = [];
         // selectedAxes.filter(word => word !== "cases");
 
-        for (var i = 0; i < selectedAxes.length; i++) {
-            if (props.targetPlace === i) {
+        for (var idx = 0; idx < selectedAxes.length; idx++) {
+            if (props.targetPlace === idx) {
                 selectedAxisOrder.push("cases");
             }
-            if (selectedAxes[i] !== "cases")
-                selectedAxisOrder.push(selectedAxes[i]);
+            if (selectedAxes[idx] !== "cases")
+                selectedAxisOrder.push(selectedAxes[idx]);
         }
 
 

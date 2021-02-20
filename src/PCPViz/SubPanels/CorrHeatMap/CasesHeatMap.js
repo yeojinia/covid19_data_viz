@@ -40,7 +40,7 @@ const calc_pearson_corr = (data1, data2) => {
 
 
 const CasesHeatMapViz = (props) => {
-    const ref = useRef()
+    // const ref = useRef()
 
     // set the dimensions and margins of the graph
     var margin = {top: 10, right: 50, bottom: 70, left: 180},
@@ -109,29 +109,29 @@ const CasesHeatMapViz = (props) => {
             .interpolator(d3.interpolateRdBu)
             .domain([-1, 1]);
 
-        if(props.colorScheme == "Inferno"){
+        if(props.colorScheme === "Inferno"){
             myColor = d3.scaleSequential()
                 .interpolator(d3.interpolateInferno)
                 .domain([-1, 1]);
         }
-        else if(props.colorScheme == "RdBu"){
+        else if(props.colorScheme === "RdBu"){
             myColor = d3.scaleSequential()
                 .interpolator(d3.interpolateRdBu)
                 .domain([-1, 1]);
         }
-        else if(props.colorScheme == "RdYlGn"){
+        else if(props.colorScheme === "RdYlGn"){
             myColor = d3.scaleSequential()
                 .interpolator(d3.interpolateRdYlGn)
                 .domain([-1, 1]);
         }
-        else if(props.colorScheme == "RdGy"){
+        else if(props.colorScheme === "RdGy"){
             myColor = d3.scaleSequential()
                 .interpolator(d3.interpolateRdGy)
                 .domain([-1, 1]);
         }
         // console.log(myColor(0.5));
 
-        var tooltip = d3.select("#cases-sub-heatmap-map-vis")
+        d3.select("#cases-sub-heatmap-map-vis")
             .append("div")
             .style("opacity", 0)
             .style("background-color", "white")

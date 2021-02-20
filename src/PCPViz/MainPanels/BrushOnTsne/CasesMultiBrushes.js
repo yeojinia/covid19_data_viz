@@ -217,10 +217,10 @@ function projectedScaledData(data, normalizedData, label)
             [2*((pca_projected_data[i][0] - pca_primary_min)/(pca_primary_max-pca_primary_min)) -1,
             2*((pca_projected_data[i][1] - pca_secondary_min)/(pca_secondary_max - pca_secondary_min))-1]);
     }
-    for(var i=0; i<mds_projected_data.length; i++){
+    for(var i1=0; i1<mds_projected_data.length; i1++){
         mdsOutputScaled.push(
-            [2*((mds_projected_data[i][0]-mds_first_min)/(mds_first_max-mds_first_min))-1,
-            2*((mds_projected_data[i][1]-mds_second_min)/(mds_second_max-mds_second_min))-1]);
+            [2*((mds_projected_data[i1][0]-mds_first_min)/(mds_first_max-mds_first_min))-1,
+            2*((mds_projected_data[i1][1]-mds_second_min)/(mds_second_max-mds_second_min))-1]);
     }
 
 
@@ -239,10 +239,10 @@ function projectedScaledData(data, normalizedData, label)
     });
 
     // note: computation-heavy action happens here
-    let [error, iter] = model.run();
+    model.run();
 
     // `output` is unpacked ndarray (regular nested javascript array)
-    let output = model.getOutput();
+    model.getOutput();
 
     // `outputScaled` is `output` scaled to a range of [-1, 1]
     let tsneOutputScaled = model.getOutputScaled();
@@ -256,7 +256,7 @@ function projectedScaledData(data, normalizedData, label)
 
 export default function MultipleBrushes(props) {
 
-    const [selectedData, setSelectedData] = useState({});
+    // const [selectedData, setSelectedData] = useState({});
 
     const [projectMethod, setProjectMethod] = useState(0);
 
@@ -329,13 +329,13 @@ export default function MultipleBrushes(props) {
             .style("box-shadow", "#555 0 0 8px");
 
         // Add X axis
-        var x = d3.scaleLinear()
-            .range([side_margin, width - side_margin])
-            .domain([-1.05, 1.05]);
-
-        var y = d3.scaleLinear()
-            .domain([-1, 1])
-            .range([height, 0]);
+        // var x = d3.scaleLinear()
+        //     .range([side_margin, width - side_margin])
+        //     .domain([-1.05, 1.05]);
+        //
+        // var y = d3.scaleLinear()
+        //     .domain([-1, 1])
+        //     .range([height, 0]);
 
         // Add X axis
         var x = d3.scaleLinear()
@@ -349,8 +349,8 @@ export default function MultipleBrushes(props) {
 
         myCircle = svg.selectAll('g')
             .data(function(){
-                if(projectMethod == 0) return tsneOutputScaled;
-                else if(projectMethod == 1) return pcaOutputScaled;
+                if(projectMethod === 0) return tsneOutputScaled;
+                else if(projectMethod === 1) return pcaOutputScaled;
                 return mdsOutputScaled;
             })
             .enter()
@@ -367,10 +367,10 @@ export default function MultipleBrushes(props) {
             })
             .style("opacity", 0.5);
 
-        var myText = svg.selectAll("g")
+        svg.selectAll("g")
             .data( function(){
-                if(projectMethod == 0) return tsneOutputScaled;
-                else if(projectMethod == 1) return pcaOutputScaled;
+                if(projectMethod === 0) return tsneOutputScaled;
+                else if(projectMethod === 1) return pcaOutputScaled;
                 return mdsOutputScaled;
             })
             .enter()

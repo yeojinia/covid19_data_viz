@@ -39,7 +39,7 @@ const ColorScale = (colorScheme) => {
             .domain([0, width_])
     }
 
-    var bars = svg.selectAll(".bars")
+    svg.selectAll(".bars")
         .data(d3.range(height_), function (d) {
             return d;
         })

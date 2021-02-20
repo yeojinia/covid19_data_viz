@@ -11,7 +11,6 @@ import CasesPCP, {OptAxes} from "./D3Vis/CasesPCP";
 import {Button} from "react-bootstrap";
 import MutualInfo from './../Data/MutualInfo.json';
 import MI from "../Data/MutualInfo.json";
-import * as d3 from "d3";
 
 let [labels, corrMat] = CorrelationMatrix(casesFactor);
 
@@ -176,7 +175,7 @@ export default function CasesMain() {
     const [corrThreshold, setCorrThreshold] = useState({"corrThreshold": 1});
     const [miThreshold, setMiThreshold] = useState({"miThreshold": 1});
     const [selectedData, setSelectedData] = useState({});
-    const [extractMethod, setExtractMethod] = useState({});
+  //  const [extractMethod, setExtractMethod] = useState({});
     const [corrSlider, setCorrSlider] = useState(false);
     const [miSlider, setMiSlider] = useState(true);
     const [scatterHorizontal, setScatterHorizontal] = useState({"horizon": "None"});
@@ -268,7 +267,7 @@ export default function CasesMain() {
                     {/*</div>*/}
 
                     <div id="selection-method-wrapper" onChange={v => {
-                        setExtractMethod(v.target.value);
+                        //setExtractMethod(v.target.value);
                         if (v.target.value === "correlation") {
                             setCorrSlider(false);
                             setMiSlider(true);
