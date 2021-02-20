@@ -245,7 +245,7 @@ export default function CasesMain() {
             <div id="cases-sub-wrapper">
                 <div id="cases-interaction-board"
                      style={{marginLeft: '1.8rem', marginTop: '0.8rem', textAlign: 'left'}}>
-                    <div id="axis-order-slider-wrapper" style={{height: '30px'}}>
+                    <div id="axis-order-slider-wrapper" style={{height: '30px', width:'210px'}}>
                         <b> "Cases" location in PC </b>
                         <Slider
                             min={0}
@@ -342,19 +342,19 @@ export default function CasesMain() {
                         <div id="reset-button" style={{height: '50px'}}>
                             &nbsp;
                             &nbsp;
-                            <Button
-                                variant="ui-primary"
-                                onClick={() => {
+                            {/*<Button*/}
+                            {/*    variant="ui-primary"*/}
+                            {/*    onClick={() => {*/}
 
-                                    setCorrThreshold({"corrThreshold": 1});
-                                    setMiThreshold({"miThreshold": 1});
-                                    setSelectedData({});
-                                    setSelectedAxes(caseObj);
+                            {/*        setCorrThreshold({"corrThreshold": 1});*/}
+                            {/*        setMiThreshold({"miThreshold": 1});*/}
+                            {/*        setSelectedData({});*/}
+                            {/*        setSelectedAxes(caseObj);*/}
 
-                                }}
-                                style={buttonStyle}>
-                                Reset
-                            </Button>
+                            {/*    }}*/}
+                            {/*    style={buttonStyle}>*/}
+                            {/*    Reset*/}
+                            {/*</Button>*/}
                         </div>
                     </div>
 
