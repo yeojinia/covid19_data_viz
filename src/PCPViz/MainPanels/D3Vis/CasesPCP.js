@@ -5,7 +5,7 @@ import MI from "./../../Data/MutualInfo.json";
 import {CorrelationMatrix} from "../../DataProcessing/CorrelationTable";
 import {dimensions, maximums, minimums, modelWeights} from "../../DataProcessing/CasesFactors";
 
-let [_, corrMat] = CorrelationMatrix(casesFactor);
+let corrMat = CorrelationMatrix(casesFactor)[1];
 
 var caseObj = {};
 corrMat.forEach(function (item) {
@@ -61,18 +61,16 @@ export default function CasesPCP(props) {
             .attr("height", cases_pcp_height + 100);
 
         var y = {}
+        let name = "";
         for (var i in dimensions) {
-            var name = dimensions[i];
+            name = dimensions[i];
             y[name] = d3.scaleLinear()
                 .domain(d3.extent(casesFactor, function (d) {
-                    return +d[name];
+                    return d[name];
                 }))
                 .range([cases_pcp_height, 0])
         }
 
-        // const yScale = d3.scaleLinear()
-        //     .domain(dimensions.length)
-        //     .range([cases_pcp_height, 0]);
 
         svg.selectAll('path').style('stroke', 'none');
 
@@ -113,7 +111,6 @@ export default function CasesPCP(props) {
                 return (3 + 15 * scaledWeights) * (1 + selectedAxisOrder.length) / (selectedAxisOrder.length);
             });
 
-        //    console.log(selectedAxes);
         svg.selectAll()
             .data(selectedAxisOrder, function (d) {
                 return d;
@@ -163,8 +160,6 @@ export default function CasesPCP(props) {
             .style("font", "10px times")
             .style("fill", "#0d98ba")
 
-        // const curve = d3.line().curve(d3.curveNatural);
-
         // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
         function curve_path(d) {
             return d3.line().curve(d3.curveCardinal)(selectedAxisOrder.map(function (p) {
@@ -197,7 +192,7 @@ export default function CasesPCP(props) {
                 return '3px';
             })
 
-    }, [props.selectedAxes, props.selectedData, props.targetPlace])
+    }, [props.selectedAxes, props.selectedData, props.targetPlace, cases_pcp_height, cases_pcp_width, wMin, wMax, formatDecimalComma])
 
     return (
         <div className="cases-pcp-d3-wrapper" width="800px" height="500px">

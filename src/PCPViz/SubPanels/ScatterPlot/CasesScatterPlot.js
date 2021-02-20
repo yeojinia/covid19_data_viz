@@ -3,12 +3,12 @@ import * as d3 from 'd3';
 import casesFactor from './../../Data/CasesFactors.json';
 import calculateCorrelation from 'calculate-correlation';
 
-const CasesScatterPlot = (props) => {
+var keys = Object.keys(casesFactor[0]);
+keys.shift();
+var first_axis = keys[0];
+var last_axis = keys[keys.length-1];
 
-    var hmax = Number.MIN_SAFE_INTEGER;
-    var hmin = Number.MAX_SAFE_INTEGER;
-    var vmax = Number.MIN_SAFE_INTEGER;
-    var vmin = Number.MAX_SAFE_INTEGER;
+const CasesScatterPlot = (props) => {
 
     // set the dimensions and margins of the plot
     var margin = {top: 30, right: 30, bottom: 70, left: 80},
@@ -31,6 +31,10 @@ const CasesScatterPlot = (props) => {
 
         var data =[];
 
+        var hmax = Number.MIN_SAFE_INTEGER;
+        var hmin = Number.MAX_SAFE_INTEGER;
+        var vmax = Number.MIN_SAFE_INTEGER;
+        var vmin = Number.MAX_SAFE_INTEGER;
         if(hor.horizon !== 'None' && ver.vert !== 'None'){
             Object.keys(casesFactor).forEach(function (idx) {
                 //console.log(hor.horizon);
@@ -184,11 +188,6 @@ export const CasesScatterPlotLeftLabel = (props) => {
         height = 360 - margin.top - margin.bottom,
         width = 50;
 
-    var keys = Object.keys(casesFactor[0]);
-    keys.shift();
-    var first_axis = keys[0];
-    var last_axis = keys[keys.length-1];
-
     useEffect(()=>{
 
         var hor = props.scatterHorizontal;
@@ -204,7 +203,7 @@ export const CasesScatterPlotLeftLabel = (props) => {
             myNode.removeChild(myNode.firstChild);
 
         // append the svg object to the body of the page
-        var svg = d3.select("#cases-sub-scatterplot-vis-left")
+        d3.select("#cases-sub-scatterplot-vis-left")
             .append("svg")
             .attr("width",width)
             .attr("height",height);;

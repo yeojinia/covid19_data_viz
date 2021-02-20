@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import * as d3 from 'd3';
 import {scaleBand} from 'd3-scale';
 import casesFactor from './../../Data/CasesFactors.json';
@@ -13,8 +13,8 @@ const correlation = (casesFactor) => {
     var keys = Object.keys(casesFactor[0]);
     keys.shift();
 
-    for(var idx =0; idx<keys.length; idx++) {
-        for(var jdx =0; jdx<keys.length; jdx++) {
+    for(let idx =0; idx<keys.length; idx++) {
+        for(let jdx =0; jdx<keys.length; jdx++) {
             let data1 = [];
             let data2 = [];
             Object.keys(casesFactor).forEach(function (key) {
@@ -37,10 +37,7 @@ const correlation = (casesFactor) => {
 const calc_pearson_corr = (data1, data2) => {
     return calculateCorrelation(data1, data2);
 };
-
-
 const CasesHeatMapViz = (props) => {
-    // const ref = useRef()
 
     // set the dimensions and margins of the graph
     var margin = {top: 10, right: 50, bottom: 70, left: 180},
@@ -51,12 +48,11 @@ const CasesHeatMapViz = (props) => {
     keys.shift();
     correlation(casesFactor);
 
-    var heatmapElems = [];
     useEffect(() => {
 
         var selectedAxes = props.selectedAxes;
 
-        heatmapElems = [];
+        let heatmapElems = [];
         for(var i=0; i<data.length; i++) {
             if (! ((data[i].group in selectedAxes) && (data[i].variable in selectedAxes)) ){
                 continue;
@@ -185,7 +181,7 @@ const CasesHeatMapViz = (props) => {
             .on("click", click)
 
 
-    }, [props.colorScheme, props.selectedAxes])
+    }, [props.colorScheme, props.selectedAxes, height, margin.bottom, margin.left, margin.right, margin.top])
     return(
         // <></>
         <div className="cases-sub-heatmap-map-vis" id="cases-sub-heatmap-map-vis">

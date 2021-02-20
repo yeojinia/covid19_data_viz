@@ -256,20 +256,17 @@ function projectedScaledData(data, normalizedData, label)
 
 export default function MultipleBrushes(props) {
 
-    // const [selectedData, setSelectedData] = useState({});
-
     const [projectMethod, setProjectMethod] = useState(0);
 
     let window_width = 450;
     let window_height = 450;
     var side_margin = (window_width - 0) / (2 * casesFactor.length);
-    var keys = [];
     var minimums = {};
     var maximums = {};
-    for (let key in props.items) {
-        if (props.items[key]["id"] !== 'cases')
-            keys.push(props.items[key]["id"]);
-    }
+
+    var keys = Object.keys(casesFactor[0]);
+    keys.shift();
+    keys.pop();
 
     Object.keys(keys).forEach(function (item, index) {
         minimums[keys[item]] = (Math.min.apply(null, casesFactor.map((v) => v[keys[item]])));

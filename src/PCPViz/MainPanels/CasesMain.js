@@ -12,13 +12,13 @@ import {Button} from "react-bootstrap";
 import MutualInfo from './../Data/MutualInfo.json';
 import MI from "../Data/MutualInfo.json";
 
-let [labels, corrMat] = CorrelationMatrix(casesFactor);
+let corrMat = CorrelationMatrix(casesFactor)[1];
 
-const getItems = (count, offset = 0) =>
-    Array.from({length: count}, (v, k) => k).map(k => ({
-        id: `${labels[k]}`,
-        content: `${labels[k]}`,
-    }));
+// const getItems = (count, offset = 0) =>
+//     Array.from({length: count}, (v, k) => k).map(k => ({
+//         id: `${labels[k]}`,
+//         content: `${labels[k]}`,
+//     }));
 
 
 var caseObj = {};
@@ -171,7 +171,7 @@ const mi_min = Math.min.apply(Math, MutualInfo.map(function (o) {
 
 export default function CasesMain() {
 
-    const [items, setItems] = useState(getItems(labels.length));
+    // const [items, setItems] = useState(getItems(labels.length));
     const [corrThreshold, setCorrThreshold] = useState({"corrThreshold": 1});
     const [miThreshold, setMiThreshold] = useState({"miThreshold": 1});
     const [selectedData, setSelectedData] = useState({});
@@ -194,7 +194,7 @@ export default function CasesMain() {
         width: "100px",
         height: "30px"
     };
-    var selectedAxesSubset = {};
+    // var selectedAxesSubset = {};
 
     useEffect(() => {
 
@@ -216,7 +216,7 @@ export default function CasesMain() {
                 }
             }
         }
-        selectedAxesSubset = axesSubset;
+        // selectedAxesSubset = axesSubset;
 
     }, [corrSlider, miSlider]);
 
@@ -233,7 +233,7 @@ export default function CasesMain() {
                     </div>
 
                     <div id="cases-sub-multibrush">
-                        <CasesMultiBrushes items={items} setSelectedData={setSelectedData}
+                        <CasesMultiBrushes setSelectedData={setSelectedData}
                                            setSelectedAxes={setSelectedAxes}></CasesMultiBrushes>
                     </div>
 
