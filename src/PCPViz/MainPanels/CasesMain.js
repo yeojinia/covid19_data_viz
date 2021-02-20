@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import CorrelationTable, {CorrelationMatrix} from "../DataProcessing/CorrelationTable";
-import ResetButton from "../SubPanels/Buttons/ResetButton";
+import {CorrelationMatrix} from "../DataProcessing/CorrelationTable";
 import CasesMultiBrushes from "./BrushOnTsne/CasesMultiBrushes";
 import casesFactor from "../Data/CasesFactors.json";
 import {Slider} from "rsuite";
@@ -27,127 +26,126 @@ var caseObj = {};
 corrMat.forEach(function (item) {
     if (item["x_feature"] === "cases") {
         caseObj[item["y_feature"]] = item["coeff"];
-
     }
 });
 
-const handleStyle = {
-    color: '#fff',
-    fontSize: 12,
-    width: 32,
-    height: 22
-};
-
-const ColorSelector = () => {
-
-    var width_ = 60,
-        height_ = 30;
-
-    var svg = d3.select("#color-interpolation-scheme1")
-        .append("svg")
-        .attr("id", "color-scheme1")
-        .attr("width", width_)
-        .attr("height", height_)
-        .append("g");
-
-    var colorScale = d3.scaleSequential(d3.interpolateInferno)
-        .domain([0, width_])
-
-    var bars = svg.selectAll(".bars")
-        .data(d3.range(width_), function (d) {
-            return d;
-        })
-        .enter().append("rect")
-        .attr("class", "bars")
-        .attr("x", function (d, i) {
-            return i;
-        })
-        .attr("y", 0)
-        .attr("height", height_)
-        .attr("width", 1)
-        .style("fill", function (d, i) {
-            return colorScale(d);
-        })
-
-    var svg2 = d3.select("#color-interpolation-scheme2")
-        .append("svg")
-        .attr("id", "color-scheme2")
-        .attr("width", width_)
-        .attr("height", height_)
-        .append("g");
-
-    var colorScale2 = d3.scaleSequential(d3.interpolateRdBu)
-        .domain([0, width_])
-
-    var bars2 = svg2.selectAll(".bars")
-        .data(d3.range(width_), function (d) {
-            return d;
-        })
-        .enter().append("rect")
-        .attr("class", "bars")
-        .attr("x", function (d, i) {
-            return i;
-        })
-        .attr("y", 0)
-        .attr("height", height_)
-        .attr("width", 1)
-        .style("fill", function (d, i) {
-            return colorScale2(d);
-        })
-
-    var svg3 = d3.select("#color-interpolation-scheme3")
-        .append("svg")
-        .attr("id", "color-scheme3")
-        .attr("width", width_)
-        .attr("height", height_)
-        .append("g");
-
-    var colorScale3 = d3.scaleSequential(d3.interpolateRdYlGn)
-        .domain([0, width_])
-
-    var bars3 = svg3.selectAll(".bars")
-        .data(d3.range(width_), function (d) {
-            return d;
-        })
-        .enter().append("rect")
-        .attr("class", "bars")
-        .attr("x", function (d, i) {
-            return i;
-        })
-        .attr("y", 0)
-        .attr("height", height_)
-        .attr("width", 1)
-        .style("fill", function (d, i) {
-            return colorScale3(d);
-        })
-
-    var svg4 = d3.select("#color-interpolation-scheme4")
-        .append("svg")
-        .attr("id", "color-scheme4")
-        .attr("width", width_)
-        .attr("height", height_)
-        .append("g");
-
-    var colorScale4 = d3.scaleSequential(d3.interpolateRdGy)
-        .domain([0, width_])
-
-    var bars4 = svg4.selectAll(".bars")
-        .data(d3.range(width_), function (d) {
-            return d;
-        })
-        .enter().append("rect")
-        .attr("class", "bars")
-        .attr("x", function (d, i) {
-            return i;
-        })
-        .attr("y", 0)
-        .attr("height", height_)
-        .attr("width", 1)
-        .style("fill", function (d, i) {
-            return colorScale4(d);
-        })
-
-};
+// const handleStyle = {
+//     color: '#fff',
+//     fontSize: 12,
+//     width: 32,
+//     height: 22
+// };
+//
+// const ColorSelector = () => {
+//
+//     var width_ = 60,
+//         height_ = 30;
+//
+//     var svg = d3.select("#color-interpolation-scheme1")
+//         .append("svg")
+//         .attr("id", "color-scheme1")
+//         .attr("width", width_)
+//         .attr("height", height_)
+//         .append("g");
+//
+//     var colorScale = d3.scaleSequential(d3.interpolateInferno)
+//         .domain([0, width_])
+//
+//     var bars = svg.selectAll(".bars")
+//         .data(d3.range(width_), function (d) {
+//             return d;
+//         })
+//         .enter().append("rect")
+//         .attr("class", "bars")
+//         .attr("x", function (d, i) {
+//             return i;
+//         })
+//         .attr("y", 0)
+//         .attr("height", height_)
+//         .attr("width", 1)
+//         .style("fill", function (d, i) {
+//             return colorScale(d);
+//         })
+//
+//     var svg2 = d3.select("#color-interpolation-scheme2")
+//         .append("svg")
+//         .attr("id", "color-scheme2")
+//         .attr("width", width_)
+//         .attr("height", height_)
+//         .append("g");
+//
+//     var colorScale2 = d3.scaleSequential(d3.interpolateRdBu)
+//         .domain([0, width_])
+//
+//     var bars2 = svg2.selectAll(".bars")
+//         .data(d3.range(width_), function (d) {
+//             return d;
+//         })
+//         .enter().append("rect")
+//         .attr("class", "bars")
+//         .attr("x", function (d, i) {
+//             return i;
+//         })
+//         .attr("y", 0)
+//         .attr("height", height_)
+//         .attr("width", 1)
+//         .style("fill", function (d, i) {
+//             return colorScale2(d);
+//         })
+//
+//     var svg3 = d3.select("#color-interpolation-scheme3")
+//         .append("svg")
+//         .attr("id", "color-scheme3")
+//         .attr("width", width_)
+//         .attr("height", height_)
+//         .append("g");
+//
+//     var colorScale3 = d3.scaleSequential(d3.interpolateRdYlGn)
+//         .domain([0, width_])
+//
+//     var bars3 = svg3.selectAll(".bars")
+//         .data(d3.range(width_), function (d) {
+//             return d;
+//         })
+//         .enter().append("rect")
+//         .attr("class", "bars")
+//         .attr("x", function (d, i) {
+//             return i;
+//         })
+//         .attr("y", 0)
+//         .attr("height", height_)
+//         .attr("width", 1)
+//         .style("fill", function (d, i) {
+//             return colorScale3(d);
+//         })
+//
+//     var svg4 = d3.select("#color-interpolation-scheme4")
+//         .append("svg")
+//         .attr("id", "color-scheme4")
+//         .attr("width", width_)
+//         .attr("height", height_)
+//         .append("g");
+//
+//     var colorScale4 = d3.scaleSequential(d3.interpolateRdGy)
+//         .domain([0, width_])
+//
+//     var bars4 = svg4.selectAll(".bars")
+//         .data(d3.range(width_), function (d) {
+//             return d;
+//         })
+//         .enter().append("rect")
+//         .attr("class", "bars")
+//         .attr("x", function (d, i) {
+//             return i;
+//         })
+//         .attr("y", 0)
+//         .attr("height", height_)
+//         .attr("width", 1)
+//         .style("fill", function (d, i) {
+//             return colorScale4(d);
+//         })
+//
+// };
 
 // sliderPlace 0 to 1
 function getAxesOrderChange(selectedAxes, sliderPlace) {
@@ -165,6 +163,13 @@ function getAxesOrderChange(selectedAxes, sliderPlace) {
 
 }
 
+const mi_max = Math.max.apply(Math, MutualInfo.map(function (o) {
+    return o.mutualInfo
+}));
+const mi_min = Math.min.apply(Math, MutualInfo.map(function (o) {
+    return o.mutualInfo
+}));
+
 export default function CasesMain() {
 
     const [items, setItems] = useState(getItems(labels.length));
@@ -181,13 +186,6 @@ export default function CasesMain() {
     const [colorScheme, setColorScheme] = useState('Inferno');
     const [sliderPlace, setSliderPlace] = useState(1);
     const [targetPlace, setTargetPlace] = useState(Object.keys(caseObj).length - 1);
-
-    var mi_max = Math.max.apply(Math, MutualInfo.map(function (o) {
-        return o.mutualInfo
-    }));
-    var mi_min = Math.min.apply(Math, MutualInfo.map(function (o) {
-        return o.mutualInfo
-    }));
 
     const buttonStyle = {
         color: "#fff",
@@ -221,22 +219,7 @@ export default function CasesMain() {
         }
         selectedAxesSubset = axesSubset;
 
-        var target_pos = getAxesOrderChange(selectedAxes, sliderPlace);
-        if (target_pos != targetPlace) {
-            setTargetPlace(target_pos);
-        }
-        // console.log(Object.keys(selectedAxesSubset).length);
-
-
-        // function axesOrderChange(selectedAxes, targetPlace)
-
-        // d3.select("#color-scheme1").remove();
-        // d3.select("#color-scheme2").remove();
-        // d3.select("#color-scheme3").remove();
-        // d3.select("#color-scheme4").remove();
-        //ColorSelector();
-
-    }, [sliderPlace, targetPlace]);
+    }, [corrSlider, miSlider]);
 
     return (
         <div id="covid19-cases-wrapper">
@@ -271,6 +254,10 @@ export default function CasesMain() {
                             defaultValue={1.0}
                             onChange={v => {
                                 setSliderPlace(v);
+                                var target_pos = getAxesOrderChange(selectedAxes, v);
+                                if (target_pos !== targetPlace) {
+                                    setTargetPlace(target_pos);
+                                }
                             }}
                             style={{width: 200, marginTop: '0.3rem'}}/>
                     </div>
@@ -338,7 +325,7 @@ export default function CasesMain() {
                                     setSelectedAxes(selected_axes);
 
                                     var target_pos = getAxesOrderChange(selected_axes, sliderPlace);
-                                    if (target_pos != targetPlace) {
+                                    if (target_pos !== targetPlace) {
                                         setTargetPlace(target_pos);
                                     }
 
