@@ -14,7 +14,7 @@ function App() {
             <div className="main">
                 <Router history={history}>
                     <Switch>
-                <Route path ="/covid19_data_viz" exact component={CovidMain}/>
+                <Route path ="/" exact component={CovidMain}/>
                 <Route path ="/Others" component={OtherVis}/>
                     </Switch>
                 <Home />
