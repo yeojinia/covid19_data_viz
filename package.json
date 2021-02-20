@@ -40,7 +40,7 @@
     "tsne-js": "^1.0.3"
   },
   "scripts": {
-    "start": "react-scripts index.js",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
