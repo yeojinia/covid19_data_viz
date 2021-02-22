@@ -40,9 +40,9 @@ const calc_pearson_corr = (data1, data2) => {
 const CasesHeatMapViz = (props) => {
 
     // set the dimensions and margins of the graph
-    var margin = {top: 10, right: 50, bottom: 70, left: 180},
+    var margin = {top: 10, right: 50, bottom: 180, left: 180},
         width = 700 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        height = 600 - margin.top - margin.bottom;
 
     var keys = Object.keys(casesFactor[0]);
     keys.shift();
@@ -72,6 +72,7 @@ const CasesHeatMapViz = (props) => {
             .attr("transform", "translate(" + margin.left + ", " + margin.top +")" )
             .style("text-anchor", "end")
 
+
         // Build X scales and axis
         var x = scaleBand()
             .range([0, width])
@@ -86,8 +87,19 @@ const CasesHeatMapViz = (props) => {
 
         heatMapElement
             .selectAll("text")
+            .style("font-size", function (d) {
+               // var size = (25- 0.5*(Object.keys(selectedAxes).length));
+                return 15+"px";
+            })
             .attr("transform","rotate(90)" )
             .style("text-anchor", "start")
+
+
+        // .style("font", function (d) {
+            //     var size = (25- 0.5*(Object.keys(selectedAxes).length));
+            //     return size+"px";
+            // })
+
 
         // Build Y scales and axis
         var y = scaleBand()
@@ -96,7 +108,10 @@ const CasesHeatMapViz = (props) => {
             .padding(0.05)
 
         heatMapElement.append("g")
-            .style("font-size", 10)
+            .style("font-size", function (d) {
+                   // var size = (25- 0.5*(Object.keys(selectedAxes).length));
+                    return 15+"px";
+                })
             .call(d3.axisLeft(y).tickSize(0))
             .select(".domain")
             .remove()
@@ -179,6 +194,7 @@ const CasesHeatMapViz = (props) => {
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave)
             .on("click", click)
+
 
 
     }, [props.colorScheme, props.selectedAxes, height, margin.bottom, margin.left, margin.right, margin.top])

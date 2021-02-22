@@ -258,7 +258,7 @@ export default function CasesMain() {
                     &nbsp;
 
                     <div id="cross-line-highlight-wrapper" style={{height: '30px', width: '210px'}}>
-                        <b> "Highlight" </b>
+                        <b> Highlight </b>
                         <Slider
                             min={0}
                             max={1}

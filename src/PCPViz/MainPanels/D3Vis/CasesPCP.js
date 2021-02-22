@@ -41,9 +41,9 @@ export function OptAxes(corrSlider, corrThreshold, miSlider, miThreshold) {
 
 export default function CasesPCP(props) {
 
-    const side_margin = 30;
+    const side_margin = 80;
     const cases_pcp_width = 1000 - 2 * side_margin;
-    const cases_pcp_height = 500 - 2 * side_margin;
+    const cases_pcp_height = 500 -  side_margin;
 
     var formatDecimalComma = d3.format(",.2f");
 
@@ -72,7 +72,7 @@ export default function CasesPCP(props) {
             .append("svg")
             .attr("id", "cases-pcp-vis")
             .attr("width", cases_pcp_width)
-            .attr("height", cases_pcp_height + 100);
+            .attr("height", cases_pcp_height + 150);
 
         var y = {}
         let name = "";
@@ -134,6 +134,10 @@ export default function CasesPCP(props) {
             .text(function (d) {
                 return d;
             })
+            .style("font", function (d) {
+                var size = (25- 0.5*(selectedAxisOrder.length));
+                return size+"px";
+            })
             .style("fill", "black")
 
         svg.selectAll()
@@ -146,11 +150,14 @@ export default function CasesPCP(props) {
                 return "translate(" + xScale(d) + "," + cases_pcp_height + ") rotate(90)";
             })
             .append("text")
-            .attr("y", "10px")
+            .attr("y", (25 - 0.5*(selectedAxisOrder.length)) + "px")
             .text(function (d) {
                 return formatDecimalComma(minimums[d]);
             })
-            .style("font", "10px times")
+            .style("font", function (d) {
+                var size = (25- 0.5*(selectedAxisOrder.length));
+                return size+"px times";
+            })
             .style("fill", "#0d98ba")
 
         svg.selectAll()
@@ -163,11 +170,14 @@ export default function CasesPCP(props) {
                 return "translate(" + xScale(d) + ",0) rotate(90)";
             })
             .append("text")
-            .attr("y", "10px")
+            .attr("y", (25 - 0.5*(selectedAxisOrder.length)) + "px")
             .text(function (d) {
                 return formatDecimalComma(maximums[d]);
             })
-            .style("font", "10px times")
+            .style("font", function (d) {
+                var size = (25- 0.5*(selectedAxisOrder.length));
+                return size+"px times";
+            })
             .style("fill", "#0d98ba")
 
         // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
@@ -216,7 +226,7 @@ export default function CasesPCP(props) {
     }, [props.selectedAxes, props.selectedData, props.targetPlace, props.crossStress, cases_pcp_height, cases_pcp_width, wMin, wMax, formatDecimalComma])
 
     return (
-        <div className="cases-pcp-d3-wrapper" width="800px" height="500px">
+        <div className="cases-pcp-d3-wrapper" width="800px" height="580px">
         </div>
     );
 
