@@ -193,6 +193,8 @@ export default function CasesPCP(props) {
             }))
         };
 
+        var highlightColor = d3.scaleLinear().domain([cross_min,cross_max])
+            .range(["white", "blue"]);
 
         svg.selectAll()
             .data(casesFactor, function (d) {
@@ -205,7 +207,9 @@ export default function CasesPCP(props) {
             })
             .style("fill", "none")
             .style("stroke", function (d) {
-                if (!(d.states in props.selectedData)) return "#0d98ba"; //"#A2CCB6";
+                if (!(d.states in props.selectedData)){
+                    return "rgb(57, 57, 255)";//"#EA22A8";
+                } //"#0d98ba"; //"#A2CCB6";
                 return props.selectedData[d.states];
             })
             .style("stroke-width", function (d,idx) {
