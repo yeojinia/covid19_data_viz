@@ -1,9 +1,10 @@
 import React, {useEffect} from 'react';
 import * as d3 from 'd3';
 import casesFactor from "./../../Data/CasesFactors.json";
-import MI from "./../../Data/MutualInfo.json";
 import {CorrelationMatrix} from "../../DataProcessing/CorrelationTable";
 import {dimensions, maximums, minimums, modelWeights} from "../../DataProcessing/CasesFactors";
+import crossInfo from "../../Data/CasesFactorsCrossInfo.json";
+// import MI from "./../../Data/MutualInfo.json";
 
 let corrMat = CorrelationMatrix(casesFactor)[1];
 
@@ -23,13 +24,14 @@ export function OptAxes(corrSlider, corrThreshold, miSlider, miThreshold) {
                 axesChosen[pos] = caseObj[pos];
             }
         }
-    } else if (miSlider === false) {
-        for (var pos1 in MI) {
-            if (MI[pos1]["mutualInfo"] >= miThreshold["miThreshold"]) {
-                axesChosen[MI[pos1]["label"]] = MI[pos1]["mutualInfo"];
-            }
-        }
     }
+    // else if (miSlider === false) {
+    //     for (var pos1 in MI) {
+    //         if (MI[pos1]["mutualInfo"] >= miThreshold["miThreshold"]) {
+    //             axesChosen[MI[pos1]["label"]] = MI[pos1]["mutualInfo"];
+    //         }
+    //     }
+    // }
 
     if (Object.keys(axesChosen).length < 2) {
         return {};
@@ -53,6 +55,18 @@ export default function CasesPCP(props) {
         var selectedAxesObj = props.selectedAxes;
         var selectedAxes = Object.keys(selectedAxesObj);
 
+        // let crossRate = [];
+        const crossRate = crossInfo.map((casesFactor, index) => {
+            let sum =0;
+            for(let i=0; i<selectedAxes.length-1; i++){
+                sum += casesFactor[selectedAxes[i]][selectedAxes[i+1]];
+            }
+            return sum;
+            //crossRate.push(sum);
+        });
+        var cross_min  = Math.min.apply(Math, crossRate) ;
+        var cross_max = Math.max.apply(Math, crossRate);
+
         d3.select("#cases-pcp-vis").remove();
         let svg = d3.select(".cases-pcp-d3-wrapper")
             .append("svg")
@@ -71,11 +85,9 @@ export default function CasesPCP(props) {
                 .range([cases_pcp_height, 0])
         }
 
-
         svg.selectAll('path').style('stroke', 'none');
 
         var selectedAxisOrder = [];
-        // selectedAxes.filter(word => word !== "cases");
 
         for (var idx = 0; idx < selectedAxes.length; idx++) {
             if (props.targetPlace === idx) {
@@ -85,8 +97,6 @@ export default function CasesPCP(props) {
                 selectedAxisOrder.push(selectedAxes[idx]);
         }
 
-
-//        console.log(selectedAxisOrder);
         const xScale = d3.scaleBand()
             .domain(selectedAxisOrder)
             .range([0, cases_pcp_width])
@@ -167,11 +177,12 @@ export default function CasesPCP(props) {
             }));
         }
 
-        function line_path(d) {
+        function line_path(d){
             return d3.line()(selectedAxisOrder.map(function (p) {
                 return [xScale(p), y[p](d[p])];
-            }));
-        }
+            }))
+        };
+
 
         svg.selectAll()
             .data(casesFactor, function (d) {
@@ -184,15 +195,25 @@ export default function CasesPCP(props) {
             })
             .style("fill", "none")
             .style("stroke", function (d) {
-                if (!(d.states in props.selectedData)) return "#A2CCB6";
+                if (!(d.states in props.selectedData)) return "#0d98ba"; //"#A2CCB6";
                 return props.selectedData[d.states];
             })
-            .style("stroke-width", function (d) {
+            .style("stroke-width", function (d,idx) {
+                    // if(cross_max!==cross_min)
+                    //     return 1 + 1*(crossRate[idx]-cross_min)/(cross_max-cross_min);
+                    // else
+                    //     return 1;
                 if (!(d.states in props.selectedData)) return '1px';
                 return '3px';
             })
+            .style("opacity", function (d,idx) {
+                if(cross_max!==cross_min)
+                    return (1.0-props.crossStress) + props.crossStress*(crossRate[idx]-cross_min)/(cross_max-cross_min);
+                else
+                    return (1.0-props.crossStress);
+            })
 
-    }, [props.selectedAxes, props.selectedData, props.targetPlace, cases_pcp_height, cases_pcp_width, wMin, wMax, formatDecimalComma])
+    }, [props.selectedAxes, props.selectedData, props.targetPlace, props.crossStress, cases_pcp_height, cases_pcp_width, wMin, wMax, formatDecimalComma])
 
     return (
         <div className="cases-pcp-d3-wrapper" width="800px" height="500px">

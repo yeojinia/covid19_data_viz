@@ -9,17 +9,10 @@ import CasesScatterPlotViz, {CasesScatterPlotLeftLabel, CasesScatterPlotBottomLa
 import ColorInterpolationScale from '../SubPanels/ColorInterpolationScale';
 import CasesPCP, {OptAxes} from "./D3Vis/CasesPCP";
 import {Button} from "react-bootstrap";
-import MutualInfo from './../Data/MutualInfo.json';
-import MI from "../Data/MutualInfo.json";
+//import MutualInfo from './../Data/MutualInfo.json';
+// import MI from "../Data/MutualInfo.json";
 
 let corrMat = CorrelationMatrix(casesFactor)[1];
-
-// const getItems = (count, offset = 0) =>
-//     Array.from({length: count}, (v, k) => k).map(k => ({
-//         id: `${labels[k]}`,
-//         content: `${labels[k]}`,
-//     }));
-
 
 var caseObj = {};
 corrMat.forEach(function (item) {
@@ -162,20 +155,20 @@ function getAxesOrderChange(selectedAxes, sliderPlace) {
 
 }
 
-const mi_max = Math.max.apply(Math, MutualInfo.map(function (o) {
-    return o.mutualInfo
-}));
-const mi_min = Math.min.apply(Math, MutualInfo.map(function (o) {
-    return o.mutualInfo
-}));
+//
+// const mi_max = Math.max.apply(Math, MutualInfo.map(function (o) {
+//     return o.mutualInfo
+// }));
+// const mi_min = Math.min.apply(Math, MutualInfo.map(function (o) {
+//     return o.mutualInfo
+// }));
 
 export default function CasesMain() {
 
-    // const [items, setItems] = useState(getItems(labels.length));
     const [corrThreshold, setCorrThreshold] = useState({"corrThreshold": 1});
     const [miThreshold, setMiThreshold] = useState({"miThreshold": 1});
     const [selectedData, setSelectedData] = useState({});
-  //  const [extractMethod, setExtractMethod] = useState({});
+
     const [corrSlider, setCorrSlider] = useState(false);
     const [miSlider, setMiSlider] = useState(true);
     const [scatterHorizontal, setScatterHorizontal] = useState({"horizon": "None"});
@@ -185,6 +178,8 @@ export default function CasesMain() {
     const [colorScheme, setColorScheme] = useState('Inferno');
     const [sliderPlace, setSliderPlace] = useState(1);
     const [targetPlace, setTargetPlace] = useState(Object.keys(caseObj).length - 1);
+    const [crossStress, setCrossStress] = useState(0.5);
+    // const [crossReduce, setCrossReduce] = useState(0.5);
 
     const buttonStyle = {
         color: "#fff",
@@ -194,7 +189,6 @@ export default function CasesMain() {
         width: "100px",
         height: "30px"
     };
-    // var selectedAxesSubset = {};
 
     useEffect(() => {
 
@@ -207,18 +201,18 @@ export default function CasesMain() {
                 else
                     axesSubset[key] = false;
             }
-        } else if (miSlider === false) {
-            for (var pos in MI) {
-                if (MI[pos]["mutualInfo"] <= miThreshold["miThreshold"]) {
-                    axesSubset[MI[pos]["label"]] = true;
-                } else {
-                    axesSubset[MI[pos]["label"]] = false;
-                }
-            }
         }
-        // selectedAxesSubset = axesSubset;
-
-    }, [corrSlider, miSlider]);
+        // else if (miSlider === false) {
+        //     for (var pos in MI) {
+        //         if (MI[pos]["mutualInfo"] <= miThreshold["miThreshold"]) {
+        //             axesSubset[MI[pos]["label"]] = true;
+        //         } else {
+        //             axesSubset[MI[pos]["label"]] = false;
+        //         }
+        //     }
+        // }
+    }, [corrSlider]);
+    // }, [corrSlider, miSlider]);
 
     return (
         <div id="covid19-cases-wrapper">
@@ -229,7 +223,8 @@ export default function CasesMain() {
                     <div id="cases-pcp-wrapper" style={{width: '1050px', height: '500px'}}>
                         <b style={{height: '20px'}}> state-by-state variables</b>
                         <CasesPCP selectedAxes={selectedAxes} selectedData={selectedData}
-                                  targetPlace={targetPlace}></CasesPCP>
+                                  targetPlace={targetPlace}
+                        crossStress={crossStress}></CasesPCP>
                     </div>
 
                     <div id="cases-sub-multibrush">
@@ -244,8 +239,8 @@ export default function CasesMain() {
             <div id="cases-sub-wrapper">
                 <div id="cases-interaction-board"
                      style={{marginLeft: '1.8rem', marginTop: '0.8rem', textAlign: 'left'}}>
-                    <div id="axis-order-slider-wrapper" style={{height: '30px', width:'210px'}}>
-                        <b> "Cases" location in PC </b>
+                    <div id="axis-order-slider-wrapper" style={{height: '30px', width: '210px'}}>
+                        <b> "Cases" </b>
                         <Slider
                             min={0}
                             max={1}
@@ -262,6 +257,33 @@ export default function CasesMain() {
                     </div>
                     &nbsp;
 
+                    <div id="cross-line-highlight-wrapper" style={{height: '30px', width: '210px'}}>
+                        <b> "Highlight" </b>
+                        <Slider
+                            min={0}
+                            max={1}
+                            step={0.01}
+                            defaultValue={0.5}
+                            onChange={v => {
+                                setCrossStress(v);
+                            }}
+                            style={{width: 200, marginTop: '0.3rem'}}/>
+                    </div>
+                    &nbsp;
+
+                    {/*<div id="cross-line-lowlight-wrapper" style={{height: '30px', width: '210px'}}>*/}
+                    {/*    <b> "Highlight" </b>*/}
+                    {/*    <Slider*/}
+                    {/*        min={0}*/}
+                    {/*        max={1}*/}
+                    {/*        step={0.01}*/}
+                    {/*        defaultValue={0.5}*/}
+                    {/*        onChange={v => {*/}
+                    {/*            setCrossStress(v);*/}
+                    {/*        }}*/}
+                    {/*        style={{width: 200, marginTop: '0.3rem'}}/>*/}
+                    {/*</div>*/}
+                    {/*&nbsp;*/}
 
                     {/*<div id="cases-feature-extraction-slider" style={{height: '90px'}}>*/}
                     {/*</div>*/}
@@ -271,34 +293,31 @@ export default function CasesMain() {
                         if (v.target.value === "correlation") {
                             setCorrSlider(false);
                             setMiSlider(true);
-                        } else if (v.target.value === "mutualInformation") {
-                            setCorrSlider(true);
-                            setMiSlider(false);
                         }
-                    }} style={{height: '100px'}}>
+                        // else if (v.target.value === "mutualInformation") {
+                        //     setCorrSlider(true);
+                        //     setMiSlider(false);
+                        // }
+                    }} style={{height: '60px'}}>
                         <b> Selection Method </b>
-                        <div style={{height: '40px'}}>
-                            <input type="radio" value="mutualInformation" name="extract-method"
-                                   style={{marginTop: '0.3rem'}}/>
-                            &nbsp; Mutual Information
-
-                            {/*<b> Mutual Information based selection </b>*/}
-
-                            <Slider
-                                min={mi_min}
-                                max={mi_max}
-                                step={0.01}
-                                defaultValue={1.0}
-                                onChange={v => {
-                                    setMiThreshold({miThreshold: v});
-                                }}
-                                disabled={miSlider}
-                                style={{width: 200, marginTop: '0.3rem'}}/>
-                        </div>
+                        {/*<div style={{height: '40px'}}>*/}
+                        {/*    <input type="radio" value="mutualInformation" name="extract-method"*/}
+                        {/*           style={{marginTop: '0.3rem'}}/>*/}
+                        {/*    &nbsp; Mutual Information*/}
+                        {/*    <Slider*/}
+                        {/*        min={mi_min}*/}
+                        {/*        max={mi_max}*/}
+                        {/*        step={0.01}*/}
+                        {/*        defaultValue={1.0}*/}
+                        {/*        onChange={v => {*/}
+                        {/*            setMiThreshold({miThreshold: v});*/}
+                        {/*        }}*/}
+                        {/*        disabled={miSlider}*/}
+                        {/*        style={{width: 200, marginTop: '0.3rem'}}/>*/}
+                        {/*</div>*/}
                         <div style={{height: '40px'}}>
                             <input type="radio" value="correlation" name="extract-method" defaultChecked/>
                             &nbsp; Correlation
-                            {/*<b> Correlation based selection </b>*/}
                             <Slider
                                 min={0}
                                 max={1}
@@ -310,7 +329,6 @@ export default function CasesMain() {
                                 disabled={corrSlider}
                                 style={{width: 200, marginTop: '0.3rem'}}/>
                         </div>
-
                     </div>
                     <div id="button-wrapper">
                         <div id="apply-button" style={{height: '50px'}}>
@@ -328,7 +346,7 @@ export default function CasesMain() {
                                         setTargetPlace(target_pos);
                                     }
 
-                                    if(Object.keys(selected_axes).length<=1){
+                                    if (Object.keys(selected_axes).length <= 1) {
                                         setScatterHorizontal({horizon: "None"});
                                         setScatterVertical({vert: "None"});
                                     }
@@ -341,22 +359,8 @@ export default function CasesMain() {
                         <div id="reset-button" style={{height: '50px'}}>
                             &nbsp;
                             &nbsp;
-                            {/*<Button*/}
-                            {/*    variant="ui-primary"*/}
-                            {/*    onClick={() => {*/}
-
-                            {/*        setCorrThreshold({"corrThreshold": 1});*/}
-                            {/*        setMiThreshold({"miThreshold": 1});*/}
-                            {/*        setSelectedData({});*/}
-                            {/*        setSelectedAxes(caseObj);*/}
-
-                            {/*    }}*/}
-                            {/*    style={buttonStyle}>*/}
-                            {/*    Reset*/}
-                            {/*</Button>*/}
                         </div>
                     </div>
-
                     &nbsp;
                     &nbsp;
                     <div id="color-text-wrapper">
@@ -365,32 +369,27 @@ export default function CasesMain() {
                     <div id="cases-svg-interpolation-container" style={{height: '120px'}} onChange={v => {
                         setColorScheme(v.target.value);
                     }}>
-
                         <div>
                             <input type="radio" value="Inferno" name="color-scheme"/>
                             &nbsp; Inferno
                         </div>
                         {/*<div id="color-interpolation-scheme1"/>*/}
-
                         <div>
                             <input type="radio" value="RdBu" name="color-scheme"/>
                             &nbsp; RdBu
                         </div>
-
                         {/*<div id="color-interpolation-scheme2"/>*/}
                         <div>
                             <input type="radio" value="RdYlGn" name="color-scheme"/>
                             &nbsp; RdYlGn
                         </div>
                         {/*<div id="color-interpolation-scheme3"/>*/}
-
                         <div>
                             <input type="radio" value="RdGy" name="color-scheme"/>
                             &nbsp; RdGy
                         </div>
                         {/*<div id="color-interpolation-scheme4"/>*/}
                     </div>
-
                 </div>
 
                 <div className="cases-sub-heatmap" id="cases-sub-heatmap-vis">

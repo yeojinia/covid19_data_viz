@@ -38,7 +38,7 @@ class PCPViz extends Component{
             <div className="pcp">
                 <div className = "cases-pcp">
                     <h2>
-                        Suspected influential variables for COVID-19 confirmed cases
+                        Correlation View of Suspected influential variables for COVID-19 confirmed cases
                     </h2>
                     &nbsp;
 

@@ -8,8 +8,6 @@ export const
     var mobility_keys = Object.keys(features[0]);
     mobility_keys.shift();
 
-    //console.log(mobility_keys);
-
     var data = [];
     mobility_keys.forEach(function(key){
         var feature = [];

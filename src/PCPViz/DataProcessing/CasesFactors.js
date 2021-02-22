@@ -1,5 +1,6 @@
 import casesFactor from "../Data/CasesFactors.json";
 import jsregression from "js-regression";
+import crossInfo from "../Data/CasesFactorsCrossInfo.json";
 
 const minimums = {};
 const maximums = {};
@@ -7,6 +8,7 @@ const maximums = {};
 let keys = [];
 let dimensions = [];
 let modelWeights = {};
+let crossRate = [];
 
 if (casesFactor.length > 0) {
     keys = Object.keys(casesFactor[0]);
@@ -44,6 +46,14 @@ if (casesFactor.length > 0) {
         modelWeights[dimension] = model.theta[index];
         return 1;
     });
+
+    const crossRate = crossInfo.map((data, index) => {
+        let sum =0;
+        for(let i=0; i<dimensions.length-1; i++){
+            sum += data[dimensions[i]][dimensions[i+1]];
+        }
+        return sum;
+    });
 }
 
 export {
@@ -51,5 +61,6 @@ export {
     dimensions,
     minimums,
     maximums,
-    modelWeights
+    modelWeights,
+    crossRate
 }
