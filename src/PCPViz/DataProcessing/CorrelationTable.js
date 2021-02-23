@@ -1,13 +1,12 @@
 import React from 'react';
 import PearsonCorrCoeff from "./PearsonCorrCoeff.js";
-import mobility from './../CasesFactors.json';
+import mobility from '../Data/CasesFactors.json';
 
-export const CorrelationMatrix = (features) => {
+export const
+    CorrelationMatrix = (features) => {
 
     var mobility_keys = Object.keys(features[0]);
     mobility_keys.shift();
-
-    //console.log(mobility_keys);
 
     var data = [];
     mobility_keys.forEach(function(key){
@@ -32,15 +31,11 @@ export const CorrelationMatrix = (features) => {
         }
         //corrMat.push(corr);
     }
-    return [mobility_keys, corrMat];
+    return [mobility_keys,  corrMat];
 }
 
 
-const CorrelationTable = (props) => {
-
-    // const {id} = props;
-    const id = props.id;
-   // console.log(id);
+const CorrelationTable = () => {
 
     //console.log(mobility)
     let [labels, corrMat] = CorrelationMatrix(mobility);
@@ -50,25 +45,30 @@ const CorrelationTable = (props) => {
     let hChildren = [];
     for(let i=0; i<labels.length; i++){
         if(i===0)
-            hChildren.push(<th>{" "}</th>);
-        hChildren.push(<th>{labels[i]}</th>);
+            hChildren.push(<th key={i}>{" "}</th>);
+        hChildren.push(<th key={labels[i]}>{labels[i]}</th>);
         //console.log(labels[i]);
     }
-    tableHeader.push(<thead><tr> {hChildren}</tr> </thead>);
+    tableHeader.push(<thead key="table-header"><tr>{hChildren}</tr></thead>);
 
     let tableBody = [];
     let bParent = [];
-    console.log(corrMat);
-    console.log(labels);
+    // console.log(corrMat);
+    // console.log(labels);
     let label_length = labels.length;
+    let bChild = [];
+    let idx = 0;
     for(let i=0; i<corrMat.length; i++){
-        // if(i%label_length === 0){
-        //     bParent.push(<tr>);
-        // }
-        bParent.push(<td>{corrMat[i]["coeff"]}</td>);
-
+        if(i%label_length === 0){
+             bChild = [];
+             bChild.push(<td key={"label-"+idx}><b>{labels[idx++]}</b></td>);
+        }
+        bChild.push(<td key={"corr-"+i}>{corrMat[i]["coeff"]}</td>);
+        if(i%label_length === label_length -1 ){
+            bParent.push(<tr key={i+"th-row-"+(i%label_length)+"th-col"}>{bChild}</tr>);
+        }
     }
-    tableBody.push(<tbody>{bParent}</tbody>);
+    tableBody.push(<tbody key="table-body">{bParent}</tbody>);
     corrTable.push(tableHeader);
     corrTable.push(tableBody);
 
@@ -76,7 +76,6 @@ const CorrelationTable = (props) => {
 }
 
 export default CorrelationTable;
-
                 // let bChildren =[];
                 // bChildren.push(<td></td>)
                 // for(let j=0; j<labels.length; j++){
