@@ -8,9 +8,7 @@ export default function CovidMain() {
             <header className="App-header">
                 COVID-19 Data Visualization in USA
             </header>
-
                 <PCPViz/>
-
         </div>
     );
 }

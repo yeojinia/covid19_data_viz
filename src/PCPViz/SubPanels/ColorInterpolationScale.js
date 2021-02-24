@@ -1,10 +1,26 @@
 import React, {useEffect} from "react";
 import * as d3 from "d3";
 
-const ColorScale = (colorScheme) => {
+var width_ = 40,
+    height_ = 410;
 
-    var width_ = 40,
-        height_ = 410;
+var inferno = d3.scaleSequential()
+    .interpolator(d3.interpolateInferno)
+    .domain([0, width_]);
+
+var rdBu = d3.scaleSequential()
+    .interpolator(d3.interpolateRdBu)
+    .domain([0, width_]);
+
+var rdYlGn = d3.scaleSequential()
+    .interpolator(d3.interpolateRdYlGn)
+    .domain([0, width_]);
+
+var rdGy = d3.scaleSequential()
+    .interpolator(d3.interpolateRdGy)
+    .domain([0, width_]);
+
+const ColorScale = (colorScheme) => {
 
     d3.select("#color-scheme-vis").remove();
 
@@ -19,24 +35,16 @@ const ColorScale = (colorScheme) => {
         .domain([0, width_])
 
     if(colorScheme === "Inferno" || colorScheme === undefined){
-        colorScale = d3.scaleSequential()
-            .interpolator(d3.interpolateInferno)
-            .domain([0, width_])
+        colorScale = inferno;
     }
     if(colorScheme === "RdBu"){
-        colorScale = d3.scaleSequential()
-            .interpolator(d3.interpolateRdBu)
-            .domain([0, width_])
+        colorScale = rdBu;
     }
     else if(colorScheme === "RdYlGn"){
-        colorScale = d3.scaleSequential()
-            .interpolator(d3.interpolateRdYlGn)
-            .domain([0, width_])
+        colorScale = rdYlGn
     }
     else if(colorScheme === "RdGy"){
-        colorScale = d3.scaleSequential()
-            .interpolator(d3.interpolateRdGy)
-            .domain([0, width_])
+        colorScale = rdGy;
     }
 
     svg.selectAll(".bars")
