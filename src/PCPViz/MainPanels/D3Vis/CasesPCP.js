@@ -193,8 +193,8 @@ export default function CasesPCP(props) {
             }))
         };
 
-        var highlightColor = d3.scaleLinear().domain([cross_min,cross_max])
-            .range(["white", "blue"]);
+        // var highlightColor = d3.scaleLinear().domain([cross_min,cross_max])
+        //     .range(["white", "blue"]);
 
         svg.selectAll()
             .data(casesFactor, function (d) {
@@ -202,8 +202,9 @@ export default function CasesPCP(props) {
             })
             .enter().append("path")
             .attr("d", function (d) {
-                if (!(d.states in props.selectedData)) return line_path(d);
-                return curve_path(d);
+                return line_path(d);
+                // if (!(d.states in props.selectedData)) return line_path(d);
+                // return curve_path(d);
             })
             .style("fill", "none")
             .style("stroke", function (d) {
@@ -213,15 +214,12 @@ export default function CasesPCP(props) {
                 return props.selectedData[d.states];
             })
             .style("stroke-width", function (d,idx) {
-                    // if(cross_max!==cross_min)
-                    //     return 1 + 1*(crossRate[idx]-cross_min)/(cross_max-cross_min);
-                    // else
-                    //     return 1;
                 if (!(d.states in props.selectedData)) return '1px';
-                return '3px';
+                return '5px';
             })
             .style("opacity", function (d,idx) {
-                if(cross_max!==cross_min)
+                if (d.states in props.selectedData) return 1;
+                else if(cross_max!==cross_min)
                     return (1.0-props.crossStress) + props.crossStress*(crossRate[idx]-cross_min)/(cross_max-cross_min);
                 else
                     return (1.0-props.crossStress);

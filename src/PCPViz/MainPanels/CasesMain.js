@@ -396,6 +396,10 @@ export default function CasesMain() {
                     <CasesHeatMapViz setScatterHorizontal={setScatterHorizontal} setScatterVertical={setScatterVertical}
                                      colorScheme={colorScheme} selectedAxes={selectedAxes}></CasesHeatMapViz>
                 </div>
+                <div id="color-scale-range-values">
+                    <div id="range-top-value"> +1 </div>
+                    <div id="range-bot-value"> -1 </div>
+                </div>
                 <div id="color-scale-wrapper">
                     <ColorInterpolationScale colorScheme={colorScheme}></ColorInterpolationScale>
                 </div>

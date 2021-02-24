@@ -6,19 +6,19 @@ var width_ = 40,
 
 var inferno = d3.scaleSequential()
     .interpolator(d3.interpolateInferno)
-    .domain([0, width_]);
+    .domain([width_, 0]);
 
 var rdBu = d3.scaleSequential()
     .interpolator(d3.interpolateRdBu)
-    .domain([0, width_]);
+    .domain([width_, 0]);
 
 var rdYlGn = d3.scaleSequential()
     .interpolator(d3.interpolateRdYlGn)
-    .domain([0, width_]);
+    .domain([width_, 0]);
 
 var rdGy = d3.scaleSequential()
     .interpolator(d3.interpolateRdGy)
-    .domain([0, width_]);
+    .domain([width_, 0]);
 
 const ColorScale = (colorScheme) => {
 
