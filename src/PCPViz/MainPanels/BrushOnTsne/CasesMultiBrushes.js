@@ -6,8 +6,28 @@ import TSNE from "tsne-js";
 import {PCA} from "ml-pca";
 import * as hdsp from "hdsp2";
 import Select from 'react-select';
+import winePCA from "../../DRData/CasesFactorsAddedNormPCA.json";
+import wineTSNE from "../../DRData/CasesFactorsAddedNormTSNE.json";
+import "./brush.css";
 
-let colorSet = ["#E7E84C", "#FBFF87", "#FFDF00", "#E8D051", "#FFF249"];
+let pcaOutputScaled = [];
+let mdsOutputScaled = [];
+let tsneOutputScaled = [];
+
+winePCA.map( (a) => {
+    var coord = Object.values(a);
+    //pcaOutputScaled.push([2*coord[0][0]-1, 2*coord[0][1]-1]);
+    pcaOutputScaled.push([2*coord[0][0]-1, 2*coord[0][1]-1, Object.keys(a)[0]]);
+});
+
+wineTSNE.map( (a) => {
+    var coord = Object.values(a);
+    //tsneOutputScaled.push([2*coord[0][0]-1, 2*coord[0][1]-1]);
+    tsneOutputScaled.push([2*coord[0][0]-1, 2*coord[0][1]-1, Object.keys(a)[0]]);
+} );
+
+// let colorSet = ["#E7E84C", "#FBFF87", "#FFDF00", "#E8D051", "#FFF249"];
+let colorSet = ['#EB7D5B', '#FED23F', '#B5D33D', '#6CA2EA',  '#442288'];
 const projection_methods = [
     {label: "t-SNE", value: 0},
     {label: "PCA", value: 1},
@@ -35,7 +55,6 @@ function ReleaseButton(props) {
                 setLoading(false);
             });
         }
-
         //props.setSelectedData({});
     }, [isLoading]);
 
@@ -48,7 +67,6 @@ function ReleaseButton(props) {
 
         for (var i = 0; i < brushes.length - 1; i++) {
             d3.select("g#brush-" + brushes[i].id + ".brush").remove();
-            //d3.select("#brush-"+i).remove();
         }
         brushes.splice(0, brushes.length - 1);
 
@@ -66,7 +84,6 @@ function ReleaseButton(props) {
                 onClick={!isLoading ? handleClick : null}
                 style={buttonStyle}>
                 {isLoading ? 'Releasing...' : 'Release Brushes'}
-
             </Button>
         </>
     );
@@ -76,7 +93,7 @@ function ReleaseButton(props) {
 var brushes = [];
 var myCircle;
 
-function brushstart() {
+function brushstart(){
 }
 
 function brushed(myCircle, setSelectedData, x, y) {
@@ -88,9 +105,7 @@ function brushed(myCircle, setSelectedData, x, y) {
             var brushID = brushes[idx].id;
             var Brush = document.getElementById('brush-' + brushID);
             var selection = d3.brushSelection(Brush);
-
             if (isBrushed(selection, x(d[0] * 1.0), y(d[1] * 1.0)) === true) {
-
                 // selected_axes[d["x_feature"]] = "true";
                 //if(!(d[2] in selected_state))
                 selected_state[d[2]] = colorSet[idx]; // "true";
@@ -189,7 +204,6 @@ function newBrush(gBrushes, myCircle, setSelectedData, x, y) {
         if (selection && selection[0] !== selection[1]) {
             newBrush(gBrushes, myCircle, setSelectedData, x, y);
         }
-
         // Always draw brushes
         drawBrushes(gBrushes);
     }
@@ -251,6 +265,7 @@ function projectedScaledData(data, normalizedData, label)
         mdsOutputScaled[i].push(label[i]);
         tsneOutputScaled[i].push(label[i]);
     }
+
     return [pcaOutputScaled, mdsOutputScaled, tsneOutputScaled];
 }
 
@@ -287,9 +302,11 @@ export default function MultipleBrushes(props) {
         inputData.push(examples);
         normalizedInputData.push(normalized_examples);
     }
+    //
+    // var [pcaOutputScaled, mdsOutputScaled, tsneOutputScaled]
+    //     = projectedScaledData(inputData, normalizedInputData, inputLabel);
+    // console.log(pcaOutputScaled);
 
-    var [pcaOutputScaled, mdsOutputScaled, tsneOutputScaled]
-        = projectedScaledData(inputData, normalizedInputData, inputLabel);
 
     var margin = {
             top: 10,
@@ -320,11 +337,11 @@ export default function MultipleBrushes(props) {
         var gBrushes = svg.append('g')
             .attr("class", "brushes")
 
+            // .attr("fill", "red");
         gBrushes.style("-moz-box-shadow", "#555 0 0 8px")
             .style("-webkit-box-shadow", "#555 0 0 8px")
             .style("-o-box-shadow", "#555 0 0 8px")
             .style("box-shadow", "#555 0 0 8px");
-
         // Add X axis
         // var x = d3.scaleLinear()
         //     .range([side_margin, width - side_margin])
@@ -360,6 +377,7 @@ export default function MultipleBrushes(props) {
             })
             .attr("r", 6)
             .style("fill", function (d) {
+                // console.log(props.selectedData, d[2]);
                 return "blue";                // return "#EE786E"//"red"
             })
             .style("opacity", 0.5);
@@ -373,7 +391,7 @@ export default function MultipleBrushes(props) {
             .enter()
             .append("text")
             .text(function (d) {
-                return d[2]
+                return d[2];
             })
             .attr("x", function (d) {
                 return x(d[0] * 1.0);
@@ -387,7 +405,7 @@ export default function MultipleBrushes(props) {
         newBrush(gBrushes, myCircle, props.setSelectedData, x, y);
         drawBrushes(gBrushes);
 
-    }, [props.selectedData, projectMethod]);
+    }, [props.selectedData, projectMethod, brushes]);
 
     return (
         <div id="multi-brushes-wrapper">

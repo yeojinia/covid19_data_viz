@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
 import * as d3 from 'd3';
-import casesFactor from "./../../Data/CasesFactors.json";
+import casesFactor from "./../../Data/CasesFactorsAddedNorm.json";
 import {CorrelationMatrix} from "../../DataProcessing/CorrelationTable";
 import {dimensions, maximums, minimums, modelWeights} from "../../DataProcessing/CasesFactors";
-import crossInfo from "../../Data/CasesFactorsCrossInfo.json";
+import crossInfo from "../../Data/CasesFactorsAddedNormCrossInfo.json";
 // import MI from "./../../Data/MutualInfo.json";
 
 let corrMat = CorrelationMatrix(casesFactor)[1];
@@ -54,15 +54,14 @@ export default function CasesPCP(props) {
 
         var selectedAxesObj = props.selectedAxes;
         var selectedAxes = Object.keys(selectedAxesObj);
+        console.log(selectedAxes);
 
-        // let crossRate = [];
         const crossRate = crossInfo.map((casesFactor, index) => {
             let sum =0;
             for(let i=0; i<selectedAxes.length-1; i++){
                 sum += casesFactor[selectedAxes[i]][selectedAxes[i+1]];
             }
             return sum;
-            //crossRate.push(sum);
         });
         var cross_min  = Math.min.apply(Math, crossRate) ;
         var cross_max = Math.max.apply(Math, crossRate);
@@ -76,6 +75,7 @@ export default function CasesPCP(props) {
 
         var y = {}
         let name = "";
+        console.log(dimensions);
         for (var i in dimensions) {
             name = dimensions[i];
             y[name] = d3.scaleLinear()
@@ -88,6 +88,9 @@ export default function CasesPCP(props) {
         svg.selectAll('path').style('stroke', 'none');
 
         var selectedAxisOrder = [];
+        // selectedAxisOrder = ["alcohol", "malic acid", "ash", "alcalinity of ash",
+        // "magnesium", "total phenols", "flavanoids", "nonflavanoid phenols", "proanthocyanins",
+        // "color intensity", "hue", "OD280/OD315 of diluted wines", "proline", "cases"]
 
         for (var idx = 0; idx < selectedAxes.length; idx++) {
             if (props.targetPlace === idx) {
@@ -109,7 +112,7 @@ export default function CasesPCP(props) {
             .enter()
             .append('rect')
             .style('fill', function (d) {
-                if (d === "cases") return 'orange';
+                if (d === "cases") return 'red';
                 return '#0d98ba';
             })
             .attr('x', (s) => xScale(s))
@@ -132,6 +135,7 @@ export default function CasesPCP(props) {
             })
             .append("text")
             .text(function (d) {
+                if(d === "cases") return "cases";
                 return d;
             })
             .style("font", function (d) {
@@ -152,6 +156,7 @@ export default function CasesPCP(props) {
             .append("text")
             .attr("y", (25 - 0.5*(selectedAxisOrder.length)) + "px")
             .text(function (d) {
+                if(minimums[d] >= 1000) {return d3.format(".4s")(Math.round(minimums[d]));}
                 return formatDecimalComma(minimums[d]);
             })
             .style("font", function (d) {
@@ -172,6 +177,7 @@ export default function CasesPCP(props) {
             .append("text")
             .attr("y", (25 - 0.5*(selectedAxisOrder.length)) + "px")
             .text(function (d) {
+                if(maximums[d] >= 1000) {return d3.format(".4s")(Math.round(maximums[d]))};
                 return formatDecimalComma(maximums[d]);
             })
             .style("font", function (d) {
@@ -181,11 +187,12 @@ export default function CasesPCP(props) {
             .style("fill", "#0d98ba")
 
         // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
-        function curve_path(d) {
-            return d3.line().curve(d3.curveCardinal)(selectedAxisOrder.map(function (p) {
+        function curve_path(d, bundleSlider) {
+            return d3.line().curve(d3.curveCatmullRom.alpha(bundleSlider))(selectedAxisOrder.map(function (p) {
                 return [xScale(p), y[p](d[p])];
             }));
-        }
+        };
+
 
         function line_path(d){
             return d3.line()(selectedAxisOrder.map(function (p) {
@@ -196,15 +203,20 @@ export default function CasesPCP(props) {
         // var highlightColor = d3.scaleLinear().domain([cross_min,cross_max])
         //     .range(["white", "blue"]);
 
+
+
         svg.selectAll()
             .data(casesFactor, function (d) {
                 return d;
             })
             .enter().append("path")
             .attr("d", function (d) {
-                return line_path(d);
+                // console.log(d);
+                if(!props.bundleChecked)
+                    return line_path(d);
                 // if (!(d.states in props.selectedData)) return line_path(d);
-                // return curve_path(d);
+                console.log(d);
+                return curve_path(d, props.bundleSliderPlace);
             })
             .style("fill", "none")
             .style("stroke", function (d) {
@@ -225,7 +237,7 @@ export default function CasesPCP(props) {
                     return (1.0-props.crossStress);
             })
 
-    }, [props.selectedAxes, props.selectedData, props.targetPlace, props.crossStress, cases_pcp_height, cases_pcp_width, wMin, wMax, formatDecimalComma])
+    }, [props.selectedAxes, props.selectedData, props.targetPlace, props.crossStress, props.bundleSliderPlace, props.bundleChecked, cases_pcp_height, cases_pcp_width, wMin, wMax, formatDecimalComma])
 
     return (
         <div className="cases-pcp-d3-wrapper" width="800px" height="580px">

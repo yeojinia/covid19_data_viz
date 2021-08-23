@@ -1,6 +1,6 @@
 import React from 'react';
 import PearsonCorrCoeff from "./PearsonCorrCoeff.js";
-import mobility from '../Data/CasesFactors.json';
+import mobility from '../Data/CasesFactorsAdded.json';
 
 export const
     CorrelationMatrix = (features) => {
@@ -15,7 +15,6 @@ export const
         data.push(feature);
     })
 
-    // console.log(mobility_keys.length);
     let corrMat = [];
     for(let i=0; i<mobility_keys.length; i++){
         let corr =[];

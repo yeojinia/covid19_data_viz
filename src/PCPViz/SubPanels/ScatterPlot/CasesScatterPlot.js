@@ -92,7 +92,8 @@ const CasesScatterPlot = (props) => {
         var corr_coef = calculateCorrelation(data1, data2);
 
         var myColor = 0;
-        if(props.colorScheme === "Inferno" || props.colorScheme === undefined){
+
+        if(props.colorScheme === "Inferno" ){
             var ColorScale = d3.scaleSequential()
                 .interpolator(d3.interpolateInferno)
                 .domain([-1, 1]);
@@ -104,7 +105,7 @@ const CasesScatterPlot = (props) => {
                 .domain([-1, 1]);
             myColor = ColorScale2(corr_coef);
         }
-        else if(props.colorScheme === "RdYlGn"){
+        else if(props.colorScheme === "RdYlGn" || props.colorScheme === undefined){
             var ColorScale3 = d3.scaleSequential()
                 .interpolator(d3.interpolateRdYlGn)
                 .domain([-1, 1]);
@@ -168,11 +169,14 @@ export const CasesScatterPlotBottomLabel = (props) => {
         // text label for the x axis
         if(hor.horizon !== 'None') {
             const text = d3.select("#cases-sub-scatterplot-vis-right-bot").select("svg").append("text")
+            var name = hor.horizon;
+            if(hor.horizon ==='cases') name = 'class';
             text.attr("transform",
                 "translate(" + (35 + (width / 2)) + " ," +
                 (height/2) + ")")
                 .style("text-anchor", "middle")
-                .text(hor.horizon);
+                .text(name);
+
         }
 
     },[props.scatterHorizontal, props.scatterVertical])
@@ -210,11 +214,13 @@ export const CasesScatterPlotLeftLabel = (props) => {
 
         // text label for the y axis
         if(ver.vert !== 'None') {
+            var name = ver.vert;
+            if(name === "cases") name = "class";
             d3.select("#cases-sub-scatterplot-vis-left").select("svg").append("text")
 
                 .attr("transform", "translate( 30, " + (height/2) + ") rotate(-90)")
                 .style("text-anchor", "middle")
-                .text(ver.vert);
+                .text(name);
         }
 
     },[props.scatterHorizontal, props.scatterVertical])

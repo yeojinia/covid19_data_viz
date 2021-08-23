@@ -5,6 +5,7 @@ import worker from "./../worker.js";
 import WebWorker from "./../workerSetup";
 import CasesMain from "./MainPanels/CasesMain";
 import 'rsuite/dist/styles/rsuite-default.css';
+import BrushablePCP from "./MainPanels/BrushPCP/BrushablePCP.js";
 
 class PCPViz extends Component{
 
@@ -38,20 +39,20 @@ class PCPViz extends Component{
             <div className="pcp">
                 <div className = "cases-pcp">
                     <h2>
-                        Correlation View of Suspected influential variables for COVID-19 confirmed cases
+                        Potential spreading factors for COVID-19
                     </h2>
                     &nbsp;
 
                     <CasesMain></CasesMain>
 
-                    <div id="pcp-ui-wrapper" key="ui-">
-                        {/*&nbsp;*/}
-                        {/*<button onClick={GeneticAlgorithm(4)}> Generate Maximum Correlation Order</button>*/}
-                        {/*&nbsp;*/}
-                        {/*<input type="text" id="myinput" disabled={true} />*/}
-                        {/*<button> Use this sequence</button>*/}
-                        {/*&nbsp;*/}
-                    </div>
+                    {/*<div id="pcp-ui-wrapper" key="ui-">*/}
+                    {/*    /!*&nbsp;*!/*/}
+                    {/*    /!*<button onClick={GeneticAlgorithm(4)}> Generate Maximum Correlation Order</button>*!/*/}
+                    {/*    /!*&nbsp;*!/*/}
+                    {/*    /!*<input type="text" id="myinput" disabled={true} />*!/*/}
+                    {/*    /!*<button> Use this sequence</button>*!/*/}
+                    {/*    /!*&nbsp;*!/*/}
+                    {/*</div>*/}
 
                     &nbsp;
                     {/*<div id="corr-table-wrapper">*/}
@@ -62,6 +63,13 @@ class PCPViz extends Component{
                     {/*    </table>*/}
                     {/*</div>*/}
                 </div>
+
+                <h2>
+                    Time-dependent spreading factors for COVID-19
+                </h2>
+                    <div style={{width: 1200, height: 900}}>
+                        <BrushablePCP ></BrushablePCP>
+                    </div>
 
 
                 {/*<div className="deaths-pcp">*/}

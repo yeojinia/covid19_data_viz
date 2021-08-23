@@ -1,6 +1,6 @@
-import casesFactor from "../Data/CasesFactors.json";
+import casesFactor from "../Data/CasesFactorsAddedNorm.json";
 import jsregression from "js-regression";
-import crossInfo from "../Data/CasesFactorsCrossInfo.json";
+import crossInfo from "../Data/CasesFactorsAddedNormCrossInfo.json";
 
 const minimums = {};
 const maximums = {};

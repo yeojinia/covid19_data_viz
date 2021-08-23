@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {CorrelationMatrix} from "../DataProcessing/CorrelationTable";
 import CasesMultiBrushes from "./BrushOnTsne/CasesMultiBrushes";
-import casesFactor from "../Data/CasesFactors.json";
+import casesFactor from "../Data/CasesFactorsAddedNorm.json";
 import {Slider} from "rsuite";
 import CasesHeatMapViz from "../SubPanels/CorrHeatMap/CasesHeatMap";
 import CasesScatterPlotViz, {CasesScatterPlotLeftLabel, CasesScatterPlotBottomLabel}
@@ -9,6 +9,7 @@ import CasesScatterPlotViz, {CasesScatterPlotLeftLabel, CasesScatterPlotBottomLa
 import ColorInterpolationScale from '../SubPanels/ColorInterpolationScale';
 import CasesPCP, {OptAxes} from "./D3Vis/CasesPCP";
 import {Button} from "react-bootstrap";
+
 //import MutualInfo from './../Data/MutualInfo.json';
 // import MI from "../Data/MutualInfo.json";
 
@@ -20,6 +21,7 @@ corrMat.forEach(function (item) {
         caseObj[item["y_feature"]] = item["coeff"];
     }
 });
+console.log(caseObj);
 
 // const handleStyle = {
 //     color: '#fff',
@@ -174,11 +176,14 @@ export default function CasesMain() {
     const [scatterHorizontal, setScatterHorizontal] = useState({"horizon": "None"});
     const [scatterVertical, setScatterVertical] = useState({"vert": "None"});
 
+    const [bundleChecked, setBundleChecked] = useState(false);
     const [selectedAxes, setSelectedAxes] = useState(caseObj);
-    const [colorScheme, setColorScheme] = useState('Inferno');
+    const [colorScheme, setColorScheme] = useState('RdYlGn'); //Inferno');
     const [sliderPlace, setSliderPlace] = useState(1);
+    const [bundleSliderPlace, setBundleSliderPlace] = useState(0.1);
     const [targetPlace, setTargetPlace] = useState(Object.keys(caseObj).length - 1);
     const [crossStress, setCrossStress] = useState(0.5);
+
     // const [crossReduce, setCrossReduce] = useState(0.5);
 
     const buttonStyle = {
@@ -193,7 +198,6 @@ export default function CasesMain() {
     useEffect(() => {
 
         var axesSubset = {};
-
         if (corrSlider === false) {
             for (var key in caseObj) {
                 if (caseObj[key] <= corrThreshold["corrThreshold"])
@@ -221,10 +225,12 @@ export default function CasesMain() {
                 <div id="my-cases-vis-wrapper">
                     &nbsp;
                     <div id="cases-pcp-wrapper" style={{width: '1050px', height: '500px'}}>
-                        <b style={{height: '20px'}}> state-by-state variables</b>
+                        {/*<b style={{height: '20px'}}> state-by-state variables</b>*/}
                         <CasesPCP selectedAxes={selectedAxes} selectedData={selectedData}
                                   targetPlace={targetPlace}
-                        crossStress={crossStress}></CasesPCP>
+                                  crossStress={crossStress}
+                                  bundleSliderPlace={bundleSliderPlace}
+                                  bundleChecked={bundleChecked}></CasesPCP>
                     </div>
 
                     <div id="cases-sub-multibrush">
@@ -239,8 +245,9 @@ export default function CasesMain() {
             <div id="cases-sub-wrapper">
                 <div id="cases-interaction-board"
                      style={{marginLeft: '1.8rem', marginTop: '0.8rem', textAlign: 'left'}}>
+
                     <div id="axis-order-slider-wrapper" style={{height: '30px', width: '210px'}}>
-                        <b> "Cases" </b>
+                        <b> Objective Variable </b>
                         <Slider
                             min={0}
                             max={1}
@@ -271,6 +278,20 @@ export default function CasesMain() {
                     </div>
                     &nbsp;
 
+                    <div id="bundling-slider-wrapper" style={{height: '30px', width: '210px'}}>
+                        <b> Bundling </b>
+                        <input type="checkbox" checked={bundleChecked} onChange={()=> setBundleChecked(!bundleChecked)} />
+                        <Slider
+                            min={0}
+                            max={1}
+                            step={0.01}
+                            defaultValue={0.1}
+                            onChange={v => {
+                                setBundleSliderPlace(v);
+                            }}
+                            style={{width: 200, marginTop: '0.3rem'}}/>
+                    </div>
+                    &nbsp;
                     {/*<div id="cross-line-lowlight-wrapper" style={{height: '30px', width: '210px'}}>*/}
                     {/*    <b> "Highlight" </b>*/}
                     {/*    <Slider*/}
@@ -363,33 +384,30 @@ export default function CasesMain() {
                     </div>
                     &nbsp;
                     &nbsp;
-                    <div id="color-text-wrapper">
-                        <b> Color for Heatmap </b>
-                    </div>
-                    <div id="cases-svg-interpolation-container" style={{height: '120px'}} onChange={v => {
-                        setColorScheme(v.target.value);
-                    }}>
-                        <div>
-                            <input type="radio" value="Inferno" name="color-scheme"/>
-                            &nbsp; Inferno
-                        </div>
-                        {/*<div id="color-interpolation-scheme1"/>*/}
-                        <div>
-                            <input type="radio" value="RdBu" name="color-scheme"/>
-                            &nbsp; RdBu
-                        </div>
-                        {/*<div id="color-interpolation-scheme2"/>*/}
-                        <div>
-                            <input type="radio" value="RdYlGn" name="color-scheme"/>
-                            &nbsp; RdYlGn
-                        </div>
-                        {/*<div id="color-interpolation-scheme3"/>*/}
-                        <div>
-                            <input type="radio" value="RdGy" name="color-scheme"/>
-                            &nbsp; RdGy
-                        </div>
-                        {/*<div id="color-interpolation-scheme4"/>*/}
-                    </div>
+                    {/*<div id="color-text-wrapper">*/}
+                    {/*    <b> Color for Heatmap </b>*/}
+                    {/*</div>*/}
+                    {/*<div id="cases-svg-interpolation-container" style={{height: '120px'}} onChange={v => {*/}
+                    {/*    setColorScheme("RdYlGn");*/}
+                    {/*    //console.log(v.target.value);*/}
+                    {/*}}>*/}
+                    {/*    <div>*/}
+                    {/*        <input type="radio" value="Inferno" name="color-scheme"/>*/}
+                    {/*        &nbsp; Inferno*/}
+                    {/*    </div>*/}
+                    {/*    <div>*/}
+                    {/*        <input type="radio" value="RdBu" name="color-scheme"/>*/}
+                    {/*        &nbsp; RdBu*/}
+                    {/*    </div>*/}
+                    {/*    <div>*/}
+                    {/*        <input type="radio" value="RdYlGn" name="color-scheme"/>*/}
+                    {/*        &nbsp; RdYlGn*/}
+                    {/*    </div>*/}
+                    {/*    <div>*/}
+                    {/*        <input type="radio" value="RdGy" name="color-scheme"/>*/}
+                    {/*        &nbsp; RdGy*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
 
                 <div className="cases-sub-heatmap" id="cases-sub-heatmap-vis">
@@ -397,8 +415,8 @@ export default function CasesMain() {
                                      colorScheme={colorScheme} selectedAxes={selectedAxes}></CasesHeatMapViz>
                 </div>
                 <div id="color-scale-range-values">
-                    <div id="range-top-value"> +1 </div>
-                    <div id="range-bot-value"> -1 </div>
+                    <div id="range-top-value"> +1</div>
+                    <div id="range-bot-value"> -1</div>
                 </div>
                 <div id="color-scale-wrapper">
                     <ColorInterpolationScale colorScheme={colorScheme}></ColorInterpolationScale>
