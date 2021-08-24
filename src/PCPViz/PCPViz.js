@@ -6,15 +6,25 @@ import WebWorker from "./../workerSetup";
 import CasesMain from "./MainPanels/CasesMain";
 import 'rsuite/dist/styles/rsuite-default.css';
 import BrushablePCP from "./MainPanels/BrushPCP/BrushablePCP.js";
+import CounterButton from "./MainPanels/BrushPCP/CounterButton";
 
 class PCPViz extends Component{
 
     state = {
-        state_name: "CA"
+        state_name: "CA",
+        count:0
     };
     handleChange = (e) => {
         // console.log(e.target.value);
         this.setState({state_name: e.target.value});
+    }
+    handleCount(value){
+            this.setState(function(prevState) {
+                if(prevState.count + value <=5 && prevState.count + value>=0)
+                    return ({count: prevState.count + value});
+                else
+                    return ({count:prevState.count});
+            });
     }
 
     componentDidMount = () => {
@@ -36,13 +46,7 @@ class PCPViz extends Component{
         }
     };
 
-/*
-    useEffect( () =>{
-        init('webgl');
-    });
-*/
      render() {
-        //init('webgl');
         return (
             <div className="pcp">
                 <div className = "cases-pcp">
@@ -81,14 +85,20 @@ class PCPViz extends Component{
                 </h5>
                     <div onChange={this.handleChange}>
                         <input type="radio" value="CA" name="state-name" /> CA &nbsp;
-                        <input type="radio" value="NY" name="state-name" /> NY &nbsp;
+                        {/*<input type="radio" value="NY" name="state-name" /> NY &nbsp;*/}
                         <input type="radio" value="TX" name="state-name" /> TX &nbsp;
                         <input type="radio" value="FL" name="state-name" /> FL &nbsp;
                         {/*<input type="radio" value="WA" name="state-name" /> WA &nbsp;*/}
                         <input type="radio" value="OR" name="state-name" /> OR &nbsp;
                     </div>
+                {/*<h5>*/}
+                {/*    Incubation Period: {this.state.count}*/}
+                {/*</h5>*/}
+                {/*    <CounterButton sign="+" count={this.state.count} updateCount={this.handleCount.bind(this)} />*/}
+                {/*    <CounterButton sign="-" count={this.state.count} updateCount={this.handleCount.bind(this)} />*/}
+
                     <div style={{width: 1200, height: 900}}>
-                        <BrushablePCP state_name={this.state.state_name} ></BrushablePCP>
+                        <BrushablePCP state_name={this.state.state_name} count={this.state.count} ></BrushablePCP>
                     </div>
                 </div>
 

@@ -76,7 +76,7 @@ export default function CasesPCP(props) {
 
         var y = {}
         let name = "";
-        console.log(dimensions);
+       // console.log(dimensions);
         for (var i in dimensions) {
             name = dimensions[i];
             y[name] = d3.scaleLinear()
@@ -248,13 +248,11 @@ export default function CasesPCP(props) {
                 if(!props.bundleChecked)
                     return line_path(d);
                 // if (!(d.states in props.selectedData)) return line_path(d);
-                console.log(d);
                 return curve_path(d, props.bundleSliderPlace);
             })
             .style("fill", "none")
             .style("stroke", function (d) {
                 if (!(d.states in props.selectedData)){
-
                     return z(d[keyz]);
                     // return "rgb(57, 57, 255)";//"#EA22A8";
                 } //"#0d98ba"; //"#A2CCB6";
@@ -262,7 +260,7 @@ export default function CasesPCP(props) {
             })
             .style("stroke-width", function (d,idx) {
                 if (!(d.states in props.selectedData)) return '1px';
-                return '5px';
+                return '3px';
             })
             .style("opacity", function (d,idx) {
                 if (d.states in props.selectedData) return 1;

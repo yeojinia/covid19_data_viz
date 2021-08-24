@@ -6,8 +6,8 @@
     "Population Staying at Home": 11703655,
     "Population Not Staying at Home": 27853390,
     "Number of Trips": 86740159,
-    "cases": 1093,
-    "deaths": 25
+    "cases": 1176,
+    "deaths": 29
   },
   {
     "Date": "4/2/2020",
@@ -16,8 +16,8 @@
     "Population Staying at Home": 11773137,
     "Population Not Staying at Home": 27783908,
     "Number of Trips": 84323806,
-    "cases": 1176,
-    "deaths": 29
+    "cases": 1269,
+    "deaths": 31
   },
   {
     "Date": "4/3/2020",
@@ -26,8 +26,8 @@
     "Population Staying at Home": 11448745,
     "Population Not Staying at Home": 28108300,
     "Number of Trips": 88877702,
-    "cases": 1269,
-    "deaths": 31
+    "cases": 1277,
+    "deaths": 34
   },
   {
     "Date": "4/4/2020",
@@ -36,8 +36,8 @@
     "Population Staying at Home": 12663766,
     "Population Not Staying at Home": 26893279,
     "Number of Trips": 79468488,
-    "cases": 1277,
-    "deaths": 34
+    "cases": 1279.571429,
+    "deaths": 37.57142857
   },
   {
     "Date": "4/5/2020",
@@ -46,8 +46,8 @@
     "Population Staying at Home": 13560626,
     "Population Not Staying at Home": 25996419,
     "Number of Trips": 70939368,
-    "cases": 1279.571429,
-    "deaths": 37.57142857
+    "cases": 1312.285714,
+    "deaths": 42
   },
   {
     "Date": "4/6/2020",
@@ -56,8 +56,8 @@
     "Population Staying at Home": 12279022,
     "Population Not Staying at Home": 27278023,
     "Number of Trips": 84306550,
-    "cases": 1312.285714,
-    "deaths": 42
+    "cases": 1285.857143,
+    "deaths": 43
   },
   {
     "Date": "4/7/2020",
@@ -66,8 +66,8 @@
     "Population Staying at Home": 11920127,
     "Population Not Staying at Home": 27636918,
     "Number of Trips": 88595964,
-    "cases": 1285.857143,
-    "deaths": 43
+    "cases": 1256.714286,
+    "deaths": 44.57142857
   },
   {
     "Date": "4/8/2020",
@@ -76,8 +76,8 @@
     "Population Staying at Home": 11919786,
     "Population Not Staying at Home": 27637259,
     "Number of Trips": 87582012,
-    "cases": 1256.714286,
-    "deaths": 44.57142857
+    "cases": 1232.142857,
+    "deaths": 44.14285714
   },
   {
     "Date": "4/9/2020",
@@ -86,8 +86,8 @@
     "Population Staying at Home": 12096208,
     "Population Not Staying at Home": 27460837,
     "Number of Trips": 85218250,
-    "cases": 1232.142857,
-    "deaths": 44.14285714
+    "cases": 1160.142857,
+    "deaths": 46.42857143
   },
   {
     "Date": "4/10/2020",
@@ -96,8 +96,8 @@
     "Population Staying at Home": 11557706,
     "Population Not Staying at Home": 27999339,
     "Number of Trips": 90273938,
-    "cases": 1160.142857,
-    "deaths": 46.42857143
+    "cases": 1139,
+    "deaths": 48.42857143
   },
   {
     "Date": "4/11/2020",
@@ -106,8 +106,8 @@
     "Population Staying at Home": 12247941,
     "Population Not Staying at Home": 27309104,
     "Number of Trips": 89272126,
-    "cases": 1139,
-    "deaths": 48.42857143
+    "cases": 1174,
+    "deaths": 47.28571429
   },
   {
     "Date": "4/12/2020",
@@ -116,8 +116,8 @@
     "Population Staying at Home": 14180383,
     "Population Not Staying at Home": 25376662,
     "Number of Trips": 68713260,
-    "cases": 1174,
-    "deaths": 47.28571429
+    "cases": 1152,
+    "deaths": 54.14285714
   },
   {
     "Date": "4/13/2020",
@@ -126,8 +126,8 @@
     "Population Staying at Home": 12002694,
     "Population Not Staying at Home": 27554351,
     "Number of Trips": 88512896,
-    "cases": 1152,
-    "deaths": 54.14285714
+    "cases": 1135.857143,
+    "deaths": 60.42857143
   },
   {
     "Date": "4/14/2020",
@@ -136,8 +136,8 @@
     "Population Staying at Home": 11924666,
     "Population Not Staying at Home": 27632379,
     "Number of Trips": 83084665,
-    "cases": 1135.857143,
-    "deaths": 60.42857143
+    "cases": 1147.428571,
+    "deaths": 65.14285714
   },
   {
     "Date": "4/15/2020",
@@ -146,8 +146,8 @@
     "Population Staying at Home": 11544384,
     "Population Not Staying at Home": 28012661,
     "Number of Trips": 87506215,
-    "cases": 1147.428571,
-    "deaths": 65.14285714
+    "cases": 1201.142857,
+    "deaths": 73.42857143
   },
   {
     "Date": "4/16/2020",
@@ -156,8 +156,8 @@
     "Population Staying at Home": 12127620,
     "Population Not Staying at Home": 27429425,
     "Number of Trips": 85543061,
-    "cases": 1201.142857,
-    "deaths": 73.42857143
+    "cases": 1174.428571,
+    "deaths": 71.42857143
   },
   {
     "Date": "4/17/2020",
@@ -166,8 +166,8 @@
     "Population Staying at Home": 11193127,
     "Population Not Staying at Home": 28363918,
     "Number of Trips": 89996172,
-    "cases": 1174.428571,
-    "deaths": 71.42857143
+    "cases": 1361.142857,
+    "deaths": 71.14285714
   },
   {
     "Date": "4/18/2020",
@@ -176,8 +176,8 @@
     "Population Staying at Home": 12318297,
     "Population Not Staying at Home": 27238748,
     "Number of Trips": 87929112,
-    "cases": 1361.142857,
-    "deaths": 71.14285714
+    "cases": 1440.857143,
+    "deaths": 76.85714286
   },
   {
     "Date": "4/19/2020",
@@ -186,8 +186,8 @@
     "Population Staying at Home": 12518715,
     "Population Not Staying at Home": 27038330,
     "Number of Trips": 77227078,
-    "cases": 1440.857143,
-    "deaths": 76.85714286
+    "cases": 1495.142857,
+    "deaths": 77.14285714
   },
   {
     "Date": "4/20/2020",
@@ -196,8 +196,8 @@
     "Population Staying at Home": 11013974,
     "Population Not Staying at Home": 28543071,
     "Number of Trips": 91818980,
-    "cases": 1495.142857,
-    "deaths": 77.14285714
+    "cases": 1627.428571,
+    "deaths": 82.42857143
   },
   {
     "Date": "4/21/2020",
@@ -206,8 +206,8 @@
     "Population Staying at Home": 11304539,
     "Population Not Staying at Home": 28252506,
     "Number of Trips": 91977909,
-    "cases": 1627.428571,
-    "deaths": 82.42857143
+    "cases": 1710,
+    "deaths": 81.28571429
   },
   {
     "Date": "4/22/2020",
@@ -216,8 +216,8 @@
     "Population Staying at Home": 11265608,
     "Population Not Staying at Home": 28291437,
     "Number of Trips": 92156217,
-    "cases": 1710,
-    "deaths": 81.28571429
+    "cases": 1680.142857,
+    "deaths": 78
   },
   {
     "Date": "4/23/2020",
@@ -226,8 +226,8 @@
     "Population Staying at Home": 11290582,
     "Population Not Staying at Home": 28266463,
     "Number of Trips": 91577375,
-    "cases": 1680.142857,
-    "deaths": 78
+    "cases": 1735.285714,
+    "deaths": 77.14285714
   },
   {
     "Date": "4/24/2020",
@@ -236,8 +236,8 @@
     "Population Staying at Home": 11141606,
     "Population Not Staying at Home": 28415439,
     "Number of Trips": 94633103,
-    "cases": 1735.285714,
-    "deaths": 77.14285714
+    "cases": 1620.857143,
+    "deaths": 82.42857143
   },
   {
     "Date": "4/25/2020",
@@ -246,8 +246,8 @@
     "Population Staying at Home": 11817561,
     "Population Not Staying at Home": 27739484,
     "Number of Trips": 90595074,
-    "cases": 1620.857143,
-    "deaths": 82.42857143
+    "cases": 1532.285714,
+    "deaths": 81.14285714
   },
   {
     "Date": "4/26/2020",
@@ -256,8 +256,8 @@
     "Population Staying at Home": 12556204,
     "Population Not Staying at Home": 27000841,
     "Number of Trips": 83302190,
-    "cases": 1532.285714,
-    "deaths": 81.14285714
+    "cases": 1618.714286,
+    "deaths": 76.57142857
   },
   {
     "Date": "4/27/2020",
@@ -266,8 +266,8 @@
     "Population Staying at Home": 11161633,
     "Population Not Staying at Home": 28395412,
     "Number of Trips": 93559114,
-    "cases": 1618.714286,
-    "deaths": 76.57142857
+    "cases": 1562.285714,
+    "deaths": 72.71428571
   },
   {
     "Date": "4/28/2020",
@@ -276,8 +276,8 @@
     "Population Staying at Home": 11185382,
     "Population Not Staying at Home": 28371663,
     "Number of Trips": 93818998,
-    "cases": 1562.285714,
-    "deaths": 72.71428571
+    "cases": 1564.285714,
+    "deaths": 75.42857143
   },
   {
     "Date": "4/29/2020",
@@ -286,8 +286,8 @@
     "Population Staying at Home": 11199198,
     "Population Not Staying at Home": 28357847,
     "Number of Trips": 93812017,
-    "cases": 1564.285714,
-    "deaths": 75.42857143
+    "cases": 1594.714286,
+    "deaths": 74.42857143
   },
   {
     "Date": "4/30/2020",
@@ -296,8 +296,8 @@
     "Population Staying at Home": 11027375,
     "Population Not Staying at Home": 28529670,
     "Number of Trips": 95371737,
-    "cases": 1594.714286,
-    "deaths": 74.42857143
+    "cases": 1625.857143,
+    "deaths": 74.14285714
   },
   {
     "Date": "5/1/2020",
@@ -306,8 +306,8 @@
     "Population Staying at Home": 10663376,
     "Population Not Staying at Home": 28893669,
     "Number of Trips": 99288634,
-    "cases": 1625.857143,
-    "deaths": 74.14285714
+    "cases": 1589.285714,
+    "deaths": 71
   },
   {
     "Date": "5/2/2020",
@@ -316,8 +316,8 @@
     "Population Staying at Home": 11389112,
     "Population Not Staying at Home": 28167933,
     "Number of Trips": 93819585,
-    "cases": 1589.285714,
-    "deaths": 71
+    "cases": 1754,
+    "deaths": 71.71428571
   },
   {
     "Date": "5/3/2020",
@@ -326,8 +326,8 @@
     "Population Staying at Home": 12324258,
     "Population Not Staying at Home": 27232787,
     "Number of Trips": 82944750,
-    "cases": 1754,
-    "deaths": 71.71428571
+    "cases": 1697.571429,
+    "deaths": 73.85714286
   },
   {
     "Date": "5/4/2020",
@@ -336,8 +336,8 @@
     "Population Staying at Home": 10927796,
     "Population Not Staying at Home": 28629249,
     "Number of Trips": 95621335,
-    "cases": 1697.571429,
-    "deaths": 73.85714286
+    "cases": 1715.857143,
+    "deaths": 72
   },
   {
     "Date": "5/5/2020",
@@ -346,8 +346,8 @@
     "Population Staying at Home": 11042634,
     "Population Not Staying at Home": 28514411,
     "Number of Trips": 95553003,
-    "cases": 1715.857143,
-    "deaths": 72
+    "cases": 1756.857143,
+    "deaths": 71.85714286
   },
   {
     "Date": "5/6/2020",
@@ -356,8 +356,8 @@
     "Population Staying at Home": 11105704,
     "Population Not Staying at Home": 28451341,
     "Number of Trips": 92711961,
-    "cases": 1756.857143,
-    "deaths": 71.85714286
+    "cases": 1867.285714,
+    "deaths": 74.14285714
   },
   {
     "Date": "5/7/2020",
@@ -366,8 +366,8 @@
     "Population Staying at Home": 11023463,
     "Population Not Staying at Home": 28533582,
     "Number of Trips": 93118959,
-    "cases": 1867.285714,
-    "deaths": 74.14285714
+    "cases": 1854.142857,
+    "deaths": 76.28571429
   },
   {
     "Date": "5/8/2020",
@@ -376,8 +376,8 @@
     "Population Staying at Home": 10916150,
     "Population Not Staying at Home": 28640895,
     "Number of Trips": 97738069,
-    "cases": 1854.142857,
-    "deaths": 76.28571429
+    "cases": 1883,
+    "deaths": 74.71428571
   },
   {
     "Date": "5/9/2020",
@@ -386,8 +386,8 @@
     "Population Staying at Home": 11483662,
     "Population Not Staying at Home": 28073383,
     "Number of Trips": 93827800,
-    "cases": 1883,
-    "deaths": 74.71428571
+    "cases": 1757.428571,
+    "deaths": 73.71428571
   },
   {
     "Date": "5/10/2020",
@@ -396,8 +396,8 @@
     "Population Staying at Home": 11849990,
     "Population Not Staying at Home": 27707055,
     "Number of Trips": 86776149,
-    "cases": 1757.428571,
-    "deaths": 73.71428571
+    "cases": 1775.857143,
+    "deaths": 76.57142857
   },
   {
     "Date": "5/11/2020",
@@ -406,8 +406,8 @@
     "Population Staying at Home": 10270423,
     "Population Not Staying at Home": 29286622,
     "Number of Trips": 97596797,
-    "cases": 1775.857143,
-    "deaths": 76.57142857
+    "cases": 1780.857143,
+    "deaths": 68.28571429
   },
   {
     "Date": "5/12/2020",
@@ -416,8 +416,8 @@
     "Population Staying at Home": 10151228,
     "Population Not Staying at Home": 29405817,
     "Number of Trips": 98867720,
-    "cases": 1780.857143,
-    "deaths": 68.28571429
+    "cases": 1771.285714,
+    "deaths": 77.42857143
   },
   {
     "Date": "5/13/2020",
@@ -426,8 +426,8 @@
     "Population Staying at Home": 10358278,
     "Population Not Staying at Home": 29198767,
     "Number of Trips": 96005727,
-    "cases": 1771.285714,
-    "deaths": 77.42857143
+    "cases": 1729.857143,
+    "deaths": 74.57142857
   },
   {
     "Date": "5/14/2020",
@@ -436,8 +436,8 @@
     "Population Staying at Home": 10259429,
     "Population Not Staying at Home": 29297616,
     "Number of Trips": 95892664,
-    "cases": 1729.857143,
-    "deaths": 74.57142857
+    "cases": 1759.285714,
+    "deaths": 74.42857143
   },
   {
     "Date": "5/15/2020",
@@ -446,8 +446,8 @@
     "Population Staying at Home": 9995577,
     "Population Not Staying at Home": 29561468,
     "Number of Trips": 99832206,
-    "cases": 1759.285714,
-    "deaths": 74.42857143
+    "cases": 1775.571429,
+    "deaths": 71.71428571
   },
   {
     "Date": "5/16/2020",
@@ -456,8 +456,8 @@
     "Population Staying at Home": 10742885,
     "Population Not Staying at Home": 28814160,
     "Number of Trips": 96153570,
-    "cases": 1775.571429,
-    "deaths": 71.71428571
+    "cases": 1833,
+    "deaths": 74.28571429
   },
   {
     "Date": "5/17/2020",
@@ -466,8 +466,8 @@
     "Population Staying at Home": 10327932,
     "Population Not Staying at Home": 29229113,
     "Number of Trips": 96506550,
-    "cases": 1833,
-    "deaths": 74.28571429
+    "cases": 1843.857143,
+    "deaths": 71.42857143
   },
   {
     "Date": "5/18/2020",
@@ -476,8 +476,8 @@
     "Population Staying at Home": 8672004,
     "Population Not Staying at Home": 30885041,
     "Number of Trips": 105580017,
-    "cases": 1843.857143,
-    "deaths": 71.42857143
+    "cases": 1934.428571,
+    "deaths": 83.57142857
   },
   {
     "Date": "5/19/2020",
@@ -486,8 +486,8 @@
     "Population Staying at Home": 8496472,
     "Population Not Staying at Home": 31060573,
     "Number of Trips": 108914495,
-    "cases": 1934.428571,
-    "deaths": 83.57142857
+    "cases": 1969.428571,
+    "deaths": 71.14285714
   },
   {
     "Date": "5/20/2020",
@@ -496,8 +496,8 @@
     "Population Staying at Home": 8402283,
     "Population Not Staying at Home": 31154762,
     "Number of Trips": 109671781,
-    "cases": 1969.428571,
-    "deaths": 71.14285714
+    "cases": 1983.142857,
+    "deaths": 73.42857143
   },
   {
     "Date": "5/21/2020",
@@ -506,8 +506,8 @@
     "Population Staying at Home": 8321048,
     "Population Not Staying at Home": 31235997,
     "Number of Trips": 109384983,
-    "cases": 1983.142857,
-    "deaths": 73.42857143
+    "cases": 2053.857143,
+    "deaths": 71.42857143
   },
   {
     "Date": "5/22/2020",
@@ -516,8 +516,8 @@
     "Population Staying at Home": 7932511,
     "Population Not Staying at Home": 31624534,
     "Number of Trips": 114755057,
-    "cases": 2053.857143,
-    "deaths": 71.42857143
+    "cases": 2153.428571,
+    "deaths": 69.42857143
   },
   {
     "Date": "5/23/2020",
@@ -526,8 +526,8 @@
     "Population Staying at Home": 9010252,
     "Population Not Staying at Home": 30546793,
     "Number of Trips": 108682281,
-    "cases": 2153.428571,
-    "deaths": 69.42857143
+    "cases": 2277.571429,
+    "deaths": 62.42857143
   },
   {
     "Date": "5/24/2020",
@@ -536,8 +536,8 @@
     "Population Staying at Home": 11004193,
     "Population Not Staying at Home": 28552852,
     "Number of Trips": 89977498,
-    "cases": 2277.571429,
-    "deaths": 62.42857143
+    "cases": 2249.714286,
+    "deaths": 63.85714286
   },
   {
     "Date": "5/25/2020",
@@ -546,8 +546,8 @@
     "Population Staying at Home": 10882450,
     "Population Not Staying at Home": 28674595,
     "Number of Trips": 88594482,
-    "cases": 2249.714286,
-    "deaths": 63.85714286
+    "cases": 2226.142857,
+    "deaths": 59.71428571
   },
   {
     "Date": "5/26/2020",
@@ -556,8 +556,8 @@
     "Population Staying at Home": 9993219,
     "Population Not Staying at Home": 29563826,
     "Number of Trips": 94706503,
-    "cases": 2226.142857,
-    "deaths": 59.71428571
+    "cases": 2320.285714,
+    "deaths": 64.85714286
   },
   {
     "Date": "5/27/2020",
@@ -566,8 +566,8 @@
     "Population Staying at Home": 9945747,
     "Population Not Staying at Home": 29611298,
     "Number of Trips": 97563861,
-    "cases": 2320.285714,
-    "deaths": 64.85714286
+    "cases": 2469.285714,
+    "deaths": 63.71428571
   },
   {
     "Date": "5/28/2020",
@@ -576,8 +576,8 @@
     "Population Staying at Home": 9903561,
     "Population Not Staying at Home": 29653484,
     "Number of Trips": 96206766,
-    "cases": 2469.285714,
-    "deaths": 63.71428571
+    "cases": 2624.428571,
+    "deaths": 64.57142857
   },
   {
     "Date": "5/29/2020",
@@ -586,8 +586,8 @@
     "Population Staying at Home": 10315279,
     "Population Not Staying at Home": 29241766,
     "Number of Trips": 93790559,
-    "cases": 2624.428571,
-    "deaths": 64.57142857
+    "cases": 2660.857143,
+    "deaths": 68.42857143
   },
   {
     "Date": "5/30/2020",
@@ -596,8 +596,8 @@
     "Population Staying at Home": 10873333,
     "Population Not Staying at Home": 28683712,
     "Number of Trips": 92728480,
-    "cases": 2660.857143,
-    "deaths": 68.42857143
+    "cases": 2593.857143,
+    "deaths": 71.57142857
   },
   {
     "Date": "5/31/2020",
@@ -606,8 +606,8 @@
     "Population Staying at Home": 11629384,
     "Population Not Staying at Home": 27927661,
     "Number of Trips": 83742526,
-    "cases": 2593.857143,
-    "deaths": 71.57142857
+    "cases": 2647.714286,
+    "deaths": 65.85714286
   },
   {
     "Date": "6/1/2020",
@@ -616,8 +616,8 @@
     "Population Staying at Home": 10448323,
     "Population Not Staying at Home": 29108722,
     "Number of Trips": 89707442,
-    "cases": 2647.714286,
-    "deaths": 65.85714286
+    "cases": 2692.285714,
+    "deaths": 63.14285714
   },
   {
     "Date": "6/2/2020",
@@ -626,8 +626,8 @@
     "Population Staying at Home": 10513723,
     "Population Not Staying at Home": 29043322,
     "Number of Trips": 93718886,
-    "cases": 2692.285714,
-    "deaths": 63.14285714
+    "cases": 2781,
+    "deaths": 58
   },
   {
     "Date": "6/3/2020",
@@ -636,8 +636,8 @@
     "Population Staying at Home": 9880549,
     "Population Not Staying at Home": 29676496,
     "Number of Trips": 99179830,
-    "cases": 2781,
-    "deaths": 58
+    "cases": 2721,
+    "deaths": 58.85714286
   },
   {
     "Date": "6/4/2020",
@@ -646,8 +646,8 @@
     "Population Staying at Home": 9818662,
     "Population Not Staying at Home": 29738383,
     "Number of Trips": 95631454,
-    "cases": 2721,
-    "deaths": 58.85714286
+    "cases": 2697.571429,
+    "deaths": 58.71428571
   },
   {
     "Date": "6/5/2020",
@@ -656,8 +656,8 @@
     "Population Staying at Home": 9786701,
     "Population Not Staying at Home": 29770344,
     "Number of Trips": 97425376,
-    "cases": 2697.571429,
-    "deaths": 58.71428571
+    "cases": 2663.428571,
+    "deaths": 56
   },
   {
     "Date": "6/6/2020",
@@ -666,8 +666,8 @@
     "Population Staying at Home": 10621606,
     "Population Not Staying at Home": 28935439,
     "Number of Trips": 89553505,
-    "cases": 2663.428571,
-    "deaths": 56
+    "cases": 2737.714286,
+    "deaths": 59.28571429
   },
   {
     "Date": "6/7/2020",
@@ -676,8 +676,8 @@
     "Population Staying at Home": 9706219,
     "Population Not Staying at Home": 29850826,
     "Number of Trips": 104161008,
-    "cases": 2737.714286,
-    "deaths": 59.28571429
+    "cases": 2818.857143,
+    "deaths": 63.85714286
   },
   {
     "Date": "6/8/2020",
@@ -686,8 +686,8 @@
     "Population Staying at Home": 9443238,
     "Population Not Staying at Home": 30113807,
     "Number of Trips": 103110901,
-    "cases": 2818.857143,
-    "deaths": 63.85714286
+    "cases": 2970.285714,
+    "deaths": 65.28571429
   },
   {
     "Date": "6/9/2020",
@@ -696,8 +696,8 @@
     "Population Staying at Home": 10366000,
     "Population Not Staying at Home": 29191045,
     "Number of Trips": 93145755,
-    "cases": 2970.285714,
-    "deaths": 65.28571429
+    "cases": 2967.857143,
+    "deaths": 62.28571429
   },
   {
     "Date": "6/10/2020",
@@ -706,8 +706,8 @@
     "Population Staying at Home": 10201408,
     "Population Not Staying at Home": 29355637,
     "Number of Trips": 93662182,
-    "cases": 2967.857143,
-    "deaths": 62.28571429
+    "cases": 3041,
+    "deaths": 61.85714286
   },
   {
     "Date": "6/11/2020",
@@ -716,8 +716,8 @@
     "Population Staying at Home": 9897030,
     "Population Not Staying at Home": 29660015,
     "Number of Trips": 95102871,
-    "cases": 3041,
-    "deaths": 61.85714286
+    "cases": 2993.714286,
+    "deaths": 62.28571429
   },
   {
     "Date": "6/12/2020",
@@ -726,8 +726,8 @@
     "Population Staying at Home": 9918222,
     "Population Not Staying at Home": 29638823,
     "Number of Trips": 94432889,
-    "cases": 2993.714286,
-    "deaths": 62.28571429
+    "cases": 3053.571429,
+    "deaths": 63
   },
   {
     "Date": "6/13/2020",
@@ -736,8 +736,8 @@
     "Population Staying at Home": 10299094,
     "Population Not Staying at Home": 29257951,
     "Number of Trips": 95854441,
-    "cases": 3053.571429,
-    "deaths": 63
+    "cases": 3126.571429,
+    "deaths": 61
   },
   {
     "Date": "6/14/2020",
@@ -746,8 +746,8 @@
     "Population Staying at Home": 10909507,
     "Population Not Staying at Home": 28647538,
     "Number of Trips": 85195775,
-    "cases": 3126.571429,
-    "deaths": 61
+    "cases": 3320.285714,
+    "deaths": 59.14285714
   },
   {
     "Date": "6/15/2020",
@@ -756,8 +756,8 @@
     "Population Staying at Home": 10198043,
     "Population Not Staying at Home": 29359002,
     "Number of Trips": 91898147,
-    "cases": 3320.285714,
-    "deaths": 59.14285714
+    "cases": 3346.571429,
+    "deaths": 59.71428571
   },
   {
     "Date": "6/16/2020",
@@ -766,8 +766,8 @@
     "Population Staying at Home": 10289769,
     "Population Not Staying at Home": 29267276,
     "Number of Trips": 96290116,
-    "cases": 3346.571429,
-    "deaths": 59.71428571
+    "cases": 3365.428571,
+    "deaths": 62.71428571
   },
   {
     "Date": "6/17/2020",
@@ -776,8 +776,8 @@
     "Population Staying at Home": 9829597,
     "Population Not Staying at Home": 29727448,
     "Number of Trips": 99419540,
-    "cases": 3365.428571,
-    "deaths": 62.71428571
+    "cases": 3488.571429,
+    "deaths": 62.28571429
   },
   {
     "Date": "6/18/2020",
@@ -786,8 +786,8 @@
     "Population Staying at Home": 9883058,
     "Population Not Staying at Home": 29673987,
     "Number of Trips": 98812836,
-    "cases": 3488.571429,
-    "deaths": 62.28571429
+    "cases": 3693.428571,
+    "deaths": 61.14285714
   },
   {
     "Date": "6/19/2020",
@@ -796,8 +796,8 @@
     "Population Staying at Home": 9714086,
     "Population Not Staying at Home": 29842959,
     "Number of Trips": 101089451,
-    "cases": 3693.428571,
-    "deaths": 61.14285714
+    "cases": 4136.857143,
+    "deaths": 63
   },
   {
     "Date": "6/20/2020",
@@ -806,8 +806,8 @@
     "Population Staying at Home": 10569493,
     "Population Not Staying at Home": 28987552,
     "Number of Trips": 96272900,
-    "cases": 4136.857143,
-    "deaths": 63
+    "cases": 4558.285714,
+    "deaths": 62.14285714
   },
   {
     "Date": "6/21/2020",
@@ -816,8 +816,8 @@
     "Population Staying at Home": 11382760,
     "Population Not Staying at Home": 28174285,
     "Number of Trips": 83680401,
-    "cases": 4558.285714,
-    "deaths": 62.14285714
+    "cases": 4644,
+    "deaths": 63.57142857
   },
   {
     "Date": "6/22/2020",
@@ -826,8 +826,8 @@
     "Population Staying at Home": 10531794,
     "Population Not Staying at Home": 29025251,
     "Number of Trips": 89784072,
-    "cases": 4644,
-    "deaths": 63.57142857
+    "cases": 4896.857143,
+    "deaths": 64.42857143
   },
   {
     "Date": "6/23/2020",
@@ -836,8 +836,8 @@
     "Population Staying at Home": 9920078,
     "Population Not Staying at Home": 29636967,
     "Number of Trips": 95466645,
-    "cases": 4896.857143,
-    "deaths": 64.42857143
+    "cases": 5169.142857,
+    "deaths": 63.85714286
   },
   {
     "Date": "6/24/2020",
@@ -846,8 +846,8 @@
     "Population Staying at Home": 10418588,
     "Population Not Staying at Home": 29138457,
     "Number of Trips": 91873801,
-    "cases": 5169.142857,
-    "deaths": 63.85714286
+    "cases": 5228.428571,
+    "deaths": 58.14285714
   },
   {
     "Date": "6/25/2020",
@@ -856,8 +856,8 @@
     "Population Staying at Home": 9890607,
     "Population Not Staying at Home": 29666438,
     "Number of Trips": 94665224,
-    "cases": 5228.428571,
-    "deaths": 58.14285714
+    "cases": 5449.714286,
+    "deaths": 60
   },
   {
     "Date": "6/26/2020",
@@ -866,8 +866,8 @@
     "Population Staying at Home": 10010451,
     "Population Not Staying at Home": 29546594,
     "Number of Trips": 93489209,
-    "cases": 5449.714286,
-    "deaths": 60
+    "cases": 5625,
+    "deaths": 59.71428571
   },
   {
     "Date": "6/27/2020",
@@ -876,8 +876,8 @@
     "Population Staying at Home": 10445018,
     "Population Not Staying at Home": 29112027,
     "Number of Trips": 94262271,
-    "cases": 5625,
-    "deaths": 59.71428571
+    "cases": 5873.428571,
+    "deaths": 63.71428571
   },
   {
     "Date": "6/28/2020",
@@ -886,8 +886,8 @@
     "Population Staying at Home": 11308965,
     "Population Not Staying at Home": 28248080,
     "Number of Trips": 81702161,
-    "cases": 5873.428571,
-    "deaths": 63.71428571
+    "cases": 6267.857143,
+    "deaths": 62.85714286
   },
   {
     "Date": "6/29/2020",
@@ -896,8 +896,8 @@
     "Population Staying at Home": 10760684,
     "Population Not Staying at Home": 28796361,
     "Number of Trips": 88392925,
-    "cases": 6267.857143,
-    "deaths": 62.85714286
+    "cases": 6683.571429,
+    "deaths": 64.71428571
   },
   {
     "Date": "6/30/2020",
@@ -906,8 +906,8 @@
     "Population Staying at Home": 10710743,
     "Population Not Staying at Home": 28846302,
     "Number of Trips": 87585011,
-    "cases": 6683.571429,
-    "deaths": 64.71428571
+    "cases": 7038.714286,
+    "deaths": 63.28571429
   },
   {
     "Date": "7/1/2020",
@@ -916,8 +916,8 @@
     "Population Staying at Home": 10659646,
     "Population Not Staying at Home": 28897399,
     "Number of Trips": 85614132,
-    "cases": 7038.714286,
-    "deaths": 63.28571429
+    "cases": 7674.714286,
+    "deaths": 61
   },
   {
     "Date": "7/2/2020",
@@ -926,8 +926,8 @@
     "Population Staying at Home": 10912294,
     "Population Not Staying at Home": 28644751,
     "Number of Trips": 100473148,
-    "cases": 7674.714286,
-    "deaths": 61
+    "cases": 7804.571429,
+    "deaths": 61.71428571
   },
   {
     "Date": "7/3/2020",
@@ -936,8 +936,8 @@
     "Population Staying at Home": 11552714,
     "Population Not Staying at Home": 28004331,
     "Number of Trips": 92957849,
-    "cases": 7804.571429,
-    "deaths": 61.71428571
+    "cases": 7696.285714,
+    "deaths": 67.57142857
   },
   {
     "Date": "7/4/2020",
@@ -946,8 +946,8 @@
     "Population Staying at Home": 12337599,
     "Population Not Staying at Home": 27219446,
     "Number of Trips": 79527675,
-    "cases": 7696.285714,
-    "deaths": 67.57142857
+    "cases": 7944.714286,
+    "deaths": 68.57142857
   },
   {
     "Date": "7/5/2020",
@@ -956,8 +956,8 @@
     "Population Staying at Home": 11740513,
     "Population Not Staying at Home": 27816532,
     "Number of Trips": 77759565,
-    "cases": 7944.714286,
-    "deaths": 68.57142857
+    "cases": 8077.142857,
+    "deaths": 77.14285714
   },
   {
     "Date": "7/6/2020",
@@ -966,8 +966,8 @@
     "Population Staying at Home": 10743038,
     "Population Not Staying at Home": 28814007,
     "Number of Trips": 87803869,
-    "cases": 8077.142857,
-    "deaths": 77.14285714
+    "cases": 7902.571429,
+    "deaths": 80.28571429
   },
   {
     "Date": "7/7/2020",
@@ -976,8 +976,8 @@
     "Population Staying at Home": 10570510,
     "Population Not Staying at Home": 28986535,
     "Number of Trips": 85879577,
-    "cases": 7902.571429,
-    "deaths": 80.28571429
+    "cases": 7886.714286,
+    "deaths": 88.71428571
   },
   {
     "Date": "7/8/2020",
@@ -986,8 +986,8 @@
     "Population Staying at Home": 10631373,
     "Population Not Staying at Home": 28925672,
     "Number of Trips": 86193624,
-    "cases": 7886.714286,
-    "deaths": 88.71428571
+    "cases": 7836.285714,
+    "deaths": 97.57142857
   },
   {
     "Date": "7/9/2020",
@@ -996,8 +996,8 @@
     "Population Staying at Home": 10523158,
     "Population Not Staying at Home": 29033887,
     "Number of Trips": 86931323,
-    "cases": 7836.285714,
-    "deaths": 97.57142857
+    "cases": 8012.714286,
+    "deaths": 96.14285714
   },
   {
     "Date": "7/10/2020",
@@ -1006,8 +1006,8 @@
     "Population Staying at Home": 10293940,
     "Population Not Staying at Home": 29263105,
     "Number of Trips": 90353454,
-    "cases": 8012.714286,
-    "deaths": 96.14285714
+    "cases": 8333.857143,
+    "deaths": 90.57142857
   },
   {
     "Date": "7/11/2020",
@@ -1016,8 +1016,8 @@
     "Population Staying at Home": 11003759,
     "Population Not Staying at Home": 28553286,
     "Number of Trips": 86156813,
-    "cases": 8333.857143,
-    "deaths": 90.57142857
+    "cases": 8403.857143,
+    "deaths": 94.85714286
   },
   {
     "Date": "7/12/2020",
@@ -1026,8 +1026,8 @@
     "Population Staying at Home": 11531671,
     "Population Not Staying at Home": 28025374,
     "Number of Trips": 76943463,
-    "cases": 8403.857143,
-    "deaths": 94.85714286
+    "cases": 8456.142857,
+    "deaths": 94.28571429
   },
   {
     "Date": "7/13/2020",
@@ -1036,8 +1036,8 @@
     "Population Staying at Home": 10509887,
     "Population Not Staying at Home": 29047158,
     "Number of Trips": 84280749,
-    "cases": 8456.142857,
-    "deaths": 94.28571429
+    "cases": 8749.285714,
+    "deaths": 95
   },
   {
     "Date": "7/14/2020",
@@ -1046,8 +1046,8 @@
     "Population Staying at Home": 10961277,
     "Population Not Staying at Home": 28595768,
     "Number of Trips": 85802308,
-    "cases": 8749.285714,
-    "deaths": 95
+    "cases": 9059.571429,
+    "deaths": 95.85714286
   },
   {
     "Date": "7/15/2020",
@@ -1056,8 +1056,8 @@
     "Population Staying at Home": 10827392,
     "Population Not Staying at Home": 28729653,
     "Number of Trips": 87385858,
-    "cases": 9059.571429,
-    "deaths": 95.85714286
+    "cases": 9023.428571,
+    "deaths": 97.85714286
   },
   {
     "Date": "7/16/2020",
@@ -1066,8 +1066,8 @@
     "Population Staying at Home": 10826034,
     "Population Not Staying at Home": 28731011,
     "Number of Trips": 85946236,
-    "cases": 9023.428571,
-    "deaths": 97.85714286
+    "cases": 9112,
+    "deaths": 95.42857143
   },
   {
     "Date": "7/17/2020",
@@ -1076,8 +1076,8 @@
     "Population Staying at Home": 10690667,
     "Population Not Staying at Home": 28866378,
     "Number of Trips": 88157246,
-    "cases": 9112,
-    "deaths": 95.42857143
+    "cases": 9141.285714,
+    "deaths": 96.85714286
   },
   {
     "Date": "7/18/2020",
@@ -1086,8 +1086,8 @@
     "Population Staying at Home": 11581715,
     "Population Not Staying at Home": 27975330,
     "Number of Trips": 84256821,
-    "cases": 9141.285714,
-    "deaths": 96.85714286
+    "cases": 9110.428571,
+    "deaths": 93.71428571
   },
   {
     "Date": "7/19/2020",
@@ -1096,8 +1096,8 @@
     "Population Staying at Home": 12626810,
     "Population Not Staying at Home": 26930235,
     "Number of Trips": 71680956,
-    "cases": 9110.428571,
-    "deaths": 93.71428571
+    "cases": 9575.857143,
+    "deaths": 95.71428571
   },
   {
     "Date": "7/20/2020",
@@ -1106,8 +1106,8 @@
     "Population Staying at Home": 11848324,
     "Population Not Staying at Home": 27708721,
     "Number of Trips": 80238834,
-    "cases": 9575.857143,
-    "deaths": 95.71428571
+    "cases": 9773.428571,
+    "deaths": 100
   },
   {
     "Date": "7/21/2020",
@@ -1116,8 +1116,8 @@
     "Population Staying at Home": 11591755,
     "Population Not Staying at Home": 27965290,
     "Number of Trips": 77159838,
-    "cases": 9773.428571,
-    "deaths": 100
+    "cases": 9739.142857,
+    "deaths": 102.5714286
   },
   {
     "Date": "7/22/2020",
@@ -1126,8 +1126,8 @@
     "Population Staying at Home": 11497113,
     "Population Not Staying at Home": 28059932,
     "Number of Trips": 76645049,
-    "cases": 9739.142857,
-    "deaths": 102.5714286
+    "cases": 10019,
+    "deaths": 104.4285714
   },
   {
     "Date": "7/23/2020",
@@ -1136,8 +1136,8 @@
     "Population Staying at Home": 11516767,
     "Population Not Staying at Home": 28040278,
     "Number of Trips": 75240974,
-    "cases": 10019,
-    "deaths": 104.4285714
+    "cases": 9696.857143,
+    "deaths": 105.8571429
   },
   {
     "Date": "7/24/2020",
@@ -1146,8 +1146,8 @@
     "Population Staying at Home": 11211713,
     "Population Not Staying at Home": 28345332,
     "Number of Trips": 81452233,
-    "cases": 9696.857143,
-    "deaths": 105.8571429
+    "cases": 9558.285714,
+    "deaths": 111.4285714
   },
   {
     "Date": "7/25/2020",
@@ -1156,8 +1156,8 @@
     "Population Staying at Home": 11948772,
     "Population Not Staying at Home": 27608273,
     "Number of Trips": 75660950,
-    "cases": 9558.285714,
-    "deaths": 111.4285714
+    "cases": 9226.428571,
+    "deaths": 119
   },
   {
     "Date": "7/26/2020",
@@ -1166,8 +1166,8 @@
     "Population Staying at Home": 12085888,
     "Population Not Staying at Home": 27471157,
     "Number of Trips": 73803600,
-    "cases": 9226.428571,
-    "deaths": 119
+    "cases": 9073,
+    "deaths": 120.8571429
   },
   {
     "Date": "7/27/2020",
@@ -1176,8 +1176,8 @@
     "Population Staying at Home": 11753212,
     "Population Not Staying at Home": 27803833,
     "Number of Trips": 76811022,
-    "cases": 9073,
-    "deaths": 120.8571429
+    "cases": 8727.714286,
+    "deaths": 117
   },
   {
     "Date": "7/28/2020",
@@ -1186,8 +1186,8 @@
     "Population Staying at Home": 11400021,
     "Population Not Staying at Home": 28157024,
     "Number of Trips": 79179165,
-    "cases": 8727.714286,
-    "deaths": 117
+    "cases": 8453.857143,
+    "deaths": 128.1428571
   },
   {
     "Date": "7/29/2020",
@@ -1196,8 +1196,8 @@
     "Population Staying at Home": 11496793,
     "Population Not Staying at Home": 28060252,
     "Number of Trips": 77994347,
-    "cases": 8453.857143,
-    "deaths": 128.1428571
+    "cases": 8025.714286,
+    "deaths": 133.8571429
   },
   {
     "Date": "7/30/2020",
@@ -1206,8 +1206,8 @@
     "Population Staying at Home": 11185530,
     "Population Not Staying at Home": 28371515,
     "Number of Trips": 79327727,
-    "cases": 8025.714286,
-    "deaths": 133.8571429
+    "cases": 8085.571429,
+    "deaths": 135.4285714
   },
   {
     "Date": "7/31/2020",
@@ -1216,8 +1216,8 @@
     "Population Staying at Home": 11157094,
     "Population Not Staying at Home": 28399951,
     "Number of Trips": 79006826,
-    "cases": 8085.571429,
-    "deaths": 135.4285714
+    "cases": 7876,
+    "deaths": 136.5714286
   },
   {
     "Date": "8/1/2020",
@@ -1226,8 +1226,8 @@
     "Population Staying at Home": 11930461,
     "Population Not Staying at Home": 27626584,
     "Number of Trips": 74789710,
-    "cases": 7876,
-    "deaths": 136.5714286
+    "cases": 7472.428571,
+    "deaths": 140
   },
   {
     "Date": "8/2/2020",
@@ -1236,8 +1236,8 @@
     "Population Staying at Home": 12133474,
     "Population Not Staying at Home": 27423571,
     "Number of Trips": 75992436,
-    "cases": 7472.428571,
-    "deaths": 140
+    "cases": 6676.714286,
+    "deaths": 140.2857143
   },
   {
     "Date": "8/3/2020",
@@ -1246,8 +1246,8 @@
     "Population Staying at Home": 11345292,
     "Population Not Staying at Home": 28211753,
     "Number of Trips": 83231707,
-    "cases": 6676.714286,
-    "deaths": 140.2857143
+    "cases": 6677.714286,
+    "deaths": 143.5714286
   },
   {
     "Date": "8/4/2020",
@@ -1256,8 +1256,8 @@
     "Population Staying at Home": 11068800,
     "Population Not Staying at Home": 28488245,
     "Number of Trips": 86368578,
-    "cases": 6677.714286,
-    "deaths": 143.5714286
+    "cases": 6552.714286,
+    "deaths": 139.2857143
   },
   {
     "Date": "8/5/2020",
@@ -1266,8 +1266,8 @@
     "Population Staying at Home": 11072460,
     "Population Not Staying at Home": 28484585,
     "Number of Trips": 87688355,
-    "cases": 6552.714286,
-    "deaths": 139.2857143
+    "cases": 6664.428571,
+    "deaths": 133.4285714
   },
   {
     "Date": "8/6/2020",
@@ -1276,8 +1276,8 @@
     "Population Staying at Home": 10937298,
     "Population Not Staying at Home": 28619747,
     "Number of Trips": 87034043,
-    "cases": 6664.428571,
-    "deaths": 133.4285714
+    "cases": 6758.142857,
+    "deaths": 138
   },
   {
     "Date": "8/7/2020",
@@ -1286,8 +1286,8 @@
     "Population Staying at Home": 10770870,
     "Population Not Staying at Home": 28786175,
     "Number of Trips": 89914871,
-    "cases": 6758.142857,
-    "deaths": 138
+    "cases": 7433.142857,
+    "deaths": 137.1428571
   },
   {
     "Date": "8/8/2020",
@@ -1296,8 +1296,8 @@
     "Population Staying at Home": 11445866,
     "Population Not Staying at Home": 28111179,
     "Number of Trips": 87433153,
-    "cases": 7433.142857,
-    "deaths": 137.1428571
+    "cases": 8402.857143,
+    "deaths": 136.8571429
   },
   {
     "Date": "8/9/2020",
@@ -1306,8 +1306,8 @@
     "Population Staying at Home": 11299789,
     "Population Not Staying at Home": 28257256,
     "Number of Trips": 93750458,
-    "cases": 8402.857143,
-    "deaths": 136.8571429
+    "cases": 8903,
+    "deaths": 134.5714286
   },
   {
     "Date": "8/10/2020",
@@ -1316,8 +1316,8 @@
     "Population Staying at Home": 10688743,
     "Population Not Staying at Home": 28868302,
     "Number of Trips": 104832675,
-    "cases": 8903,
-    "deaths": 134.5714286
+    "cases": 8885.571429,
+    "deaths": 140.1428571
   },
   {
     "Date": "8/11/2020",
@@ -1326,8 +1326,8 @@
     "Population Staying at Home": 10733636,
     "Population Not Staying at Home": 28823409,
     "Number of Trips": 104394038,
-    "cases": 8885.571429,
-    "deaths": 140.1428571
+    "cases": 9300.142857,
+    "deaths": 135.5714286
   },
   {
     "Date": "8/12/2020",
@@ -1336,8 +1336,8 @@
     "Population Staying at Home": 10442892,
     "Population Not Staying at Home": 29114153,
     "Number of Trips": 97839707,
-    "cases": 9300.142857,
-    "deaths": 135.5714286
+    "cases": 9403.285714,
+    "deaths": 132.8571429
   },
   {
     "Date": "8/13/2020",
@@ -1346,8 +1346,8 @@
     "Population Staying at Home": 10017607,
     "Population Not Staying at Home": 29539438,
     "Number of Trips": 97491832,
-    "cases": 9403.285714,
-    "deaths": 132.8571429
+    "cases": 9323.428571,
+    "deaths": 125.7142857
   },
   {
     "Date": "8/14/2020",
@@ -1356,8 +1356,8 @@
     "Population Staying at Home": 9745602,
     "Population Not Staying at Home": 29811443,
     "Number of Trips": 104064024,
-    "cases": 9323.428571,
-    "deaths": 125.7142857
+    "cases": 8674.857143,
+    "deaths": 124.8571429
   },
   {
     "Date": "8/15/2020",
@@ -1366,8 +1366,8 @@
     "Population Staying at Home": 10449458,
     "Population Not Staying at Home": 29107587,
     "Number of Trips": 96393591,
-    "cases": 8674.857143,
-    "deaths": 124.8571429
+    "cases": 7774.428571,
+    "deaths": 124.1428571
   },
   {
     "Date": "8/16/2020",
@@ -1376,8 +1376,8 @@
     "Population Staying at Home": 11560123,
     "Population Not Staying at Home": 27996922,
     "Number of Trips": 86084987,
-    "cases": 7774.428571,
-    "deaths": 124.1428571
+    "cases": 7377.857143,
+    "deaths": 125.4285714
   },
   {
     "Date": "8/17/2020",
@@ -1386,8 +1386,8 @@
     "Population Staying at Home": 11308548,
     "Population Not Staying at Home": 28248497,
     "Number of Trips": 92908481,
-    "cases": 7377.857143,
-    "deaths": 125.4285714
+    "cases": 7169.857143,
+    "deaths": 115.1428571
   },
   {
     "Date": "8/18/2020",
@@ -1396,8 +1396,8 @@
     "Population Staying at Home": 10649886,
     "Population Not Staying at Home": 28907159,
     "Number of Trips": 93065749,
-    "cases": 7169.857143,
-    "deaths": 115.1428571
+    "cases": 6678.285714,
+    "deaths": 119.7142857
   },
   {
     "Date": "8/19/2020",
@@ -1406,8 +1406,8 @@
     "Population Staying at Home": 10544627,
     "Population Not Staying at Home": 29012418,
     "Number of Trips": 95278665,
-    "cases": 6678.285714,
-    "deaths": 119.7142857
+    "cases": 6192,
+    "deaths": 129.7142857
   },
   {
     "Date": "8/20/2020",
@@ -1416,8 +1416,8 @@
     "Population Staying at Home": 10101296,
     "Population Not Staying at Home": 29455749,
     "Number of Trips": 94987160,
-    "cases": 6192,
-    "deaths": 129.7142857
+    "cases": 5919.428571,
+    "deaths": 129.5714286
   },
   {
     "Date": "8/21/2020",
@@ -1426,8 +1426,8 @@
     "Population Staying at Home": 9751510,
     "Population Not Staying at Home": 29805535,
     "Number of Trips": 102599570,
-    "cases": 5919.428571,
-    "deaths": 129.5714286
+    "cases": 5892.142857,
+    "deaths": 130.8571429
   },
   {
     "Date": "8/22/2020",
@@ -1436,8 +1436,8 @@
     "Population Staying at Home": 10406950,
     "Population Not Staying at Home": 29150095,
     "Number of Trips": 96361584,
-    "cases": 5892.142857,
-    "deaths": 130.8571429
+    "cases": 5974.428571,
+    "deaths": 126.5714286
   },
   {
     "Date": "8/23/2020",
@@ -1446,8 +1446,8 @@
     "Population Staying at Home": 11849661,
     "Population Not Staying at Home": 27707384,
     "Number of Trips": 77102354,
-    "cases": 5974.428571,
-    "deaths": 126.5714286
+    "cases": 5838.571429,
+    "deaths": 123
   },
   {
     "Date": "8/24/2020",
@@ -1456,8 +1456,8 @@
     "Population Staying at Home": 11469718,
     "Population Not Staying at Home": 28087327,
     "Number of Trips": 86919738,
-    "cases": 5838.571429,
-    "deaths": 123
+    "cases": 5651.571429,
+    "deaths": 127.8571429
   },
   {
     "Date": "8/25/2020",
@@ -1466,8 +1466,8 @@
     "Population Staying at Home": 11231646,
     "Population Not Staying at Home": 28325399,
     "Number of Trips": 90773972,
-    "cases": 5651.571429,
-    "deaths": 127.8571429
+    "cases": 5485.428571,
+    "deaths": 121.7142857
   },
   {
     "Date": "8/26/2020",
@@ -1476,8 +1476,8 @@
     "Population Staying at Home": 11426686,
     "Population Not Staying at Home": 28130359,
     "Number of Trips": 87934342,
-    "cases": 5485.428571,
-    "deaths": 121.7142857
+    "cases": 5310.571429,
+    "deaths": 109.8571429
   },
   {
     "Date": "8/27/2020",
@@ -1486,8 +1486,8 @@
     "Population Staying at Home": 11534862,
     "Population Not Staying at Home": 28022183,
     "Number of Trips": 89897759,
-    "cases": 5310.571429,
-    "deaths": 109.8571429
+    "cases": 5235,
+    "deaths": 112.4285714
   },
   {
     "Date": "8/28/2020",
@@ -1496,8 +1496,8 @@
     "Population Staying at Home": 11350172,
     "Population Not Staying at Home": 28206873,
     "Number of Trips": 92834854,
-    "cases": 5235,
-    "deaths": 112.4285714
+    "cases": 5186.428571,
+    "deaths": 110
   },
   {
     "Date": "8/29/2020",
@@ -1506,8 +1506,8 @@
     "Population Staying at Home": 11723685,
     "Population Not Staying at Home": 27833360,
     "Number of Trips": 91918713,
-    "cases": 5186.428571,
-    "deaths": 110
+    "cases": 4901.142857,
+    "deaths": 105.7142857
   },
   {
     "Date": "8/30/2020",
@@ -1516,8 +1516,8 @@
     "Population Staying at Home": 12298817,
     "Population Not Staying at Home": 27258228,
     "Number of Trips": 82708000,
-    "cases": 4901.142857,
-    "deaths": 105.7142857
+    "cases": 4917.571429,
+    "deaths": 111.8571429
   },
   {
     "Date": "8/31/2020",
@@ -1526,8 +1526,8 @@
     "Population Staying at Home": 11642553,
     "Population Not Staying at Home": 27914492,
     "Number of Trips": 87319082,
-    "cases": 4917.571429,
-    "deaths": 111.8571429
+    "cases": 4919.428571,
+    "deaths": 114.4285714
   },
   {
     "Date": "9/1/2020",
@@ -1536,8 +1536,8 @@
     "Population Staying at Home": 11309293,
     "Population Not Staying at Home": 28247752,
     "Number of Trips": 93880017,
-    "cases": 4919.428571,
-    "deaths": 114.4285714
+    "cases": 4900.285714,
+    "deaths": 115.4285714
   },
   {
     "Date": "9/2/2020",
@@ -1546,8 +1546,8 @@
     "Population Staying at Home": 11362921,
     "Population Not Staying at Home": 28194124,
     "Number of Trips": 95726389,
-    "cases": 4900.285714,
-    "deaths": 115.4285714
+    "cases": 4939.142857,
+    "deaths": 114.5714286
   },
   {
     "Date": "9/3/2020",
@@ -1556,8 +1556,8 @@
     "Population Staying at Home": 10769798,
     "Population Not Staying at Home": 28787247,
     "Number of Trips": 101410365,
-    "cases": 4939.142857,
-    "deaths": 114.5714286
+    "cases": 4806.285714,
+    "deaths": 113
   },
   {
     "Date": "9/4/2020",
@@ -1566,8 +1566,8 @@
     "Population Staying at Home": 11080491,
     "Population Not Staying at Home": 28476554,
     "Number of Trips": 99492834,
-    "cases": 4806.285714,
-    "deaths": 113
+    "cases": 4306.857143,
+    "deaths": 106.1428571
   },
   {
     "Date": "9/5/2020",
@@ -1576,8 +1576,8 @@
     "Population Staying at Home": 11402137,
     "Population Not Staying at Home": 28154908,
     "Number of Trips": 95347522,
-    "cases": 4306.857143,
-    "deaths": 106.1428571
+    "cases": 4212.142857,
+    "deaths": 99.14285714
   },
   {
     "Date": "9/6/2020",
@@ -1586,8 +1586,8 @@
     "Population Staying at Home": 12025833,
     "Population Not Staying at Home": 27531212,
     "Number of Trips": 86202367,
-    "cases": 4212.142857,
-    "deaths": 99.14285714
+    "cases": 3880.142857,
+    "deaths": 94.28571429
   },
   {
     "Date": "9/7/2020",
@@ -1596,8 +1596,8 @@
     "Population Staying at Home": 12319347,
     "Population Not Staying at Home": 27237698,
     "Number of Trips": 82161527,
-    "cases": 3880.142857,
-    "deaths": 94.28571429
+    "cases": 3659.857143,
+    "deaths": 85.28571429
   },
   {
     "Date": "9/8/2020",
@@ -1606,8 +1606,8 @@
     "Population Staying at Home": 11732865,
     "Population Not Staying at Home": 27824180,
     "Number of Trips": 93901109,
-    "cases": 3659.857143,
-    "deaths": 85.28571429
+    "cases": 3490.571429,
+    "deaths": 88.71428571
   },
   {
     "Date": "9/9/2020",
@@ -1616,8 +1616,8 @@
     "Population Staying at Home": 11639529,
     "Population Not Staying at Home": 27917516,
     "Number of Trips": 96023747,
-    "cases": 3490.571429,
-    "deaths": 88.71428571
+    "cases": 3358.285714,
+    "deaths": 89.28571429
   },
   {
     "Date": "9/10/2020",
@@ -1626,8 +1626,8 @@
     "Population Staying at Home": 11524572,
     "Population Not Staying at Home": 28032473,
     "Number of Trips": 93132505,
-    "cases": 3358.285714,
-    "deaths": 89.28571429
+    "cases": 3308,
+    "deaths": 93.71428571
   },
   {
     "Date": "9/11/2020",
@@ -1636,8 +1636,8 @@
     "Population Staying at Home": 11375574,
     "Population Not Staying at Home": 28181471,
     "Number of Trips": 98015494,
-    "cases": 3308,
-    "deaths": 93.71428571
+    "cases": 3481.857143,
+    "deaths": 99.28571429
   },
   {
     "Date": "9/12/2020",
@@ -1646,8 +1646,8 @@
     "Population Staying at Home": 12114945,
     "Population Not Staying at Home": 27442100,
     "Number of Trips": 88620604,
-    "cases": 3481.857143,
-    "deaths": 99.28571429
+    "cases": 3400.571429,
+    "deaths": 109
   },
   {
     "Date": "9/13/2020",
@@ -1656,8 +1656,8 @@
     "Population Staying at Home": 11649093,
     "Population Not Staying at Home": 27907952,
     "Number of Trips": 84521502,
-    "cases": 3400.571429,
-    "deaths": 109
+    "cases": 3446,
+    "deaths": 103.7142857
   },
   {
     "Date": "9/14/2020",
@@ -1666,8 +1666,8 @@
     "Population Staying at Home": 11841255,
     "Population Not Staying at Home": 27715790,
     "Number of Trips": 93836808,
-    "cases": 3446,
-    "deaths": 103.7142857
+    "cases": 3418.142857,
+    "deaths": 101.8571429
   },
   {
     "Date": "9/15/2020",
@@ -1676,8 +1676,8 @@
     "Population Staying at Home": 11723041,
     "Population Not Staying at Home": 27834004,
     "Number of Trips": 95255595,
-    "cases": 3418.142857,
-    "deaths": 101.8571429
+    "cases": 3473,
+    "deaths": 92.42857143
   },
   {
     "Date": "9/16/2020",
@@ -1686,8 +1686,8 @@
     "Population Staying at Home": 11666486,
     "Population Not Staying at Home": 27890559,
     "Number of Trips": 95653334,
-    "cases": 3473,
-    "deaths": 92.42857143
+    "cases": 3499.285714,
+    "deaths": 98.57142857
   },
   {
     "Date": "9/17/2020",
@@ -1696,8 +1696,8 @@
     "Population Staying at Home": 11519773,
     "Population Not Staying at Home": 28037272,
     "Number of Trips": 96103958,
-    "cases": 3499.285714,
-    "deaths": 98.57142857
+    "cases": 3526.857143,
+    "deaths": 91
   },
   {
     "Date": "9/18/2020",
@@ -1706,8 +1706,8 @@
     "Population Staying at Home": 11401566,
     "Population Not Staying at Home": 28155479,
     "Number of Trips": 99896708,
-    "cases": 3526.857143,
-    "deaths": 91
+    "cases": 3593.571429,
+    "deaths": 88
   },
   {
     "Date": "9/19/2020",
@@ -1716,8 +1716,8 @@
     "Population Staying at Home": 11772485,
     "Population Not Staying at Home": 27784560,
     "Number of Trips": 99273205,
-    "cases": 3593.571429,
-    "deaths": 88
+    "cases": 3594.285714,
+    "deaths": 86.85714286
   },
   {
     "Date": "9/20/2020",
@@ -1726,8 +1726,8 @@
     "Population Staying at Home": 11789238,
     "Population Not Staying at Home": 27767807,
     "Number of Trips": 86583032,
-    "cases": 3594.285714,
-    "deaths": 86.85714286
+    "cases": 3576,
+    "deaths": 86
   },
   {
     "Date": "9/21/2020",
@@ -1736,8 +1736,8 @@
     "Population Staying at Home": 11895732,
     "Population Not Staying at Home": 27661313,
     "Number of Trips": 94134339,
-    "cases": 3576,
-    "deaths": 86
+    "cases": 3532.428571,
+    "deaths": 83.85714286
   },
   {
     "Date": "9/22/2020",
@@ -1746,8 +1746,8 @@
     "Population Staying at Home": 11059044,
     "Population Not Staying at Home": 28498001,
     "Number of Trips": 98304366,
-    "cases": 3532.428571,
-    "deaths": 83.85714286
+    "cases": 3471,
+    "deaths": 89.42857143
   },
   {
     "Date": "9/23/2020",
@@ -1756,8 +1756,8 @@
     "Population Staying at Home": 10611172,
     "Population Not Staying at Home": 28945873,
     "Number of Trips": 102047853,
-    "cases": 3471,
-    "deaths": 89.42857143
+    "cases": 3448.285714,
+    "deaths": 81.42857143
   },
   {
     "Date": "9/24/2020",
@@ -1766,8 +1766,8 @@
     "Population Staying at Home": 10653509,
     "Population Not Staying at Home": 28903536,
     "Number of Trips": 99803753,
-    "cases": 3448.285714,
-    "deaths": 81.42857143
+    "cases": 3374.428571,
+    "deaths": 84.28571429
   },
   {
     "Date": "9/25/2020",
@@ -1776,8 +1776,8 @@
     "Population Staying at Home": 10287976,
     "Population Not Staying at Home": 29269069,
     "Number of Trips": 105019161,
-    "cases": 3374.428571,
-    "deaths": 84.28571429
+    "cases": 3225.571429,
+    "deaths": 81.71428571
   },
   {
     "Date": "9/26/2020",
@@ -1786,8 +1786,8 @@
     "Population Staying at Home": 11218571,
     "Population Not Staying at Home": 28338474,
     "Number of Trips": 101666383,
-    "cases": 3225.571429,
-    "deaths": 81.71428571
+    "cases": 3266,
+    "deaths": 83.14285714
   },
   {
     "Date": "9/27/2020",
@@ -1796,8 +1796,8 @@
     "Population Staying at Home": 11418217,
     "Population Not Staying at Home": 28138828,
     "Number of Trips": 91740655,
-    "cases": 3266,
-    "deaths": 83.14285714
+    "cases": 3253.571429,
+    "deaths": 83.57142857
   },
   {
     "Date": "9/28/2020",
@@ -1806,8 +1806,8 @@
     "Population Staying at Home": 10954989,
     "Population Not Staying at Home": 28602056,
     "Number of Trips": 98336946,
-    "cases": 3253.571429,
-    "deaths": 83.57142857
+    "cases": 3233.571429,
+    "deaths": 85.71428571
   },
   {
     "Date": "9/29/2020",
@@ -1816,8 +1816,8 @@
     "Population Staying at Home": 11135677,
     "Population Not Staying at Home": 28421368,
     "Number of Trips": 94984560,
-    "cases": 3233.571429,
-    "deaths": 85.71428571
+    "cases": 3233,
+    "deaths": 77.28571429
   },
   {
     "Date": "9/30/2020",
@@ -1826,8 +1826,8 @@
     "Population Staying at Home": 11236433,
     "Population Not Staying at Home": 28320612,
     "Number of Trips": 94672222,
-    "cases": 3233,
-    "deaths": 77.28571429
+    "cases": 3182.857143,
+    "deaths": 76.28571429
   },
   {
     "Date": "10/1/2020",
@@ -1836,8 +1836,8 @@
     "Population Staying at Home": 11000315,
     "Population Not Staying at Home": 28556730,
     "Number of Trips": 95897750,
-    "cases": 3182.857143,
-    "deaths": 76.28571429
+    "cases": 3276.714286,
+    "deaths": 77.42857143
   },
   {
     "Date": "10/2/2020",
@@ -1846,8 +1846,8 @@
     "Population Staying at Home": 11823200,
     "Population Not Staying at Home": 27733845,
     "Number of Trips": 89299954,
-    "cases": 3276.714286,
-    "deaths": 77.42857143
+    "cases": 3274.857143,
+    "deaths": 76.85714286
   },
   {
     "Date": "10/3/2020",
@@ -1856,8 +1856,8 @@
     "Population Staying at Home": 12085953,
     "Population Not Staying at Home": 27471092,
     "Number of Trips": 89510451,
-    "cases": 3274.857143,
-    "deaths": 76.85714286
+    "cases": 3197.571429,
+    "deaths": 65.71428571
   },
   {
     "Date": "10/4/2020",
@@ -1866,7 +1866,7 @@
     "Population Staying at Home": 12508985,
     "Population Not Staying at Home": 27048060,
     "Number of Trips": 81179312,
-    "cases": 3197.571429,
+    "cases": 3229.571429,
     "deaths": 65.71428571
   },
   {
@@ -1876,8 +1876,8 @@
     "Population Staying at Home": 12218995,
     "Population Not Staying at Home": 27338050,
     "Number of Trips": 86956448,
-    "cases": 3229.571429,
-    "deaths": 65.71428571
+    "cases": 3296.857143,
+    "deaths": 62.28571429
   },
   {
     "Date": "10/6/2020",
@@ -1886,8 +1886,8 @@
     "Population Staying at Home": 11716432,
     "Population Not Staying at Home": 27840613,
     "Number of Trips": 88515375,
-    "cases": 3296.857143,
-    "deaths": 62.28571429
+    "cases": 3266.285714,
+    "deaths": 61.14285714
   },
   {
     "Date": "10/7/2020",
@@ -1896,8 +1896,8 @@
     "Population Staying at Home": 11500671,
     "Population Not Staying at Home": 28056374,
     "Number of Trips": 92600331,
-    "cases": 3266.285714,
-    "deaths": 61.14285714
+    "cases": 3258.285714,
+    "deaths": 63.71428571
   },
   {
     "Date": "10/8/2020",
@@ -1906,8 +1906,8 @@
     "Population Staying at Home": 11493255,
     "Population Not Staying at Home": 28063790,
     "Number of Trips": 88546942,
-    "cases": 3258.285714,
-    "deaths": 63.71428571
+    "cases": 3205.857143,
+    "deaths": 61.57142857
   },
   {
     "Date": "10/9/2020",
@@ -1916,8 +1916,8 @@
     "Population Staying at Home": 11436488,
     "Population Not Staying at Home": 28120557,
     "Number of Trips": 94208470,
-    "cases": 3205.857143,
-    "deaths": 61.57142857
+    "cases": 3177,
+    "deaths": 59.28571429
   },
   {
     "Date": "10/10/2020",
@@ -1926,8 +1926,8 @@
     "Population Staying at Home": 12009313,
     "Population Not Staying at Home": 27547732,
     "Number of Trips": 90138530,
-    "cases": 3177,
-    "deaths": 59.28571429
+    "cases": 3327.428571,
+    "deaths": 57
   },
   {
     "Date": "10/11/2020",
@@ -1936,8 +1936,8 @@
     "Population Staying at Home": 12192680,
     "Population Not Staying at Home": 27364365,
     "Number of Trips": 82636014,
-    "cases": 3327.428571,
-    "deaths": 57
+    "cases": 3337.428571,
+    "deaths": 56.28571429
   },
   {
     "Date": "10/12/2020",
@@ -1946,8 +1946,8 @@
     "Population Staying at Home": 11878113,
     "Population Not Staying at Home": 27678932,
     "Number of Trips": 86421264,
-    "cases": 3337.428571,
-    "deaths": 56.28571429
+    "cases": 3285.142857,
+    "deaths": 59.14285714
   },
   {
     "Date": "10/13/2020",
@@ -1956,8 +1956,8 @@
     "Population Staying at Home": 11496688,
     "Population Not Staying at Home": 28060357,
     "Number of Trips": 87046146,
-    "cases": 3285.142857,
-    "deaths": 59.14285714
+    "cases": 3267.571429,
+    "deaths": 57
   },
   {
     "Date": "10/14/2020",
@@ -1966,8 +1966,8 @@
     "Population Staying at Home": 11270286,
     "Population Not Staying at Home": 28286759,
     "Number of Trips": 86769795,
-    "cases": 3267.571429,
-    "deaths": 57
+    "cases": 3136.428571,
+    "deaths": 53.14285714
   },
   {
     "Date": "10/15/2020",
@@ -1976,8 +1976,8 @@
     "Population Staying at Home": 11480053,
     "Population Not Staying at Home": 28076992,
     "Number of Trips": 83927895,
-    "cases": 3136.428571,
-    "deaths": 53.14285714
+    "cases": 3045.428571,
+    "deaths": 56.85714286
   },
   {
     "Date": "10/16/2020",
@@ -1986,8 +1986,8 @@
     "Population Staying at Home": 11076138,
     "Population Not Staying at Home": 28480907,
     "Number of Trips": 89102954,
-    "cases": 3045.428571,
-    "deaths": 56.85714286
+    "cases": 3243.714286,
+    "deaths": 56.14285714
   },
   {
     "Date": "10/17/2020",
@@ -1996,8 +1996,8 @@
     "Population Staying at Home": 11785190,
     "Population Not Staying at Home": 27771855,
     "Number of Trips": 89307848,
-    "cases": 3243.714286,
-    "deaths": 56.14285714
+    "cases": 3354.142857,
+    "deaths": 59.57142857
   },
   {
     "Date": "10/18/2020",
@@ -2006,8 +2006,8 @@
     "Population Staying at Home": 11962074,
     "Population Not Staying at Home": 27594971,
     "Number of Trips": 81356091,
-    "cases": 3354.142857,
-    "deaths": 59.57142857
+    "cases": 3294.142857,
+    "deaths": 62.42857143
   },
   {
     "Date": "10/19/2020",
@@ -2016,8 +2016,8 @@
     "Population Staying at Home": 11505273,
     "Population Not Staying at Home": 28051772,
     "Number of Trips": 87889339,
-    "cases": 3294.142857,
-    "deaths": 62.42857143
+    "cases": 3720.571429,
+    "deaths": 61
   },
   {
     "Date": "10/20/2020",
@@ -2026,8 +2026,8 @@
     "Population Staying at Home": 11666345,
     "Population Not Staying at Home": 27890700,
     "Number of Trips": 87742004,
-    "cases": 3720.571429,
-    "deaths": 61
+    "cases": 4032,
+    "deaths": 59.28571429
   },
   {
     "Date": "10/21/2020",
@@ -2036,8 +2036,8 @@
     "Population Staying at Home": 11854140,
     "Population Not Staying at Home": 27702905,
     "Number of Trips": 87000955,
-    "cases": 4032,
-    "deaths": 59.28571429
+    "cases": 4341,
+    "deaths": 57.85714286
   },
   {
     "Date": "10/22/2020",
@@ -2046,8 +2046,8 @@
     "Population Staying at Home": 11490660,
     "Population Not Staying at Home": 28066385,
     "Number of Trips": 88915029,
-    "cases": 4341,
-    "deaths": 57.85714286
+    "cases": 4421.428571,
+    "deaths": 54.14285714
   },
   {
     "Date": "10/23/2020",
@@ -2056,8 +2056,8 @@
     "Population Staying at Home": 11233389,
     "Population Not Staying at Home": 28323656,
     "Number of Trips": 95663899,
-    "cases": 4421.428571,
-    "deaths": 54.14285714
+    "cases": 4433.428571,
+    "deaths": 58.71428571
   },
   {
     "Date": "10/24/2020",
@@ -2066,7 +2066,7 @@
     "Population Staying at Home": 11727255,
     "Population Not Staying at Home": 27829790,
     "Number of Trips": 95507083,
-    "cases": 4433.428571,
+    "cases": 4504.857143,
     "deaths": 58.71428571
   },
   {
@@ -2076,8 +2076,8 @@
     "Population Staying at Home": 11858853,
     "Population Not Staying at Home": 27698192,
     "Number of Trips": 86684092,
-    "cases": 4504.857143,
-    "deaths": 58.71428571
+    "cases": 4646.714286,
+    "deaths": 50.28571429
   },
   {
     "Date": "10/26/2020",
@@ -2086,8 +2086,8 @@
     "Population Staying at Home": 11667227,
     "Population Not Staying at Home": 27889818,
     "Number of Trips": 90593588,
-    "cases": 4646.714286,
-    "deaths": 50.28571429
+    "cases": 4352.714286,
+    "deaths": 43
   },
   {
     "Date": "10/27/2020",
@@ -2096,8 +2096,8 @@
     "Population Staying at Home": 11610132,
     "Population Not Staying at Home": 27946913,
     "Number of Trips": 92354926,
-    "cases": 4352.714286,
-    "deaths": 43
+    "cases": 4214.428571,
+    "deaths": 44.42857143
   },
   {
     "Date": "10/28/2020",
@@ -2106,8 +2106,8 @@
     "Population Staying at Home": 11306671,
     "Population Not Staying at Home": 28250374,
     "Number of Trips": 95177979,
-    "cases": 4214.428571,
-    "deaths": 44.42857143
+    "cases": 4086.285714,
+    "deaths": 45.14285714
   },
   {
     "Date": "10/29/2020",
@@ -2116,8 +2116,8 @@
     "Population Staying at Home": 11386385,
     "Population Not Staying at Home": 28170660,
     "Number of Trips": 95478170,
-    "cases": 4086.285714,
-    "deaths": 45.14285714
+    "cases": 4219.857143,
+    "deaths": 44.71428571
   },
   {
     "Date": "10/30/2020",
@@ -2126,8 +2126,8 @@
     "Population Staying at Home": 11554981,
     "Population Not Staying at Home": 28002064,
     "Number of Trips": 90463542,
-    "cases": 4219.857143,
-    "deaths": 44.71428571
+    "cases": 4348.857143,
+    "deaths": 43.14285714
   },
   {
     "Date": "10/31/2020",
@@ -2136,8 +2136,8 @@
     "Population Staying at Home": 12330516,
     "Population Not Staying at Home": 27226529,
     "Number of Trips": 89878444,
-    "cases": 4348.857143,
-    "deaths": 43.14285714
+    "cases": 4393.714286,
+    "deaths": 39
   },
   {
     "Date": "11/1/2020",
@@ -2146,8 +2146,8 @@
     "Population Staying at Home": 11933707,
     "Population Not Staying at Home": 27623338,
     "Number of Trips": 111803305,
-    "cases": 4393.714286,
-    "deaths": 39
+    "cases": 4563.428571,
+    "deaths": 39.57142857
   },
   {
     "Date": "11/2/2020",
@@ -2156,8 +2156,8 @@
     "Population Staying at Home": 11502546,
     "Population Not Staying at Home": 28054499,
     "Number of Trips": 142304075,
-    "cases": 4563.428571,
-    "deaths": 39.57142857
+    "cases": 4855.857143,
+    "deaths": 42.71428571
   },
   {
     "Date": "11/3/2020",
@@ -2166,8 +2166,8 @@
     "Population Staying at Home": 11796909,
     "Population Not Staying at Home": 27760136,
     "Number of Trips": 89865614,
-    "cases": 4855.857143,
-    "deaths": 42.71428571
+    "cases": 5110.142857,
+    "deaths": 44.57142857
   },
   {
     "Date": "11/4/2020",
@@ -2176,8 +2176,8 @@
     "Population Staying at Home": 12007541,
     "Population Not Staying at Home": 27549504,
     "Number of Trips": 87412125,
-    "cases": 5110.142857,
-    "deaths": 44.57142857
+    "cases": 5364.714286,
+    "deaths": 43.28571429
   },
   {
     "Date": "11/5/2020",
@@ -2186,8 +2186,8 @@
     "Population Staying at Home": 12691110,
     "Population Not Staying at Home": 26865935,
     "Number of Trips": 99394994,
-    "cases": 5364.714286,
-    "deaths": 43.28571429
+    "cases": 5708.714286,
+    "deaths": 43.42857143
   },
   {
     "Date": "11/6/2020",
@@ -2196,8 +2196,8 @@
     "Population Staying at Home": 12366820,
     "Population Not Staying at Home": 27190225,
     "Number of Trips": 104224716,
-    "cases": 5708.714286,
-    "deaths": 43.42857143
+    "cases": 5922.428571,
+    "deaths": 47.85714286
   },
   {
     "Date": "11/7/2020",
@@ -2206,8 +2206,8 @@
     "Population Staying at Home": 12804215,
     "Population Not Staying at Home": 26752830,
     "Number of Trips": 98774644,
-    "cases": 5922.428571,
-    "deaths": 47.85714286
+    "cases": 6422.571429,
+    "deaths": 46
   },
   {
     "Date": "11/8/2020",
@@ -2216,8 +2216,8 @@
     "Population Staying at Home": 13935959,
     "Population Not Staying at Home": 25621086,
     "Number of Trips": 88939615,
-    "cases": 6422.571429,
-    "deaths": 46
+    "cases": 6410.571429,
+    "deaths": 41.57142857
   },
   {
     "Date": "11/9/2020",
@@ -2226,8 +2226,8 @@
     "Population Staying at Home": 12926508,
     "Population Not Staying at Home": 26630537,
     "Number of Trips": 98698499,
-    "cases": 6410.571429,
-    "deaths": 41.57142857
+    "cases": 6900.428571,
+    "deaths": 39.28571429
   },
   {
     "Date": "11/10/2020",
@@ -2236,8 +2236,8 @@
     "Population Staying at Home": 12607464,
     "Population Not Staying at Home": 26949581,
     "Number of Trips": 100233454,
-    "cases": 6900.428571,
-    "deaths": 39.28571429
+    "cases": 7350.714286,
+    "deaths": 39.85714286
   },
   {
     "Date": "11/11/2020",
@@ -2246,8 +2246,8 @@
     "Population Staying at Home": 12575224,
     "Population Not Staying at Home": 26981821,
     "Number of Trips": 101297704,
-    "cases": 7350.714286,
-    "deaths": 39.85714286
+    "cases": 7745,
+    "deaths": 41.42857143
   },
   {
     "Date": "11/12/2020",
@@ -2256,7 +2256,7 @@
     "Population Staying at Home": 12532696,
     "Population Not Staying at Home": 27024349,
     "Number of Trips": 99533705,
-    "cases": 7745,
+    "cases": 8162.428571,
     "deaths": 41.42857143
   },
   {
@@ -2266,8 +2266,8 @@
     "Population Staying at Home": 12437033,
     "Population Not Staying at Home": 27120012,
     "Number of Trips": 101946585,
-    "cases": 8162.428571,
-    "deaths": 41.42857143
+    "cases": 8823.142857,
+    "deaths": 38.42857143
   },
   {
     "Date": "11/14/2020",
@@ -2276,8 +2276,8 @@
     "Population Staying at Home": 12957340,
     "Population Not Staying at Home": 26599705,
     "Number of Trips": 98870811,
-    "cases": 8823.142857,
-    "deaths": 38.42857143
+    "cases": 9107.857143,
+    "deaths": 41
   },
   {
     "Date": "11/15/2020",
@@ -2286,8 +2286,8 @@
     "Population Staying at Home": 12946847,
     "Population Not Staying at Home": 26610198,
     "Number of Trips": 89754500,
-    "cases": 9107.857143,
-    "deaths": 41
+    "cases": 10002.71429,
+    "deaths": 51.14285714
   },
   {
     "Date": "11/16/2020",
@@ -2296,8 +2296,8 @@
     "Population Staying at Home": 13182273,
     "Population Not Staying at Home": 26374772,
     "Number of Trips": 92737809,
-    "cases": 10002.71429,
-    "deaths": 51.14285714
+    "cases": 10498.14286,
+    "deaths": 59.14285714
   },
   {
     "Date": "11/17/2020",
@@ -2306,8 +2306,8 @@
     "Population Staying at Home": 13282499,
     "Population Not Staying at Home": 26274546,
     "Number of Trips": 91045319,
-    "cases": 10498.14286,
-    "deaths": 59.14285714
+    "cases": 11049.85714,
+    "deaths": 61.57142857
   },
   {
     "Date": "11/18/2020",
@@ -2316,8 +2316,8 @@
     "Population Staying at Home": 12982135,
     "Population Not Staying at Home": 26574910,
     "Number of Trips": 105673595,
-    "cases": 11049.85714,
-    "deaths": 61.57142857
+    "cases": 11832.57143,
+    "deaths": 65
   },
   {
     "Date": "11/19/2020",
@@ -2326,8 +2326,8 @@
     "Population Staying at Home": 12559681,
     "Population Not Staying at Home": 26997364,
     "Number of Trips": 105200794,
-    "cases": 11832.57143,
-    "deaths": 65
+    "cases": 11810.14286,
+    "deaths": 65.85714286
   },
   {
     "Date": "11/20/2020",
@@ -2336,8 +2336,8 @@
     "Population Staying at Home": 12539608,
     "Population Not Staying at Home": 27017437,
     "Number of Trips": 95742383,
-    "cases": 11810.14286,
-    "deaths": 65.85714286
+    "cases": 12712.28571,
+    "deaths": 66.28571429
   },
   {
     "Date": "11/21/2020",
@@ -2346,8 +2346,8 @@
     "Population Staying at Home": 13006670,
     "Population Not Staying at Home": 26550375,
     "Number of Trips": 94620502,
-    "cases": 12712.28571,
-    "deaths": 66.28571429
+    "cases": 13558.42857,
+    "deaths": 73.57142857
   },
   {
     "Date": "11/22/2020",
@@ -2356,7 +2356,7 @@
     "Population Staying at Home": 13020456,
     "Population Not Staying at Home": 26536589,
     "Number of Trips": 87128974,
-    "cases": 13558.42857,
+    "cases": 13947.42857,
     "deaths": 73.57142857
   },
   {
@@ -2366,8 +2366,8 @@
     "Population Staying at Home": 12921976,
     "Population Not Staying at Home": 26635069,
     "Number of Trips": 87949981,
-    "cases": 13947.42857,
-    "deaths": 73.57142857
+    "cases": 13351.85714,
+    "deaths": 67.14285714
   },
   {
     "Date": "11/24/2020",
@@ -2376,8 +2376,8 @@
     "Population Staying at Home": 12465437,
     "Population Not Staying at Home": 27091608,
     "Number of Trips": 99311306,
-    "cases": 13351.85714,
-    "deaths": 67.14285714
+    "cases": 13810,
+    "deaths": 64.42857143
   },
   {
     "Date": "11/25/2020",
@@ -2386,8 +2386,8 @@
     "Population Staying at Home": 12374498,
     "Population Not Staying at Home": 27182547,
     "Number of Trips": 101624848,
-    "cases": 13810,
-    "deaths": 64.42857143
+    "cases": 13776.28571,
+    "deaths": 60.42857143
   },
   {
     "Date": "11/26/2020",
@@ -2396,8 +2396,8 @@
     "Population Staying at Home": 13348447,
     "Population Not Staying at Home": 26208598,
     "Number of Trips": 78800724,
-    "cases": 13776.28571,
-    "deaths": 60.42857143
+    "cases": 14406.28571,
+    "deaths": 60.71428571
   },
   {
     "Date": "11/27/2020",
@@ -2406,8 +2406,8 @@
     "Population Staying at Home": 13046965,
     "Population Not Staying at Home": 26510080,
     "Number of Trips": 92713809,
-    "cases": 14406.28571,
-    "deaths": 60.71428571
+    "cases": 14406.57143,
+    "deaths": 63
   },
   {
     "Date": "11/28/2020",
@@ -2416,8 +2416,8 @@
     "Population Staying at Home": 12979614,
     "Population Not Staying at Home": 26577431,
     "Number of Trips": 91063946,
-    "cases": 14406.57143,
-    "deaths": 63
+    "cases": 14408.85714,
+    "deaths": 64.57142857
   },
   {
     "Date": "11/29/2020",
@@ -2426,8 +2426,8 @@
     "Population Staying at Home": 13199827,
     "Population Not Staying at Home": 26357218,
     "Number of Trips": 89933478,
-    "cases": 14408.85714,
-    "deaths": 64.57142857
+    "cases": 14984.57143,
+    "deaths": 65.42857143
   },
   {
     "Date": "11/30/2020",
@@ -2436,8 +2436,8 @@
     "Population Staying at Home": 12855741,
     "Population Not Staying at Home": 26701304,
     "Number of Trips": 97963097,
-    "cases": 14984.57143,
-    "deaths": 65.42857143
+    "cases": 16821.42857,
+    "deaths": 80.14285714
   },
   {
     "Date": "12/1/2020",
@@ -2446,8 +2446,8 @@
     "Population Staying at Home": 12473945,
     "Population Not Staying at Home": 27083100,
     "Number of Trips": 99703285,
-    "cases": 16821.42857,
-    "deaths": 80.14285714
+    "cases": 17866.85714,
+    "deaths": 98.71428571
   },
   {
     "Date": "12/2/2020",
@@ -2456,8 +2456,8 @@
     "Population Staying at Home": 12336427,
     "Population Not Staying at Home": 27220618,
     "Number of Trips": 99788103,
-    "cases": 17866.85714,
-    "deaths": 98.71428571
+    "cases": 19552.42857,
+    "deaths": 106.2857143
   },
   {
     "Date": "12/3/2020",
@@ -2466,8 +2466,8 @@
     "Population Staying at Home": 12355593,
     "Population Not Staying at Home": 27201452,
     "Number of Trips": 99493190,
-    "cases": 19552.42857,
-    "deaths": 106.2857143
+    "cases": 21777.71429,
+    "deaths": 112.2857143
   },
   {
     "Date": "12/4/2020",
@@ -2476,8 +2476,8 @@
     "Population Staying at Home": 12199691,
     "Population Not Staying at Home": 27357354,
     "Number of Trips": 105272534,
-    "cases": 21777.71429,
-    "deaths": 112.2857143
+    "cases": 23139.28571,
+    "deaths": 120.4285714
   },
   {
     "Date": "12/5/2020",
@@ -2486,8 +2486,8 @@
     "Population Staying at Home": 12668061,
     "Population Not Staying at Home": 26888984,
     "Number of Trips": 100669923,
-    "cases": 23139.28571,
-    "deaths": 120.4285714
+    "cases": 24509.28571,
+    "deaths": 130.1428571
   },
   {
     "Date": "12/6/2020",
@@ -2496,8 +2496,8 @@
     "Population Staying at Home": 12981242,
     "Population Not Staying at Home": 26575803,
     "Number of Trips": 91111871,
-    "cases": 24509.28571,
-    "deaths": 130.1428571
+    "cases": 26453.28571,
+    "deaths": 146.5714286
   },
   {
     "Date": "12/7/2020",
@@ -2506,8 +2506,8 @@
     "Population Staying at Home": 12705830,
     "Population Not Staying at Home": 26851215,
     "Number of Trips": 92537487,
-    "cases": 26453.28571,
-    "deaths": 146.5714286
+    "cases": 28166.57143,
+    "deaths": 150
   },
   {
     "Date": "12/8/2020",
@@ -2516,8 +2516,8 @@
     "Population Staying at Home": 12546403,
     "Population Not Staying at Home": 27010642,
     "Number of Trips": 96211657,
-    "cases": 28166.57143,
-    "deaths": 150
+    "cases": 30005.42857,
+    "deaths": 151.8571429
   },
   {
     "Date": "12/9/2020",
@@ -2526,8 +2526,8 @@
     "Population Staying at Home": 12408629,
     "Population Not Staying at Home": 27148416,
     "Number of Trips": 94097427,
-    "cases": 30005.42857,
-    "deaths": 151.8571429
+    "cases": 30245.42857,
+    "deaths": 154.5714286
   },
   {
     "Date": "12/10/2020",
@@ -2536,8 +2536,8 @@
     "Population Staying at Home": 12560569,
     "Population Not Staying at Home": 26996476,
     "Number of Trips": 95986489,
-    "cases": 30245.42857,
-    "deaths": 154.5714286
+    "cases": 31247.14286,
+    "deaths": 158
   },
   {
     "Date": "12/11/2020",
@@ -2546,8 +2546,8 @@
     "Population Staying at Home": 12883452,
     "Population Not Staying at Home": 26673593,
     "Number of Trips": 97554722,
-    "cases": 31247.14286,
-    "deaths": 158
+    "cases": 31671.85714,
+    "deaths": 163.4285714
   },
   {
     "Date": "12/12/2020",
@@ -2556,8 +2556,8 @@
     "Population Staying at Home": 13136812,
     "Population Not Staying at Home": 26420233,
     "Number of Trips": 95671862,
-    "cases": 31671.85714,
-    "deaths": 163.4285714
+    "cases": 32807.71429,
+    "deaths": 177.8571429
   },
   {
     "Date": "12/13/2020",
@@ -2566,8 +2566,8 @@
     "Population Staying at Home": 13336685,
     "Population Not Staying at Home": 26220360,
     "Number of Trips": 86793319,
-    "cases": 32807.71429,
-    "deaths": 177.8571429
+    "cases": 36973.28571,
+    "deaths": 202.1428571
   },
   {
     "Date": "12/14/2020",
@@ -2576,8 +2576,8 @@
     "Population Staying at Home": 12793140,
     "Population Not Staying at Home": 26763905,
     "Number of Trips": 93946803,
-    "cases": 36973.28571,
-    "deaths": 202.1428571
+    "cases": 38612.57143,
+    "deaths": 217
   },
   {
     "Date": "12/15/2020",
@@ -2586,8 +2586,8 @@
     "Population Staying at Home": 12639639,
     "Population Not Staying at Home": 26917406,
     "Number of Trips": 94620112,
-    "cases": 38612.57143,
-    "deaths": 217
+    "cases": 40201.14286,
+    "deaths": 234.5714286
   },
   {
     "Date": "12/16/2020",
@@ -2596,8 +2596,8 @@
     "Population Staying at Home": 12786746,
     "Population Not Staying at Home": 26770299,
     "Number of Trips": 92441185,
-    "cases": 40201.14286,
-    "deaths": 234.5714286
+    "cases": 41725.71429,
+    "deaths": 241.8571429
   },
   {
     "Date": "12/17/2020",
@@ -2606,7 +2606,7 @@
     "Population Staying at Home": 12642945,
     "Population Not Staying at Home": 26914100,
     "Number of Trips": 92625430,
-    "cases": 41725.71429,
+    "cases": 42736.85714,
     "deaths": 241.8571429
   },
   {
@@ -2616,8 +2616,8 @@
     "Population Staying at Home": 12799198,
     "Population Not Staying at Home": 26757847,
     "Number of Trips": 97658932,
-    "cases": 42736.85714,
-    "deaths": 241.8571429
+    "cases": 44601.85714,
+    "deaths": 254.8571429
   },
   {
     "Date": "12/19/2020",
@@ -2626,8 +2626,8 @@
     "Population Staying at Home": 13390098,
     "Population Not Staying at Home": 26166947,
     "Number of Trips": 92841273,
-    "cases": 44601.85714,
-    "deaths": 254.8571429
+    "cases": 44763.42857,
+    "deaths": 253
   },
   {
     "Date": "12/20/2020",
@@ -2636,8 +2636,8 @@
     "Population Staying at Home": 13578631,
     "Population Not Staying at Home": 25978414,
     "Number of Trips": 77816589,
-    "cases": 44763.42857,
-    "deaths": 253
+    "cases": 42451.57143,
+    "deaths": 250.2857143
   },
   {
     "Date": "12/21/2020",
@@ -2646,8 +2646,8 @@
     "Population Staying at Home": 13353803,
     "Population Not Staying at Home": 26203242,
     "Number of Trips": 86832280,
-    "cases": 42451.57143,
-    "deaths": 250.2857143
+    "cases": 40939.71429,
+    "deaths": 255.5714286
   },
   {
     "Date": "12/22/2020",
@@ -2656,8 +2656,8 @@
     "Population Staying at Home": 13645700,
     "Population Not Staying at Home": 25911345,
     "Number of Trips": 91937391,
-    "cases": 40939.71429,
-    "deaths": 255.5714286
+    "cases": 36443.71429,
+    "deaths": 209.7142857
   },
   {
     "Date": "12/23/2020",
@@ -2666,8 +2666,8 @@
     "Population Staying at Home": 13752316,
     "Population Not Staying at Home": 25804729,
     "Number of Trips": 94549374,
-    "cases": 36443.71429,
-    "deaths": 209.7142857
+    "cases": 40390.71429,
+    "deaths": 224.2857143
   },
   {
     "Date": "12/24/2020",
@@ -2676,8 +2676,8 @@
     "Population Staying at Home": 13782894,
     "Population Not Staying at Home": 25774151,
     "Number of Trips": 84503067,
-    "cases": 40390.71429,
-    "deaths": 224.2857143
+    "cases": 39629.28571,
+    "deaths": 221
   },
   {
     "Date": "12/25/2020",
@@ -2686,8 +2686,8 @@
     "Population Staying at Home": 14237243,
     "Population Not Staying at Home": 25319802,
     "Number of Trips": 55363645,
-    "cases": 39629.28571,
-    "deaths": 221
+    "cases": 39410,
+    "deaths": 221.2857143
   },
   {
     "Date": "12/26/2020",
@@ -2696,8 +2696,8 @@
     "Population Staying at Home": 13574220,
     "Population Not Staying at Home": 25982825,
     "Number of Trips": 87950402,
-    "cases": 39410,
-    "deaths": 221.2857143
+    "cases": 39241.28571,
+    "deaths": 242.8571429
   },
   {
     "Date": "12/27/2020",
@@ -2706,8 +2706,8 @@
     "Population Staying at Home": 15634215,
     "Population Not Staying at Home": 23922830,
     "Number of Trips": 68111930,
-    "cases": 39241.28571,
-    "deaths": 242.8571429
+    "cases": 37473.85714,
+    "deaths": 251.1428571
   },
   {
     "Date": "12/28/2020",
@@ -2716,8 +2716,8 @@
     "Population Staying at Home": 15250623,
     "Population Not Staying at Home": 24306422,
     "Number of Trips": 70704417,
-    "cases": 37473.85714,
-    "deaths": 251.1428571
+    "cases": 37121.42857,
+    "deaths": 288.7142857
   },
   {
     "Date": "12/29/2020",
@@ -2726,8 +2726,8 @@
     "Population Staying at Home": 14730521,
     "Population Not Staying at Home": 24826524,
     "Number of Trips": 77214036,
-    "cases": 37121.42857,
-    "deaths": 288.7142857
+    "cases": 40147,
+    "deaths": 324.5714286
   },
   {
     "Date": "12/30/2020",
@@ -2736,8 +2736,8 @@
     "Population Staying at Home": 14737415,
     "Population Not Staying at Home": 24819630,
     "Number of Trips": 79039881,
-    "cases": 40147,
-    "deaths": 324.5714286
+    "cases": 38319.42857,
+    "deaths": 331.5714286
   },
   {
     "Date": "12/31/2020",
@@ -2746,8 +2746,8 @@
     "Population Staying at Home": 14745439,
     "Population Not Staying at Home": 24811606,
     "Number of Trips": 78841363,
-    "cases": 38319.42857,
-    "deaths": 331.5714286
+    "cases": 38084.57143,
+    "deaths": 336
   },
   {
     "Date": "1/1/2021",
@@ -2756,8 +2756,8 @@
     "Population Staying at Home": 15719267,
     "Population Not Staying at Home": 23837778,
     "Number of Trips": 68806218,
-    "cases": 38084.57143,
-    "deaths": 336
+    "cases": 37942.14286,
+    "deaths": 352.2857143
   },
   {
     "Date": "1/2/2021",
@@ -2766,8 +2766,8 @@
     "Population Staying at Home": 15180015,
     "Population Not Staying at Home": 24377030,
     "Number of Trips": 76360338,
-    "cases": 37942.14286,
-    "deaths": 352.2857143
+    "cases": 38387.57143,
+    "deaths": 361.7142857
   },
   {
     "Date": "1/3/2021",
@@ -2776,8 +2776,8 @@
     "Population Staying at Home": 15619175,
     "Population Not Staying at Home": 23937870,
     "Number of Trips": 71962579,
-    "cases": 38387.57143,
-    "deaths": 361.7142857
+    "cases": 39033.42857,
+    "deaths": 378.4285714
   },
   {
     "Date": "1/4/2021",
@@ -2786,8 +2786,8 @@
     "Population Staying at Home": 14036321,
     "Population Not Staying at Home": 25520724,
     "Number of Trips": 68504743,
-    "cases": 39033.42857,
-    "deaths": 378.4285714
+    "cases": 40198.57143,
+    "deaths": 369.8571429
   },
   {
     "Date": "1/5/2021",
@@ -2796,8 +2796,8 @@
     "Population Staying at Home": 13678077,
     "Population Not Staying at Home": 25878968,
     "Number of Trips": 68735399,
-    "cases": 40198.57143,
-    "deaths": 369.8571429
+    "cases": 42058.57143,
+    "deaths": 427.4285714
   },
   {
     "Date": "1/6/2021",
@@ -2806,8 +2806,8 @@
     "Population Staying at Home": 12899641,
     "Population Not Staying at Home": 26657404,
     "Number of Trips": 76389670,
-    "cases": 42058.57143,
-    "deaths": 427.4285714
+    "cases": 41349.28571,
+    "deaths": 451
   },
   {
     "Date": "1/7/2021",
@@ -2816,8 +2816,8 @@
     "Population Staying at Home": 13236431,
     "Population Not Staying at Home": 26320614,
     "Number of Trips": 70649794,
-    "cases": 41349.28571,
-    "deaths": 451
+    "cases": 42277.42857,
+    "deaths": 480.7142857
   },
   {
     "Date": "1/8/2021",
@@ -2826,8 +2826,8 @@
     "Population Staying at Home": 13345732,
     "Population Not Staying at Home": 26211313,
     "Number of Trips": 72793227,
-    "cases": 42277.42857,
-    "deaths": 480.7142857
+    "cases": 42263.28571,
+    "deaths": 483.7142857
   },
   {
     "Date": "1/9/2021",
@@ -2836,8 +2836,8 @@
     "Population Staying at Home": 13720918,
     "Population Not Staying at Home": 25836127,
     "Number of Trips": 71217218,
-    "cases": 42263.28571,
-    "deaths": 483.7142857
+    "cases": 43491.85714,
+    "deaths": 517
   },
   {
     "Date": "1/10/2021",
@@ -2846,8 +2846,8 @@
     "Population Staying at Home": 14159573,
     "Population Not Staying at Home": 25397472,
     "Number of Trips": 66553054,
-    "cases": 43491.85714,
-    "deaths": 517
+    "cases": 44173,
+    "deaths": 516.1428571
   },
   {
     "Date": "1/11/2021",
@@ -2856,8 +2856,8 @@
     "Population Staying at Home": 13844419,
     "Population Not Staying at Home": 25712626,
     "Number of Trips": 68698160,
-    "cases": 44173,
-    "deaths": 516.1428571
+    "cases": 44215.14286,
+    "deaths": 527.4285714
   },
   {
     "Date": "1/12/2021",
@@ -2866,8 +2866,8 @@
     "Population Staying at Home": 13756269,
     "Population Not Staying at Home": 25800776,
     "Number of Trips": 68515746,
-    "cases": 44215.14286,
-    "deaths": 527.4285714
+    "cases": 42519.85714,
+    "deaths": 531.2857143
   },
   {
     "Date": "1/13/2021",
@@ -2876,8 +2876,8 @@
     "Population Staying at Home": 13638113,
     "Population Not Staying at Home": 25918932,
     "Number of Trips": 68320108,
-    "cases": 42519.85714,
-    "deaths": 531.2857143
+    "cases": 41138.42857,
+    "deaths": 527.7142857
   },
   {
     "Date": "1/14/2021",
@@ -2886,8 +2886,8 @@
     "Population Staying at Home": 13833323,
     "Population Not Staying at Home": 25723722,
     "Number of Trips": 66276368,
-    "cases": 41138.42857,
-    "deaths": 527.7142857
+    "cases": 39586.85714,
+    "deaths": 513.2857143
   },
   {
     "Date": "1/15/2021",
@@ -2896,8 +2896,8 @@
     "Population Staying at Home": 12786283,
     "Population Not Staying at Home": 26770762,
     "Number of Trips": 85504637,
-    "cases": 39586.85714,
-    "deaths": 513.2857143
+    "cases": 37411,
+    "deaths": 480.1428571
   },
   {
     "Date": "1/16/2021",
@@ -2906,8 +2906,8 @@
     "Population Staying at Home": 13343397,
     "Population Not Staying at Home": 26213648,
     "Number of Trips": 88504246,
-    "cases": 37411,
-    "deaths": 480.1428571
+    "cases": 36442.71429,
+    "deaths": 469.2857143
   },
   {
     "Date": "1/17/2021",
@@ -2916,8 +2916,8 @@
     "Population Staying at Home": 12926073,
     "Population Not Staying at Home": 26630972,
     "Number of Trips": 86842388,
-    "cases": 36442.71429,
-    "deaths": 469.2857143
+    "cases": 33250.42857,
+    "deaths": 478.2857143
   },
   {
     "Date": "1/18/2021",
@@ -2926,8 +2926,8 @@
     "Population Staying at Home": 12189254,
     "Population Not Staying at Home": 27367791,
     "Number of Trips": 95763388,
-    "cases": 33250.42857,
-    "deaths": 478.2857143
+    "cases": 31087.57143,
+    "deaths": 494
   },
   {
     "Date": "1/19/2021",
@@ -2936,8 +2936,8 @@
     "Population Staying at Home": 13881106,
     "Population Not Staying at Home": 25675939,
     "Number of Trips": 76377435,
-    "cases": 31087.57143,
-    "deaths": 494
+    "cases": 29077.71429,
+    "deaths": 482.7142857
   },
   {
     "Date": "1/20/2021",
@@ -2946,8 +2946,8 @@
     "Population Staying at Home": 13514049,
     "Population Not Staying at Home": 26042996,
     "Number of Trips": 79369599,
-    "cases": 29077.71429,
-    "deaths": 482.7142857
+    "cases": 26995.28571,
+    "deaths": 489.2857143
   },
   {
     "Date": "1/21/2021",
@@ -2956,8 +2956,8 @@
     "Population Staying at Home": 12819363,
     "Population Not Staying at Home": 26737682,
     "Number of Trips": 89050467,
-    "cases": 26995.28571,
-    "deaths": 489.2857143
+    "cases": 25581.42857,
+    "deaths": 503.5714286
   },
   {
     "Date": "1/22/2021",
@@ -2966,8 +2966,8 @@
     "Population Staying at Home": 12828525,
     "Population Not Staying at Home": 26728520,
     "Number of Trips": 85832876,
-    "cases": 25581.42857,
-    "deaths": 503.5714286
+    "cases": 25797.14286,
+    "deaths": 536.7142857
   },
   {
     "Date": "1/23/2021",
@@ -2976,8 +2976,8 @@
     "Population Staying at Home": 13329608,
     "Population Not Staying at Home": 26227437,
     "Number of Trips": 82930914,
-    "cases": 25797.14286,
-    "deaths": 536.7142857
+    "cases": 23300.85714,
+    "deaths": 547.4285714
   },
   {
     "Date": "1/24/2021",
@@ -2986,8 +2986,8 @@
     "Population Staying at Home": 13765184,
     "Population Not Staying at Home": 25791861,
     "Number of Trips": 80421372,
-    "cases": 23300.85714,
-    "deaths": 547.4285714
+    "cases": 23201,
+    "deaths": 560.8571429
   },
   {
     "Date": "1/25/2021",
@@ -2996,8 +2996,8 @@
     "Population Staying at Home": 13361800,
     "Population Not Staying at Home": 26195245,
     "Number of Trips": 72970039,
-    "cases": 23201,
-    "deaths": 560.8571429
+    "cases": 22351.42857,
+    "deaths": 546.1428571
   },
   {
     "Date": "1/26/2021",
@@ -3006,8 +3006,8 @@
     "Population Staying at Home": 12969886,
     "Population Not Staying at Home": 26587159,
     "Number of Trips": 84642879,
-    "cases": 22351.42857,
-    "deaths": 546.1428571
+    "cases": 21595.42857,
+    "deaths": 552.2857143
   },
   {
     "Date": "1/27/2021",
@@ -3016,8 +3016,8 @@
     "Population Staying at Home": 13214922,
     "Population Not Staying at Home": 26342123,
     "Number of Trips": 79954001,
-    "cases": 21595.42857,
-    "deaths": 552.2857143
+    "cases": 20816.28571,
+    "deaths": 553.7142857
   },
   {
     "Date": "1/28/2021",
@@ -3026,8 +3026,8 @@
     "Population Staying at Home": 13360088,
     "Population Not Staying at Home": 26196957,
     "Number of Trips": 76122081,
-    "cases": 20816.28571,
-    "deaths": 553.7142857
+    "cases": 19718.28571,
+    "deaths": 544.2857143
   },
   {
     "Date": "1/29/2021",
@@ -3036,8 +3036,8 @@
     "Population Staying at Home": 13176219,
     "Population Not Staying at Home": 26380826,
     "Number of Trips": 79153837,
-    "cases": 19718.28571,
-    "deaths": 544.2857143
+    "cases": 18388.14286,
+    "deaths": 540.7142857
   },
   {
     "Date": "1/30/2021",
@@ -3046,8 +3046,8 @@
     "Population Staying at Home": 12926628,
     "Population Not Staying at Home": 26630417,
     "Number of Trips": 86777314,
-    "cases": 18388.14286,
-    "deaths": 540.7142857
+    "cases": 17139,
+    "deaths": 519.4285714
   },
   {
     "Date": "1/31/2021",
@@ -3056,8 +3056,8 @@
     "Population Staying at Home": 13337238,
     "Population Not Staying at Home": 26219807,
     "Number of Trips": 83855074,
-    "cases": 17139,
-    "deaths": 519.4285714
+    "cases": 16271.85714,
+    "deaths": 501
   },
   {
     "Date": "2/1/2021",
@@ -3066,8 +3066,8 @@
     "Population Staying at Home": 13184841,
     "Population Not Staying at Home": 26372204,
     "Number of Trips": 88149622,
-    "cases": 16271.85714,
-    "deaths": 501
+    "cases": 15565.14286,
+    "deaths": 505
   },
   {
     "Date": "2/2/2021",
@@ -3076,8 +3076,8 @@
     "Population Staying at Home": 13017447,
     "Population Not Staying at Home": 26539598,
     "Number of Trips": 86773548,
-    "cases": 15565.14286,
-    "deaths": 505
+    "cases": 14746.42857,
+    "deaths": 491.2857143
   },
   {
     "Date": "2/3/2021",
@@ -3086,8 +3086,8 @@
     "Population Staying at Home": 12659234,
     "Population Not Staying at Home": 26897811,
     "Number of Trips": 87470383,
-    "cases": 14746.42857,
-    "deaths": 491.2857143
+    "cases": 13895.57143,
+    "deaths": 470.4285714
   },
   {
     "Date": "2/4/2021",
@@ -3096,8 +3096,8 @@
     "Population Staying at Home": 12477662,
     "Population Not Staying at Home": 27079383,
     "Number of Trips": 90056659,
-    "cases": 13895.57143,
-    "deaths": 470.4285714
+    "cases": 13357,
+    "deaths": 460.5714286
   },
   {
     "Date": "2/5/2021",
@@ -3106,8 +3106,8 @@
     "Population Staying at Home": 12083657,
     "Population Not Staying at Home": 27473388,
     "Number of Trips": 95415150,
-    "cases": 13357,
-    "deaths": 460.5714286
+    "cases": 12789,
+    "deaths": 450.8571429
   },
   {
     "Date": "2/6/2021",
@@ -3116,8 +3116,8 @@
     "Population Staying at Home": 12297554,
     "Population Not Staying at Home": 27259491,
     "Number of Trips": 94329913,
-    "cases": 12789,
-    "deaths": 450.8571429
+    "cases": 12449.71429,
+    "deaths": 445
   },
   {
     "Date": "2/7/2021",
@@ -3126,8 +3126,8 @@
     "Population Staying at Home": 12830721,
     "Population Not Staying at Home": 26726324,
     "Number of Trips": 97790407,
-    "cases": 12449.71429,
-    "deaths": 445
+    "cases": 11882.85714,
+    "deaths": 428.8571429
   },
   {
     "Date": "2/8/2021",
@@ -3136,8 +3136,8 @@
     "Population Staying at Home": 12471527,
     "Population Not Staying at Home": 27085518,
     "Number of Trips": 100000622,
-    "cases": 11882.85714,
-    "deaths": 428.8571429
+    "cases": 11302.28571,
+    "deaths": 416.2857143
   },
   {
     "Date": "2/9/2021",
@@ -3146,8 +3146,8 @@
     "Population Staying at Home": 12661812,
     "Population Not Staying at Home": 26895233,
     "Number of Trips": 88986356,
-    "cases": 11302.28571,
-    "deaths": 416.2857143
+    "cases": 10661.28571,
+    "deaths": 400.5714286
   },
   {
     "Date": "2/10/2021",
@@ -3156,8 +3156,8 @@
     "Population Staying at Home": 12304602,
     "Population Not Staying at Home": 27252443,
     "Number of Trips": 106747772,
-    "cases": 10661.28571,
-    "deaths": 400.5714286
+    "cases": 10316.71429,
+    "deaths": 411.1428571
   },
   {
     "Date": "2/11/2021",
@@ -3166,8 +3166,8 @@
     "Population Staying at Home": 12168846,
     "Population Not Staying at Home": 27388199,
     "Number of Trips": 97669407,
-    "cases": 10316.71429,
-    "deaths": 411.1428571
+    "cases": 9710,
+    "deaths": 414.7142857
   },
   {
     "Date": "2/12/2021",
@@ -3176,8 +3176,8 @@
     "Population Staying at Home": 11864061,
     "Population Not Staying at Home": 27692984,
     "Number of Trips": 93226179,
-    "cases": 9710,
-    "deaths": 414.7142857
+    "cases": 8480.428571,
+    "deaths": 382.1428571
   },
   {
     "Date": "2/13/2021",
@@ -3186,8 +3186,8 @@
     "Population Staying at Home": 12447086,
     "Population Not Staying at Home": 27109959,
     "Number of Trips": 99151234,
-    "cases": 8480.428571,
-    "deaths": 382.1428571
+    "cases": 8234.857143,
+    "deaths": 353.2857143
   },
   {
     "Date": "2/14/2021",
@@ -3196,8 +3196,8 @@
     "Population Staying at Home": 12401308,
     "Population Not Staying at Home": 27155737,
     "Number of Trips": 102668905,
-    "cases": 8234.857143,
-    "deaths": 353.2857143
+    "cases": 7903.714286,
+    "deaths": 352.2857143
   },
   {
     "Date": "2/15/2021",
@@ -3206,8 +3206,8 @@
     "Population Staying at Home": 11930659,
     "Population Not Staying at Home": 27626386,
     "Number of Trips": 107935196,
-    "cases": 7903.714286,
-    "deaths": 352.2857143
+    "cases": 7508.142857,
+    "deaths": 336.8571429
   },
   {
     "Date": "2/16/2021",
@@ -3216,8 +3216,8 @@
     "Population Staying at Home": 11957129,
     "Population Not Staying at Home": 27599916,
     "Number of Trips": 106472151,
-    "cases": 7508.142857,
-    "deaths": 336.8571429
+    "cases": 7274.714286,
+    "deaths": 337
   },
   {
     "Date": "2/17/2021",
@@ -3226,8 +3226,8 @@
     "Population Staying at Home": 12064113,
     "Population Not Staying at Home": 27492932,
     "Number of Trips": 102156933,
-    "cases": 7274.714286,
-    "deaths": 337
+    "cases": 6832.142857,
+    "deaths": 320.8571429
   },
   {
     "Date": "2/18/2021",
@@ -3236,8 +3236,8 @@
     "Population Staying at Home": 11577704,
     "Population Not Staying at Home": 27979341,
     "Number of Trips": 108800506,
-    "cases": 6832.142857,
-    "deaths": 320.8571429
+    "cases": 6646.285714,
+    "deaths": 326.4285714
   },
   {
     "Date": "2/19/2021",
@@ -3246,8 +3246,8 @@
     "Population Staying at Home": 11818694,
     "Population Not Staying at Home": 27738351,
     "Number of Trips": 103919801,
-    "cases": 6646.285714,
-    "deaths": 326.4285714
+    "cases": 6641.571429,
+    "deaths": 345.1428571
   },
   {
     "Date": "2/20/2021",
@@ -3256,8 +3256,8 @@
     "Population Staying at Home": 12607693,
     "Population Not Staying at Home": 26949352,
     "Number of Trips": 96585230,
-    "cases": 6641.571429,
-    "deaths": 345.1428571
+    "cases": 6279.571429,
+    "deaths": 346.1428571
   },
   {
     "Date": "2/21/2021",
@@ -3266,8 +3266,8 @@
     "Population Staying at Home": 12038609,
     "Population Not Staying at Home": 27518436,
     "Number of Trips": 102508680,
-    "cases": 6279.571429,
-    "deaths": 346.1428571
+    "cases": 6219.285714,
+    "deaths": 435.8571429
   },
   {
     "Date": "2/22/2021",
@@ -3276,7 +3276,7 @@
     "Population Staying at Home": 11980223,
     "Population Not Staying at Home": 27576822,
     "Number of Trips": 99417163,
-    "cases": 6219.285714,
+    "cases": 5903,
     "deaths": 435.8571429
   },
   {
@@ -3286,8 +3286,8 @@
     "Population Staying at Home": 11851504,
     "Population Not Staying at Home": 27705541,
     "Number of Trips": 104977154,
-    "cases": 5903,
-    "deaths": 435.8571429
+    "cases": 5761.714286,
+    "deaths": 428.5714286
   },
   {
     "Date": "2/24/2021",
@@ -3296,8 +3296,8 @@
     "Population Staying at Home": 11939897,
     "Population Not Staying at Home": 27617148,
     "Number of Trips": 103280007,
-    "cases": 5761.714286,
-    "deaths": 428.5714286
+    "cases": 5525.428571,
+    "deaths": 409.7142857
   },
   {
     "Date": "2/25/2021",
@@ -3306,8 +3306,8 @@
     "Population Staying at Home": 12014645,
     "Population Not Staying at Home": 27542400,
     "Number of Trips": 103152476,
-    "cases": 5525.428571,
-    "deaths": 409.7142857
+    "cases": 5360.142857,
+    "deaths": 410.4285714
   },
   {
     "Date": "2/26/2021",
@@ -3316,8 +3316,8 @@
     "Population Staying at Home": 11540178,
     "Population Not Staying at Home": 28016867,
     "Number of Trips": 106273551,
-    "cases": 5360.142857,
-    "deaths": 410.4285714
+    "cases": 5248.857143,
+    "deaths": 422.2857143
   },
   {
     "Date": "2/27/2021",
@@ -3326,8 +3326,8 @@
     "Population Staying at Home": 11917616,
     "Population Not Staying at Home": 27639429,
     "Number of Trips": 107775240,
-    "cases": 5248.857143,
-    "deaths": 422.2857143
+    "cases": 4971.285714,
+    "deaths": 415
   },
   {
     "Date": "2/28/2021",
@@ -3336,8 +3336,8 @@
     "Population Staying at Home": 12227681,
     "Population Not Staying at Home": 27329364,
     "Number of Trips": 106968056,
-    "cases": 4971.285714,
-    "deaths": 415
+    "cases": 4764.285714,
+    "deaths": 301.8571429
   },
   {
     "Date": "3/1/2021",
@@ -3346,8 +3346,8 @@
     "Population Staying at Home": 12048879,
     "Population Not Staying at Home": 27508166,
     "Number of Trips": 100812964,
-    "cases": 4764.285714,
-    "deaths": 301.8571429
+    "cases": 4710.142857,
+    "deaths": 296
   },
   {
     "Date": "3/2/2021",
@@ -3356,8 +3356,8 @@
     "Population Staying at Home": 11898713,
     "Population Not Staying at Home": 27658332,
     "Number of Trips": 108952505,
-    "cases": 4710.142857,
-    "deaths": 296
+    "cases": 4447.285714,
+    "deaths": 292
   },
   {
     "Date": "3/3/2021",
@@ -3366,8 +3366,8 @@
     "Population Staying at Home": 12105617,
     "Population Not Staying at Home": 27451428,
     "Number of Trips": 105891354,
-    "cases": 4447.285714,
-    "deaths": 292
+    "cases": 4426.571429,
+    "deaths": 306.4285714
   },
   {
     "Date": "3/4/2021",
@@ -3376,8 +3376,8 @@
     "Population Staying at Home": 11828302,
     "Population Not Staying at Home": 27728743,
     "Number of Trips": 106403224,
-    "cases": 4426.571429,
-    "deaths": 306.4285714
+    "cases": 4321.428571,
+    "deaths": 286.2857143
   },
   {
     "Date": "3/5/2021",
@@ -3386,8 +3386,8 @@
     "Population Staying at Home": 11415127,
     "Population Not Staying at Home": 28141918,
     "Number of Trips": 104585788,
-    "cases": 4321.428571,
-    "deaths": 286.2857143
+    "cases": 4318.571429,
+    "deaths": 270
   },
   {
     "Date": "3/6/2021",
@@ -3396,8 +3396,8 @@
     "Population Staying at Home": 11632643,
     "Population Not Staying at Home": 27924402,
     "Number of Trips": 103046015,
-    "cases": 4318.571429,
-    "deaths": 270
+    "cases": 4293.428571,
+    "deaths": 263.7142857
   },
   {
     "Date": "3/7/2021",
@@ -3406,8 +3406,8 @@
     "Population Staying at Home": 12119171,
     "Population Not Staying at Home": 27393052,
     "Number of Trips": 98229866,
-    "cases": 4293.428571,
-    "deaths": 263.7142857
+    "cases": 4159.857143,
+    "deaths": 258.7142857
   },
   {
     "Date": "3/8/2021",
@@ -3416,8 +3416,8 @@
     "Population Staying at Home": 11991033,
     "Population Not Staying at Home": 27521190,
     "Number of Trips": 100960425,
-    "cases": 4159.857143,
-    "deaths": 258.7142857
+    "cases": 3917.714286,
+    "deaths": 239.2857143
   },
   {
     "Date": "3/9/2021",
@@ -3426,8 +3426,8 @@
     "Population Staying at Home": 12004953,
     "Population Not Staying at Home": 27507270,
     "Number of Trips": 106115225,
-    "cases": 3917.714286,
-    "deaths": 239.2857143
+    "cases": 3523.857143,
+    "deaths": 214
   },
   {
     "Date": "3/10/2021",
@@ -3436,8 +3436,8 @@
     "Population Staying at Home": 12181065,
     "Population Not Staying at Home": 27331158,
     "Number of Trips": 94266736,
-    "cases": 3523.857143,
-    "deaths": 214
+    "cases": 3448.857143,
+    "deaths": 321.2857143
   },
   {
     "Date": "3/11/2021",
@@ -3446,8 +3446,8 @@
     "Population Staying at Home": 11843642,
     "Population Not Staying at Home": 27668581,
     "Number of Trips": 107275651,
-    "cases": 3448.857143,
-    "deaths": 321.2857143
+    "cases": 3376.714286,
+    "deaths": 329.4285714
   },
   {
     "Date": "3/12/2021",
@@ -3456,8 +3456,8 @@
     "Population Staying at Home": 11458215,
     "Population Not Staying at Home": 28054008,
     "Number of Trips": 99395000,
-    "cases": 3376.714286,
-    "deaths": 329.4285714
+    "cases": 3203.142857,
+    "deaths": 321.8571429
   },
   {
     "Date": "3/13/2021",
@@ -3466,8 +3466,8 @@
     "Population Staying at Home": 11537825,
     "Population Not Staying at Home": 27974398,
     "Number of Trips": 104905625,
-    "cases": 3203.142857,
-    "deaths": 321.8571429
+    "cases": 2906.142857,
+    "deaths": 303.2857143
   },
   {
     "Date": "3/14/2021",
@@ -3476,8 +3476,8 @@
     "Population Staying at Home": 12022350,
     "Population Not Staying at Home": 27489873,
     "Number of Trips": 93677360,
-    "cases": 2906.142857,
-    "deaths": 303.2857143
+    "cases": 2891.857143,
+    "deaths": 299.8571429
   },
   {
     "Date": "3/15/2021",
@@ -3486,8 +3486,8 @@
     "Population Staying at Home": 12173659,
     "Population Not Staying at Home": 27338564,
     "Number of Trips": 100896607,
-    "cases": 2891.857143,
-    "deaths": 299.8571429
+    "cases": 2893.571429,
+    "deaths": 297.2857143
   },
   {
     "Date": "3/16/2021",
@@ -3496,7 +3496,7 @@
     "Population Staying at Home": 11596829,
     "Population Not Staying at Home": 27915394,
     "Number of Trips": 107057817,
-    "cases": 2893.571429,
+    "cases": 3023.142857,
     "deaths": 297.2857143
   },
   {
@@ -3506,8 +3506,8 @@
     "Population Staying at Home": 11680156,
     "Population Not Staying at Home": 27832067,
     "Number of Trips": 107802530,
-    "cases": 3023.142857,
-    "deaths": 297.2857143
+    "cases": 2801.857143,
+    "deaths": 160.2857143
   },
   {
     "Date": "3/18/2021",
@@ -3516,8 +3516,8 @@
     "Population Staying at Home": 11602557,
     "Population Not Staying at Home": 27909666,
     "Number of Trips": 105431678,
-    "cases": 2801.857143,
-    "deaths": 160.2857143
+    "cases": 2759,
+    "deaths": 151.8571429
   },
   {
     "Date": "3/19/2021",
@@ -3526,8 +3526,8 @@
     "Population Staying at Home": 11337302,
     "Population Not Staying at Home": 28174921,
     "Number of Trips": 107220650,
-    "cases": 2759,
-    "deaths": 151.8571429
+    "cases": 2751,
+    "deaths": 162.8571429
   },
   {
     "Date": "3/20/2021",
@@ -3536,8 +3536,8 @@
     "Population Staying at Home": 11660724,
     "Population Not Staying at Home": 27851499,
     "Number of Trips": 97863462,
-    "cases": 2751,
-    "deaths": 162.8571429
+    "cases": 2813.142857,
+    "deaths": 170.4285714
   },
   {
     "Date": "3/21/2021",
@@ -3546,8 +3546,8 @@
     "Population Staying at Home": 11507013,
     "Population Not Staying at Home": 28005210,
     "Number of Trips": 98648411,
-    "cases": 2813.142857,
-    "deaths": 170.4285714
+    "cases": 2728.714286,
+    "deaths": 173
   },
   {
     "Date": "3/22/2021",
@@ -3556,8 +3556,8 @@
     "Population Staying at Home": 12253797,
     "Population Not Staying at Home": 27258426,
     "Number of Trips": 87767818,
-    "cases": 2728.714286,
-    "deaths": 173
+    "cases": 2574.285714,
+    "deaths": 171.4285714
   },
   {
     "Date": "3/23/2021",
@@ -3566,8 +3566,8 @@
     "Population Staying at Home": 12832057,
     "Population Not Staying at Home": 26680166,
     "Number of Trips": 90386360,
-    "cases": 2574.285714,
-    "deaths": 171.4285714
+    "cases": 2597.285714,
+    "deaths": 173.2857143
   },
   {
     "Date": "3/24/2021",
@@ -3576,8 +3576,8 @@
     "Population Staying at Home": 11494631,
     "Population Not Staying at Home": 28017592,
     "Number of Trips": 113954931,
-    "cases": 2597.285714,
-    "deaths": 173.2857143
+    "cases": 2586,
+    "deaths": 186.5714286
   },
   {
     "Date": "3/25/2021",
@@ -3586,8 +3586,8 @@
     "Population Staying at Home": 11510646,
     "Population Not Staying at Home": 28001577,
     "Number of Trips": 107308074,
-    "cases": 2586,
-    "deaths": 186.5714286
+    "cases": 2617.714286,
+    "deaths": 191.5714286
   },
   {
     "Date": "3/26/2021",
@@ -3596,8 +3596,8 @@
     "Population Staying at Home": 11133219,
     "Population Not Staying at Home": 28379004,
     "Number of Trips": 116316263,
-    "cases": 2617.714286,
-    "deaths": 191.5714286
+    "cases": 2639.571429,
+    "deaths": 177.8571429
   },
   {
     "Date": "3/27/2021",
@@ -3606,8 +3606,8 @@
     "Population Staying at Home": 11450276,
     "Population Not Staying at Home": 28061947,
     "Number of Trips": 105061794,
-    "cases": 2639.571429,
-    "deaths": 177.8571429
+    "cases": 2622.857143,
+    "deaths": 168.5714286
   },
   {
     "Date": "3/28/2021",
@@ -3616,8 +3616,8 @@
     "Population Staying at Home": 11633102,
     "Population Not Staying at Home": 27879121,
     "Number of Trips": 106817893,
-    "cases": 2622.857143,
-    "deaths": 168.5714286
+    "cases": 2584.285714,
+    "deaths": 153.2857143
   },
   {
     "Date": "3/29/2021",
@@ -3626,8 +3626,8 @@
     "Population Staying at Home": 11852533,
     "Population Not Staying at Home": 27659690,
     "Number of Trips": 102744196,
-    "cases": 2584.285714,
-    "deaths": 153.2857143
+    "cases": 2605.857143,
+    "deaths": 140.4285714
   },
   {
     "Date": "3/30/2021",
@@ -3636,8 +3636,8 @@
     "Population Staying at Home": 11532033,
     "Population Not Staying at Home": 27980190,
     "Number of Trips": 102174519,
-    "cases": 2605.857143,
-    "deaths": 140.4285714
+    "cases": 2662.142857,
+    "deaths": 138.7142857
   },
   {
     "Date": "3/31/2021",
@@ -3646,8 +3646,8 @@
     "Population Staying at Home": 11468188,
     "Population Not Staying at Home": 28044035,
     "Number of Trips": 120814962,
-    "cases": 2662.142857,
-    "deaths": 138.7142857
+    "cases": 2773,
+    "deaths": 124.8571429
   },
   {
     "Date": "4/1/2021",
@@ -3656,8 +3656,8 @@
     "Population Staying at Home": 11474065,
     "Population Not Staying at Home": 28038158,
     "Number of Trips": 107561279,
-    "cases": 2773,
-    "deaths": 124.8571429
+    "cases": 2695.142857,
+    "deaths": 114.1428571
   },
   {
     "Date": "4/2/2021",
@@ -3666,8 +3666,8 @@
     "Population Staying at Home": 10925779,
     "Population Not Staying at Home": 28586444,
     "Number of Trips": 113372129,
-    "cases": 2695.142857,
-    "deaths": 114.1428571
+    "cases": 2702.285714,
+    "deaths": 110.4285714
   },
   {
     "Date": "4/3/2021",
@@ -3676,8 +3676,8 @@
     "Population Staying at Home": 11424952,
     "Population Not Staying at Home": 28087271,
     "Number of Trips": 100255682,
-    "cases": 2702.285714,
-    "deaths": 110.4285714
+    "cases": 2685.285714,
+    "deaths": 108.2857143
   },
   {
     "Date": "4/4/2021",
@@ -3686,8 +3686,8 @@
     "Population Staying at Home": 11296369,
     "Population Not Staying at Home": 28215854,
     "Number of Trips": 109842600,
-    "cases": 2685.285714,
-    "deaths": 108.2857143
+    "cases": 2672.857143,
+    "deaths": 102.2857143
   },
   {
     "Date": "4/5/2021",
@@ -3696,8 +3696,8 @@
     "Population Staying at Home": 11498555,
     "Population Not Staying at Home": 28013668,
     "Number of Trips": 107992542,
-    "cases": 2672.857143,
-    "deaths": 102.2857143
+    "cases": 2659.857143,
+    "deaths": 102.7142857
   },
   {
     "Date": "4/6/2021",
@@ -3706,8 +3706,8 @@
     "Population Staying at Home": 11246411,
     "Population Not Staying at Home": 28265812,
     "Number of Trips": 103701312,
-    "cases": 2659.857143,
-    "deaths": 102.7142857
+    "cases": 2638,
+    "deaths": 95.85714286
   },
   {
     "Date": "4/7/2021",
@@ -3716,8 +3716,8 @@
     "Population Staying at Home": 10998892,
     "Population Not Staying at Home": 28513331,
     "Number of Trips": 124288280,
-    "cases": 2638,
-    "deaths": 95.85714286
+    "cases": 2651,
+    "deaths": 98
   },
   {
     "Date": "4/8/2021",
@@ -3726,8 +3726,8 @@
     "Population Staying at Home": 11487130,
     "Population Not Staying at Home": 28025093,
     "Number of Trips": 121607950,
-    "cases": 2651,
-    "deaths": 98
+    "cases": 2975.285714,
+    "deaths": 102.8571429
   },
   {
     "Date": "4/9/2021",
@@ -3736,8 +3736,8 @@
     "Population Staying at Home": 11363123,
     "Population Not Staying at Home": 28149100,
     "Number of Trips": 131280809,
-    "cases": 2975.285714,
-    "deaths": 102.8571429
+    "cases": 3031.142857,
+    "deaths": 99.42857143
   },
   {
     "Date": "4/10/2021",
@@ -3746,8 +3746,8 @@
     "Population Staying at Home": 11755839,
     "Population Not Staying at Home": 27756384,
     "Number of Trips": 118219661,
-    "cases": 3031.142857,
-    "deaths": 99.42857143
+    "cases": 3080.857143,
+    "deaths": 94.42857143
   },
   {
     "Date": "4/11/2021",
@@ -3756,8 +3756,8 @@
     "Population Staying at Home": 11634027,
     "Population Not Staying at Home": 27878196,
     "Number of Trips": 115397883,
-    "cases": 3080.857143,
-    "deaths": 94.42857143
+    "cases": 3090.571429,
+    "deaths": 104.8571429
   },
   {
     "Date": "4/12/2021",
@@ -3766,8 +3766,8 @@
     "Population Staying at Home": 11691551,
     "Population Not Staying at Home": 27820672,
     "Number of Trips": 126594797,
-    "cases": 3090.571429,
-    "deaths": 104.8571429
+    "cases": 3058.285714,
+    "deaths": 97.42857143
   },
   {
     "Date": "4/13/2021",
@@ -3776,8 +3776,8 @@
     "Population Staying at Home": 11442408,
     "Population Not Staying at Home": 28069815,
     "Number of Trips": 122814703,
-    "cases": 3058.285714,
-    "deaths": 97.42857143
+    "cases": 2945.571429,
+    "deaths": 91.28571429
   },
   {
     "Date": "4/14/2021",
@@ -3786,8 +3786,8 @@
     "Population Staying at Home": 11436126,
     "Population Not Staying at Home": 28076097,
     "Number of Trips": 137717838,
-    "cases": 2945.571429,
-    "deaths": 91.28571429
+    "cases": 2837,
+    "deaths": 88
   },
   {
     "Date": "4/15/2021",
@@ -3796,8 +3796,8 @@
     "Population Staying at Home": 11463460,
     "Population Not Staying at Home": 28048763,
     "Number of Trips": 138179829,
-    "cases": 2837,
-    "deaths": 88
+    "cases": 2510.285714,
+    "deaths": 82.28571429
   },
   {
     "Date": "4/16/2021",
@@ -3806,8 +3806,8 @@
     "Population Staying at Home": 11056036,
     "Population Not Staying at Home": 28456187,
     "Number of Trips": 141913040,
-    "cases": 2510.285714,
-    "deaths": 82.28571429
+    "cases": 2375.285714,
+    "deaths": 78.57142857
   },
   {
     "Date": "4/17/2021",
@@ -3816,8 +3816,8 @@
     "Population Staying at Home": 11364904,
     "Population Not Staying at Home": 28147319,
     "Number of Trips": 129710145,
-    "cases": 2375.285714,
-    "deaths": 78.57142857
+    "cases": 2357.285714,
+    "deaths": 82.28571429
   },
   {
     "Date": "4/18/2021",
@@ -3826,8 +3826,8 @@
     "Population Staying at Home": 11883551,
     "Population Not Staying at Home": 27628672,
     "Number of Trips": 120281743,
-    "cases": 2357.285714,
-    "deaths": 82.28571429
+    "cases": 2280.428571,
+    "deaths": 69.85714286
   },
   {
     "Date": "4/19/2021",
@@ -3836,8 +3836,8 @@
     "Population Staying at Home": 11341497,
     "Population Not Staying at Home": 28170726,
     "Number of Trips": 141070740,
-    "cases": 2280.428571,
-    "deaths": 69.85714286
+    "cases": 2313.428571,
+    "deaths": 70.42857143
   },
   {
     "Date": "4/20/2021",
@@ -3846,8 +3846,8 @@
     "Population Staying at Home": 11213979,
     "Population Not Staying at Home": 28298244,
     "Number of Trips": 139044383,
-    "cases": 2313.428571,
-    "deaths": 70.42857143
+    "cases": 2233.285714,
+    "deaths": 68.42857143
   },
   {
     "Date": "4/21/2021",
@@ -3856,8 +3856,8 @@
     "Population Staying at Home": 9856839,
     "Population Not Staying at Home": 29655384,
     "Number of Trips": 126567473,
-    "cases": 2233.285714,
-    "deaths": 68.42857143
+    "cases": 1970,
+    "deaths": 64.42857143
   },
   {
     "Date": "4/22/2021",
@@ -3866,8 +3866,8 @@
     "Population Staying at Home": 9996894,
     "Population Not Staying at Home": 29515329,
     "Number of Trips": 136496910,
-    "cases": 1970,
-    "deaths": 64.42857143
+    "cases": 1933.285714,
+    "deaths": 63
   },
   {
     "Date": "4/23/2021",
@@ -3876,8 +3876,8 @@
     "Population Staying at Home": 9670533,
     "Population Not Staying at Home": 29841690,
     "Number of Trips": 137625691,
-    "cases": 1933.285714,
-    "deaths": 63
+    "cases": 1958.285714,
+    "deaths": 64.42857143
   },
   {
     "Date": "4/24/2021",
@@ -3886,8 +3886,8 @@
     "Population Staying at Home": 9951737,
     "Population Not Staying at Home": 29560486,
     "Number of Trips": 128350613,
-    "cases": 1958.285714,
-    "deaths": 64.42857143
+    "cases": 1906.857143,
+    "deaths": 56.14285714
   },
   {
     "Date": "4/25/2021",
@@ -3896,8 +3896,8 @@
     "Population Staying at Home": 10576814,
     "Population Not Staying at Home": 28935409,
     "Number of Trips": 110852918,
-    "cases": 1906.857143,
-    "deaths": 56.14285714
+    "cases": 1878.857143,
+    "deaths": 53.14285714
   },
   {
     "Date": "4/26/2021",
@@ -3906,8 +3906,8 @@
     "Population Staying at Home": 10093540,
     "Population Not Staying at Home": 29418683,
     "Number of Trips": 134773247,
-    "cases": 1878.857143,
-    "deaths": 53.14285714
+    "cases": 1711.428571,
+    "deaths": 51.42857143
   },
   {
     "Date": "4/27/2021",
@@ -3916,8 +3916,8 @@
     "Population Staying at Home": 10177031,
     "Population Not Staying at Home": 29335192,
     "Number of Trips": 132501532,
-    "cases": 1711.428571,
-    "deaths": 51.42857143
+    "cases": 1721.285714,
+    "deaths": 52.28571429
   },
   {
     "Date": "4/28/2021",
@@ -3926,8 +3926,8 @@
     "Population Staying at Home": 10050550,
     "Population Not Staying at Home": 29461673,
     "Number of Trips": 134402069,
-    "cases": 1721.285714,
-    "deaths": 52.28571429
+    "cases": 1890.142857,
+    "deaths": 60.71428571
   },
   {
     "Date": "4/29/2021",
@@ -3936,8 +3936,8 @@
     "Population Staying at Home": 9953319,
     "Population Not Staying at Home": 29558904,
     "Number of Trips": 141831197,
-    "cases": 1890.142857,
-    "deaths": 60.71428571
+    "cases": 1891.285714,
+    "deaths": 65.85714286
   },
   {
     "Date": "4/30/2021",
@@ -3946,8 +3946,8 @@
     "Population Staying at Home": 9755979,
     "Population Not Staying at Home": 29756244,
     "Number of Trips": 139654840,
-    "cases": 1891.285714,
-    "deaths": 65.85714286
+    "cases": 1822.714286,
+    "deaths": 68
   },
   {
     "Date": "5/1/2021",
@@ -3956,8 +3956,8 @@
     "Population Staying at Home": 10054383,
     "Population Not Staying at Home": 29457840,
     "Number of Trips": 125468281,
-    "cases": 1822.714286,
-    "deaths": 68
+    "cases": 1831.857143,
+    "deaths": 73.14285714
   },
   {
     "Date": "5/2/2021",
@@ -3966,8 +3966,8 @@
     "Population Staying at Home": 10561273,
     "Population Not Staying at Home": 28950950,
     "Number of Trips": 115265146,
-    "cases": 1831.857143,
-    "deaths": 73.14285714
+    "cases": 1820.142857,
+    "deaths": 70.57142857
   },
   {
     "Date": "5/3/2021",
@@ -3976,8 +3976,8 @@
     "Population Staying at Home": 10120969,
     "Population Not Staying at Home": 29391254,
     "Number of Trips": 130313051,
-    "cases": 1820.142857,
-    "deaths": 70.57142857
+    "cases": 1986.428571,
+    "deaths": 74.14285714
   },
   {
     "Date": "5/4/2021",
@@ -3986,8 +3986,8 @@
     "Population Staying at Home": 10094360,
     "Population Not Staying at Home": 29417863,
     "Number of Trips": 133285313,
-    "cases": 1986.428571,
-    "deaths": 74.14285714
+    "cases": 1960.857143,
+    "deaths": 65
   },
   {
     "Date": "5/5/2021",
@@ -3996,8 +3996,8 @@
     "Population Staying at Home": 10072993,
     "Population Not Staying at Home": 29439230,
     "Number of Trips": 141331962,
-    "cases": 1960.857143,
-    "deaths": 65
+    "cases": 1924.142857,
+    "deaths": 59.57142857
   },
   {
     "Date": "5/6/2021",
@@ -4006,8 +4006,8 @@
     "Population Staying at Home": 9935091,
     "Population Not Staying at Home": 29577132,
     "Number of Trips": 142633047,
-    "cases": 1924.142857,
-    "deaths": 59.57142857
+    "cases": 1880.571429,
+    "deaths": 55.14285714
   },
   {
     "Date": "5/7/2021",
@@ -4016,8 +4016,8 @@
     "Population Staying at Home": 9669601,
     "Population Not Staying at Home": 29842622,
     "Number of Trips": 151072943,
-    "cases": 1880.571429,
-    "deaths": 55.14285714
+    "cases": 1856.714286,
+    "deaths": 53
   },
   {
     "Date": "5/8/2021",
@@ -4026,8 +4026,8 @@
     "Population Staying at Home": 9936081,
     "Population Not Staying at Home": 29576142,
     "Number of Trips": 137682793,
-    "cases": 1856.714286,
-    "deaths": 53
+    "cases": 1771.571429,
+    "deaths": 49.57142857
   },
   {
     "Date": "5/9/2021",
@@ -4036,8 +4036,8 @@
     "Population Staying at Home": 10551448,
     "Population Not Staying at Home": 28960775,
     "Number of Trips": 121275076,
-    "cases": 1771.571429,
-    "deaths": 49.57142857
+    "cases": 1761.714286,
+    "deaths": 57.57142857
   },
   {
     "Date": "5/10/2021",
@@ -4046,8 +4046,8 @@
     "Population Staying at Home": 10211354,
     "Population Not Staying at Home": 29300869,
     "Number of Trips": 145258145,
-    "cases": 1761.714286,
-    "deaths": 57.57142857
+    "cases": 1650,
+    "deaths": 57.71428571
   },
   {
     "Date": "5/11/2021",
@@ -4056,8 +4056,8 @@
     "Population Staying at Home": 10027642,
     "Population Not Staying at Home": 29484581,
     "Number of Trips": 141282441,
-    "cases": 1650,
-    "deaths": 57.71428571
+    "cases": 1570.142857,
+    "deaths": 59.28571429
   },
   {
     "Date": "5/12/2021",
@@ -4066,8 +4066,8 @@
     "Population Staying at Home": 10003712,
     "Population Not Staying at Home": 29508511,
     "Number of Trips": 143847019,
-    "cases": 1570.142857,
-    "deaths": 59.28571429
+    "cases": 1571.857143,
+    "deaths": 53.85714286
   },
   {
     "Date": "5/13/2021",
@@ -4076,8 +4076,8 @@
     "Population Staying at Home": 10099622,
     "Population Not Staying at Home": 29412601,
     "Number of Trips": 131918890,
-    "cases": 1571.857143,
-    "deaths": 53.85714286
+    "cases": 1535.571429,
+    "deaths": 53
   },
   {
     "Date": "5/14/2021",
@@ -4086,8 +4086,8 @@
     "Population Staying at Home": 9831380,
     "Population Not Staying at Home": 29680843,
     "Number of Trips": 139385273,
-    "cases": 1535.571429,
-    "deaths": 53
+    "cases": 1422.571429,
+    "deaths": 52.71428571
   },
   {
     "Date": "5/15/2021",
@@ -4096,8 +4096,8 @@
     "Population Staying at Home": 10233363,
     "Population Not Staying at Home": 29278860,
     "Number of Trips": 131295990,
-    "cases": 1422.571429,
-    "deaths": 52.71428571
+    "cases": 1349.142857,
+    "deaths": 51.42857143
   },
   {
     "Date": "5/16/2021",
@@ -4106,8 +4106,8 @@
     "Population Staying at Home": 10788533,
     "Population Not Staying at Home": 28723690,
     "Number of Trips": 112516962,
-    "cases": 1349.142857,
-    "deaths": 51.42857143
+    "cases": 1347.285714,
+    "deaths": 41.71428571
   },
   {
     "Date": "5/17/2021",
@@ -4116,8 +4116,8 @@
     "Population Staying at Home": 10621535,
     "Population Not Staying at Home": 28890688,
     "Number of Trips": 133653652,
-    "cases": 1347.285714,
-    "deaths": 41.71428571
+    "cases": 1317.714286,
+    "deaths": 34
   },
   {
     "Date": "5/18/2021",
@@ -4126,8 +4126,8 @@
     "Population Staying at Home": 10150507,
     "Population Not Staying at Home": 29361716,
     "Number of Trips": 134612075,
-    "cases": 1317.714286,
-    "deaths": 34
+    "cases": 1280.428571,
+    "deaths": 33
   },
   {
     "Date": "5/19/2021",
@@ -4136,8 +4136,8 @@
     "Population Staying at Home": 10313700,
     "Population Not Staying at Home": 29198523,
     "Number of Trips": 136941247,
-    "cases": 1280.428571,
-    "deaths": 33
+    "cases": 1203.857143,
+    "deaths": 36.57142857
   },
   {
     "Date": "5/20/2021",
@@ -4146,8 +4146,8 @@
     "Population Staying at Home": 10276498,
     "Population Not Staying at Home": 29235725,
     "Number of Trips": 130050182,
-    "cases": 1203.857143,
-    "deaths": 36.57142857
+    "cases": 1193.428571,
+    "deaths": 35.28571429
   },
   {
     "Date": "5/21/2021",
@@ -4156,8 +4156,8 @@
     "Population Staying at Home": 9984823,
     "Population Not Staying at Home": 29527400,
     "Number of Trips": 134413067,
-    "cases": 1193.428571,
-    "deaths": 35.28571429
+    "cases": 1213.571429,
+    "deaths": 35.14285714
   },
   {
     "Date": "5/22/2021",
@@ -4166,8 +4166,8 @@
     "Population Staying at Home": 10197017,
     "Population Not Staying at Home": 29315206,
     "Number of Trips": 128457392,
-    "cases": 1213.571429,
-    "deaths": 35.14285714
+    "cases": 1243.857143,
+    "deaths": 36.57142857
   },
   {
     "Date": "5/23/2021",
@@ -4176,8 +4176,8 @@
     "Population Staying at Home": 10451439,
     "Population Not Staying at Home": 29060784,
     "Number of Trips": 130233656,
-    "cases": 1243.857143,
-    "deaths": 36.57142857
+    "cases": 1196.714286,
+    "deaths": 36.28571429
   },
   {
     "Date": "5/24/2021",
@@ -4186,8 +4186,8 @@
     "Population Staying at Home": 10168681,
     "Population Not Staying at Home": 29343542,
     "Number of Trips": 130307564,
-    "cases": 1196.714286,
-    "deaths": 36.28571429
+    "cases": 1729.142857,
+    "deaths": 50.28571429
   },
   {
     "Date": "5/25/2021",
@@ -4196,8 +4196,8 @@
     "Population Staying at Home": 10612342,
     "Population Not Staying at Home": 28899881,
     "Number of Trips": 120713485,
-    "cases": 1729.142857,
-    "deaths": 50.28571429
+    "cases": 1745.142857,
+    "deaths": 51.14285714
   },
   {
     "Date": "5/26/2021",
@@ -4206,8 +4206,8 @@
     "Population Staying at Home": 10295501,
     "Population Not Staying at Home": 29216722,
     "Number of Trips": 127789620,
-    "cases": 1745.142857,
-    "deaths": 51.14285714
+    "cases": 1745,
+    "deaths": 47.57142857
   },
   {
     "Date": "5/27/2021",
@@ -4216,8 +4216,8 @@
     "Population Staying at Home": 10397251,
     "Population Not Staying at Home": 29114972,
     "Number of Trips": 126299251,
-    "cases": 1745,
-    "deaths": 47.57142857
+    "cases": 1727.142857,
+    "deaths": 45.57142857
   },
   {
     "Date": "5/28/2021",
@@ -4226,8 +4226,8 @@
     "Population Staying at Home": 10195322,
     "Population Not Staying at Home": 29316901,
     "Number of Trips": 122070279,
-    "cases": 1727.142857,
-    "deaths": 45.57142857
+    "cases": 1577.714286,
+    "deaths": 43.14285714
   },
   {
     "Date": "5/29/2021",
@@ -4236,8 +4236,8 @@
     "Population Staying at Home": 10359716,
     "Population Not Staying at Home": 29152507,
     "Number of Trips": 116106153,
-    "cases": 1577.714286,
-    "deaths": 43.14285714
+    "cases": 1580,
+    "deaths": 40.14285714
   },
   {
     "Date": "5/30/2021",
@@ -4246,8 +4246,8 @@
     "Population Staying at Home": 10588720,
     "Population Not Staying at Home": 28923503,
     "Number of Trips": 112177456,
-    "cases": 1580,
-    "deaths": 40.14285714
+    "cases": 1531.857143,
+    "deaths": 38.57142857
   },
   {
     "Date": "5/31/2021",
@@ -4256,8 +4256,8 @@
     "Population Staying at Home": 10587959,
     "Population Not Staying at Home": 28924264,
     "Number of Trips": 121673931,
-    "cases": 1531.857143,
-    "deaths": 38.57142857
+    "cases": 931.4285714,
+    "deaths": 25.28571429
   },
   {
     "Date": "6/1/2021",
@@ -4266,8 +4266,8 @@
     "Population Staying at Home": 10284553,
     "Population Not Staying at Home": 29227670,
     "Number of Trips": 127967603,
-    "cases": 931.4285714,
-    "deaths": 25.28571429
+    "cases": 893.2857143,
+    "deaths": 17.85714286
   },
   {
     "Date": "6/2/2021",
@@ -4276,8 +4276,8 @@
     "Population Staying at Home": 10291089,
     "Population Not Staying at Home": 29221134,
     "Number of Trips": 127440424,
-    "cases": 893.2857143,
-    "deaths": 17.85714286
+    "cases": 901.1428571,
+    "deaths": 19.85714286
   },
   {
     "Date": "6/3/2021",
@@ -4286,8 +4286,8 @@
     "Population Staying at Home": 10324395,
     "Population Not Staying at Home": 29187828,
     "Number of Trips": 134156874,
-    "cases": 901.1428571,
-    "deaths": 19.85714286
+    "cases": 923.2857143,
+    "deaths": 35.42857143
   },
   {
     "Date": "6/4/2021",
@@ -4296,8 +4296,8 @@
     "Population Staying at Home": 10073426,
     "Population Not Staying at Home": 29438797,
     "Number of Trips": 128686090,
-    "cases": 923.2857143,
-    "deaths": 35.42857143
+    "cases": 1036.857143,
+    "deaths": 36.85714286
   },
   {
     "Date": "6/5/2021",
@@ -4306,8 +4306,8 @@
     "Population Staying at Home": 10379768,
     "Population Not Staying at Home": 29132455,
     "Number of Trips": 119553850,
-    "cases": 1036.857143,
-    "deaths": 36.85714286
+    "cases": 1005.285714,
+    "deaths": 38.57142857
   },
   {
     "Date": "6/6/2021",
@@ -4316,8 +4316,8 @@
     "Population Staying at Home": 10820898,
     "Population Not Staying at Home": 28691325,
     "Number of Trips": 112530249,
-    "cases": 1005.285714,
-    "deaths": 38.57142857
+    "cases": 1009,
+    "deaths": 36.85714286
   },
   {
     "Date": "6/7/2021",
@@ -4326,8 +4326,8 @@
     "Population Staying at Home": 10368441,
     "Population Not Staying at Home": 29143782,
     "Number of Trips": 137131588,
-    "cases": 1009,
-    "deaths": 36.85714286
+    "cases": 1004,
+    "deaths": 34.42857143
   },
   {
     "Date": "6/8/2021",
@@ -4336,8 +4336,8 @@
     "Population Staying at Home": 10472205,
     "Population Not Staying at Home": 29040018,
     "Number of Trips": 127814392,
-    "cases": 1004,
-    "deaths": 34.42857143
+    "cases": 976,
+    "deaths": 40.85714286
   },
   {
     "Date": "6/9/2021",
@@ -4346,8 +4346,8 @@
     "Population Staying at Home": 10436007,
     "Population Not Staying at Home": 29076216,
     "Number of Trips": 123841613,
-    "cases": 976,
-    "deaths": 40.85714286
+    "cases": 944.2857143,
+    "deaths": 35.85714286
   },
   {
     "Date": "6/10/2021",
@@ -4356,8 +4356,8 @@
     "Population Staying at Home": 10340072,
     "Population Not Staying at Home": 29172151,
     "Number of Trips": 127541716,
-    "cases": 944.2857143,
-    "deaths": 35.85714286
+    "cases": 918.7142857,
+    "deaths": 19
   },
   {
     "Date": "6/11/2021",
@@ -4366,8 +4366,8 @@
     "Population Staying at Home": 10169891,
     "Population Not Staying at Home": 29342332,
     "Number of Trips": 128889129,
-    "cases": 918.7142857,
-    "deaths": 19
+    "cases": 907.7142857,
+    "deaths": 18
   },
   {
     "Date": "6/12/2021",
@@ -4376,8 +4376,8 @@
     "Population Staying at Home": 10450068,
     "Population Not Staying at Home": 29062155,
     "Number of Trips": 116660281,
-    "cases": 907.7142857,
-    "deaths": 18
+    "cases": 900.5714286,
+    "deaths": 22.57142857
   },
   {
     "Date": "6/13/2021",
@@ -4386,8 +4386,8 @@
     "Population Staying at Home": 10899198,
     "Population Not Staying at Home": 28613025,
     "Number of Trips": 109464784,
-    "cases": 900.5714286,
-    "deaths": 22.57142857
+    "cases": 888,
+    "deaths": 23.57142857
   },
   {
     "Date": "6/14/2021",
@@ -4396,8 +4396,8 @@
     "Population Staying at Home": 10467443,
     "Population Not Staying at Home": 29044780,
     "Number of Trips": 125576934,
-    "cases": 888,
-    "deaths": 23.57142857
+    "cases": 882.5714286,
+    "deaths": 22.28571429
   },
   {
     "Date": "6/15/2021",
@@ -4406,8 +4406,8 @@
     "Population Staying at Home": 10303181,
     "Population Not Staying at Home": 29209042,
     "Number of Trips": 130739470,
-    "cases": 882.5714286,
-    "deaths": 22.28571429
+    "cases": 905.2857143,
+    "deaths": 21
   },
   {
     "Date": "6/16/2021",
@@ -4416,8 +4416,8 @@
     "Population Staying at Home": 10449748,
     "Population Not Staying at Home": 29062475,
     "Number of Trips": 123677613,
-    "cases": 905.2857143,
-    "deaths": 21
+    "cases": 896.5714286,
+    "deaths": 23.71428571
   },
   {
     "Date": "6/17/2021",
@@ -4426,8 +4426,8 @@
     "Population Staying at Home": 10360572,
     "Population Not Staying at Home": 29151651,
     "Number of Trips": 133204991,
-    "cases": 896.5714286,
-    "deaths": 23.71428571
+    "cases": 906.1428571,
+    "deaths": 27.42857143
   },
   {
     "Date": "6/18/2021",
@@ -4436,8 +4436,8 @@
     "Population Staying at Home": 10176080,
     "Population Not Staying at Home": 29336143,
     "Number of Trips": 129036672,
-    "cases": 906.1428571,
-    "deaths": 27.42857143
+    "cases": 932.7142857,
+    "deaths": 29
   },
   {
     "Date": "6/19/2021",
@@ -4446,8 +4446,8 @@
     "Population Staying at Home": 10458744,
     "Population Not Staying at Home": 29053479,
     "Number of Trips": 121181267,
-    "cases": 932.7142857,
-    "deaths": 29
+    "cases": 938.5714286,
+    "deaths": 23.57142857
   },
   {
     "Date": "6/20/2021",
@@ -4456,8 +4456,8 @@
     "Population Staying at Home": 10879608,
     "Population Not Staying at Home": 28632615,
     "Number of Trips": 110719244,
-    "cases": 938.5714286,
-    "deaths": 23.57142857
+    "cases": 941.2857143,
+    "deaths": 28.71428571
   },
   {
     "Date": "6/21/2021",
@@ -4466,8 +4466,8 @@
     "Population Staying at Home": 10399378,
     "Population Not Staying at Home": 29112845,
     "Number of Trips": 130257044,
-    "cases": 941.2857143,
-    "deaths": 28.71428571
+    "cases": 941.8571429,
+    "deaths": 33.71428571
   },
   {
     "Date": "6/22/2021",
@@ -4476,8 +4476,8 @@
     "Population Staying at Home": 10423743,
     "Population Not Staying at Home": 29088480,
     "Number of Trips": 120030153,
-    "cases": 941.8571429,
-    "deaths": 33.71428571
+    "cases": 978.7142857,
+    "deaths": 36.14285714
   },
   {
     "Date": "6/23/2021",
@@ -4486,8 +4486,8 @@
     "Population Staying at Home": 10380812,
     "Population Not Staying at Home": 29131411,
     "Number of Trips": 126593460,
-    "cases": 978.7142857,
-    "deaths": 36.14285714
+    "cases": 1012.857143,
+    "deaths": 35.14285714
   },
   {
     "Date": "6/24/2021",
@@ -4496,8 +4496,8 @@
     "Population Staying at Home": 10312113,
     "Population Not Staying at Home": 29200110,
     "Number of Trips": 133162883,
-    "cases": 1012.857143,
-    "deaths": 35.14285714
+    "cases": 1044.571429,
+    "deaths": 35.57142857
   },
   {
     "Date": "6/25/2021",
@@ -4506,8 +4506,8 @@
     "Population Staying at Home": 10094466,
     "Population Not Staying at Home": 29417757,
     "Number of Trips": 128506893,
-    "cases": 1044.571429,
-    "deaths": 35.57142857
+    "cases": 1090.142857,
+    "deaths": 34.85714286
   },
   {
     "Date": "6/26/2021",
@@ -4516,8 +4516,8 @@
     "Population Staying at Home": 10336836,
     "Population Not Staying at Home": 29175387,
     "Number of Trips": 123428392,
-    "cases": 1090.142857,
-    "deaths": 34.85714286
+    "cases": 1030.285714,
+    "deaths": 34.28571429
   },
   {
     "Date": "6/27/2021",
@@ -4526,8 +4526,8 @@
     "Population Staying at Home": 10801005,
     "Population Not Staying at Home": 28711218,
     "Number of Trips": 113825919,
-    "cases": 1030.285714,
-    "deaths": 34.28571429
+    "cases": 904.5714286,
+    "deaths": 33.85714286
   },
   {
     "Date": "6/28/2021",
@@ -4536,8 +4536,8 @@
     "Population Staying at Home": 10240160,
     "Population Not Staying at Home": 29272063,
     "Number of Trips": 136698921,
-    "cases": 904.5714286,
-    "deaths": 33.85714286
+    "cases": 7888.571429,
+    "deaths": 31.28571429
   },
   {
     "Date": "6/29/2021",
@@ -4546,8 +4546,8 @@
     "Population Staying at Home": 10376088,
     "Population Not Staying at Home": 29136135,
     "Number of Trips": 127286758,
-    "cases": 7888.571429,
-    "deaths": 31.28571429
+    "cases": 7944.571429,
+    "deaths": 23.71428571
   },
   {
     "Date": "6/30/2021",
@@ -4556,8 +4556,8 @@
     "Population Staying at Home": 10143507,
     "Population Not Staying at Home": 29368716,
     "Number of Trips": 128314061,
-    "cases": 7944.571429,
-    "deaths": 23.71428571
+    "cases": 7832.428571,
+    "deaths": 22
   },
   {
     "Date": "7/1/2021",
@@ -4566,8 +4566,8 @@
     "Population Staying at Home": 9955787,
     "Population Not Staying at Home": 29556436,
     "Number of Trips": 134679702,
-    "cases": 7832.428571,
-    "deaths": 22
+    "cases": 7708.571429,
+    "deaths": 17.57142857
   },
   {
     "Date": "7/2/2021",
@@ -4576,8 +4576,8 @@
     "Population Staying at Home": 9777143,
     "Population Not Staying at Home": 29735080,
     "Number of Trips": 137399686,
-    "cases": 7708.571429,
-    "deaths": 17.57142857
+    "cases": 7478.571429,
+    "deaths": 16
   },
   {
     "Date": "7/3/2021",
@@ -4586,8 +4586,8 @@
     "Population Staying at Home": 9925859,
     "Population Not Staying at Home": 29586364,
     "Number of Trips": 133116061,
-    "cases": 7478.571429,
-    "deaths": 16
+    "cases": 8203.428571,
+    "deaths": 23
   },
   {
     "Date": "7/4/2021",
@@ -4596,8 +4596,8 @@
     "Population Staying at Home": 10432546,
     "Population Not Staying at Home": 29079677,
     "Number of Trips": 124209536,
-    "cases": 8203.428571,
-    "deaths": 23
+    "cases": 8393.714286,
+    "deaths": 21
   },
   {
     "Date": "7/5/2021",
@@ -4606,8 +4606,8 @@
     "Population Staying at Home": 10230695,
     "Population Not Staying at Home": 29281528,
     "Number of Trips": 140034005,
-    "cases": 8393.714286,
-    "deaths": 21
+    "cases": 5274.571429,
+    "deaths": 22.42857143
   },
   {
     "Date": "7/6/2021",
@@ -4616,8 +4616,8 @@
     "Population Staying at Home": 10835233,
     "Population Not Staying at Home": 28676990,
     "Number of Trips": 117699901,
-    "cases": 5274.571429,
-    "deaths": 22.42857143
+    "cases": 5355.428571,
+    "deaths": 31.71428571
   },
   {
     "Date": "7/7/2021",
@@ -4626,8 +4626,8 @@
     "Population Staying at Home": 10018264,
     "Population Not Staying at Home": 29493959,
     "Number of Trips": 135212096,
-    "cases": 5355.428571,
-    "deaths": 31.71428571
+    "cases": 5416.714286,
+    "deaths": 32.28571429
   },
   {
     "Date": "7/8/2021",
@@ -4636,8 +4636,8 @@
     "Population Staying at Home": 9928155,
     "Population Not Staying at Home": 29584068,
     "Number of Trips": 138000167,
-    "cases": 5416.714286,
-    "deaths": 32.28571429
+    "cases": 5575.714286,
+    "deaths": 32.71428571
   },
   {
     "Date": "7/9/2021",
@@ -4646,8 +4646,8 @@
     "Population Staying at Home": 9702359,
     "Population Not Staying at Home": 29809864,
     "Number of Trips": 141699867,
-    "cases": 5575.714286,
-    "deaths": 32.71428571
+    "cases": 6535.714286,
+    "deaths": 43.71428571
   },
   {
     "Date": "7/10/2021",
@@ -4656,8 +4656,8 @@
     "Population Staying at Home": 10254280,
     "Population Not Staying at Home": 29257943,
     "Number of Trips": 123943986,
-    "cases": 6535.714286,
-    "deaths": 43.71428571
+    "cases": 6381.285714,
+    "deaths": 37.42857143
   },
   {
     "Date": "7/11/2021",
@@ -4666,8 +4666,8 @@
     "Population Staying at Home": 10612010,
     "Population Not Staying at Home": 28900213,
     "Number of Trips": 113965902,
-    "cases": 6381.285714,
-    "deaths": 37.42857143
+    "cases": 6635.142857,
+    "deaths": 36.28571429
   },
   {
     "Date": "7/12/2021",
@@ -4676,8 +4676,8 @@
     "Population Staying at Home": 10007809,
     "Population Not Staying at Home": 29504414,
     "Number of Trips": 139017148,
-    "cases": 6635.142857,
-    "deaths": 36.28571429
+    "cases": 3151.857143,
+    "deaths": 33.71428571
   },
   {
     "Date": "7/13/2021",
@@ -4686,8 +4686,8 @@
     "Population Staying at Home": 10030101,
     "Population Not Staying at Home": 29482122,
     "Number of Trips": 136596395,
-    "cases": 3151.857143,
-    "deaths": 33.71428571
+    "cases": 3518.857143,
+    "deaths": 30.42857143
   },
   {
     "Date": "7/14/2021",
@@ -4696,8 +4696,8 @@
     "Population Staying at Home": 10330131,
     "Population Not Staying at Home": 29182092,
     "Number of Trips": 128259867,
-    "cases": 3518.857143,
-    "deaths": 30.42857143
+    "cases": 3711.428571,
+    "deaths": 30.14285714
   },
   {
     "Date": "7/15/2021",
@@ -4706,8 +4706,8 @@
     "Population Staying at Home": 10045849,
     "Population Not Staying at Home": 29466374,
     "Number of Trips": 133727601,
-    "cases": 3711.428571,
-    "deaths": 30.14285714
+    "cases": 3785.714286,
+    "deaths": 29.85714286
   },
   {
     "Date": "7/16/2021",
@@ -4716,8 +4716,8 @@
     "Population Staying at Home": 9777069,
     "Population Not Staying at Home": 29735154,
     "Number of Trips": 138519338,
-    "cases": 3785.714286,
-    "deaths": 29.85714286
+    "cases": 4437.571429,
+    "deaths": 24.71428571
   },
   {
     "Date": "7/17/2021",
@@ -4726,8 +4726,8 @@
     "Population Staying at Home": 10146492,
     "Population Not Staying at Home": 29365731,
     "Number of Trips": 126333705,
-    "cases": 4437.571429,
-    "deaths": 24.71428571
+    "cases": 4619.571429,
+    "deaths": 22.85714286
   },
   {
     "Date": "7/18/2021",
@@ -4736,8 +4736,8 @@
     "Population Staying at Home": 10768650,
     "Population Not Staying at Home": 28743573,
     "Number of Trips": 109828640,
-    "cases": 4619.571429,
-    "deaths": 22.85714286
+    "cases": 5102.714286,
+    "deaths": 20.57142857
   },
   {
     "Date": "7/19/2021",
@@ -4746,8 +4746,8 @@
     "Population Staying at Home": 10084081,
     "Population Not Staying at Home": 29428142,
     "Number of Trips": 136098706,
-    "cases": 5102.714286,
-    "deaths": 20.57142857
+    "cases": 5850.571429,
+    "deaths": 19
   },
   {
     "Date": "7/20/2021",
@@ -4756,8 +4756,8 @@
     "Population Staying at Home": 9862322,
     "Population Not Staying at Home": 29649901,
     "Number of Trips": 147716024,
-    "cases": 5850.571429,
-    "deaths": 19
+    "cases": 6412,
+    "deaths": 19.42857143
   },
   {
     "Date": "7/21/2021",
@@ -4766,8 +4766,8 @@
     "Population Staying at Home": 10113020,
     "Population Not Staying at Home": 29399203,
     "Number of Trips": 134749721,
-    "cases": 6412,
-    "deaths": 19.42857143
+    "cases": 6527.857143,
+    "deaths": 19.28571429
   },
   {
     "Date": "7/22/2021",
@@ -4776,8 +4776,8 @@
     "Population Staying at Home": 10340597,
     "Population Not Staying at Home": 29171626,
     "Number of Trips": 122013665,
-    "cases": 6527.857143,
-    "deaths": 19.28571429
+    "cases": 6592.285714,
+    "deaths": 19.85714286
   },
   {
     "Date": "7/23/2021",
@@ -4786,8 +4786,8 @@
     "Population Staying at Home": 9696584,
     "Population Not Staying at Home": 29815639,
     "Number of Trips": 144536130,
-    "cases": 6592.285714,
-    "deaths": 19.85714286
+    "cases": 7310.285714,
+    "deaths": 19.71428571
   },
   {
     "Date": "7/24/2021",
@@ -4796,8 +4796,8 @@
     "Population Staying at Home": 10154532,
     "Population Not Staying at Home": 29357691,
     "Number of Trips": 127004802,
-    "cases": 7310.285714,
-    "deaths": 19.71428571
+    "cases": 7692.428571,
+    "deaths": 23.42857143
   },
   {
     "Date": "7/25/2021",
@@ -4806,8 +4806,8 @@
     "Population Staying at Home": 10470622,
     "Population Not Staying at Home": 29041601,
     "Number of Trips": 117622344,
-    "cases": 7692.428571,
-    "deaths": 23.42857143
+    "cases": 7864,
+    "deaths": 25.57142857
   },
   {
     "Date": "7/26/2021",
@@ -4816,8 +4816,8 @@
     "Population Staying at Home": 9927013,
     "Population Not Staying at Home": 29585210,
     "Number of Trips": 146100208,
-    "cases": 7864,
-    "deaths": 25.57142857
+    "cases": 8047.857143,
+    "deaths": 28.28571429
   },
   {
     "Date": "7/27/2021",
@@ -4826,8 +4826,8 @@
     "Population Staying at Home": 9983231,
     "Population Not Staying at Home": 29528992,
     "Number of Trips": 137315844,
-    "cases": 8047.857143,
-    "deaths": 28.28571429
+    "cases": 8392.571429,
+    "deaths": 28
   },
   {
     "Date": "7/28/2021",
@@ -4836,8 +4836,8 @@
     "Population Staying at Home": 10099827,
     "Population Not Staying at Home": 29412396,
     "Number of Trips": 131066139,
-    "cases": 8392.571429,
-    "deaths": 28
+    "cases": 8500,
+    "deaths": 28.14285714
   },
   {
     "Date": "7/29/2021",
@@ -4846,8 +4846,8 @@
     "Population Staying at Home": 9775992,
     "Population Not Staying at Home": 29736231,
     "Number of Trips": 150436837,
-    "cases": 8500,
-    "deaths": 28.14285714
+    "cases": 8676.714286,
+    "deaths": 27.42857143
   },
   {
     "Date": "7/30/2021",
@@ -4856,8 +4856,8 @@
     "Population Staying at Home": 9642049,
     "Population Not Staying at Home": 29870174,
     "Number of Trips": 144288128,
-    "cases": 8676.714286,
-    "deaths": 27.42857143
+    "cases": 9982.285714,
+    "deaths": 39
   },
   {
     "Date": "7/31/2021",
@@ -4866,8 +4866,8 @@
     "Population Staying at Home": 9999357,
     "Population Not Staying at Home": 29512866,
     "Number of Trips": 130981494,
-    "cases": 9982.285714,
-    "deaths": 39
+    "cases": 9844.285714,
+    "deaths": 34.57142857
   },
   {
     "Date": "8/1/2021",
@@ -4876,8 +4876,8 @@
     "Population Staying at Home": 10525583,
     "Population Not Staying at Home": 28986640,
     "Number of Trips": 115321116,
-    "cases": 9844.285714,
-    "deaths": 34.57142857
+    "cases": 10189.85714,
+    "deaths": 43.71428571
   },
   {
     "Date": "8/2/2021",
@@ -4886,8 +4886,8 @@
     "Population Staying at Home": 10231088,
     "Population Not Staying at Home": 29281135,
     "Number of Trips": 137828051,
-    "cases": 10189.85714,
-    "deaths": 43.71428571
+    "cases": 10519.71429,
+    "deaths": 44.71428571
   },
   {
     "Date": "8/3/2021",
@@ -4896,8 +4896,8 @@
     "Population Staying at Home": 9777206,
     "Population Not Staying at Home": 29735017,
     "Number of Trips": 146152316,
-    "cases": 10519.71429,
-    "deaths": 44.71428571
+    "cases": 11034.71429,
+    "deaths": 44.14285714
   },
   {
     "Date": "8/4/2021",
@@ -4906,8 +4906,8 @@
     "Population Staying at Home": 9610146,
     "Population Not Staying at Home": 29902077,
     "Number of Trips": 149272078,
-    "cases": 11034.71429,
-    "deaths": 44.14285714
+    "cases": 11147.42857,
+    "deaths": 45.71428571
   },
   {
     "Date": "8/5/2021",
@@ -4916,8 +4916,8 @@
     "Population Staying at Home": 10895738,
     "Population Not Staying at Home": 28616485,
     "Number of Trips": 114437059,
-    "cases": 11147.42857,
-    "deaths": 45.71428571
+    "cases": 13366.28571,
+    "deaths": 52.14285714
   },
   {
     "Date": "8/6/2021",
@@ -4926,8 +4926,8 @@
     "Population Staying at Home": 9976546,
     "Population Not Staying at Home": 29535677,
     "Number of Trips": 141370250,
-    "cases": 13366.28571,
-    "deaths": 52.14285714
+    "cases": 11586.42857,
+    "deaths": 36.28571429
   },
   {
     "Date": "8/7/2021",
@@ -4936,7 +4936,7 @@
     "Population Staying at Home": 9859972,
     "Population Not Staying at Home": 29652251,
     "Number of Trips": 136228086,
-    "cases": 11586.42857,
-    "deaths": 36.28571429
+    "cases": 11878.14286,
+    "deaths": 43.57142857
   }
 ]
