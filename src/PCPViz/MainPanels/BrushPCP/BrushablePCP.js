@@ -1,5 +1,6 @@
 import * as d3 from 'd3';
-import data2 from "./../../Data/StateLevel/CA_2.json";
+// import data2 from "./../../Data/StateLevel/CA_2.json";
+import {timeVaryingStateData} from "./ExtractTVStateData";
 import {timeToIndex} from "./TimeFormat";
 import React, {useEffect} from "react";
 const width = 1200;
@@ -11,40 +12,45 @@ const keyz = "temperature";
 const colors = d3.interpolateRdBu;
 const deselectedColor = "#eee";
 
-export default function BrushablePCP() {
-
+export default function BrushablePCP(props) {
+    let data2 = timeVaryingStateData["CA"];
     const keys = Object.keys(data2[0]); //data2.columns.slice(1);
 
-    const x = d3.scalePoint(keys, [margin.left, width - margin.right]);
-    const y = new Map(Array.from(keys, function(key) {
-        if(key === "Date"){
-            return [key, d3.scaleLinear(d3.extent(data2,
-                function(d){
-                    return 493- timeToIndex[d[key]];
-                }), [height - margin.bottom,margin.top])];
-        }
-        return [key, d3.scaleLinear(d3.extent(data2,
-            function(d){
-            return d[key]
-        }), [height - margin.bottom, margin.top])];
-    }));
-    const z = d3.scaleSequential(y.get(keyz).domain().reverse(), colors);
-
-
-    const line =d3.line()
-        .defined(([, value]) => value != null)
-        .y(function([key, value]){
-           // console.log(value);
-            if(key === "Date") return (height -margin.top) - ((timeToIndex[value]/493)*(height - margin.bottom - margin.top));
-            return y.get(key)(value)})
-        .x(([key]) => x(key))
 
     useEffect(() => {
+        data2 = timeVaryingStateData[props.state_name];
+        console.log(data2);
         // const svg = d3.create("svg")
         //     .attr("viewBox", [0, 0, width, height]);
 
+        const x = d3.scalePoint(keys, [margin.left, width - margin.right]);
+        const y = new Map(Array.from(keys, function(key) {
+            if(key === "Date"){
+                return [key, d3.scaleLinear(d3.extent(data2,
+                    function(d){
+                        return 493- timeToIndex[d[key]];
+                    }), [height - margin.bottom,margin.top])];
+            }
+            return [key, d3.scaleLinear(d3.extent(data2,
+                function(d){
+                    return d[key]
+                }), [height - margin.bottom, margin.top])];
+        }));
+        const z = d3.scaleSequential(y.get(keyz).domain().reverse(), colors);
+
+        const line =d3.line()
+            .defined(([, value]) => value != null)
+            .y(function([key, value]){
+                // console.log(value);
+                if(key === "Date") return (height -margin.top) - ((timeToIndex[value]/493)*(height - margin.bottom - margin.top));
+                return y.get(key)(value)})
+            .x(([key]) => x(key))
+
+        d3.select("#pcp-id").remove();
+
         let svg = d3.select("#brushable-pcp-wrapper")
             .append("svg")
+            .attr("id", "pcp-id")
             .attr("viewBox", [0, 0, width, height]);
 
         const brush = d3.brushX()
@@ -71,6 +77,7 @@ export default function BrushablePCP() {
             .join("g")
             .attr("transform", d => `translate( ${x(d) + 5}, 0) rotate(90)`)
             .each(function (d) {
+                console.log(y.get(d));
                 d3.select(this).call(d3.axisBottom(y.get(d)));
             })
             .call(g => g.append("text")
@@ -123,7 +130,7 @@ export default function BrushablePCP() {
             });
             svg.property("value", selected).dispatch("input");
         }
-    },[])
+    },[props.state_name])
 
     return <div id="brushable-pcp-wrapper"> </div>
     // return svg.property("value", data2).node();

@@ -1,0 +1,4942 @@
+[
+  {
+    "Date": "4/1/2020",
+    "temperature": 62.29166667,
+    "humidity": 71.29166667,
+    "Population Staying at Home": 6930879,
+    "Population Not Staying at Home": 21770966,
+    "Number of Trips": 73640694,
+    "cases": 467,
+    "deaths": 7
+  },
+  {
+    "Date": "4/2/2020",
+    "temperature": 65.96969697,
+    "humidity": 87.18181818,
+    "Population Staying at Home": 6988387,
+    "Population Not Staying at Home": 21713458,
+    "Number of Trips": 70367991,
+    "cases": 487,
+    "deaths": 8
+  },
+  {
+    "Date": "4/3/2020",
+    "temperature": 65.10810811,
+    "humidity": 92.43243243,
+    "Population Staying at Home": 6836370,
+    "Population Not Staying at Home": 21865475,
+    "Number of Trips": 71224259,
+    "cases": 543,
+    "deaths": 10
+  },
+  {
+    "Date": "4/4/2020",
+    "temperature": 48.73529412,
+    "humidity": 91.47058824,
+    "Population Staying at Home": 7770352,
+    "Population Not Staying at Home": 20931493,
+    "Number of Trips": 60943061,
+    "cases": 598,
+    "deaths": 13
+  },
+  {
+    "Date": "4/5/2020",
+    "temperature": 59.27586207,
+    "humidity": 86.24137931,
+    "Population Staying at Home": 8120380,
+    "Population Not Staying at Home": 20581465,
+    "Number of Trips": 58515366,
+    "cases": 628,
+    "deaths": 14
+  },
+  {
+    "Date": "4/6/2020",
+    "temperature": 68.71428571,
+    "humidity": 85.71428571,
+    "Population Staying at Home": 7118787,
+    "Population Not Staying at Home": 21583058,
+    "Number of Trips": 71081970,
+    "cases": 769,
+    "deaths": 16
+  },
+  {
+    "Date": "4/7/2020",
+    "temperature": 74.93939394,
+    "humidity": 86.18181818,
+    "Population Staying at Home": 7006181,
+    "Population Not Staying at Home": 21695664,
+    "Number of Trips": 74410124,
+    "cases": 768.5714286,
+    "deaths": 18.57142857
+  },
+  {
+    "Date": "4/8/2020",
+    "temperature": 78.51724138,
+    "humidity": 83.93103448,
+    "Population Staying at Home": 6980108,
+    "Population Not Staying at Home": 21721737,
+    "Number of Trips": 73902275,
+    "cases": 785,
+    "deaths": 21.14285714
+  },
+  {
+    "Date": "4/9/2020",
+    "temperature": 74.48,
+    "humidity": 84.52,
+    "Population Staying at Home": 7006851,
+    "Population Not Staying at Home": 21694994,
+    "Number of Trips": 72727224,
+    "cases": 917.1428571,
+    "deaths": 21.57142857
+  },
+  {
+    "Date": "4/10/2020",
+    "temperature": 67.55555556,
+    "humidity": 77.33333333,
+    "Population Staying at Home": 6878266,
+    "Population Not Staying at Home": 21823579,
+    "Number of Trips": 74564516,
+    "cases": 931.1428571,
+    "deaths": 20.14285714
+  },
+  {
+    "Date": "4/11/2020",
+    "temperature": 69.4,
+    "humidity": 84.16666667,
+    "Population Staying at Home": 7319906,
+    "Population Not Staying at Home": 21381939,
+    "Number of Trips": 69437507,
+    "cases": 948.8571429,
+    "deaths": 21.71428571
+  },
+  {
+    "Date": "4/12/2020",
+    "temperature": 75.92307692,
+    "humidity": 59.96153846,
+    "Population Staying at Home": 8559623,
+    "Population Not Staying at Home": 20142222,
+    "Number of Trips": 52534446,
+    "cases": 951.2857143,
+    "deaths": 23
+  },
+  {
+    "Date": "4/13/2020",
+    "temperature": 54.66666667,
+    "humidity": 55.91666667,
+    "Population Staying at Home": 7186503,
+    "Population Not Staying at Home": 21515342,
+    "Number of Trips": 72612036,
+    "cases": 905.2857143,
+    "deaths": 26.85714286
+  },
+  {
+    "Date": "4/14/2020",
+    "temperature": 54.75,
+    "humidity": 61.04166667,
+    "Population Staying at Home": 7227264,
+    "Population Not Staying at Home": 21474581,
+    "Number of Trips": 72176985,
+    "cases": 905,
+    "deaths": 28.57142857
+  },
+  {
+    "Date": "4/15/2020",
+    "temperature": 54.66666667,
+    "humidity": 61.91666667,
+    "Population Staying at Home": 7006454,
+    "Population Not Staying at Home": 21695391,
+    "Number of Trips": 73327987,
+    "cases": 887,
+    "deaths": 28.57142857
+  },
+  {
+    "Date": "4/16/2020",
+    "temperature": 61.58333333,
+    "humidity": 66.375,
+    "Population Staying at Home": 7344488,
+    "Population Not Staying at Home": 21357357,
+    "Number of Trips": 72382025,
+    "cases": 793.7142857,
+    "deaths": 30.28571429
+  },
+  {
+    "Date": "4/17/2020",
+    "temperature": 64.63888889,
+    "humidity": 87.05555556,
+    "Population Staying at Home": 6707118,
+    "Population Not Staying at Home": 21994727,
+    "Number of Trips": 73153645,
+    "cases": 834.2857143,
+    "deaths": 31.71428571
+  },
+  {
+    "Date": "4/18/2020",
+    "temperature": 58.53846154,
+    "humidity": 78.65384615,
+    "Population Staying at Home": 7479306,
+    "Population Not Staying at Home": 21222539,
+    "Number of Trips": 70415761,
+    "cases": 817,
+    "deaths": 30.71428571
+  },
+  {
+    "Date": "4/19/2020",
+    "temperature": 68.18918919,
+    "humidity": 78.54054054,
+    "Population Staying at Home": 7710620,
+    "Population Not Staying at Home": 20991225,
+    "Number of Trips": 59998861,
+    "cases": 809.2857143,
+    "deaths": 29
+  },
+  {
+    "Date": "4/20/2020",
+    "temperature": 68.62068966,
+    "humidity": 77.75862069,
+    "Population Staying at Home": 6672794,
+    "Population Not Staying at Home": 22029051,
+    "Number of Trips": 80558709,
+    "cases": 792.5714286,
+    "deaths": 26.71428571
+  },
+  {
+    "Date": "4/21/2020",
+    "temperature": 73.38709677,
+    "humidity": 73.51612903,
+    "Population Staying at Home": 6711364,
+    "Population Not Staying at Home": 21990481,
+    "Number of Trips": 78137485,
+    "cases": 806.5714286,
+    "deaths": 25.14285714
+  },
+  {
+    "Date": "4/22/2020",
+    "temperature": 74.44117647,
+    "humidity": 89.79411765,
+    "Population Staying at Home": 6732993,
+    "Population Not Staying at Home": 21968852,
+    "Number of Trips": 74413501,
+    "cases": 809,
+    "deaths": 24.71428571
+  },
+  {
+    "Date": "4/23/2020",
+    "temperature": 72.03448276,
+    "humidity": 68.20689655,
+    "Population Staying at Home": 6388364,
+    "Population Not Staying at Home": 22313481,
+    "Number of Trips": 81264456,
+    "cases": 825.4285714,
+    "deaths": 23.42857143
+  },
+  {
+    "Date": "4/24/2020",
+    "temperature": 76.6,
+    "humidity": 53.08,
+    "Population Staying at Home": 6378748,
+    "Population Not Staying at Home": 22323097,
+    "Number of Trips": 82244754,
+    "cases": 788.4285714,
+    "deaths": 25
+  },
+  {
+    "Date": "4/25/2020",
+    "temperature": 68.36,
+    "humidity": 53.2,
+    "Population Staying at Home": 6765673,
+    "Population Not Staying at Home": 21936172,
+    "Number of Trips": 76910248,
+    "cases": 795.2857143,
+    "deaths": 24.71428571
+  },
+  {
+    "Date": "4/26/2020",
+    "temperature": 68.66666667,
+    "humidity": 57.75,
+    "Population Staying at Home": 7215481,
+    "Population Not Staying at Home": 21486364,
+    "Number of Trips": 70839696,
+    "cases": 824,
+    "deaths": 25.14285714
+  },
+  {
+    "Date": "4/27/2020",
+    "temperature": 73,
+    "humidity": 67.68,
+    "Population Staying at Home": 6532297,
+    "Population Not Staying at Home": 22169548,
+    "Number of Trips": 79924889,
+    "cases": 846.8571429,
+    "deaths": 26.57142857
+  },
+  {
+    "Date": "4/28/2020",
+    "temperature": 80.3,
+    "humidity": 73.3,
+    "Population Staying at Home": 6597216,
+    "Population Not Staying at Home": 22104629,
+    "Number of Trips": 78060179,
+    "cases": 845.5714286,
+    "deaths": 29.28571429
+  },
+  {
+    "Date": "4/29/2020",
+    "temperature": 72.19354839,
+    "humidity": 67.83870968,
+    "Population Staying at Home": 6539616,
+    "Population Not Staying at Home": 22162229,
+    "Number of Trips": 79390617,
+    "cases": 867.1428571,
+    "deaths": 32.42857143
+  },
+  {
+    "Date": "4/30/2020",
+    "temperature": 68.54166667,
+    "humidity": 55.5,
+    "Population Staying at Home": 6243456,
+    "Population Not Staying at Home": 22458389,
+    "Number of Trips": 83858395,
+    "cases": 909.4285714,
+    "deaths": 32.57142857
+  },
+  {
+    "Date": "5/1/2020",
+    "temperature": 71.375,
+    "humidity": 62.08333333,
+    "Population Staying at Home": 6025818,
+    "Population Not Staying at Home": 22676027,
+    "Number of Trips": 87098438,
+    "cases": 956,
+    "deaths": 30.42857143
+  },
+  {
+    "Date": "5/2/2020",
+    "temperature": 75.93548387,
+    "humidity": 75.16129032,
+    "Population Staying at Home": 6458823,
+    "Population Not Staying at Home": 22243022,
+    "Number of Trips": 81167636,
+    "cases": 991.2857143,
+    "deaths": 30.57142857
+  },
+  {
+    "Date": "5/3/2020",
+    "temperature": 79.72,
+    "humidity": 67.72,
+    "Population Staying at Home": 7018527,
+    "Population Not Staying at Home": 21683318,
+    "Number of Trips": 71765731,
+    "cases": 1012.857143,
+    "deaths": 30.71428571
+  },
+  {
+    "Date": "5/4/2020",
+    "temperature": 80,
+    "humidity": 70.5,
+    "Population Staying at Home": 6307787,
+    "Population Not Staying at Home": 22394058,
+    "Number of Trips": 82423737,
+    "cases": 1024.428571,
+    "deaths": 31
+  },
+  {
+    "Date": "5/5/2020",
+    "temperature": 76.06896552,
+    "humidity": 70.03448276,
+    "Population Staying at Home": 6341215,
+    "Population Not Staying at Home": 22360630,
+    "Number of Trips": 81929121,
+    "cases": 1059.714286,
+    "deaths": 29.85714286
+  },
+  {
+    "Date": "5/6/2020",
+    "temperature": 72.91666667,
+    "humidity": 44.95833333,
+    "Population Staying at Home": 6231253,
+    "Population Not Staying at Home": 22470592,
+    "Number of Trips": 82941418,
+    "cases": 1086,
+    "deaths": 26.85714286
+  },
+  {
+    "Date": "5/7/2020",
+    "temperature": 70.76,
+    "humidity": 70.92,
+    "Population Staying at Home": 6245991,
+    "Population Not Staying at Home": 22455854,
+    "Number of Trips": 81593769,
+    "cases": 1087.142857,
+    "deaths": 29.42857143
+  },
+  {
+    "Date": "5/8/2020",
+    "temperature": 76.13793103,
+    "humidity": 65,
+    "Population Staying at Home": 6159569,
+    "Population Not Staying at Home": 22542276,
+    "Number of Trips": 84103372,
+    "cases": 1085.857143,
+    "deaths": 30.14285714
+  },
+  {
+    "Date": "5/9/2020",
+    "temperature": 67.80769231,
+    "humidity": 55.76923077,
+    "Population Staying at Home": 6304121,
+    "Population Not Staying at Home": 22397724,
+    "Number of Trips": 83738321,
+    "cases": 1059.428571,
+    "deaths": 31.42857143
+  },
+  {
+    "Date": "5/10/2020",
+    "temperature": 65.66666667,
+    "humidity": 60.95833333,
+    "Population Staying at Home": 6609554,
+    "Population Not Staying at Home": 22092291,
+    "Number of Trips": 74387983,
+    "cases": 1105.428571,
+    "deaths": 31.85714286
+  },
+  {
+    "Date": "5/11/2020",
+    "temperature": 71,
+    "humidity": 64.56,
+    "Population Staying at Home": 5598015,
+    "Population Not Staying at Home": 23103830,
+    "Number of Trips": 86274427,
+    "cases": 1122,
+    "deaths": 30.57142857
+  },
+  {
+    "Date": "5/12/2020",
+    "temperature": 68.94871795,
+    "humidity": 90.61538462,
+    "Population Staying at Home": 5593596,
+    "Population Not Staying at Home": 23108249,
+    "Number of Trips": 85783406,
+    "cases": 1151.714286,
+    "deaths": 31.42857143
+  },
+  {
+    "Date": "5/13/2020",
+    "temperature": 73.2,
+    "humidity": 82.65714286,
+    "Population Staying at Home": 5628219,
+    "Population Not Staying at Home": 23073626,
+    "Number of Trips": 84679654,
+    "cases": 1197.285714,
+    "deaths": 34.28571429
+  },
+  {
+    "Date": "5/14/2020",
+    "temperature": 78.64516129,
+    "humidity": 75.87096774,
+    "Population Staying at Home": 5536847,
+    "Population Not Staying at Home": 23164998,
+    "Number of Trips": 85834748,
+    "cases": 1212.428571,
+    "deaths": 34.42857143
+  },
+  {
+    "Date": "5/15/2020",
+    "temperature": 77.94285714,
+    "humidity": 79.42857143,
+    "Population Staying at Home": 5418216,
+    "Population Not Staying at Home": 23283629,
+    "Number of Trips": 84902278,
+    "cases": 1292,
+    "deaths": 34.85714286
+  },
+  {
+    "Date": "5/16/2020",
+    "temperature": 70.38235294,
+    "humidity": 78.79411765,
+    "Population Staying at Home": 6160895,
+    "Population Not Staying at Home": 22540950,
+    "Number of Trips": 78700565,
+    "cases": 1288.142857,
+    "deaths": 35.14285714
+  },
+  {
+    "Date": "5/17/2020",
+    "temperature": 75.54166667,
+    "humidity": 65.625,
+    "Population Staying at Home": 5580685,
+    "Population Not Staying at Home": 23121160,
+    "Number of Trips": 82454298,
+    "cases": 1255.857143,
+    "deaths": 32.14285714
+  },
+  {
+    "Date": "5/18/2020",
+    "temperature": 77.95833333,
+    "humidity": 67.70833333,
+    "Population Staying at Home": 4655998,
+    "Population Not Staying at Home": 24045847,
+    "Number of Trips": 96115440,
+    "cases": 1257.142857,
+    "deaths": 33.71428571
+  },
+  {
+    "Date": "5/19/2020",
+    "temperature": 80.95833333,
+    "humidity": 70.58333333,
+    "Population Staying at Home": 4649347,
+    "Population Not Staying at Home": 24052498,
+    "Number of Trips": 95746913,
+    "cases": 1247.428571,
+    "deaths": 34
+  },
+  {
+    "Date": "5/20/2020",
+    "temperature": 82.10714286,
+    "humidity": 75.25,
+    "Population Staying at Home": 4654148,
+    "Population Not Staying at Home": 24047697,
+    "Number of Trips": 95411800,
+    "cases": 1221,
+    "deaths": 32
+  },
+  {
+    "Date": "5/21/2020",
+    "temperature": 80.85714286,
+    "humidity": 74.78571429,
+    "Population Staying at Home": 4534040,
+    "Population Not Staying at Home": 24167805,
+    "Number of Trips": 96035114,
+    "cases": 1181.714286,
+    "deaths": 28.28571429
+  },
+  {
+    "Date": "5/22/2020",
+    "temperature": 82.5,
+    "humidity": 75.5,
+    "Population Staying at Home": 4282324,
+    "Population Not Staying at Home": 24419521,
+    "Number of Trips": 98645300,
+    "cases": 1054.571429,
+    "deaths": 27.42857143
+  },
+  {
+    "Date": "5/23/2020",
+    "temperature": 83.64,
+    "humidity": 70.6,
+    "Population Staying at Home": 4908788,
+    "Population Not Staying at Home": 23793057,
+    "Number of Trips": 91565391,
+    "cases": 1083.571429,
+    "deaths": 25.28571429
+  },
+  {
+    "Date": "5/24/2020",
+    "temperature": 78.08333333,
+    "humidity": 80.30555556,
+    "Population Staying at Home": 6174914,
+    "Population Not Staying at Home": 22526931,
+    "Number of Trips": 72817634,
+    "cases": 1031.714286,
+    "deaths": 24.85714286
+  },
+  {
+    "Date": "5/25/2020",
+    "temperature": 71.03125,
+    "humidity": 85.5625,
+    "Population Staying at Home": 6317152,
+    "Population Not Staying at Home": 22384693,
+    "Number of Trips": 69764539,
+    "cases": 957.4285714,
+    "deaths": 21
+  },
+  {
+    "Date": "5/26/2020",
+    "temperature": 73.25925926,
+    "humidity": 74.51851852,
+    "Population Staying at Home": 5490312,
+    "Population Not Staying at Home": 23211533,
+    "Number of Trips": 82441247,
+    "cases": 927.5714286,
+    "deaths": 22.14285714
+  },
+  {
+    "Date": "5/27/2020",
+    "temperature": 73.28571429,
+    "humidity": 77.85714286,
+    "Population Staying at Home": 5323187,
+    "Population Not Staying at Home": 23378658,
+    "Number of Trips": 88096753,
+    "cases": 962.2857143,
+    "deaths": 19.71428571
+  },
+  {
+    "Date": "5/28/2020",
+    "temperature": 74.95833333,
+    "humidity": 76.66666667,
+    "Population Staying at Home": 5460283,
+    "Population Not Staying at Home": 23241562,
+    "Number of Trips": 86277811,
+    "cases": 1054.142857,
+    "deaths": 21
+  },
+  {
+    "Date": "5/29/2020",
+    "temperature": 76.95833333,
+    "humidity": 67.29166667,
+    "Population Staying at Home": 5824967,
+    "Population Not Staying at Home": 22876878,
+    "Number of Trips": 89239971,
+    "cases": 1100.571429,
+    "deaths": 22
+  },
+  {
+    "Date": "5/30/2020",
+    "temperature": 75.70833333,
+    "humidity": 63.91666667,
+    "Population Staying at Home": 5877848,
+    "Population Not Staying at Home": 22823997,
+    "Number of Trips": 87098538,
+    "cases": 1135,
+    "deaths": 21.42857143
+  },
+  {
+    "Date": "5/31/2020",
+    "temperature": 77.30769231,
+    "humidity": 75.46153846,
+    "Population Staying at Home": 6276042,
+    "Population Not Staying at Home": 22425803,
+    "Number of Trips": 76106708,
+    "cases": 1274.857143,
+    "deaths": 22.71428571
+  },
+  {
+    "Date": "6/1/2020",
+    "temperature": 76.83333333,
+    "humidity": 79.95833333,
+    "Population Staying at Home": 5490461,
+    "Population Not Staying at Home": 23211384,
+    "Number of Trips": 83746640,
+    "cases": 1370.142857,
+    "deaths": 25.71428571
+  },
+  {
+    "Date": "6/2/2020",
+    "temperature": 77.44827586,
+    "humidity": 79.51724138,
+    "Population Staying at Home": 5612971,
+    "Population Not Staying at Home": 23088874,
+    "Number of Trips": 84885787,
+    "cases": 1484.714286,
+    "deaths": 24
+  },
+  {
+    "Date": "6/3/2020",
+    "temperature": 79.23333333,
+    "humidity": 79.33333333,
+    "Population Staying at Home": 5135286,
+    "Population Not Staying at Home": 23566559,
+    "Number of Trips": 89973437,
+    "cases": 1491.571429,
+    "deaths": 25
+  },
+  {
+    "Date": "6/4/2020",
+    "temperature": 80.46875,
+    "humidity": 79.03125,
+    "Population Staying at Home": 5167641,
+    "Population Not Staying at Home": 23534204,
+    "Number of Trips": 87425237,
+    "cases": 1501.428571,
+    "deaths": 25.14285714
+  },
+  {
+    "Date": "6/5/2020",
+    "temperature": 82.14814815,
+    "humidity": 73.48148148,
+    "Population Staying at Home": 5112082,
+    "Population Not Staying at Home": 23589763,
+    "Number of Trips": 91095844,
+    "cases": 1607.142857,
+    "deaths": 23.42857143
+  },
+  {
+    "Date": "6/6/2020",
+    "temperature": 84.04166667,
+    "humidity": 67.70833333,
+    "Population Staying at Home": 5970434,
+    "Population Not Staying at Home": 22731411,
+    "Number of Trips": 80493452,
+    "cases": 1668.714286,
+    "deaths": 23.28571429
+  },
+  {
+    "Date": "6/7/2020",
+    "temperature": 84.16666667,
+    "humidity": 65.95833333,
+    "Population Staying at Home": 5966084,
+    "Population Not Staying at Home": 22735761,
+    "Number of Trips": 77419607,
+    "cases": 1567.714286,
+    "deaths": 23
+  },
+  {
+    "Date": "6/8/2020",
+    "temperature": 85.70833333,
+    "humidity": 65,
+    "Population Staying at Home": 5002183,
+    "Population Not Staying at Home": 23699662,
+    "Number of Trips": 90350296,
+    "cases": 1606.428571,
+    "deaths": 22
+  },
+  {
+    "Date": "6/9/2020",
+    "temperature": 84.41935484,
+    "humidity": 74.96774194,
+    "Population Staying at Home": 5523500,
+    "Population Not Staying at Home": 23178345,
+    "Number of Trips": 84657455,
+    "cases": 1615,
+    "deaths": 21.42857143
+  },
+  {
+    "Date": "6/10/2020",
+    "temperature": 79.25,
+    "humidity": 38.79166667,
+    "Population Staying at Home": 5410536,
+    "Population Not Staying at Home": 23291309,
+    "Number of Trips": 87302569,
+    "cases": 1746.428571,
+    "deaths": 21.28571429
+  },
+  {
+    "Date": "6/11/2020",
+    "temperature": 76.875,
+    "humidity": 52.20833333,
+    "Population Staying at Home": 5257245,
+    "Population Not Staying at Home": 23444600,
+    "Number of Trips": 89643444,
+    "cases": 1777.428571,
+    "deaths": 20.57142857
+  },
+  {
+    "Date": "6/12/2020",
+    "temperature": 76.33333333,
+    "humidity": 57.625,
+    "Population Staying at Home": 5278603,
+    "Population Not Staying at Home": 23423242,
+    "Number of Trips": 89363571,
+    "cases": 1815.428571,
+    "deaths": 21.28571429
+  },
+  {
+    "Date": "6/13/2020",
+    "temperature": 78.96,
+    "humidity": 55.4,
+    "Population Staying at Home": 5520645,
+    "Population Not Staying at Home": 23181200,
+    "Number of Trips": 88401623,
+    "cases": 1863.285714,
+    "deaths": 21.28571429
+  },
+  {
+    "Date": "6/14/2020",
+    "temperature": 79.04166667,
+    "humidity": 58.16666667,
+    "Population Staying at Home": 6153790,
+    "Population Not Staying at Home": 22548055,
+    "Number of Trips": 74381214,
+    "cases": 1942,
+    "deaths": 23.14285714
+  },
+  {
+    "Date": "6/15/2020",
+    "temperature": 80.07407407,
+    "humidity": 72.33333333,
+    "Population Staying at Home": 5706418,
+    "Population Not Staying at Home": 22995427,
+    "Number of Trips": 82217482,
+    "cases": 2057.142857,
+    "deaths": 24.42857143
+  },
+  {
+    "Date": "6/16/2020",
+    "temperature": 81.22222222,
+    "humidity": 69.74074074,
+    "Population Staying at Home": 5593029,
+    "Population Not Staying at Home": 23108816,
+    "Number of Trips": 86516067,
+    "cases": 2386,
+    "deaths": 26.14285714
+  },
+  {
+    "Date": "6/17/2020",
+    "temperature": 80,
+    "humidity": 64.30769231,
+    "Population Staying at Home": 5457975,
+    "Population Not Staying at Home": 23243870,
+    "Number of Trips": 89128764,
+    "cases": 2527.857143,
+    "deaths": 27.85714286
+  },
+  {
+    "Date": "6/18/2020",
+    "temperature": 80.07692308,
+    "humidity": 72.92307692,
+    "Population Staying at Home": 5388246,
+    "Population Not Staying at Home": 23313599,
+    "Number of Trips": 87594709,
+    "cases": 2700.714286,
+    "deaths": 29
+  },
+  {
+    "Date": "6/19/2020",
+    "temperature": 82.66666667,
+    "humidity": 72.7,
+    "Population Staying at Home": 5362169,
+    "Population Not Staying at Home": 23339676,
+    "Number of Trips": 84083985,
+    "cases": 3041.571429,
+    "deaths": 28.14285714
+  },
+  {
+    "Date": "6/20/2020",
+    "temperature": 79.05263158,
+    "humidity": 81.07894737,
+    "Population Staying at Home": 5854891,
+    "Population Not Staying at Home": 22846954,
+    "Number of Trips": 80517005,
+    "cases": 3353.428571,
+    "deaths": 28.57142857
+  },
+  {
+    "Date": "6/21/2020",
+    "temperature": 83.92857143,
+    "humidity": 72.82142857,
+    "Population Staying at Home": 6495123,
+    "Population Not Staying at Home": 22206722,
+    "Number of Trips": 69037321,
+    "cases": 3620.571429,
+    "deaths": 27.85714286
+  },
+  {
+    "Date": "6/22/2020",
+    "temperature": 83.48275862,
+    "humidity": 74.31034483,
+    "Population Staying at Home": 5867353,
+    "Population Not Staying at Home": 22834492,
+    "Number of Trips": 75153875,
+    "cases": 3988.571429,
+    "deaths": 27
+  },
+  {
+    "Date": "6/23/2020",
+    "temperature": 79,
+    "humidity": 79.18181818,
+    "Population Staying at Home": 5691908,
+    "Population Not Staying at Home": 23009937,
+    "Number of Trips": 79803339,
+    "cases": 4107.571429,
+    "deaths": 27.57142857
+  },
+  {
+    "Date": "6/24/2020",
+    "temperature": 77.92307692,
+    "humidity": 77.73076923,
+    "Population Staying at Home": 5948148,
+    "Population Not Staying at Home": 22753697,
+    "Number of Trips": 77462620,
+    "cases": 4549.142857,
+    "deaths": 26.28571429
+  },
+  {
+    "Date": "6/25/2020",
+    "temperature": 80.96,
+    "humidity": 75.24,
+    "Population Staying at Home": 5726202,
+    "Population Not Staying at Home": 22975643,
+    "Number of Trips": 80406050,
+    "cases": 4872.285714,
+    "deaths": 27.71428571
+  },
+  {
+    "Date": "6/26/2020",
+    "temperature": 76.82352941,
+    "humidity": 84.44117647,
+    "Population Staying at Home": 5722976,
+    "Population Not Staying at Home": 22978869,
+    "Number of Trips": 81150566,
+    "cases": 5037.142857,
+    "deaths": 30.28571429
+  },
+  {
+    "Date": "6/27/2020",
+    "temperature": 82.33333333,
+    "humidity": 76.44444444,
+    "Population Staying at Home": 5983211,
+    "Population Not Staying at Home": 22718634,
+    "Number of Trips": 81780988,
+    "cases": 5292.142857,
+    "deaths": 30.42857143
+  },
+  {
+    "Date": "6/28/2020",
+    "temperature": 81.15625,
+    "humidity": 81.625,
+    "Population Staying at Home": 6406240,
+    "Population Not Staying at Home": 22295605,
+    "Number of Trips": 70840635,
+    "cases": 5425.714286,
+    "deaths": 31
+  },
+  {
+    "Date": "6/29/2020",
+    "temperature": 83.20689655,
+    "humidity": 77.20689655,
+    "Population Staying at Home": 6045589,
+    "Population Not Staying at Home": 22656256,
+    "Number of Trips": 78260820,
+    "cases": 5587.142857,
+    "deaths": 33.71428571
+  },
+  {
+    "Date": "6/30/2020",
+    "temperature": 83.67857143,
+    "humidity": 76,
+    "Population Staying at Home": 5913403,
+    "Population Not Staying at Home": 22788442,
+    "Number of Trips": 76840013,
+    "cases": 5996.714286,
+    "deaths": 32.28571429
+  },
+  {
+    "Date": "7/1/2020",
+    "temperature": 84.93103448,
+    "humidity": 73.48275862,
+    "Population Staying at Home": 5738390,
+    "Population Not Staying at Home": 22963455,
+    "Number of Trips": 78132893,
+    "cases": 6216.571429,
+    "deaths": 34.42857143
+  },
+  {
+    "Date": "7/2/2020",
+    "temperature": 85.24137931,
+    "humidity": 72.89655172,
+    "Population Staying at Home": 6244822,
+    "Population Not Staying at Home": 22457023,
+    "Number of Trips": 85330144,
+    "cases": 6496.714286,
+    "deaths": 35.28571429
+  },
+  {
+    "Date": "7/3/2020",
+    "temperature": 83.37037037,
+    "humidity": 71.37037037,
+    "Population Staying at Home": 6570334,
+    "Population Not Staying at Home": 22131511,
+    "Number of Trips": 80682000,
+    "cases": 6781,
+    "deaths": 35.42857143
+  },
+  {
+    "Date": "7/4/2020",
+    "temperature": 84.66666667,
+    "humidity": 67.04166667,
+    "Population Staying at Home": 7009685,
+    "Population Not Staying at Home": 21692160,
+    "Number of Trips": 69028500,
+    "cases": 6724,
+    "deaths": 36.85714286
+  },
+  {
+    "Date": "7/5/2020",
+    "temperature": 85.45833333,
+    "humidity": 65.95833333,
+    "Population Staying at Home": 6561902,
+    "Population Not Staying at Home": 22139943,
+    "Number of Trips": 66366287,
+    "cases": 6753,
+    "deaths": 42.28571429
+  },
+  {
+    "Date": "7/6/2020",
+    "temperature": 85.48,
+    "humidity": 70.6,
+    "Population Staying at Home": 6211104,
+    "Population Not Staying at Home": 22490741,
+    "Number of Trips": 72499195,
+    "cases": 7227.714286,
+    "deaths": 47.71428571
+  },
+  {
+    "Date": "7/7/2020",
+    "temperature": 86.375,
+    "humidity": 68.33333333,
+    "Population Staying at Home": 6030860,
+    "Population Not Staying at Home": 22670985,
+    "Number of Trips": 74803509,
+    "cases": 7494.428571,
+    "deaths": 59.57142857
+  },
+  {
+    "Date": "7/8/2020",
+    "temperature": 85.64285714,
+    "humidity": 71.07142857,
+    "Population Staying at Home": 5950928,
+    "Population Not Staying at Home": 22750917,
+    "Number of Trips": 75358781,
+    "cases": 7755.714286,
+    "deaths": 67.85714286
+  },
+  {
+    "Date": "7/9/2020",
+    "temperature": 86.84,
+    "humidity": 66.2,
+    "Population Staying at Home": 5974600,
+    "Population Not Staying at Home": 22727245,
+    "Number of Trips": 77117123,
+    "cases": 8252.142857,
+    "deaths": 74.28571429
+  },
+  {
+    "Date": "7/10/2020",
+    "temperature": 87.28,
+    "humidity": 68.12,
+    "Population Staying at Home": 5882091,
+    "Population Not Staying at Home": 22819754,
+    "Number of Trips": 78671803,
+    "cases": 8557,
+    "deaths": 80
+  },
+  {
+    "Date": "7/11/2020",
+    "temperature": 85.57142857,
+    "humidity": 69.82142857,
+    "Population Staying at Home": 6330262,
+    "Population Not Staying at Home": 22371583,
+    "Number of Trips": 74493154,
+    "cases": 8939,
+    "deaths": 82.85714286
+  },
+  {
+    "Date": "7/12/2020",
+    "temperature": 86.21428571,
+    "humidity": 68.25,
+    "Population Staying at Home": 6651139,
+    "Population Not Staying at Home": 22050706,
+    "Number of Trips": 64326566,
+    "cases": 9239.142857,
+    "deaths": 83.85714286
+  },
+  {
+    "Date": "7/13/2020",
+    "temperature": 89.875,
+    "humidity": 57.83333333,
+    "Population Staying at Home": 5962300,
+    "Population Not Staying at Home": 22739545,
+    "Number of Trips": 72110974,
+    "cases": 9197.428571,
+    "deaths": 90.42857143
+  },
+  {
+    "Date": "7/14/2020",
+    "temperature": 87.11111111,
+    "humidity": 63.88888889,
+    "Population Staying at Home": 6076844,
+    "Population Not Staying at Home": 22625001,
+    "Number of Trips": 75514638,
+    "cases": 9353.428571,
+    "deaths": 93.57142857
+  },
+  {
+    "Date": "7/15/2020",
+    "temperature": 87.19230769,
+    "humidity": 61.11538462,
+    "Population Staying at Home": 6054888,
+    "Population Not Staying at Home": 22646957,
+    "Number of Trips": 77714909,
+    "cases": 9623.142857,
+    "deaths": 101
+  },
+  {
+    "Date": "7/16/2020",
+    "temperature": 85.86206897,
+    "humidity": 66.93103448,
+    "Population Staying at Home": 6114542,
+    "Population Not Staying at Home": 22587303,
+    "Number of Trips": 78504990,
+    "cases": 10213,
+    "deaths": 108.5714286
+  },
+  {
+    "Date": "7/17/2020",
+    "temperature": 85.54166667,
+    "humidity": 67.45833333,
+    "Population Staying at Home": 6140030,
+    "Population Not Staying at Home": 22561815,
+    "Number of Trips": 78714714,
+    "cases": 10186.57143,
+    "deaths": 109.4285714
+  },
+  {
+    "Date": "7/18/2020",
+    "temperature": 84.32,
+    "humidity": 64.88,
+    "Population Staying at Home": 6565307,
+    "Population Not Staying at Home": 22136538,
+    "Number of Trips": 76371422,
+    "cases": 10254.14286,
+    "deaths": 112.4285714
+  },
+  {
+    "Date": "7/19/2020",
+    "temperature": 85.38461538,
+    "humidity": 63.03846154,
+    "Population Staying at Home": 7163909,
+    "Population Not Staying at Home": 21537936,
+    "Number of Trips": 64447954,
+    "cases": 10460.71429,
+    "deaths": 121
+  },
+  {
+    "Date": "7/20/2020",
+    "temperature": 85.08333333,
+    "humidity": 64.79166667,
+    "Population Staying at Home": 6653157,
+    "Population Not Staying at Home": 22048688,
+    "Number of Trips": 75078165,
+    "cases": 10277.14286,
+    "deaths": 124.2857143
+  },
+  {
+    "Date": "7/21/2020",
+    "temperature": 83,
+    "humidity": 73.93939394,
+    "Population Staying at Home": 6360944,
+    "Population Not Staying at Home": 22340901,
+    "Number of Trips": 74716875,
+    "cases": 10136.57143,
+    "deaths": 133.1428571
+  },
+  {
+    "Date": "7/22/2020",
+    "temperature": 85.17857143,
+    "humidity": 69.35714286,
+    "Population Staying at Home": 6224152,
+    "Population Not Staying at Home": 22477693,
+    "Number of Trips": 75512848,
+    "cases": 10011.85714,
+    "deaths": 138.5714286
+  },
+  {
+    "Date": "7/23/2020",
+    "temperature": 85.62068966,
+    "humidity": 67.06896552,
+    "Population Staying at Home": 6270085,
+    "Population Not Staying at Home": 22431760,
+    "Number of Trips": 74079938,
+    "cases": 9226.857143,
+    "deaths": 141
+  },
+  {
+    "Date": "7/24/2020",
+    "temperature": 86.875,
+    "humidity": 61.79166667,
+    "Population Staying at Home": 5990518,
+    "Population Not Staying at Home": 22711327,
+    "Number of Trips": 78854461,
+    "cases": 8915.428571,
+    "deaths": 147.1428571
+  },
+  {
+    "Date": "7/25/2020",
+    "temperature": 81.41176471,
+    "humidity": 77.91176471,
+    "Population Staying at Home": 6662444,
+    "Population Not Staying at Home": 22039401,
+    "Number of Trips": 70699097,
+    "cases": 8792.857143,
+    "deaths": 151
+  },
+  {
+    "Date": "7/26/2020",
+    "temperature": 79.53333333,
+    "humidity": 85.9,
+    "Population Staying at Home": 6803529,
+    "Population Not Staying at Home": 21898316,
+    "Number of Trips": 69257815,
+    "cases": 8243.142857,
+    "deaths": 304.5714286
+  },
+  {
+    "Date": "7/27/2020",
+    "temperature": 81.96969697,
+    "humidity": 78.33333333,
+    "Population Staying at Home": 6449931,
+    "Population Not Staying at Home": 22251914,
+    "Number of Trips": 77250714,
+    "cases": 8089,
+    "deaths": 314.1428571
+  },
+  {
+    "Date": "7/28/2020",
+    "temperature": 81.51612903,
+    "humidity": 78.48387097,
+    "Population Staying at Home": 6209123,
+    "Population Not Staying at Home": 22492722,
+    "Number of Trips": 78435384,
+    "cases": 8179.285714,
+    "deaths": 330.2857143
+  },
+  {
+    "Date": "7/29/2020",
+    "temperature": 80.61538462,
+    "humidity": 79.73076923,
+    "Population Staying at Home": 6336350,
+    "Population Not Staying at Home": 22365495,
+    "Number of Trips": 77998547,
+    "cases": 7904.285714,
+    "deaths": 324.7142857
+  },
+  {
+    "Date": "7/30/2020",
+    "temperature": 84.32142857,
+    "humidity": 71.39285714,
+    "Population Staying at Home": 6026315,
+    "Population Not Staying at Home": 22675530,
+    "Number of Trips": 79741186,
+    "cases": 8004.285714,
+    "deaths": 342.4285714
+  },
+  {
+    "Date": "7/31/2020",
+    "temperature": 82.29032258,
+    "humidity": 75.74193548,
+    "Population Staying at Home": 6135302,
+    "Population Not Staying at Home": 22566543,
+    "Number of Trips": 78049656,
+    "cases": 8489.714286,
+    "deaths": 353.5714286
+  },
+  {
+    "Date": "8/1/2020",
+    "temperature": 84.5,
+    "humidity": 67.45833333,
+    "Population Staying at Home": 6655187,
+    "Population Not Staying at Home": 22046658,
+    "Number of Trips": 73459160,
+    "cases": 8087.857143,
+    "deaths": 347.1428571
+  },
+  {
+    "Date": "8/2/2020",
+    "temperature": 82.85185185,
+    "humidity": 69.51851852,
+    "Population Staying at Home": 6811065,
+    "Population Not Staying at Home": 21890780,
+    "Number of Trips": 70997026,
+    "cases": 8431.571429,
+    "deaths": 200.7142857
+  },
+  {
+    "Date": "8/3/2020",
+    "temperature": 82.58333333,
+    "humidity": 67.08333333,
+    "Population Staying at Home": 6214882,
+    "Population Not Staying at Home": 22486963,
+    "Number of Trips": 79896066,
+    "cases": 8749.428571,
+    "deaths": 204.7142857
+  },
+  {
+    "Date": "8/4/2020",
+    "temperature": 85.83333333,
+    "humidity": 60.875,
+    "Population Staying at Home": 5831377,
+    "Population Not Staying at Home": 22870468,
+    "Number of Trips": 83129110,
+    "cases": 8608,
+    "deaths": 188.2857143
+  },
+  {
+    "Date": "8/5/2020",
+    "temperature": 87.08333333,
+    "humidity": 57,
+    "Population Staying at Home": 5900754,
+    "Population Not Staying at Home": 22801091,
+    "Number of Trips": 82307165,
+    "cases": 8653.714286,
+    "deaths": 201.8571429
+  },
+  {
+    "Date": "8/6/2020",
+    "temperature": 85.85185185,
+    "humidity": 64.18518519,
+    "Population Staying at Home": 5815555,
+    "Population Not Staying at Home": 22886290,
+    "Number of Trips": 83985438,
+    "cases": 8281.142857,
+    "deaths": 201
+  },
+  {
+    "Date": "8/7/2020",
+    "temperature": 85.96153846,
+    "humidity": 64.5,
+    "Population Staying at Home": 5773663,
+    "Population Not Staying at Home": 22928182,
+    "Number of Trips": 81639658,
+    "cases": 7882.285714,
+    "deaths": 201.1428571
+  },
+  {
+    "Date": "8/8/2020",
+    "temperature": 85.96296296,
+    "humidity": 65.59259259,
+    "Population Staying at Home": 6111448,
+    "Population Not Staying at Home": 22590397,
+    "Number of Trips": 75594069,
+    "cases": 8054.428571,
+    "deaths": 209.1428571
+  },
+  {
+    "Date": "8/9/2020",
+    "temperature": 86.5,
+    "humidity": 64.85714286,
+    "Population Staying at Home": 6588416,
+    "Population Not Staying at Home": 22113429,
+    "Number of Trips": 72779329,
+    "cases": 7947.571429,
+    "deaths": 195.2857143
+  },
+  {
+    "Date": "8/10/2020",
+    "temperature": 87.03571429,
+    "humidity": 65.21428571,
+    "Population Staying at Home": 6092935,
+    "Population Not Staying at Home": 22608910,
+    "Number of Trips": 80514807,
+    "cases": 7663,
+    "deaths": 194.2857143
+  },
+  {
+    "Date": "8/11/2020",
+    "temperature": 87.55555556,
+    "humidity": 65.92592593,
+    "Population Staying at Home": 6032533,
+    "Population Not Staying at Home": 22669312,
+    "Number of Trips": 82971368,
+    "cases": 7399,
+    "deaths": 213.2857143
+  },
+  {
+    "Date": "8/12/2020",
+    "temperature": 89.41666667,
+    "humidity": 60.25,
+    "Population Staying at Home": 5874463,
+    "Population Not Staying at Home": 22827382,
+    "Number of Trips": 79013540,
+    "cases": 7051.142857,
+    "deaths": 211.2857143
+  },
+  {
+    "Date": "8/13/2020",
+    "temperature": 88.46153846,
+    "humidity": 60.11538462,
+    "Population Staying at Home": 5579966,
+    "Population Not Staying at Home": 23121879,
+    "Number of Trips": 81010397,
+    "cases": 6957.571429,
+    "deaths": 216.4285714
+  },
+  {
+    "Date": "8/14/2020",
+    "temperature": 89.19230769,
+    "humidity": 57.07692308,
+    "Population Staying at Home": 5304209,
+    "Population Not Staying at Home": 23397636,
+    "Number of Trips": 85656161,
+    "cases": 7057.714286,
+    "deaths": 213.4285714
+  },
+  {
+    "Date": "8/15/2020",
+    "temperature": 90.41666667,
+    "humidity": 52.66666667,
+    "Population Staying at Home": 5751698,
+    "Population Not Staying at Home": 22950147,
+    "Number of Trips": 80545578,
+    "cases": 7248.285714,
+    "deaths": 216.2857143
+  },
+  {
+    "Date": "8/16/2020",
+    "temperature": 90,
+    "humidity": 53.75,
+    "Population Staying at Home": 6563922,
+    "Population Not Staying at Home": 22137923,
+    "Number of Trips": 71617238,
+    "cases": 7581.714286,
+    "deaths": 213.5714286
+  },
+  {
+    "Date": "8/17/2020",
+    "temperature": 86.83333333,
+    "humidity": 49.66666667,
+    "Population Staying at Home": 6301616,
+    "Population Not Staying at Home": 22400229,
+    "Number of Trips": 79434779,
+    "cases": 7410.857143,
+    "deaths": 212.4285714
+  },
+  {
+    "Date": "8/18/2020",
+    "temperature": 88.54166667,
+    "humidity": 46.875,
+    "Population Staying at Home": 6115078,
+    "Population Not Staying at Home": 22586767,
+    "Number of Trips": 76733585,
+    "cases": 7474.571429,
+    "deaths": 199.7142857
+  },
+  {
+    "Date": "8/19/2020",
+    "temperature": 85.66666667,
+    "humidity": 46.125,
+    "Population Staying at Home": 5878222,
+    "Population Not Staying at Home": 22823623,
+    "Number of Trips": 81509261,
+    "cases": 7256.857143,
+    "deaths": 195.5714286
+  },
+  {
+    "Date": "8/20/2020",
+    "temperature": 81.66666667,
+    "humidity": 49.5,
+    "Population Staying at Home": 5592582,
+    "Population Not Staying at Home": 23109263,
+    "Number of Trips": 82041240,
+    "cases": 7013.571429,
+    "deaths": 184
+  },
+  {
+    "Date": "8/21/2020",
+    "temperature": 85.10344828,
+    "humidity": 58.89655172,
+    "Population Staying at Home": 5325527,
+    "Population Not Staying at Home": 23376318,
+    "Number of Trips": 88185961,
+    "cases": 6533.571429,
+    "deaths": 181.5714286
+  },
+  {
+    "Date": "8/22/2020",
+    "temperature": 77.87878788,
+    "humidity": 76.21212121,
+    "Population Staying at Home": 5807974,
+    "Population Not Staying at Home": 22893871,
+    "Number of Trips": 82735289,
+    "cases": 6259,
+    "deaths": 180.2857143
+  },
+  {
+    "Date": "8/23/2020",
+    "temperature": 82.20833333,
+    "humidity": 63.70833333,
+    "Population Staying at Home": 6748702,
+    "Population Not Staying at Home": 21953143,
+    "Number of Trips": 65088586,
+    "cases": 5525.714286,
+    "deaths": 180.7142857
+  },
+  {
+    "Date": "8/24/2020",
+    "temperature": 85.04166667,
+    "humidity": 60.54166667,
+    "Population Staying at Home": 6501372,
+    "Population Not Staying at Home": 22200473,
+    "Number of Trips": 71504984,
+    "cases": 5509,
+    "deaths": 173.4285714
+  },
+  {
+    "Date": "8/25/2020",
+    "temperature": 85.66666667,
+    "humidity": 57.875,
+    "Population Staying at Home": 6125367,
+    "Population Not Staying at Home": 22576478,
+    "Number of Trips": 76187678,
+    "cases": 5212.428571,
+    "deaths": 167
+  },
+  {
+    "Date": "8/26/2020",
+    "temperature": 84.79166667,
+    "humidity": 66.75,
+    "Population Staying at Home": 6275306,
+    "Population Not Staying at Home": 22426539,
+    "Number of Trips": 73303826,
+    "cases": 5316.142857,
+    "deaths": 170.8571429
+  },
+  {
+    "Date": "8/27/2020",
+    "temperature": 86.45833333,
+    "humidity": 63.70833333,
+    "Population Staying at Home": 6393838,
+    "Population Not Staying at Home": 22308007,
+    "Number of Trips": 72076342,
+    "cases": 5106.714286,
+    "deaths": 161.7142857
+  },
+  {
+    "Date": "8/28/2020",
+    "temperature": 90.44,
+    "humidity": 62.32,
+    "Population Staying at Home": 6119367,
+    "Population Not Staying at Home": 22582478,
+    "Number of Trips": 77339784,
+    "cases": 5012.428571,
+    "deaths": 154.7142857
+  },
+  {
+    "Date": "8/29/2020",
+    "temperature": 89.66666667,
+    "humidity": 60.45833333,
+    "Population Staying at Home": 6360284,
+    "Population Not Staying at Home": 22341561,
+    "Number of Trips": 76637694,
+    "cases": 4954,
+    "deaths": 149.5714286
+  },
+  {
+    "Date": "8/30/2020",
+    "temperature": 88.56,
+    "humidity": 64.16,
+    "Population Staying at Home": 7029021,
+    "Population Not Staying at Home": 21672824,
+    "Number of Trips": 66296640,
+    "cases": 4914.714286,
+    "deaths": 147.5714286
+  },
+  {
+    "Date": "8/31/2020",
+    "temperature": 88.43333333,
+    "humidity": 69.63333333,
+    "Population Staying at Home": 6454755,
+    "Population Not Staying at Home": 22247090,
+    "Number of Trips": 73424124,
+    "cases": 4670.857143,
+    "deaths": 141.7142857
+  },
+  {
+    "Date": "9/1/2020",
+    "temperature": 88.64285714,
+    "humidity": 69.28571429,
+    "Population Staying at Home": 6282682,
+    "Population Not Staying at Home": 22419163,
+    "Number of Trips": 77736231,
+    "cases": 4546.714286,
+    "deaths": 139
+  },
+  {
+    "Date": "9/2/2020",
+    "temperature": 80.6875,
+    "humidity": 81.25,
+    "Population Staying at Home": 6259008,
+    "Population Not Staying at Home": 22442837,
+    "Number of Trips": 78522275,
+    "cases": 4286.857143,
+    "deaths": 134.7142857
+  },
+  {
+    "Date": "9/3/2020",
+    "temperature": 80.31034483,
+    "humidity": 85.93103448,
+    "Population Staying at Home": 5829437,
+    "Population Not Staying at Home": 22872408,
+    "Number of Trips": 82852290,
+    "cases": 4239.142857,
+    "deaths": 128.7142857
+  },
+  {
+    "Date": "9/4/2020",
+    "temperature": 75.4,
+    "humidity": 90.88571429,
+    "Population Staying at Home": 6201208,
+    "Population Not Staying at Home": 22500637,
+    "Number of Trips": 80344954,
+    "cases": 4328.142857,
+    "deaths": 132.4285714
+  },
+  {
+    "Date": "9/5/2020",
+    "temperature": 79.63333333,
+    "humidity": 80.5,
+    "Population Staying at Home": 6227855,
+    "Population Not Staying at Home": 22473990,
+    "Number of Trips": 81071949,
+    "cases": 4201.714286,
+    "deaths": 133.1428571
+  },
+  {
+    "Date": "9/6/2020",
+    "temperature": 82.125,
+    "humidity": 71.5,
+    "Population Staying at Home": 6914768,
+    "Population Not Staying at Home": 21787077,
+    "Number of Trips": 69813449,
+    "cases": 4113,
+    "deaths": 132
+  },
+  {
+    "Date": "9/7/2020",
+    "temperature": 82.625,
+    "humidity": 67.70833333,
+    "Population Staying at Home": 7165909,
+    "Population Not Staying at Home": 21535936,
+    "Number of Trips": 66730793,
+    "cases": 3698.857143,
+    "deaths": 121.5714286
+  },
+  {
+    "Date": "9/8/2020",
+    "temperature": 80.34615385,
+    "humidity": 80.30769231,
+    "Population Staying at Home": 6478640,
+    "Population Not Staying at Home": 22223205,
+    "Number of Trips": 79623956,
+    "cases": 3556.142857,
+    "deaths": 114.4285714
+  },
+  {
+    "Date": "9/9/2020",
+    "temperature": 74.92307692,
+    "humidity": 90.56410256,
+    "Population Staying at Home": 6276509,
+    "Population Not Staying at Home": 22425336,
+    "Number of Trips": 80035811,
+    "cases": 3615,
+    "deaths": 87.28571429
+  },
+  {
+    "Date": "9/10/2020",
+    "temperature": 63.07407407,
+    "humidity": 84.59259259,
+    "Population Staying at Home": 6258211,
+    "Population Not Staying at Home": 22443634,
+    "Number of Trips": 78074941,
+    "cases": 3509.571429,
+    "deaths": 109
+  },
+  {
+    "Date": "9/11/2020",
+    "temperature": 71.96296296,
+    "humidity": 78.37037037,
+    "Population Staying at Home": 5998861,
+    "Population Not Staying at Home": 22702984,
+    "Number of Trips": 86193999,
+    "cases": 3500.857143,
+    "deaths": 103.4285714
+  },
+  {
+    "Date": "9/12/2020",
+    "temperature": 79.58333333,
+    "humidity": 71.625,
+    "Population Staying at Home": 6555755,
+    "Population Not Staying at Home": 22146090,
+    "Number of Trips": 77948249,
+    "cases": 3239.285714,
+    "deaths": 102.7142857
+  },
+  {
+    "Date": "9/13/2020",
+    "temperature": 82.83333333,
+    "humidity": 66.91666667,
+    "Population Staying at Home": 7059770,
+    "Population Not Staying at Home": 21642075,
+    "Number of Trips": 66874497,
+    "cases": 3514.714286,
+    "deaths": 103.8571429
+  },
+  {
+    "Date": "9/14/2020",
+    "temperature": 82.125,
+    "humidity": 68.25,
+    "Population Staying at Home": 6399204,
+    "Population Not Staying at Home": 22302641,
+    "Number of Trips": 79833526,
+    "cases": 4048.285714,
+    "deaths": 115.1428571
+  },
+  {
+    "Date": "9/15/2020",
+    "temperature": 81.57692308,
+    "humidity": 73.15384615,
+    "Population Staying at Home": 6317276,
+    "Population Not Staying at Home": 22384569,
+    "Number of Trips": 82222590,
+    "cases": 4440.285714,
+    "deaths": 116.7142857
+  },
+  {
+    "Date": "9/16/2020",
+    "temperature": 81.45833333,
+    "humidity": 72.70833333,
+    "Population Staying at Home": 6257029,
+    "Population Not Staying at Home": 22444816,
+    "Number of Trips": 81278603,
+    "cases": 4412.142857,
+    "deaths": 130.1428571
+  },
+  {
+    "Date": "9/17/2020",
+    "temperature": 78.40740741,
+    "humidity": 77.77777778,
+    "Population Staying at Home": 6167776,
+    "Population Not Staying at Home": 22534069,
+    "Number of Trips": 82825770,
+    "cases": 4647.857143,
+    "deaths": 108.2857143
+  },
+  {
+    "Date": "9/18/2020",
+    "temperature": 78.33333333,
+    "humidity": 67.5,
+    "Population Staying at Home": 6052132,
+    "Population Not Staying at Home": 22649713,
+    "Number of Trips": 88053667,
+    "cases": 4336.714286,
+    "deaths": 105.7142857
+  },
+  {
+    "Date": "9/19/2020",
+    "temperature": 74.61538462,
+    "humidity": 67.92307692,
+    "Population Staying at Home": 6352469,
+    "Population Not Staying at Home": 22349376,
+    "Number of Trips": 86229529,
+    "cases": 4427.571429,
+    "deaths": 100.1428571
+  },
+  {
+    "Date": "9/20/2020",
+    "temperature": 72.25925926,
+    "humidity": 70.92592593,
+    "Population Staying at Home": 6848511,
+    "Population Not Staying at Home": 21853334,
+    "Number of Trips": 67181636,
+    "cases": 4645.571429,
+    "deaths": 100.5714286
+  },
+  {
+    "Date": "9/21/2020",
+    "temperature": 70,
+    "humidity": 89.02777778,
+    "Population Staying at Home": 6935683,
+    "Population Not Staying at Home": 21766162,
+    "Number of Trips": 69099896,
+    "cases": 7169.857143,
+    "deaths": 94.42857143
+  },
+  {
+    "Date": "9/22/2020",
+    "temperature": 71.89655172,
+    "humidity": 89.06896552,
+    "Population Staying at Home": 6478949,
+    "Population Not Staying at Home": 22222896,
+    "Number of Trips": 72852737,
+    "cases": 6794.285714,
+    "deaths": 93.14285714
+  },
+  {
+    "Date": "9/23/2020",
+    "temperature": 73,
+    "humidity": 81.59259259,
+    "Population Staying at Home": 6029239,
+    "Population Not Staying at Home": 22672606,
+    "Number of Trips": 78036149,
+    "cases": 6788.142857,
+    "deaths": 96.85714286
+  },
+  {
+    "Date": "9/24/2020",
+    "temperature": 71.91666667,
+    "humidity": 75.20833333,
+    "Population Staying at Home": 5801652,
+    "Population Not Staying at Home": 22900193,
+    "Number of Trips": 80111317,
+    "cases": 6850.857143,
+    "deaths": 85.71428571
+  },
+  {
+    "Date": "9/25/2020",
+    "temperature": 71.20833333,
+    "humidity": 78.83333333,
+    "Population Staying at Home": 5553613,
+    "Population Not Staying at Home": 23148232,
+    "Number of Trips": 85181614,
+    "cases": 6856,
+    "deaths": 95.42857143
+  },
+  {
+    "Date": "9/26/2020",
+    "temperature": 72.91176471,
+    "humidity": 83.76470588,
+    "Population Staying at Home": 6127891,
+    "Population Not Staying at Home": 22573954,
+    "Number of Trips": 81518933,
+    "cases": 6818.285714,
+    "deaths": 96
+  },
+  {
+    "Date": "9/27/2020",
+    "temperature": 82.11111111,
+    "humidity": 75.81481481,
+    "Population Staying at Home": 6582849,
+    "Population Not Staying at Home": 22118996,
+    "Number of Trips": 70083360,
+    "cases": 6868.428571,
+    "deaths": 98
+  },
+  {
+    "Date": "9/28/2020",
+    "temperature": 73.34482759,
+    "humidity": 54.48275862,
+    "Population Staying at Home": 6012757,
+    "Population Not Staying at Home": 22689088,
+    "Number of Trips": 77761103,
+    "cases": 4134.714286,
+    "deaths": 96
+  },
+  {
+    "Date": "9/29/2020",
+    "temperature": 64.95833333,
+    "humidity": 53.08333333,
+    "Population Staying at Home": 5999410,
+    "Population Not Staying at Home": 22702435,
+    "Number of Trips": 80758587,
+    "cases": 4496.285714,
+    "deaths": 92.42857143
+  },
+  {
+    "Date": "9/30/2020",
+    "temperature": 65.79166667,
+    "humidity": 56.33333333,
+    "Population Staying at Home": 6162917,
+    "Population Not Staying at Home": 22538928,
+    "Number of Trips": 81586169,
+    "cases": 4353.714286,
+    "deaths": 90.42857143
+  },
+  {
+    "Date": "10/1/2020",
+    "temperature": 69.58333333,
+    "humidity": 58.83333333,
+    "Population Staying at Home": 5708957,
+    "Population Not Staying at Home": 22992888,
+    "Number of Trips": 82396938,
+    "cases": 4241,
+    "deaths": 95.71428571
+  },
+  {
+    "Date": "10/2/2020",
+    "temperature": 68.29166667,
+    "humidity": 56.83333333,
+    "Population Staying at Home": 5882569,
+    "Population Not Staying at Home": 22819276,
+    "Number of Trips": 81337725,
+    "cases": 4616.857143,
+    "deaths": 92.57142857
+  },
+  {
+    "Date": "10/3/2020",
+    "temperature": 67.5,
+    "humidity": 68.95833333,
+    "Population Staying at Home": 6409061,
+    "Population Not Staying at Home": 22292784,
+    "Number of Trips": 78368329,
+    "cases": 4967,
+    "deaths": 91.42857143
+  },
+  {
+    "Date": "10/4/2020",
+    "temperature": 70.46153846,
+    "humidity": 70.15384615,
+    "Population Staying at Home": 6799696,
+    "Population Not Staying at Home": 21902149,
+    "Number of Trips": 68439409,
+    "cases": 4557.285714,
+    "deaths": 88.71428571
+  },
+  {
+    "Date": "10/5/2020",
+    "temperature": 72,
+    "humidity": 65.29166667,
+    "Population Staying at Home": 6873559,
+    "Population Not Staying at Home": 21828286,
+    "Number of Trips": 74851295,
+    "cases": 4693.714286,
+    "deaths": 89.71428571
+  },
+  {
+    "Date": "10/6/2020",
+    "temperature": 71.625,
+    "humidity": 80.25,
+    "Population Staying at Home": 6255143,
+    "Population Not Staying at Home": 22446702,
+    "Number of Trips": 80749934,
+    "cases": 4378.285714,
+    "deaths": 92.14285714
+  },
+  {
+    "Date": "10/7/2020",
+    "temperature": 72.125,
+    "humidity": 68.83333333,
+    "Population Staying at Home": 6028883,
+    "Population Not Staying at Home": 22672962,
+    "Number of Trips": 83286137,
+    "cases": 4734.142857,
+    "deaths": 90.42857143
+  },
+  {
+    "Date": "10/8/2020",
+    "temperature": 73.54166667,
+    "humidity": 71.375,
+    "Population Staying at Home": 6086573,
+    "Population Not Staying at Home": 22615272,
+    "Number of Trips": 77603789,
+    "cases": 4809.428571,
+    "deaths": 92.57142857
+  },
+  {
+    "Date": "10/9/2020",
+    "temperature": 77.76923077,
+    "humidity": 79.88461538,
+    "Population Staying at Home": 6251431,
+    "Population Not Staying at Home": 22450414,
+    "Number of Trips": 80522206,
+    "cases": 4611.285714,
+    "deaths": 82.71428571
+  },
+  {
+    "Date": "10/10/2020",
+    "temperature": 76.20833333,
+    "humidity": 76.16666667,
+    "Population Staying at Home": 6693620,
+    "Population Not Staying at Home": 22008225,
+    "Number of Trips": 77866280,
+    "cases": 4335.285714,
+    "deaths": 82.28571429
+  },
+  {
+    "Date": "10/11/2020",
+    "temperature": 78.375,
+    "humidity": 69.875,
+    "Population Staying at Home": 6885254,
+    "Population Not Staying at Home": 21816591,
+    "Number of Trips": 67495401,
+    "cases": 4330,
+    "deaths": 79.14285714
+  },
+  {
+    "Date": "10/12/2020",
+    "temperature": 76.03448276,
+    "humidity": 67.55172414,
+    "Population Staying at Home": 6453583,
+    "Population Not Staying at Home": 22248262,
+    "Number of Trips": 76265420,
+    "cases": 4324.571429,
+    "deaths": 77.57142857
+  },
+  {
+    "Date": "10/13/2020",
+    "temperature": 69.125,
+    "humidity": 59.04166667,
+    "Population Staying at Home": 6101112,
+    "Population Not Staying at Home": 22600733,
+    "Number of Trips": 79664306,
+    "cases": 4446.428571,
+    "deaths": 75.57142857
+  },
+  {
+    "Date": "10/14/2020",
+    "temperature": 74.20833333,
+    "humidity": 69.25,
+    "Population Staying at Home": 5924335,
+    "Population Not Staying at Home": 22777510,
+    "Number of Trips": 80048627,
+    "cases": 4428.857143,
+    "deaths": 72.71428571
+  },
+  {
+    "Date": "10/15/2020",
+    "temperature": 76.84615385,
+    "humidity": 71.53846154,
+    "Population Staying at Home": 6275192,
+    "Population Not Staying at Home": 22426653,
+    "Number of Trips": 74973600,
+    "cases": 4606.428571,
+    "deaths": 71.28571429
+  },
+  {
+    "Date": "10/16/2020",
+    "temperature": 66.6,
+    "humidity": 46,
+    "Population Staying at Home": 5745148,
+    "Population Not Staying at Home": 22956697,
+    "Number of Trips": 83124774,
+    "cases": 4760.857143,
+    "deaths": 71.28571429
+  },
+  {
+    "Date": "10/17/2020",
+    "temperature": 68.1875,
+    "humidity": 78,
+    "Population Staying at Home": 6348496,
+    "Population Not Staying at Home": 22353349,
+    "Number of Trips": 78940876,
+    "cases": 4890.714286,
+    "deaths": 70.57142857
+  },
+  {
+    "Date": "10/18/2020",
+    "temperature": 80.16666667,
+    "humidity": 67.45833333,
+    "Population Staying at Home": 6749693,
+    "Population Not Staying at Home": 21952152,
+    "Number of Trips": 68536946,
+    "cases": 5232.285714,
+    "deaths": 70.14285714
+  },
+  {
+    "Date": "10/19/2020",
+    "temperature": 80.37931034,
+    "humidity": 75.93103448,
+    "Population Staying at Home": 6120082,
+    "Population Not Staying at Home": 22581763,
+    "Number of Trips": 79104978,
+    "cases": 5324.714286,
+    "deaths": 68.42857143
+  },
+  {
+    "Date": "10/20/2020",
+    "temperature": 80.44444444,
+    "humidity": 70.44444444,
+    "Population Staying at Home": 6180846,
+    "Population Not Staying at Home": 22520999,
+    "Number of Trips": 78338634,
+    "cases": 5376.142857,
+    "deaths": 66.71428571
+  },
+  {
+    "Date": "10/21/2020",
+    "temperature": 77.92592593,
+    "humidity": 74.51851852,
+    "Population Staying at Home": 6490888,
+    "Population Not Staying at Home": 22210957,
+    "Number of Trips": 76308021,
+    "cases": 5464.714286,
+    "deaths": 56.85714286
+  },
+  {
+    "Date": "10/22/2020",
+    "temperature": 77.59375,
+    "humidity": 77.0625,
+    "Population Staying at Home": 6050148,
+    "Population Not Staying at Home": 22651697,
+    "Number of Trips": 82054682,
+    "cases": 5391,
+    "deaths": 60
+  },
+  {
+    "Date": "10/23/2020",
+    "temperature": 71.91428571,
+    "humidity": 79.42857143,
+    "Population Staying at Home": 5688523,
+    "Population Not Staying at Home": 23013322,
+    "Number of Trips": 88949028,
+    "cases": 5689,
+    "deaths": 68.57142857
+  },
+  {
+    "Date": "10/24/2020",
+    "temperature": 58.75,
+    "humidity": 59.125,
+    "Population Staying at Home": 6172825,
+    "Population Not Staying at Home": 22529020,
+    "Number of Trips": 86002216,
+    "cases": 6094.857143,
+    "deaths": 71.57142857
+  },
+  {
+    "Date": "10/25/2020",
+    "temperature": 69.07142857,
+    "humidity": 73.71428571,
+    "Population Staying at Home": 6518723,
+    "Population Not Staying at Home": 22183122,
+    "Number of Trips": 72702253,
+    "cases": 5888,
+    "deaths": 73.28571429
+  },
+  {
+    "Date": "10/26/2020",
+    "temperature": 64.8125,
+    "humidity": 87.40625,
+    "Population Staying at Home": 6215093,
+    "Population Not Staying at Home": 22486752,
+    "Number of Trips": 78079603,
+    "cases": 6165.714286,
+    "deaths": 73
+  },
+  {
+    "Date": "10/27/2020",
+    "temperature": 43.11538462,
+    "humidity": 88.34615385,
+    "Population Staying at Home": 6338549,
+    "Population Not Staying at Home": 22363296,
+    "Number of Trips": 77417231,
+    "cases": 6360.857143,
+    "deaths": 72.57142857
+  },
+  {
+    "Date": "10/28/2020",
+    "temperature": 46.77419355,
+    "humidity": 76.93548387,
+    "Population Staying at Home": 6146543,
+    "Population Not Staying at Home": 22555302,
+    "Number of Trips": 76452108,
+    "cases": 6546.285714,
+    "deaths": 87.42857143
+  },
+  {
+    "Date": "10/29/2020",
+    "temperature": 52.5,
+    "humidity": 63.91666667,
+    "Population Staying at Home": 6154174,
+    "Population Not Staying at Home": 22547671,
+    "Number of Trips": 80893628,
+    "cases": 6805.857143,
+    "deaths": 86.14285714
+  },
+  {
+    "Date": "10/30/2020",
+    "temperature": 54.25,
+    "humidity": 61.25,
+    "Population Staying at Home": 6160178,
+    "Population Not Staying at Home": 22541667,
+    "Number of Trips": 84903152,
+    "cases": 6661.857143,
+    "deaths": 78.71428571
+  },
+  {
+    "Date": "10/31/2020",
+    "temperature": 55.20833333,
+    "humidity": 63.83333333,
+    "Population Staying at Home": 6727897,
+    "Population Not Staying at Home": 21973948,
+    "Number of Trips": 80228995,
+    "cases": 6684.857143,
+    "deaths": 77.14285714
+  },
+  {
+    "Date": "11/1/2020",
+    "temperature": 58.84,
+    "humidity": 63.76,
+    "Population Staying at Home": 7613609,
+    "Population Not Staying at Home": 21088236,
+    "Number of Trips": 81064702,
+    "cases": 6742.428571,
+    "deaths": 78.42857143
+  },
+  {
+    "Date": "11/2/2020",
+    "temperature": 55.08333333,
+    "humidity": 59.91666667,
+    "Population Staying at Home": 6913987,
+    "Population Not Staying at Home": 21787858,
+    "Number of Trips": 87563174,
+    "cases": 6934.285714,
+    "deaths": 81
+  },
+  {
+    "Date": "11/3/2020",
+    "temperature": 56.45833333,
+    "humidity": 56.45833333,
+    "Population Staying at Home": 6278026,
+    "Population Not Staying at Home": 22423819,
+    "Number of Trips": 80807095,
+    "cases": 7116.714286,
+    "deaths": 88.42857143
+  },
+  {
+    "Date": "11/4/2020",
+    "temperature": 60.5,
+    "humidity": 67.45833333,
+    "Population Staying at Home": 6765989,
+    "Population Not Staying at Home": 21935856,
+    "Number of Trips": 78471767,
+    "cases": 7524.857143,
+    "deaths": 89.71428571
+  },
+  {
+    "Date": "11/5/2020",
+    "temperature": 62.59375,
+    "humidity": 81.59375,
+    "Population Staying at Home": 7004575,
+    "Population Not Staying at Home": 21697270,
+    "Number of Trips": 85018237,
+    "cases": 7791.285714,
+    "deaths": 92.57142857
+  },
+  {
+    "Date": "11/6/2020",
+    "temperature": 66.75862069,
+    "humidity": 77.89655172,
+    "Population Staying at Home": 7246130,
+    "Population Not Staying at Home": 21455715,
+    "Number of Trips": 92092057,
+    "cases": 8269.285714,
+    "deaths": 95.71428571
+  },
+  {
+    "Date": "11/7/2020",
+    "temperature": 63.41666667,
+    "humidity": 70.20833333,
+    "Population Staying at Home": 7542031,
+    "Population Not Staying at Home": 21159814,
+    "Number of Trips": 83317274,
+    "cases": 8055.142857,
+    "deaths": 96.28571429
+  },
+  {
+    "Date": "11/8/2020",
+    "temperature": 66.56756757,
+    "humidity": 80.78378378,
+    "Population Staying at Home": 8467535,
+    "Population Not Staying at Home": 20234310,
+    "Number of Trips": 79250511,
+    "cases": 8426.142857,
+    "deaths": 96
+  },
+  {
+    "Date": "11/9/2020",
+    "temperature": 72.42307692,
+    "humidity": 73.03846154,
+    "Population Staying at Home": 7085613,
+    "Population Not Staying at Home": 21616232,
+    "Number of Trips": 84443956,
+    "cases": 8684.285714,
+    "deaths": 100.1428571
+  },
+  {
+    "Date": "11/10/2020",
+    "temperature": 70.6875,
+    "humidity": 69.8125,
+    "Population Staying at Home": 6754850,
+    "Population Not Staying at Home": 21946995,
+    "Number of Trips": 86482359,
+    "cases": 9131.714286,
+    "deaths": 96.28571429
+  },
+  {
+    "Date": "11/11/2020",
+    "temperature": 66.41666667,
+    "humidity": 53.91666667,
+    "Population Staying at Home": 6938161,
+    "Population Not Staying at Home": 21763684,
+    "Number of Trips": 85255028,
+    "cases": 9450.285714,
+    "deaths": 100.7142857
+  },
+  {
+    "Date": "11/12/2020",
+    "temperature": 68.33333333,
+    "humidity": 75.3,
+    "Population Staying at Home": 6909356,
+    "Population Not Staying at Home": 21792489,
+    "Number of Trips": 84165603,
+    "cases": 9557.714286,
+    "deaths": 113.1428571
+  },
+  {
+    "Date": "11/13/2020",
+    "temperature": 71.58823529,
+    "humidity": 80.26470588,
+    "Population Staying at Home": 6700240,
+    "Population Not Staying at Home": 22001605,
+    "Number of Trips": 88833049,
+    "cases": 9924.857143,
+    "deaths": 116.5714286
+  },
+  {
+    "Date": "11/14/2020",
+    "temperature": 76.14814815,
+    "humidity": 73.22222222,
+    "Population Staying at Home": 7136651,
+    "Population Not Staying at Home": 21565194,
+    "Number of Trips": 85217314,
+    "cases": 10470.71429,
+    "deaths": 122
+  },
+  {
+    "Date": "11/15/2020",
+    "temperature": 62.36,
+    "humidity": 43.96,
+    "Population Staying at Home": 7287216,
+    "Population Not Staying at Home": 21414629,
+    "Number of Trips": 79109160,
+    "cases": 10532.57143,
+    "deaths": 122.7142857
+  },
+  {
+    "Date": "11/16/2020",
+    "temperature": 51.875,
+    "humidity": 52.25,
+    "Population Staying at Home": 7424162,
+    "Population Not Staying at Home": 21277683,
+    "Number of Trips": 84461441,
+    "cases": 10744.42857,
+    "deaths": 122.1428571
+  },
+  {
+    "Date": "11/17/2020",
+    "temperature": 53.08333333,
+    "humidity": 53.95833333,
+    "Population Staying at Home": 7402543,
+    "Population Not Staying at Home": 21299302,
+    "Number of Trips": 85480333,
+    "cases": 10638.14286,
+    "deaths": 132.4285714
+  },
+  {
+    "Date": "11/18/2020",
+    "temperature": 58.83333333,
+    "humidity": 61.41666667,
+    "Population Staying at Home": 7209008,
+    "Population Not Staying at Home": 21492837,
+    "Number of Trips": 89434130,
+    "cases": 10690.71429,
+    "deaths": 140.5714286
+  },
+  {
+    "Date": "11/19/2020",
+    "temperature": 64.96969697,
+    "humidity": 77.06060606,
+    "Population Staying at Home": 6956386,
+    "Population Not Staying at Home": 21745459,
+    "Number of Trips": 88552464,
+    "cases": 11271,
+    "deaths": 136.4285714
+  },
+  {
+    "Date": "11/20/2020",
+    "temperature": 67.59375,
+    "humidity": 78.34375,
+    "Population Staying at Home": 6779638,
+    "Population Not Staying at Home": 21922207,
+    "Number of Trips": 83754353,
+    "cases": 11431,
+    "deaths": 138.4285714
+  },
+  {
+    "Date": "11/21/2020",
+    "temperature": 68.71875,
+    "humidity": 77.9375,
+    "Population Staying at Home": 7211490,
+    "Population Not Staying at Home": 21490355,
+    "Number of Trips": 80527807,
+    "cases": 11597.42857,
+    "deaths": 139
+  },
+  {
+    "Date": "11/22/2020",
+    "temperature": 68.02857143,
+    "humidity": 78.22857143,
+    "Population Staying at Home": 7454804,
+    "Population Not Staying at Home": 21247041,
+    "Number of Trips": 70435755,
+    "cases": 11764,
+    "deaths": 141
+  },
+  {
+    "Date": "11/23/2020",
+    "temperature": 58.03333333,
+    "humidity": 75.76666667,
+    "Population Staying at Home": 7186588,
+    "Population Not Staying at Home": 21515257,
+    "Number of Trips": 78213992,
+    "cases": 11751.42857,
+    "deaths": 151.4285714
+  },
+  {
+    "Date": "11/24/2020",
+    "temperature": 71.38709677,
+    "humidity": 78.64516129,
+    "Population Staying at Home": 6977228,
+    "Population Not Staying at Home": 21724617,
+    "Number of Trips": 80746139,
+    "cases": 13111.85714,
+    "deaths": 152.1428571
+  },
+  {
+    "Date": "11/25/2020",
+    "temperature": 62.57692308,
+    "humidity": 57.19230769,
+    "Population Staying at Home": 6668602,
+    "Population Not Staying at Home": 22033243,
+    "Number of Trips": 84197076,
+    "cases": 13355.14286,
+    "deaths": 145.7142857
+  },
+  {
+    "Date": "11/26/2020",
+    "temperature": 60.66666667,
+    "humidity": 75.23333333,
+    "Population Staying at Home": 7571698,
+    "Population Not Staying at Home": 21130147,
+    "Number of Trips": 65066734,
+    "cases": 12028.71429,
+    "deaths": 127.1428571
+  },
+  {
+    "Date": "11/27/2020",
+    "temperature": 66.6875,
+    "humidity": 83.125,
+    "Population Staying at Home": 7139402,
+    "Population Not Staying at Home": 21562443,
+    "Number of Trips": 79508947,
+    "cases": 10750,
+    "deaths": 120.4285714
+  },
+  {
+    "Date": "11/28/2020",
+    "temperature": 57.53333333,
+    "humidity": 87.46666667,
+    "Population Staying at Home": 7334274,
+    "Population Not Staying at Home": 21367571,
+    "Number of Trips": 73077901,
+    "cases": 10051.57143,
+    "deaths": 116.7142857
+  },
+  {
+    "Date": "11/29/2020",
+    "temperature": 51.92,
+    "humidity": 73.6,
+    "Population Staying at Home": 7381912,
+    "Population Not Staying at Home": 21319933,
+    "Number of Trips": 72459110,
+    "cases": 10602.42857,
+    "deaths": 117.7142857
+  },
+  {
+    "Date": "11/30/2020",
+    "temperature": 44.45833333,
+    "humidity": 47.75,
+    "Population Staying at Home": 7487521,
+    "Population Not Staying at Home": 21214324,
+    "Number of Trips": 78864121,
+    "cases": 11157.71429,
+    "deaths": 123.7142857
+  },
+  {
+    "Date": "12/1/2020",
+    "temperature": 43.41666667,
+    "humidity": 61.91666667,
+    "Population Staying at Home": 6571475,
+    "Population Not Staying at Home": 22130370,
+    "Number of Trips": 86897618,
+    "cases": 10147.85714,
+    "deaths": 126.5714286
+  },
+  {
+    "Date": "12/2/2020",
+    "temperature": 51.67857143,
+    "humidity": 66.57142857,
+    "Population Staying at Home": 6476110,
+    "Population Not Staying at Home": 22225735,
+    "Number of Trips": 87518883,
+    "cases": 10667.42857,
+    "deaths": 133.7142857
+  },
+  {
+    "Date": "12/3/2020",
+    "temperature": 47.20833333,
+    "humidity": 55.29166667,
+    "Population Staying at Home": 6459091,
+    "Population Not Staying at Home": 22242754,
+    "Number of Trips": 88964867,
+    "cases": 12584.57143,
+    "deaths": 161.1428571
+  },
+  {
+    "Date": "12/4/2020",
+    "temperature": 44.56,
+    "humidity": 62.28,
+    "Population Staying at Home": 6301811,
+    "Population Not Staying at Home": 22400034,
+    "Number of Trips": 91881852,
+    "cases": 13922,
+    "deaths": 180.5714286
+  },
+  {
+    "Date": "12/5/2020",
+    "temperature": 45.20833333,
+    "humidity": 75.70833333,
+    "Population Staying at Home": 6736899,
+    "Population Not Staying at Home": 21964946,
+    "Number of Trips": 87147714,
+    "cases": 14660.14286,
+    "deaths": 183.8571429
+  },
+  {
+    "Date": "12/6/2020",
+    "temperature": 48.48,
+    "humidity": 65,
+    "Population Staying at Home": 7123693,
+    "Population Not Staying at Home": 21578152,
+    "Number of Trips": 75013383,
+    "cases": 14233.42857,
+    "deaths": 184.2857143
+  },
+  {
+    "Date": "12/7/2020",
+    "temperature": 51.56521739,
+    "humidity": 53.69565217,
+    "Population Staying at Home": 7283734,
+    "Population Not Staying at Home": 21418111,
+    "Number of Trips": 77003016,
+    "cases": 14175.85714,
+    "deaths": 176.4285714
+  },
+  {
+    "Date": "12/8/2020",
+    "temperature": 56,
+    "humidity": 46.91304348,
+    "Population Staying at Home": 6793030,
+    "Population Not Staying at Home": 21908815,
+    "Number of Trips": 80131191,
+    "cases": 14253.28571,
+    "deaths": 186.4285714
+  },
+  {
+    "Date": "12/9/2020",
+    "temperature": 60.20833333,
+    "humidity": 39.29166667,
+    "Population Staying at Home": 6724488,
+    "Population Not Staying at Home": 21977357,
+    "Number of Trips": 79641797,
+    "cases": 13782.85714,
+    "deaths": 188.8571429
+  },
+  {
+    "Date": "12/10/2020",
+    "temperature": 64.75,
+    "humidity": 50.625,
+    "Population Staying at Home": 6675417,
+    "Population Not Staying at Home": 22026428,
+    "Number of Trips": 83146593,
+    "cases": 13099.85714,
+    "deaths": 188.2857143
+  },
+  {
+    "Date": "12/11/2020",
+    "temperature": 64.20588235,
+    "humidity": 85.94117647,
+    "Population Staying at Home": 6784674,
+    "Population Not Staying at Home": 21917171,
+    "Number of Trips": 84009098,
+    "cases": 19405.71429,
+    "deaths": 184.1428571
+  },
+  {
+    "Date": "12/12/2020",
+    "temperature": 53.51851852,
+    "humidity": 71.11111111,
+    "Population Staying at Home": 7171613,
+    "Population Not Staying at Home": 21530232,
+    "Number of Trips": 81274186,
+    "cases": 19431.71429,
+    "deaths": 187.7142857
+  },
+  {
+    "Date": "12/13/2020",
+    "temperature": 53.87096774,
+    "humidity": 76.16129032,
+    "Population Staying at Home": 7651522,
+    "Population Not Staying at Home": 21050323,
+    "Number of Trips": 66354541,
+    "cases": 19049.71429,
+    "deaths": 189.1428571
+  },
+  {
+    "Date": "12/14/2020",
+    "temperature": 41.25925926,
+    "humidity": 70.62962963,
+    "Population Staying at Home": 6984407,
+    "Population Not Staying at Home": 21717438,
+    "Number of Trips": 79371857,
+    "cases": 18925.85714,
+    "deaths": 193.8571429
+  },
+  {
+    "Date": "12/15/2020",
+    "temperature": 45.79310345,
+    "humidity": 77.79310345,
+    "Population Staying at Home": 6740475,
+    "Population Not Staying at Home": 21961370,
+    "Number of Trips": 80916501,
+    "cases": 19726.71429,
+    "deaths": 193
+  },
+  {
+    "Date": "12/16/2020",
+    "temperature": 43.125,
+    "humidity": 53.04166667,
+    "Population Staying at Home": 6999300,
+    "Population Not Staying at Home": 21702545,
+    "Number of Trips": 79327653,
+    "cases": 20682.71429,
+    "deaths": 195.5714286
+  },
+  {
+    "Date": "12/17/2020",
+    "temperature": 42.58333333,
+    "humidity": 61.41666667,
+    "Population Staying at Home": 6794907,
+    "Population Not Staying at Home": 21906938,
+    "Number of Trips": 83736093,
+    "cases": 21266,
+    "deaths": 200
+  },
+  {
+    "Date": "12/18/2020",
+    "temperature": 50.88,
+    "humidity": 76.88,
+    "Population Staying at Home": 6984056,
+    "Population Not Staying at Home": 21717789,
+    "Number of Trips": 87124285,
+    "cases": 15711.71429,
+    "deaths": 205.8571429
+  },
+  {
+    "Date": "12/19/2020",
+    "temperature": 58,
+    "humidity": 88.05,
+    "Population Staying at Home": 7369999,
+    "Population Not Staying at Home": 21331846,
+    "Number of Trips": 80253865,
+    "cases": 16002.85714,
+    "deaths": 206.7142857
+  },
+  {
+    "Date": "12/20/2020",
+    "temperature": 49.875,
+    "humidity": 67.70833333,
+    "Population Staying at Home": 7605815,
+    "Population Not Staying at Home": 21096030,
+    "Number of Trips": 65372162,
+    "cases": 16164.85714,
+    "deaths": 226
+  },
+  {
+    "Date": "12/21/2020",
+    "temperature": 49.79166667,
+    "humidity": 65.29166667,
+    "Population Staying at Home": 7436107,
+    "Population Not Staying at Home": 21265738,
+    "Number of Trips": 77698294,
+    "cases": 16612,
+    "deaths": 223.8571429
+  },
+  {
+    "Date": "12/22/2020",
+    "temperature": 55.96296296,
+    "humidity": 75.66666667,
+    "Population Staying at Home": 7626838,
+    "Population Not Staying at Home": 21075007,
+    "Number of Trips": 80966138,
+    "cases": 16991.14286,
+    "deaths": 220.8571429
+  },
+  {
+    "Date": "12/23/2020",
+    "temperature": 65.93939394,
+    "humidity": 68.18181818,
+    "Population Staying at Home": 7709061,
+    "Population Not Staying at Home": 20992784,
+    "Number of Trips": 82913693,
+    "cases": 16810.14286,
+    "deaths": 220.4285714
+  },
+  {
+    "Date": "12/24/2020",
+    "temperature": 45.125,
+    "humidity": 30.95833333,
+    "Population Staying at Home": 7840243,
+    "Population Not Staying at Home": 20861602,
+    "Number of Trips": 72292347,
+    "cases": 15494,
+    "deaths": 204.8571429
+  },
+  {
+    "Date": "12/25/2020",
+    "temperature": 48.375,
+    "humidity": 37.41666667,
+    "Population Staying at Home": 8423732,
+    "Population Not Staying at Home": 20278113,
+    "Number of Trips": 44112893,
+    "cases": 13024.14286,
+    "deaths": 174.4285714
+  },
+  {
+    "Date": "12/26/2020",
+    "temperature": 52.08,
+    "humidity": 56.24,
+    "Population Staying at Home": 7783288,
+    "Population Not Staying at Home": 20918557,
+    "Number of Trips": 72868185,
+    "cases": 11929.28571,
+    "deaths": 166
+  },
+  {
+    "Date": "12/27/2020",
+    "temperature": 55.84,
+    "humidity": 75.8,
+    "Population Staying at Home": 7699631,
+    "Population Not Staying at Home": 21002214,
+    "Number of Trips": 75564004,
+    "cases": 14044.85714,
+    "deaths": 154.4285714
+  },
+  {
+    "Date": "12/28/2020",
+    "temperature": 64.03225806,
+    "humidity": 80.58064516,
+    "Population Staying at Home": 6970788,
+    "Population Not Staying at Home": 21731057,
+    "Number of Trips": 84909761,
+    "cases": 14549.28571,
+    "deaths": 162.2857143
+  },
+  {
+    "Date": "12/29/2020",
+    "temperature": 67.375,
+    "humidity": 78.71875,
+    "Population Staying at Home": 6809144,
+    "Population Not Staying at Home": 21892701,
+    "Number of Trips": 87504090,
+    "cases": 14787.42857,
+    "deaths": 171
+  },
+  {
+    "Date": "12/30/2020",
+    "temperature": 60.96969697,
+    "humidity": 87.57575758,
+    "Population Staying at Home": 6934249,
+    "Population Not Staying at Home": 21767596,
+    "Number of Trips": 85981659,
+    "cases": 14614.14286,
+    "deaths": 182.2857143
+  },
+  {
+    "Date": "12/31/2020",
+    "temperature": 41.36842105,
+    "humidity": 88.34210526,
+    "Population Staying at Home": 7116671,
+    "Population Not Staying at Home": 21585174,
+    "Number of Trips": 83231698,
+    "cases": 15879.42857,
+    "deaths": 198.8571429
+  },
+  {
+    "Date": "1/1/2021",
+    "temperature": 42.125,
+    "humidity": 71.5,
+    "Population Staying at Home": 7997715,
+    "Population Not Staying at Home": 20704130,
+    "Number of Trips": 72031700,
+    "cases": 16692.57143,
+    "deaths": 206.5714286
+  },
+  {
+    "Date": "1/2/2021",
+    "temperature": 47.125,
+    "humidity": 55.70833333,
+    "Population Staying at Home": 7061220,
+    "Population Not Staying at Home": 21640625,
+    "Number of Trips": 85173887,
+    "cases": 17879.42857,
+    "deaths": 206.2857143
+  },
+  {
+    "Date": "1/3/2021",
+    "temperature": 51.58333333,
+    "humidity": 56.95833333,
+    "Population Staying at Home": 7663218,
+    "Population Not Staying at Home": 21038627,
+    "Number of Trips": 76494225,
+    "cases": 16929,
+    "deaths": 205.1428571
+  },
+  {
+    "Date": "1/4/2021",
+    "temperature": 54.16666667,
+    "humidity": 62.58333333,
+    "Population Staying at Home": 6434544,
+    "Population Not Staying at Home": 22267301,
+    "Number of Trips": 86147988,
+    "cases": 17305.14286,
+    "deaths": 207.1428571
+  },
+  {
+    "Date": "1/5/2021",
+    "temperature": 59.04166667,
+    "humidity": 65.95833333,
+    "Population Staying at Home": 6239001,
+    "Population Not Staying at Home": 22462844,
+    "Number of Trips": 83550732,
+    "cases": 18329.28571,
+    "deaths": 208.1428571
+  },
+  {
+    "Date": "1/6/2021",
+    "temperature": 62.15151515,
+    "humidity": 75.39393939,
+    "Population Staying at Home": 6006524,
+    "Population Not Staying at Home": 22695321,
+    "Number of Trips": 84544347,
+    "cases": 19163.28571,
+    "deaths": 212.8571429
+  },
+  {
+    "Date": "1/7/2021",
+    "temperature": 50.5,
+    "humidity": 52.5,
+    "Population Staying at Home": 5976051,
+    "Population Not Staying at Home": 22725794,
+    "Number of Trips": 85601288,
+    "cases": 19985.57143,
+    "deaths": 239.2857143
+  },
+  {
+    "Date": "1/8/2021",
+    "temperature": 43.07692308,
+    "humidity": 72,
+    "Population Staying at Home": 5833884,
+    "Population Not Staying at Home": 22867961,
+    "Number of Trips": 92555548,
+    "cases": 22314,
+    "deaths": 276.1428571
+  },
+  {
+    "Date": "1/9/2021",
+    "temperature": 42.125,
+    "humidity": 70.33333333,
+    "Population Staying at Home": 6238576,
+    "Population Not Staying at Home": 22463269,
+    "Number of Trips": 89703952,
+    "cases": 22812,
+    "deaths": 292.1428571
+  },
+  {
+    "Date": "1/10/2021",
+    "temperature": 37.88372093,
+    "humidity": 89.06976744,
+    "Population Staying at Home": 7609021,
+    "Population Not Staying at Home": 21092824,
+    "Number of Trips": 69540714,
+    "cases": 22528.42857,
+    "deaths": 291.2857143
+  },
+  {
+    "Date": "1/11/2021",
+    "temperature": 38.91666667,
+    "humidity": 76.45833333,
+    "Population Staying at Home": 6607699,
+    "Population Not Staying at Home": 22094146,
+    "Number of Trips": 81170782,
+    "cases": 22619.28571,
+    "deaths": 295.4285714
+  },
+  {
+    "Date": "1/12/2021",
+    "temperature": 37.79166667,
+    "humidity": 72.54166667,
+    "Population Staying at Home": 6292828,
+    "Population Not Staying at Home": 22409017,
+    "Number of Trips": 83835066,
+    "cases": 22079.71429,
+    "deaths": 302.5714286
+  },
+  {
+    "Date": "1/13/2021",
+    "temperature": 45.25,
+    "humidity": 65.875,
+    "Population Staying at Home": 6098677,
+    "Population Not Staying at Home": 22603168,
+    "Number of Trips": 86338580,
+    "cases": 21763.42857,
+    "deaths": 310.5714286
+  },
+  {
+    "Date": "1/14/2021",
+    "temperature": 53.70833333,
+    "humidity": 47.29166667,
+    "Population Staying at Home": 5972742,
+    "Population Not Staying at Home": 22729103,
+    "Number of Trips": 87430910,
+    "cases": 22802.57143,
+    "deaths": 300.4285714
+  },
+  {
+    "Date": "1/15/2021",
+    "temperature": 50.29166667,
+    "humidity": 28.16666667,
+    "Population Staying at Home": 5741357,
+    "Population Not Staying at Home": 22960488,
+    "Number of Trips": 99432044,
+    "cases": 22871.71429,
+    "deaths": 305.7142857
+  },
+  {
+    "Date": "1/16/2021",
+    "temperature": 48.16,
+    "humidity": 37.48,
+    "Population Staying at Home": 6287358,
+    "Population Not Staying at Home": 22414487,
+    "Number of Trips": 101170339,
+    "cases": 22982.57143,
+    "deaths": 306.8571429
+  },
+  {
+    "Date": "1/17/2021",
+    "temperature": 52.08333333,
+    "humidity": 45.25,
+    "Population Staying at Home": 6153918,
+    "Population Not Staying at Home": 22547927,
+    "Number of Trips": 87482570,
+    "cases": 22758.57143,
+    "deaths": 305.4285714
+  },
+  {
+    "Date": "1/18/2021",
+    "temperature": 60.59375,
+    "humidity": 59.9375,
+    "Population Staying at Home": 5556707,
+    "Population Not Staying at Home": 23145138,
+    "Number of Trips": 98560699,
+    "cases": 20967.71429,
+    "deaths": 308.4285714
+  },
+  {
+    "Date": "1/19/2021",
+    "temperature": 60.1,
+    "humidity": 84.33333333,
+    "Population Staying at Home": 6209739,
+    "Population Not Staying at Home": 22492106,
+    "Number of Trips": 81452502,
+    "cases": 20203.71429,
+    "deaths": 319.4285714
+  },
+  {
+    "Date": "1/20/2021",
+    "temperature": 51,
+    "humidity": 85.15151515,
+    "Population Staying at Home": 6084771,
+    "Population Not Staying at Home": 22617074,
+    "Number of Trips": 83799321,
+    "cases": 20903.57143,
+    "deaths": 322.2857143
+  },
+  {
+    "Date": "1/21/2021",
+    "temperature": 57.2,
+    "humidity": 89.46666667,
+    "Population Staying at Home": 5702221,
+    "Population Not Staying at Home": 22999624,
+    "Number of Trips": 91622768,
+    "cases": 19698.71429,
+    "deaths": 326.2857143
+  },
+  {
+    "Date": "1/22/2021",
+    "temperature": 60.5,
+    "humidity": 81.25,
+    "Population Staying at Home": 5405971,
+    "Population Not Staying at Home": 23295874,
+    "Number of Trips": 96960092,
+    "cases": 18799.57143,
+    "deaths": 325.4285714
+  },
+  {
+    "Date": "1/23/2021",
+    "temperature": 58.33333333,
+    "humidity": 87.7,
+    "Population Staying at Home": 5852073,
+    "Population Not Staying at Home": 22849772,
+    "Number of Trips": 89578970,
+    "cases": 18173,
+    "deaths": 329
+  },
+  {
+    "Date": "1/24/2021",
+    "temperature": 65.16666667,
+    "humidity": 95.36111111,
+    "Population Staying at Home": 6633698,
+    "Population Not Staying at Home": 22068147,
+    "Number of Trips": 79744375,
+    "cases": 17494,
+    "deaths": 339.7142857
+  },
+  {
+    "Date": "1/25/2021",
+    "temperature": 66.21428571,
+    "humidity": 62.17857143,
+    "Population Staying at Home": 5818120,
+    "Population Not Staying at Home": 22883725,
+    "Number of Trips": 85183656,
+    "cases": 18809.28571,
+    "deaths": 338.2857143
+  },
+  {
+    "Date": "1/26/2021",
+    "temperature": 54.33333333,
+    "humidity": 60,
+    "Population Staying at Home": 5655137,
+    "Population Not Staying at Home": 23046708,
+    "Number of Trips": 94092595,
+    "cases": 18627.42857,
+    "deaths": 341.7142857
+  },
+  {
+    "Date": "1/27/2021",
+    "temperature": 54,
+    "humidity": 47.83333333,
+    "Population Staying at Home": 5658639,
+    "Population Not Staying at Home": 23043206,
+    "Number of Trips": 91409277,
+    "cases": 17447.28571,
+    "deaths": 337
+  },
+  {
+    "Date": "1/28/2021",
+    "temperature": 43.79166667,
+    "humidity": 63.375,
+    "Population Staying at Home": 5678366,
+    "Population Not Staying at Home": 23023479,
+    "Number of Trips": 89473747,
+    "cases": 17166.28571,
+    "deaths": 329.7142857
+  },
+  {
+    "Date": "1/29/2021",
+    "temperature": 53.16,
+    "humidity": 70.76,
+    "Population Staying at Home": 5441712,
+    "Population Not Staying at Home": 23260133,
+    "Number of Trips": 96004552,
+    "cases": 17230.71429,
+    "deaths": 319.5714286
+  },
+  {
+    "Date": "1/30/2021",
+    "temperature": 64.89285714,
+    "humidity": 73.85714286,
+    "Population Staying at Home": 5732737,
+    "Population Not Staying at Home": 22969108,
+    "Number of Trips": 93088105,
+    "cases": 17206.85714,
+    "deaths": 313.1428571
+  },
+  {
+    "Date": "1/31/2021",
+    "temperature": 59.04166667,
+    "humidity": 37.45833333,
+    "Population Staying at Home": 6179943,
+    "Population Not Staying at Home": 22521902,
+    "Number of Trips": 89164300,
+    "cases": 17873,
+    "deaths": 309.8571429
+  },
+  {
+    "Date": "2/1/2021",
+    "temperature": 49.33333333,
+    "humidity": 49.75,
+    "Population Staying at Home": 5762444,
+    "Population Not Staying at Home": 22939401,
+    "Number of Trips": 97674759,
+    "cases": 20555.71429,
+    "deaths": 316.5714286
+  },
+  {
+    "Date": "2/2/2021",
+    "temperature": 51,
+    "humidity": 51,
+    "Population Staying at Home": 5654598,
+    "Population Not Staying at Home": 23047247,
+    "Number of Trips": 97822672,
+    "cases": 20216.57143,
+    "deaths": 311.2857143
+  },
+  {
+    "Date": "2/3/2021",
+    "temperature": 57.64,
+    "humidity": 71.16,
+    "Population Staying at Home": 5496849,
+    "Population Not Staying at Home": 23204996,
+    "Number of Trips": 95227966,
+    "cases": 19962,
+    "deaths": 310.8571429
+  },
+  {
+    "Date": "2/4/2021",
+    "temperature": 67.10714286,
+    "humidity": 63.28571429,
+    "Population Staying at Home": 5400766,
+    "Population Not Staying at Home": 23301079,
+    "Number of Trips": 95922118,
+    "cases": 19115.42857,
+    "deaths": 319.2857143
+  },
+  {
+    "Date": "2/5/2021",
+    "temperature": 51.6,
+    "humidity": 61.76,
+    "Population Staying at Home": 5139927,
+    "Population Not Staying at Home": 23561918,
+    "Number of Trips": 102912906,
+    "cases": 18494.85714,
+    "deaths": 319.1428571
+  },
+  {
+    "Date": "2/6/2021",
+    "temperature": 56,
+    "humidity": 65.82758621,
+    "Population Staying at Home": 5439032,
+    "Population Not Staying at Home": 23262813,
+    "Number of Trips": 97504636,
+    "cases": 17742.57143,
+    "deaths": 321.1428571
+  },
+  {
+    "Date": "2/7/2021",
+    "temperature": 54.91666667,
+    "humidity": 55.79166667,
+    "Population Staying at Home": 6128439,
+    "Population Not Staying at Home": 22573406,
+    "Number of Trips": 95440075,
+    "cases": 17051,
+    "deaths": 321.4285714
+  },
+  {
+    "Date": "2/8/2021",
+    "temperature": 57.21875,
+    "humidity": 82.3125,
+    "Population Staying at Home": 5866322,
+    "Population Not Staying at Home": 22835523,
+    "Number of Trips": 102345410,
+    "cases": 13007.14286,
+    "deaths": 316.1428571
+  },
+  {
+    "Date": "2/9/2021",
+    "temperature": 56.27272727,
+    "humidity": 80.45454545,
+    "Population Staying at Home": 5747138,
+    "Population Not Staying at Home": 22954707,
+    "Number of Trips": 99376323,
+    "cases": 12294.57143,
+    "deaths": 299.1428571
+  },
+  {
+    "Date": "2/10/2021",
+    "temperature": 41.25,
+    "humidity": 91.07142857,
+    "Population Staying at Home": 5764029,
+    "Population Not Staying at Home": 22937816,
+    "Number of Trips": 98529237,
+    "cases": 11597.42857,
+    "deaths": 293
+  },
+  {
+    "Date": "2/11/2021",
+    "temperature": 33.57575758,
+    "humidity": 87.36363636,
+    "Population Staying at Home": 6209387,
+    "Population Not Staying at Home": 22492458,
+    "Number of Trips": 94652943,
+    "cases": 11355,
+    "deaths": 289.1428571
+  },
+  {
+    "Date": "2/12/2021",
+    "temperature": 31.33333333,
+    "humidity": 82.2,
+    "Population Staying at Home": 5643167,
+    "Population Not Staying at Home": 23058678,
+    "Number of Trips": 94486360,
+    "cases": 11056.42857,
+    "deaths": 284.2857143
+  },
+  {
+    "Date": "2/13/2021",
+    "temperature": 30.03225806,
+    "humidity": 77.70967742,
+    "Population Staying at Home": 6550304,
+    "Population Not Staying at Home": 22151541,
+    "Number of Trips": 87726749,
+    "cases": 10986,
+    "deaths": 278.5714286
+  },
+  {
+    "Date": "2/14/2021",
+    "temperature": 24.75,
+    "humidity": 83.72916667,
+    "Population Staying at Home": 8522993,
+    "Population Not Staying at Home": 20178852,
+    "Number of Trips": 71491902,
+    "cases": 10553.42857,
+    "deaths": 261.2857143
+  },
+  {
+    "Date": "2/15/2021",
+    "temperature": 15.8,
+    "humidity": 67.68571429,
+    "Population Staying at Home": 8651859,
+    "Population Not Staying at Home": 20049986,
+    "Number of Trips": 73212634,
+    "cases": 9416.142857,
+    "deaths": 224.7142857
+  },
+  {
+    "Date": "2/16/2021",
+    "temperature": 18,
+    "humidity": 68.48148148,
+    "Population Staying at Home": 7632737,
+    "Population Not Staying at Home": 21069108,
+    "Number of Trips": 80370960,
+    "cases": 8044.428571,
+    "deaths": 193.2857143
+  },
+  {
+    "Date": "2/17/2021",
+    "temperature": 29.08823529,
+    "humidity": 93.55882353,
+    "Population Staying at Home": 7962199,
+    "Population Not Staying at Home": 20739646,
+    "Number of Trips": 74467181,
+    "cases": 6816.285714,
+    "deaths": 157.5714286
+  },
+  {
+    "Date": "2/18/2021",
+    "temperature": 27.62962963,
+    "humidity": 76.18518519,
+    "Population Staying at Home": 7195661,
+    "Population Not Staying at Home": 21506184,
+    "Number of Trips": 82758803,
+    "cases": 5456,
+    "deaths": 133.8571429
+  },
+  {
+    "Date": "2/19/2021",
+    "temperature": 31.54166667,
+    "humidity": 69,
+    "Population Staying at Home": 6254134,
+    "Population Not Staying at Home": 22447711,
+    "Number of Trips": 90309908,
+    "cases": 4543.571429,
+    "deaths": 126
+  },
+  {
+    "Date": "2/20/2021",
+    "temperature": 42.91666667,
+    "humidity": 66.375,
+    "Population Staying at Home": 5953299,
+    "Population Not Staying at Home": 22748546,
+    "Number of Trips": 93345333,
+    "cases": 4186.428571,
+    "deaths": 125.8571429
+  },
+  {
+    "Date": "2/21/2021",
+    "temperature": 57.61538462,
+    "humidity": 69.30769231,
+    "Population Staying at Home": 5943521,
+    "Population Not Staying at Home": 22758324,
+    "Number of Trips": 97697333,
+    "cases": 4455.428571,
+    "deaths": 142.8571429
+  },
+  {
+    "Date": "2/22/2021",
+    "temperature": 56,
+    "humidity": 51.91666667,
+    "Population Staying at Home": 5324581,
+    "Population Not Staying at Home": 23377264,
+    "Number of Trips": 108835255,
+    "cases": 5085.285714,
+    "deaths": 168.8571429
+  },
+  {
+    "Date": "2/23/2021",
+    "temperature": 60.48148148,
+    "humidity": 63.55555556,
+    "Population Staying at Home": 5233528,
+    "Population Not Staying at Home": 23468317,
+    "Number of Trips": 111112993,
+    "cases": 6033.428571,
+    "deaths": 200.4285714
+  },
+  {
+    "Date": "2/24/2021",
+    "temperature": 71.42307692,
+    "humidity": 65.69230769,
+    "Population Staying at Home": 5187146,
+    "Population Not Staying at Home": 23514699,
+    "Number of Trips": 106430529,
+    "cases": 6477.571429,
+    "deaths": 226.5714286
+  },
+  {
+    "Date": "2/25/2021",
+    "temperature": 55.52631579,
+    "humidity": 77.18421053,
+    "Population Staying at Home": 5279369,
+    "Population Not Staying at Home": 23422476,
+    "Number of Trips": 104811685,
+    "cases": 7257.142857,
+    "deaths": 233.2857143
+  },
+  {
+    "Date": "2/26/2021",
+    "temperature": 53.92857143,
+    "humidity": 82.71428571,
+    "Population Staying at Home": 4938323,
+    "Population Not Staying at Home": 23763522,
+    "Number of Trips": 109994322,
+    "cases": 7969.142857,
+    "deaths": 224.2857143
+  },
+  {
+    "Date": "2/27/2021",
+    "temperature": 65.97297297,
+    "humidity": 84.37837838,
+    "Population Staying at Home": 5316736,
+    "Population Not Staying at Home": 23385109,
+    "Number of Trips": 102345698,
+    "cases": 7956,
+    "deaths": 232.5714286
+  },
+  {
+    "Date": "2/28/2021",
+    "temperature": 71.84,
+    "humidity": 77.68,
+    "Population Staying at Home": 5906125,
+    "Population Not Staying at Home": 22795720,
+    "Number of Trips": 97309671,
+    "cases": 7557.714286,
+    "deaths": 227.7142857
+  },
+  {
+    "Date": "3/1/2021",
+    "temperature": 53.67857143,
+    "humidity": 66.07142857,
+    "Population Staying at Home": 5402806,
+    "Population Not Staying at Home": 23299039,
+    "Number of Trips": 104772423,
+    "cases": 7668.428571,
+    "deaths": 232.1428571
+  },
+  {
+    "Date": "3/2/2021",
+    "temperature": 52.66666667,
+    "humidity": 54.5,
+    "Population Staying at Home": 5158524,
+    "Population Not Staying at Home": 23543321,
+    "Number of Trips": 108314708,
+    "cases": 7227,
+    "deaths": 224.8571429
+  },
+  {
+    "Date": "3/3/2021",
+    "temperature": 54.29166667,
+    "humidity": 58.08333333,
+    "Population Staying at Home": 5247566,
+    "Population Not Staying at Home": 23454279,
+    "Number of Trips": 106841917,
+    "cases": 7220.285714,
+    "deaths": 224.2857143
+  },
+  {
+    "Date": "3/4/2021",
+    "temperature": 60.5,
+    "humidity": 60.04166667,
+    "Population Staying at Home": 5054993,
+    "Population Not Staying at Home": 23646852,
+    "Number of Trips": 109026331,
+    "cases": 7179,
+    "deaths": 223.1428571
+  },
+  {
+    "Date": "3/5/2021",
+    "temperature": 65.14705882,
+    "humidity": 61.88235294,
+    "Population Staying at Home": 4848723,
+    "Population Not Staying at Home": 23853122,
+    "Number of Trips": 110034199,
+    "cases": 6417.857143,
+    "deaths": 229.8571429
+  },
+  {
+    "Date": "3/6/2021",
+    "temperature": 56.70833333,
+    "humidity": 62.25,
+    "Population Staying at Home": 5124497,
+    "Population Not Staying at Home": 23577348,
+    "Number of Trips": 103510148,
+    "cases": 6157.714286,
+    "deaths": 213.8571429
+  },
+  {
+    "Date": "3/7/2021",
+    "temperature": 53.48,
+    "humidity": 52.64,
+    "Population Staying at Home": 5644600,
+    "Population Not Staying at Home": 23351281,
+    "Number of Trips": 96128130,
+    "cases": 6041.428571,
+    "deaths": 213.1428571
+  },
+  {
+    "Date": "3/8/2021",
+    "temperature": 58.95833333,
+    "humidity": 60.08333333,
+    "Population Staying at Home": 5250239,
+    "Population Not Staying at Home": 23745642,
+    "Number of Trips": 106620422,
+    "cases": 5449.142857,
+    "deaths": 200.1428571
+  },
+  {
+    "Date": "3/9/2021",
+    "temperature": 65.64516129,
+    "humidity": 73.4516129,
+    "Population Staying at Home": 5215702,
+    "Population Not Staying at Home": 23780179,
+    "Number of Trips": 111020601,
+    "cases": 5192.428571,
+    "deaths": 189.8571429
+  },
+  {
+    "Date": "3/10/2021",
+    "temperature": 71.46153846,
+    "humidity": 68.38461538,
+    "Population Staying at Home": 5046359,
+    "Population Not Staying at Home": 23949522,
+    "Number of Trips": 108498338,
+    "cases": 4874.142857,
+    "deaths": 178.2857143
+  },
+  {
+    "Date": "3/11/2021",
+    "temperature": 73.0625,
+    "humidity": 72,
+    "Population Staying at Home": 5038327,
+    "Population Not Staying at Home": 23957554,
+    "Number of Trips": 109234856,
+    "cases": 4678.571429,
+    "deaths": 170.8571429
+  },
+  {
+    "Date": "3/12/2021",
+    "temperature": 73.89285714,
+    "humidity": 73.32142857,
+    "Population Staying at Home": 4725370,
+    "Population Not Staying at Home": 24270511,
+    "Number of Trips": 111891936,
+    "cases": 4627.714286,
+    "deaths": 164.4285714
+  },
+  {
+    "Date": "3/13/2021",
+    "temperature": 71.31428571,
+    "humidity": 81.88571429,
+    "Population Staying at Home": 5010341,
+    "Population Not Staying at Home": 23985540,
+    "Number of Trips": 103836050,
+    "cases": 4520.857143,
+    "deaths": 163.1428571
+  },
+  {
+    "Date": "3/14/2021",
+    "temperature": 60.77419355,
+    "humidity": 72.09677419,
+    "Population Staying at Home": 5358873,
+    "Population Not Staying at Home": 23637008,
+    "Number of Trips": 98025430,
+    "cases": 4510,
+    "deaths": 160
+  },
+  {
+    "Date": "3/15/2021",
+    "temperature": 63.03846154,
+    "humidity": 61.34615385,
+    "Population Staying at Home": 5046743,
+    "Population Not Staying at Home": 23949138,
+    "Number of Trips": 111522602,
+    "cases": 4609.428571,
+    "deaths": 152.8571429
+  },
+  {
+    "Date": "3/16/2021",
+    "temperature": 72.5,
+    "humidity": 80.73529412,
+    "Population Staying at Home": 4769239,
+    "Population Not Staying at Home": 24226642,
+    "Number of Trips": 118464864,
+    "cases": 4672.714286,
+    "deaths": 148.7142857
+  },
+  {
+    "Date": "3/17/2021",
+    "temperature": 70.24137931,
+    "humidity": 47.24137931,
+    "Population Staying at Home": 4792437,
+    "Population Not Staying at Home": 24203444,
+    "Number of Trips": 111159060,
+    "cases": 4561.285714,
+    "deaths": 146.8571429
+  },
+  {
+    "Date": "3/18/2021",
+    "temperature": 58.33333333,
+    "humidity": 37.95833333,
+    "Population Staying at Home": 4600033,
+    "Population Not Staying at Home": 24395848,
+    "Number of Trips": 114899332,
+    "cases": 4167.428571,
+    "deaths": 138.7142857
+  },
+  {
+    "Date": "3/19/2021",
+    "temperature": 56.70833333,
+    "humidity": 49.5,
+    "Population Staying at Home": 4430310,
+    "Population Not Staying at Home": 24565571,
+    "Number of Trips": 112900685,
+    "cases": 3981,
+    "deaths": 132.4285714
+  },
+  {
+    "Date": "3/20/2021",
+    "temperature": 54.25,
+    "humidity": 61.83333333,
+    "Population Staying at Home": 4701898,
+    "Population Not Staying at Home": 24293983,
+    "Number of Trips": 104241028,
+    "cases": 3924.857143,
+    "deaths": 130.8571429
+  },
+  {
+    "Date": "3/21/2021",
+    "temperature": 57.85714286,
+    "humidity": 64.35714286,
+    "Population Staying at Home": 4932958,
+    "Population Not Staying at Home": 24062923,
+    "Number of Trips": 96336947,
+    "cases": 3867,
+    "deaths": 131.8571429
+  },
+  {
+    "Date": "3/22/2021",
+    "temperature": 65.35483871,
+    "humidity": 74.06451613,
+    "Population Staying at Home": 5004362,
+    "Population Not Staying at Home": 23991519,
+    "Number of Trips": 112649101,
+    "cases": 3688.714286,
+    "deaths": 124.8571429
+  },
+  {
+    "Date": "3/23/2021",
+    "temperature": 64.96666667,
+    "humidity": 65.83333333,
+    "Population Staying at Home": 4613239,
+    "Population Not Staying at Home": 24382642,
+    "Number of Trips": 124733591,
+    "cases": 3478.714286,
+    "deaths": 123.4285714
+  },
+  {
+    "Date": "3/24/2021",
+    "temperature": 63.46666667,
+    "humidity": 80.03333333,
+    "Population Staying at Home": 4718603,
+    "Population Not Staying at Home": 24277278,
+    "Number of Trips": 118873099,
+    "cases": 3371.285714,
+    "deaths": 113.4285714
+  },
+  {
+    "Date": "3/25/2021",
+    "temperature": 64.06896552,
+    "humidity": 69.17241379,
+    "Population Staying at Home": 4578151,
+    "Population Not Staying at Home": 24417730,
+    "Number of Trips": 123302823,
+    "cases": 3651.571429,
+    "deaths": 108.7142857
+  },
+  {
+    "Date": "3/26/2021",
+    "temperature": 63.41666667,
+    "humidity": 60.375,
+    "Population Staying at Home": 4359515,
+    "Population Not Staying at Home": 24636366,
+    "Number of Trips": 119031194,
+    "cases": 3652.428571,
+    "deaths": 107.1428571
+  },
+  {
+    "Date": "3/27/2021",
+    "temperature": 70.1,
+    "humidity": 85.93333333,
+    "Population Staying at Home": 4610664,
+    "Population Not Staying at Home": 24385217,
+    "Number of Trips": 113024240,
+    "cases": 3741,
+    "deaths": 108
+  },
+  {
+    "Date": "3/28/2021",
+    "temperature": 62.79166667,
+    "humidity": 47.20833333,
+    "Population Staying at Home": 5119130,
+    "Population Not Staying at Home": 23876751,
+    "Number of Trips": 102671256,
+    "cases": 3835.714286,
+    "deaths": 99
+  },
+  {
+    "Date": "3/29/2021",
+    "temperature": 57.29166667,
+    "humidity": 62.83333333,
+    "Population Staying at Home": 4939390,
+    "Population Not Staying at Home": 24056491,
+    "Number of Trips": 111986448,
+    "cases": 3990.714286,
+    "deaths": 102.7142857
+  },
+  {
+    "Date": "3/30/2021",
+    "temperature": 66.91428571,
+    "humidity": 85.34285714,
+    "Population Staying at Home": 4742829,
+    "Population Not Staying at Home": 24253052,
+    "Number of Trips": 115448942,
+    "cases": 3855.428571,
+    "deaths": 96.57142857
+  },
+  {
+    "Date": "3/31/2021",
+    "temperature": 64.22222222,
+    "humidity": 62.74074074,
+    "Population Staying at Home": 4624046,
+    "Population Not Staying at Home": 24371835,
+    "Number of Trips": 119992204,
+    "cases": 3895.428571,
+    "deaths": 94.42857143
+  },
+  {
+    "Date": "4/1/2021",
+    "temperature": 52.58333333,
+    "humidity": 53.45833333,
+    "Population Staying at Home": 4685405,
+    "Population Not Staying at Home": 24310476,
+    "Number of Trips": 118859938,
+    "cases": 3652.142857,
+    "deaths": 89.85714286
+  },
+  {
+    "Date": "4/2/2021",
+    "temperature": 54.875,
+    "humidity": 58.375,
+    "Population Staying at Home": 4581168,
+    "Population Not Staying at Home": 24414713,
+    "Number of Trips": 116393923,
+    "cases": 3381.714286,
+    "deaths": 88.42857143
+  },
+  {
+    "Date": "4/3/2021",
+    "temperature": 56.96296296,
+    "humidity": 80.55555556,
+    "Population Staying at Home": 4747441,
+    "Population Not Staying at Home": 24248440,
+    "Number of Trips": 106090813,
+    "cases": 3182,
+    "deaths": 84
+  },
+  {
+    "Date": "4/4/2021",
+    "temperature": 59.88461538,
+    "humidity": 82.07692308,
+    "Population Staying at Home": 5329320,
+    "Population Not Staying at Home": 23666561,
+    "Number of Trips": 86156596,
+    "cases": 2900.571429,
+    "deaths": 81.71428571
+  },
+  {
+    "Date": "4/5/2021",
+    "temperature": 62.24242424,
+    "humidity": 85.09090909,
+    "Population Staying at Home": 4826416,
+    "Population Not Staying at Home": 24169465,
+    "Number of Trips": 117229300,
+    "cases": 2964.428571,
+    "deaths": 78.28571429
+  },
+  {
+    "Date": "4/6/2021",
+    "temperature": 71.43333333,
+    "humidity": 78.23333333,
+    "Population Staying at Home": 4651360,
+    "Population Not Staying at Home": 24344521,
+    "Number of Trips": 111763168,
+    "cases": 3077.571429,
+    "deaths": 76.57142857
+  },
+  {
+    "Date": "4/7/2021",
+    "temperature": 71.24137931,
+    "humidity": 73.75862069,
+    "Population Staying at Home": 4862872,
+    "Population Not Staying at Home": 24133009,
+    "Number of Trips": 120467645,
+    "cases": 3055,
+    "deaths": 74.28571429
+  },
+  {
+    "Date": "4/8/2021",
+    "temperature": 64.31818182,
+    "humidity": 85.06818182,
+    "Population Staying at Home": 4487078,
+    "Population Not Staying at Home": 24508803,
+    "Number of Trips": 123069412,
+    "cases": 3173.428571,
+    "deaths": 75
+  },
+  {
+    "Date": "4/9/2021",
+    "temperature": 75,
+    "humidity": 77.33333333,
+    "Population Staying at Home": 4242128,
+    "Population Not Staying at Home": 24753753,
+    "Number of Trips": 124675860,
+    "cases": 3349.428571,
+    "deaths": 73.42857143
+  },
+  {
+    "Date": "4/10/2021",
+    "temperature": 65.375,
+    "humidity": 50.41666667,
+    "Population Staying at Home": 4444659,
+    "Population Not Staying at Home": 24551222,
+    "Number of Trips": 118113317,
+    "cases": 3457.714286,
+    "deaths": 74
+  },
+  {
+    "Date": "4/11/2021",
+    "temperature": 65.08333333,
+    "humidity": 57.41666667,
+    "Population Staying at Home": 5170536,
+    "Population Not Staying at Home": 23825345,
+    "Number of Trips": 103392115,
+    "cases": 3521.714286,
+    "deaths": 73.14285714
+  },
+  {
+    "Date": "4/12/2021",
+    "temperature": 72.59259259,
+    "humidity": 76.03703704,
+    "Population Staying at Home": 4971063,
+    "Population Not Staying at Home": 24024818,
+    "Number of Trips": 122500193,
+    "cases": 3608.857143,
+    "deaths": 69.71428571
+  },
+  {
+    "Date": "4/13/2021",
+    "temperature": 73.375,
+    "humidity": 76.6875,
+    "Population Staying at Home": 4826442,
+    "Population Not Staying at Home": 24169439,
+    "Number of Trips": 123159137,
+    "cases": 3696.714286,
+    "deaths": 64
+  },
+  {
+    "Date": "4/14/2021",
+    "temperature": 72,
+    "humidity": 81.21052632,
+    "Population Staying at Home": 4929020,
+    "Population Not Staying at Home": 24066861,
+    "Number of Trips": 121724694,
+    "cases": 3651.285714,
+    "deaths": 61.85714286
+  },
+  {
+    "Date": "4/15/2021",
+    "temperature": 63.91666667,
+    "humidity": 93.66666667,
+    "Population Staying at Home": 4797458,
+    "Population Not Staying at Home": 24198423,
+    "Number of Trips": 120234174,
+    "cases": 3485.428571,
+    "deaths": 56.57142857
+  },
+  {
+    "Date": "4/16/2021",
+    "temperature": 62.94444444,
+    "humidity": 98.5,
+    "Population Staying at Home": 4594738,
+    "Population Not Staying at Home": 24401143,
+    "Number of Trips": 127168856,
+    "cases": 3453,
+    "deaths": 54.42857143
+  },
+  {
+    "Date": "4/17/2021",
+    "temperature": 56.08,
+    "humidity": 67.96,
+    "Population Staying at Home": 4790468,
+    "Population Not Staying at Home": 24205413,
+    "Number of Trips": 110724577,
+    "cases": 3363.285714,
+    "deaths": 55.71428571
+  },
+  {
+    "Date": "4/18/2021",
+    "temperature": 55.70833333,
+    "humidity": 62.08333333,
+    "Population Staying at Home": 5279020,
+    "Population Not Staying at Home": 23716861,
+    "Number of Trips": 99591303,
+    "cases": 3362,
+    "deaths": 55.28571429
+  },
+  {
+    "Date": "4/19/2021",
+    "temperature": 59.375,
+    "humidity": 60.29166667,
+    "Population Staying at Home": 4884686,
+    "Population Not Staying at Home": 24111195,
+    "Number of Trips": 121887201,
+    "cases": 3239.857143,
+    "deaths": 53.28571429
+  },
+  {
+    "Date": "4/20/2021",
+    "temperature": 62,
+    "humidity": 57.08333333,
+    "Population Staying at Home": 4648296,
+    "Population Not Staying at Home": 24347585,
+    "Number of Trips": 124714491,
+    "cases": 3223.571429,
+    "deaths": 56
+  },
+  {
+    "Date": "4/21/2021",
+    "temperature": 52.66666667,
+    "humidity": 44.625,
+    "Population Staying at Home": 5410551,
+    "Population Not Staying at Home": 23585330,
+    "Number of Trips": 111958886,
+    "cases": 3289.571429,
+    "deaths": 53.85714286
+  },
+  {
+    "Date": "4/22/2021",
+    "temperature": 57.48275862,
+    "humidity": 75.4137931,
+    "Population Staying at Home": 5961004,
+    "Population Not Staying at Home": 23034877,
+    "Number of Trips": 109524477,
+    "cases": 3339.857143,
+    "deaths": 53.14285714
+  },
+  {
+    "Date": "4/23/2021",
+    "temperature": 66.05882353,
+    "humidity": 99.29411765,
+    "Population Staying at Home": 5636637,
+    "Population Not Staying at Home": 23359244,
+    "Number of Trips": 110725230,
+    "cases": 3283.142857,
+    "deaths": 52
+  },
+  {
+    "Date": "4/24/2021",
+    "temperature": 69.28,
+    "humidity": 66.16,
+    "Population Staying at Home": 5917303,
+    "Population Not Staying at Home": 23078578,
+    "Number of Trips": 105882009,
+    "cases": 3308.857143,
+    "deaths": 49.14285714
+  },
+  {
+    "Date": "4/25/2021",
+    "temperature": 69.20833333,
+    "humidity": 69.95833333,
+    "Population Staying at Home": 6401836,
+    "Population Not Staying at Home": 22594045,
+    "Number of Trips": 91118445,
+    "cases": 3314.714286,
+    "deaths": 50.85714286
+  },
+  {
+    "Date": "4/26/2021",
+    "temperature": 71.96428571,
+    "humidity": 75.17857143,
+    "Population Staying at Home": 6029643,
+    "Population Not Staying at Home": 22966238,
+    "Number of Trips": 109738632,
+    "cases": 3271.857143,
+    "deaths": 52.42857143
+  },
+  {
+    "Date": "4/27/2021",
+    "temperature": 73.06896552,
+    "humidity": 87.03448276,
+    "Population Staying at Home": 5965021,
+    "Population Not Staying at Home": 23030860,
+    "Number of Trips": 106065412,
+    "cases": 3134.857143,
+    "deaths": 51.14285714
+  },
+  {
+    "Date": "4/28/2021",
+    "temperature": 77.03703704,
+    "humidity": 81.33333333,
+    "Population Staying at Home": 5885740,
+    "Population Not Staying at Home": 23110141,
+    "Number of Trips": 110888115,
+    "cases": 3145.285714,
+    "deaths": 50.71428571
+  },
+  {
+    "Date": "4/29/2021",
+    "temperature": 70.64102564,
+    "humidity": 97.97435897,
+    "Population Staying at Home": 5838592,
+    "Population Not Staying at Home": 23157289,
+    "Number of Trips": 114246788,
+    "cases": 3127.571429,
+    "deaths": 51.14285714
+  },
+  {
+    "Date": "4/30/2021",
+    "temperature": 67.52380952,
+    "humidity": 96.47619048,
+    "Population Staying at Home": 5701213,
+    "Population Not Staying at Home": 23294668,
+    "Number of Trips": 110802936,
+    "cases": 3280.285714,
+    "deaths": 52.57142857
+  },
+  {
+    "Date": "5/1/2021",
+    "temperature": 67.27027027,
+    "humidity": 95.91891892,
+    "Population Staying at Home": 5997537,
+    "Population Not Staying at Home": 22998344,
+    "Number of Trips": 100262851,
+    "cases": 3284.142857,
+    "deaths": 52.85714286
+  },
+  {
+    "Date": "5/2/2021",
+    "temperature": 70.68965517,
+    "humidity": 81.82758621,
+    "Population Staying at Home": 6457577,
+    "Population Not Staying at Home": 22538304,
+    "Number of Trips": 91215495,
+    "cases": 3249.857143,
+    "deaths": 50.14285714
+  },
+  {
+    "Date": "5/3/2021",
+    "temperature": 77.4137931,
+    "humidity": 82.5862069,
+    "Population Staying at Home": 5931976,
+    "Population Not Staying at Home": 23063905,
+    "Number of Trips": 107151662,
+    "cases": 3208.428571,
+    "deaths": 53.42857143
+  },
+  {
+    "Date": "5/4/2021",
+    "temperature": 71.9,
+    "humidity": 75.6,
+    "Population Staying at Home": 6016981,
+    "Population Not Staying at Home": 22978900,
+    "Number of Trips": 109747079,
+    "cases": 3066.571429,
+    "deaths": 50.71428571
+  },
+  {
+    "Date": "5/5/2021",
+    "temperature": 65.5,
+    "humidity": 62.58333333,
+    "Population Staying at Home": 6056466,
+    "Population Not Staying at Home": 22939415,
+    "Number of Trips": 117354281,
+    "cases": 2797.857143,
+    "deaths": 50.57142857
+  },
+  {
+    "Date": "5/6/2021",
+    "temperature": 67.66666667,
+    "humidity": 71.375,
+    "Population Staying at Home": 5997708,
+    "Population Not Staying at Home": 22998173,
+    "Number of Trips": 117541614,
+    "cases": 2661.714286,
+    "deaths": 49.28571429
+  },
+  {
+    "Date": "5/7/2021",
+    "temperature": 68.69230769,
+    "humidity": 73.30769231,
+    "Population Staying at Home": 5831177,
+    "Population Not Staying at Home": 23164704,
+    "Number of Trips": 115961376,
+    "cases": 2547.428571,
+    "deaths": 47.28571429
+  },
+  {
+    "Date": "5/8/2021",
+    "temperature": 75.03333333,
+    "humidity": 80.16666667,
+    "Population Staying at Home": 6067534,
+    "Population Not Staying at Home": 22928347,
+    "Number of Trips": 103533988,
+    "cases": 2462.142857,
+    "deaths": 47.57142857
+  },
+  {
+    "Date": "5/9/2021",
+    "temperature": 78.95833333,
+    "humidity": 79.41666667,
+    "Population Staying at Home": 6360437,
+    "Population Not Staying at Home": 22635444,
+    "Number of Trips": 91357519,
+    "cases": 2463.714286,
+    "deaths": 49.14285714
+  },
+  {
+    "Date": "5/10/2021",
+    "temperature": 72.03030303,
+    "humidity": 88.12121212,
+    "Population Staying at Home": 5930364,
+    "Population Not Staying at Home": 23065517,
+    "Number of Trips": 114155821,
+    "cases": 2257.857143,
+    "deaths": 45.14285714
+  },
+  {
+    "Date": "5/11/2021",
+    "temperature": 64.41025641,
+    "humidity": 94.84615385,
+    "Population Staying at Home": 5772728,
+    "Population Not Staying at Home": 23223153,
+    "Number of Trips": 110597530,
+    "cases": 2282,
+    "deaths": 46.71428571
+  },
+  {
+    "Date": "5/12/2021",
+    "temperature": 63.46875,
+    "humidity": 83.875,
+    "Population Staying at Home": 5953782,
+    "Population Not Staying at Home": 23042099,
+    "Number of Trips": 113059665,
+    "cases": 2309.285714,
+    "deaths": 44.71428571
+  },
+  {
+    "Date": "5/13/2021",
+    "temperature": 64.88888889,
+    "humidity": 78.33333333,
+    "Population Staying at Home": 5973553,
+    "Population Not Staying at Home": 23022328,
+    "Number of Trips": 113141348,
+    "cases": 2257.571429,
+    "deaths": 45.71428571
+  },
+  {
+    "Date": "5/14/2021",
+    "temperature": 69.6,
+    "humidity": 75.08,
+    "Population Staying at Home": 5775302,
+    "Population Not Staying at Home": 23220579,
+    "Number of Trips": 118720905,
+    "cases": 2193.428571,
+    "deaths": 45.57142857
+  },
+  {
+    "Date": "5/15/2021",
+    "temperature": 69.51724138,
+    "humidity": 86.89655172,
+    "Population Staying at Home": 5914055,
+    "Population Not Staying at Home": 23081826,
+    "Number of Trips": 107523525,
+    "cases": 2146.285714,
+    "deaths": 43.14285714
+  },
+  {
+    "Date": "5/16/2021",
+    "temperature": 72.05263158,
+    "humidity": 90.52631579,
+    "Population Staying at Home": 6245276,
+    "Population Not Staying at Home": 22750605,
+    "Number of Trips": 90687353,
+    "cases": 2062.571429,
+    "deaths": 44.42857143
+  },
+  {
+    "Date": "5/17/2021",
+    "temperature": 71.46875,
+    "humidity": 90.53125,
+    "Population Staying at Home": 5893270,
+    "Population Not Staying at Home": 23102611,
+    "Number of Trips": 113638750,
+    "cases": 1984.571429,
+    "deaths": 42.42857143
+  },
+  {
+    "Date": "5/18/2021",
+    "temperature": 69.5625,
+    "humidity": 90,
+    "Population Staying at Home": 5596240,
+    "Population Not Staying at Home": 23399641,
+    "Number of Trips": 113601266,
+    "cases": 2057.714286,
+    "deaths": 40.71428571
+  },
+  {
+    "Date": "5/19/2021",
+    "temperature": 65.70967742,
+    "humidity": 92.03225806,
+    "Population Staying at Home": 5790962,
+    "Population Not Staying at Home": 23204919,
+    "Number of Trips": 117587521,
+    "cases": 1980.285714,
+    "deaths": 40
+  },
+  {
+    "Date": "5/20/2021",
+    "temperature": 70.91666667,
+    "humidity": 82.29166667,
+    "Population Staying at Home": 5891797,
+    "Population Not Staying at Home": 23104084,
+    "Number of Trips": 114556334,
+    "cases": 1901.428571,
+    "deaths": 36.85714286
+  },
+  {
+    "Date": "5/21/2021",
+    "temperature": 72.83870968,
+    "humidity": 85.09677419,
+    "Population Staying at Home": 5648723,
+    "Population Not Staying at Home": 23347158,
+    "Number of Trips": 118050573,
+    "cases": 1774.142857,
+    "deaths": 37.28571429
+  },
+  {
+    "Date": "5/22/2021",
+    "temperature": 73.41025641,
+    "humidity": 93.20512821,
+    "Population Staying at Home": 5867577,
+    "Population Not Staying at Home": 23128304,
+    "Number of Trips": 104580284,
+    "cases": 1754.714286,
+    "deaths": 39.42857143
+  },
+  {
+    "Date": "5/23/2021",
+    "temperature": 70.66666667,
+    "humidity": 96.06666667,
+    "Population Staying at Home": 6141953,
+    "Population Not Staying at Home": 22853928,
+    "Number of Trips": 103260632,
+    "cases": 1766.571429,
+    "deaths": 38.71428571
+  },
+  {
+    "Date": "5/24/2021",
+    "temperature": 73.09677419,
+    "humidity": 91.32258065,
+    "Population Staying at Home": 5705148,
+    "Population Not Staying at Home": 23290733,
+    "Number of Trips": 116688438,
+    "cases": 1872.857143,
+    "deaths": 39
+  },
+  {
+    "Date": "5/25/2021",
+    "temperature": 76.4375,
+    "humidity": 88.71875,
+    "Population Staying at Home": 6038655,
+    "Population Not Staying at Home": 22957226,
+    "Number of Trips": 109004501,
+    "cases": 1743.142857,
+    "deaths": 39.71428571
+  },
+  {
+    "Date": "5/26/2021",
+    "temperature": 78.44444444,
+    "humidity": 82.66666667,
+    "Population Staying at Home": 6015351,
+    "Population Not Staying at Home": 22980530,
+    "Number of Trips": 109291386,
+    "cases": 1704.285714,
+    "deaths": 41.28571429
+  },
+  {
+    "Date": "5/27/2021",
+    "temperature": 78.28571429,
+    "humidity": 82.35714286,
+    "Population Staying at Home": 6022720,
+    "Population Not Staying at Home": 22973161,
+    "Number of Trips": 115097322,
+    "cases": 1711.857143,
+    "deaths": 42.71428571
+  },
+  {
+    "Date": "5/28/2021",
+    "temperature": 73.70731707,
+    "humidity": 87.41463415,
+    "Population Staying at Home": 5671209,
+    "Population Not Staying at Home": 23324672,
+    "Number of Trips": 111521430,
+    "cases": 1727.571429,
+    "deaths": 42
+  },
+  {
+    "Date": "5/29/2021",
+    "temperature": 73.04166667,
+    "humidity": 78.95833333,
+    "Population Staying at Home": 6037298,
+    "Population Not Staying at Home": 22958583,
+    "Number of Trips": 102256725,
+    "cases": 1687,
+    "deaths": 41.57142857
+  },
+  {
+    "Date": "5/30/2021",
+    "temperature": 72.30952381,
+    "humidity": 86.38095238,
+    "Population Staying at Home": 6187739,
+    "Population Not Staying at Home": 22808142,
+    "Number of Trips": 95909368,
+    "cases": 1603.714286,
+    "deaths": 37.57142857
+  },
+  {
+    "Date": "5/31/2021",
+    "temperature": 74.20588235,
+    "humidity": 88.23529412,
+    "Population Staying at Home": 6151311,
+    "Population Not Staying at Home": 22844570,
+    "Number of Trips": 103761127,
+    "cases": 1216.714286,
+    "deaths": 33.71428571
+  },
+  {
+    "Date": "6/1/2021",
+    "temperature": 72.38709677,
+    "humidity": 88,
+    "Population Staying at Home": 5931182,
+    "Population Not Staying at Home": 23064699,
+    "Number of Trips": 113404814,
+    "cases": 957,
+    "deaths": 32.14285714
+  },
+  {
+    "Date": "6/2/2021",
+    "temperature": 73.26666667,
+    "humidity": 82.06666667,
+    "Population Staying at Home": 5873604,
+    "Population Not Staying at Home": 23122277,
+    "Number of Trips": 109881384,
+    "cases": 1060.285714,
+    "deaths": 32.28571429
+  },
+  {
+    "Date": "6/3/2021",
+    "temperature": 66.03125,
+    "humidity": 98.875,
+    "Population Staying at Home": 5833170,
+    "Population Not Staying at Home": 23162711,
+    "Number of Trips": 115768059,
+    "cases": 1255.571429,
+    "deaths": 31.42857143
+  },
+  {
+    "Date": "6/4/2021",
+    "temperature": 71.8,
+    "humidity": 89.56666667,
+    "Population Staying at Home": 5714846,
+    "Population Not Staying at Home": 23281035,
+    "Number of Trips": 117627919,
+    "cases": 1253.142857,
+    "deaths": 30.57142857
+  },
+  {
+    "Date": "6/5/2021",
+    "temperature": 71.52631579,
+    "humidity": 92.65789474,
+    "Population Staying at Home": 5925623,
+    "Population Not Staying at Home": 23070258,
+    "Number of Trips": 106489898,
+    "cases": 1343,
+    "deaths": 31.28571429
+  },
+  {
+    "Date": "6/6/2021",
+    "temperature": 74.96666667,
+    "humidity": 87.3,
+    "Population Staying at Home": 6381999,
+    "Population Not Staying at Home": 22613882,
+    "Number of Trips": 96565491,
+    "cases": 1409.428571,
+    "deaths": 33.57142857
+  },
+  {
+    "Date": "6/7/2021",
+    "temperature": 80.79310345,
+    "humidity": 86.4137931,
+    "Population Staying at Home": 5975841,
+    "Population Not Staying at Home": 23020040,
+    "Number of Trips": 118502578,
+    "cases": 1504.571429,
+    "deaths": 37.14285714
+  },
+  {
+    "Date": "6/8/2021",
+    "temperature": 81.36666667,
+    "humidity": 85.26666667,
+    "Population Staying at Home": 6065995,
+    "Population Not Staying at Home": 22929886,
+    "Number of Trips": 116315751,
+    "cases": 1667.857143,
+    "deaths": 35
+  },
+  {
+    "Date": "6/9/2021",
+    "temperature": 80.5,
+    "humidity": 86.58823529,
+    "Population Staying at Home": 6098484,
+    "Population Not Staying at Home": 22897397,
+    "Number of Trips": 111955525,
+    "cases": 2325.571429,
+    "deaths": 31.57142857
+  },
+  {
+    "Date": "6/10/2021",
+    "temperature": 81.65384615,
+    "humidity": 75.15384615,
+    "Population Staying at Home": 6010996,
+    "Population Not Staying at Home": 22984885,
+    "Number of Trips": 110685581,
+    "cases": 2146.857143,
+    "deaths": 31.28571429
+  },
+  {
+    "Date": "6/11/2021",
+    "temperature": 81,
+    "humidity": 76.09090909,
+    "Population Staying at Home": 5881646,
+    "Population Not Staying at Home": 23114235,
+    "Number of Trips": 117458594,
+    "cases": 2075.714286,
+    "deaths": 31.71428571
+  },
+  {
+    "Date": "6/12/2021",
+    "temperature": 80.77777778,
+    "humidity": 78.40740741,
+    "Population Staying at Home": 6078768,
+    "Population Not Staying at Home": 22917113,
+    "Number of Trips": 106410973,
+    "cases": 2008.428571,
+    "deaths": 30.57142857
+  },
+  {
+    "Date": "6/13/2021",
+    "temperature": 82.875,
+    "humidity": 73.125,
+    "Population Staying at Home": 6424282,
+    "Population Not Staying at Home": 22571599,
+    "Number of Trips": 93954936,
+    "cases": 1978.857143,
+    "deaths": 29.71428571
+  },
+  {
+    "Date": "6/14/2021",
+    "temperature": 83.08333333,
+    "humidity": 69.625,
+    "Population Staying at Home": 6026076,
+    "Population Not Staying at Home": 22969805,
+    "Number of Trips": 109610887,
+    "cases": 1988,
+    "deaths": 28.28571429
+  },
+  {
+    "Date": "6/15/2021",
+    "temperature": 83.08333333,
+    "humidity": 68.75,
+    "Population Staying at Home": 5894245,
+    "Population Not Staying at Home": 23101636,
+    "Number of Trips": 117962610,
+    "cases": 1878.857143,
+    "deaths": 28.42857143
+  },
+  {
+    "Date": "6/16/2021",
+    "temperature": 81,
+    "humidity": 66.33333333,
+    "Population Staying at Home": 6038472,
+    "Population Not Staying at Home": 22957409,
+    "Number of Trips": 114011508,
+    "cases": 1207.857143,
+    "deaths": 28.57142857
+  },
+  {
+    "Date": "6/17/2021",
+    "temperature": 83.54166667,
+    "humidity": 64.45833333,
+    "Population Staying at Home": 5955218,
+    "Population Not Staying at Home": 23040663,
+    "Number of Trips": 118742640,
+    "cases": 1055,
+    "deaths": 28.85714286
+  },
+  {
+    "Date": "6/18/2021",
+    "temperature": 81.08333333,
+    "humidity": 67.29166667,
+    "Population Staying at Home": 5802623,
+    "Population Not Staying at Home": 23193258,
+    "Number of Trips": 121011784,
+    "cases": 1046.857143,
+    "deaths": 26.42857143
+  },
+  {
+    "Date": "6/19/2021",
+    "temperature": 79.08333333,
+    "humidity": 68.33333333,
+    "Population Staying at Home": 6079059,
+    "Population Not Staying at Home": 22916822,
+    "Number of Trips": 109948483,
+    "cases": 1174.857143,
+    "deaths": 26.71428571
+  },
+  {
+    "Date": "6/20/2021",
+    "temperature": 81.07407407,
+    "humidity": 78.37037037,
+    "Population Staying at Home": 6411799,
+    "Population Not Staying at Home": 22584082,
+    "Number of Trips": 92295826,
+    "cases": 1167.714286,
+    "deaths": 26.28571429
+  },
+  {
+    "Date": "6/21/2021",
+    "temperature": 84.25,
+    "humidity": 77.14285714,
+    "Population Staying at Home": 5897403,
+    "Population Not Staying at Home": 23098478,
+    "Number of Trips": 117183931,
+    "cases": 1134.857143,
+    "deaths": 25.85714286
+  },
+  {
+    "Date": "6/22/2021",
+    "temperature": 78.37931034,
+    "humidity": 81.5862069,
+    "Population Staying at Home": 5979542,
+    "Population Not Staying at Home": 23016339,
+    "Number of Trips": 108289376,
+    "cases": 1250.428571,
+    "deaths": 25.42857143
+  },
+  {
+    "Date": "6/23/2021",
+    "temperature": 82.44827586,
+    "humidity": 78.24137931,
+    "Population Staying at Home": 5976541,
+    "Population Not Staying at Home": 23019340,
+    "Number of Trips": 111350533,
+    "cases": 1090.714286,
+    "deaths": 25.28571429
+  },
+  {
+    "Date": "6/24/2021",
+    "temperature": 82.71428571,
+    "humidity": 76.71428571,
+    "Population Staying at Home": 5954286,
+    "Population Not Staying at Home": 23041595,
+    "Number of Trips": 120624820,
+    "cases": 1218.571429,
+    "deaths": 22.85714286
+  },
+  {
+    "Date": "6/25/2021",
+    "temperature": 82.20689655,
+    "humidity": 76.13793103,
+    "Population Staying at Home": 5790558,
+    "Population Not Staying at Home": 23205323,
+    "Number of Trips": 117522346,
+    "cases": 1304.714286,
+    "deaths": 24
+  },
+  {
+    "Date": "6/26/2021",
+    "temperature": 82.88888889,
+    "humidity": 71.7037037,
+    "Population Staying at Home": 6028822,
+    "Population Not Staying at Home": 22967059,
+    "Number of Trips": 105993662,
+    "cases": 1273.428571,
+    "deaths": 23.71428571
+  },
+  {
+    "Date": "6/27/2021",
+    "temperature": 78.48275862,
+    "humidity": 82.44827586,
+    "Population Staying at Home": 6283444,
+    "Population Not Staying at Home": 22712437,
+    "Number of Trips": 95667886,
+    "cases": 1245.285714,
+    "deaths": 23.42857143
+  },
+  {
+    "Date": "6/28/2021",
+    "temperature": 75.96153846,
+    "humidity": 87.26923077,
+    "Population Staying at Home": 5890952,
+    "Population Not Staying at Home": 23104929,
+    "Number of Trips": 118496905,
+    "cases": 1275.428571,
+    "deaths": 23.71428571
+  },
+  {
+    "Date": "6/29/2021",
+    "temperature": 76.81818182,
+    "humidity": 87.75757576,
+    "Population Staying at Home": 5921452,
+    "Population Not Staying at Home": 23074429,
+    "Number of Trips": 110044526,
+    "cases": 1251.857143,
+    "deaths": 22.14285714
+  },
+  {
+    "Date": "6/30/2021",
+    "temperature": 77.86111111,
+    "humidity": 86.66666667,
+    "Population Staying at Home": 5865771,
+    "Population Not Staying at Home": 23130110,
+    "Number of Trips": 112471119,
+    "cases": 1516.142857,
+    "deaths": 22.57142857
+  },
+  {
+    "Date": "7/1/2021",
+    "temperature": 81.04166667,
+    "humidity": 75.70833333,
+    "Population Staying at Home": 5760079,
+    "Population Not Staying at Home": 23235802,
+    "Number of Trips": 112981213,
+    "cases": 1463.571429,
+    "deaths": 24.42857143
+  },
+  {
+    "Date": "7/2/2021",
+    "temperature": 82.88,
+    "humidity": 73.92,
+    "Population Staying at Home": 5590934,
+    "Population Not Staying at Home": 23404947,
+    "Number of Trips": 114688861,
+    "cases": 1491.285714,
+    "deaths": 24.57142857
+  },
+  {
+    "Date": "7/3/2021",
+    "temperature": 79.38709677,
+    "humidity": 83.67741935,
+    "Population Staying at Home": 5645941,
+    "Population Not Staying at Home": 23349940,
+    "Number of Trips": 115539229,
+    "cases": 1452.571429,
+    "deaths": 25.14285714
+  },
+  {
+    "Date": "7/4/2021",
+    "temperature": 77.54054054,
+    "humidity": 90.05405405,
+    "Population Staying at Home": 6134312,
+    "Population Not Staying at Home": 22861569,
+    "Number of Trips": 103684408,
+    "cases": 1458.714286,
+    "deaths": 24.28571429
+  },
+  {
+    "Date": "7/5/2021",
+    "temperature": 76.92105263,
+    "humidity": 90.26315789,
+    "Population Staying at Home": 5877235,
+    "Population Not Staying at Home": 23118646,
+    "Number of Trips": 117294186,
+    "cases": 1412,
+    "deaths": 23.14285714
+  },
+  {
+    "Date": "7/6/2021",
+    "temperature": 77.7027027,
+    "humidity": 85.94594595,
+    "Population Staying at Home": 6156947,
+    "Population Not Staying at Home": 22838934,
+    "Number of Trips": 102574712,
+    "cases": 1332.857143,
+    "deaths": 23.28571429
+  },
+  {
+    "Date": "7/7/2021",
+    "temperature": 75.77142857,
+    "humidity": 87.42857143,
+    "Population Staying at Home": 5870896,
+    "Population Not Staying at Home": 23124985,
+    "Number of Trips": 109419780,
+    "cases": 1486.285714,
+    "deaths": 23
+  },
+  {
+    "Date": "7/8/2021",
+    "temperature": 76.61764706,
+    "humidity": 86.02941176,
+    "Population Staying at Home": 5801539,
+    "Population Not Staying at Home": 23194342,
+    "Number of Trips": 112928216,
+    "cases": 1635.857143,
+    "deaths": 22
+  },
+  {
+    "Date": "7/9/2021",
+    "temperature": 75.4,
+    "humidity": 96.55,
+    "Population Staying at Home": 5605622,
+    "Population Not Staying at Home": 23390259,
+    "Number of Trips": 115064911,
+    "cases": 1710.428571,
+    "deaths": 21
+  },
+  {
+    "Date": "7/10/2021",
+    "temperature": 79.72413793,
+    "humidity": 85.68965517,
+    "Population Staying at Home": 5897907,
+    "Population Not Staying at Home": 23097974,
+    "Number of Trips": 104052083,
+    "cases": 1762.857143,
+    "deaths": 19.71428571
+  },
+  {
+    "Date": "7/11/2021",
+    "temperature": 80.1,
+    "humidity": 82.96666667,
+    "Population Staying at Home": 6301215,
+    "Population Not Staying at Home": 22694666,
+    "Number of Trips": 90019502,
+    "cases": 1793,
+    "deaths": 23.14285714
+  },
+  {
+    "Date": "7/12/2021",
+    "temperature": 78.87096774,
+    "humidity": 82.70967742,
+    "Population Staying at Home": 5912827,
+    "Population Not Staying at Home": 23083054,
+    "Number of Trips": 109498245,
+    "cases": 1975.428571,
+    "deaths": 24
+  },
+  {
+    "Date": "7/13/2021",
+    "temperature": 74.60714286,
+    "humidity": 86.39285714,
+    "Population Staying at Home": 5837945,
+    "Population Not Staying at Home": 23157936,
+    "Number of Trips": 110634059,
+    "cases": 2569.857143,
+    "deaths": 24.85714286
+  },
+  {
+    "Date": "7/14/2021",
+    "temperature": 76.32352941,
+    "humidity": 86.38235294,
+    "Population Staying at Home": 5977524,
+    "Population Not Staying at Home": 23018357,
+    "Number of Trips": 104250234,
+    "cases": 2671,
+    "deaths": 25.28571429
+  },
+  {
+    "Date": "7/15/2021",
+    "temperature": 78.67741935,
+    "humidity": 82.90322581,
+    "Population Staying at Home": 5888482,
+    "Population Not Staying at Home": 23107399,
+    "Number of Trips": 109170928,
+    "cases": 2764.142857,
+    "deaths": 24
+  },
+  {
+    "Date": "7/16/2021",
+    "temperature": 80.27586207,
+    "humidity": 79.44827586,
+    "Population Staying at Home": 5750405,
+    "Population Not Staying at Home": 23245476,
+    "Number of Trips": 111432805,
+    "cases": 3090.142857,
+    "deaths": 25.57142857
+  },
+  {
+    "Date": "7/17/2021",
+    "temperature": 81.17857143,
+    "humidity": 77.71428571,
+    "Population Staying at Home": 6003955,
+    "Population Not Staying at Home": 22991926,
+    "Number of Trips": 100928327,
+    "cases": 3238.285714,
+    "deaths": 26.28571429
+  },
+  {
+    "Date": "7/18/2021",
+    "temperature": 79.29411765,
+    "humidity": 82.97058824,
+    "Population Staying at Home": 6331008,
+    "Population Not Staying at Home": 22664873,
+    "Number of Trips": 88689455,
+    "cases": 3426.285714,
+    "deaths": 24.28571429
+  },
+  {
+    "Date": "7/19/2021",
+    "temperature": 78.5625,
+    "humidity": 85.15625,
+    "Population Staying at Home": 5954186,
+    "Population Not Staying at Home": 23041695,
+    "Number of Trips": 107376435,
+    "cases": 3531.857143,
+    "deaths": 24
+  },
+  {
+    "Date": "7/20/2021",
+    "temperature": 78.09677419,
+    "humidity": 82.06451613,
+    "Population Staying at Home": 5823151,
+    "Population Not Staying at Home": 23172730,
+    "Number of Trips": 115977192,
+    "cases": 3453.714286,
+    "deaths": 25.71428571
+  },
+  {
+    "Date": "7/21/2021",
+    "temperature": 78.95833333,
+    "humidity": 77.79166667,
+    "Population Staying at Home": 5944360,
+    "Population Not Staying at Home": 23051521,
+    "Number of Trips": 109056354,
+    "cases": 3888.285714,
+    "deaths": 25.42857143
+  },
+  {
+    "Date": "7/22/2021",
+    "temperature": 75.82142857,
+    "humidity": 88.64285714,
+    "Population Staying at Home": 6183932,
+    "Population Not Staying at Home": 22811949,
+    "Number of Trips": 92410944,
+    "cases": 4538.142857,
+    "deaths": 28.42857143
+  },
+  {
+    "Date": "7/23/2021",
+    "temperature": 80,
+    "humidity": 82.16129032,
+    "Population Staying at Home": 5842266,
+    "Population Not Staying at Home": 23153615,
+    "Number of Trips": 108938484,
+    "cases": 4842.428571,
+    "deaths": 27.71428571
+  },
+  {
+    "Date": "7/24/2021",
+    "temperature": 82.88,
+    "humidity": 72.88,
+    "Population Staying at Home": 6093422,
+    "Population Not Staying at Home": 22902459,
+    "Number of Trips": 99035616,
+    "cases": 5187.142857,
+    "deaths": 28.57142857
+  },
+  {
+    "Date": "7/25/2021",
+    "temperature": 80.96428571,
+    "humidity": 76,
+    "Population Staying at Home": 6353515,
+    "Population Not Staying at Home": 22642366,
+    "Number of Trips": 88126154,
+    "cases": 5137.428571,
+    "deaths": 29.28571429
+  },
+  {
+    "Date": "7/26/2021",
+    "temperature": 81.66666667,
+    "humidity": 76.11111111,
+    "Population Staying at Home": 6006755,
+    "Population Not Staying at Home": 22989126,
+    "Number of Trips": 107255577,
+    "cases": 5529.857143,
+    "deaths": 31.14285714
+  },
+  {
+    "Date": "7/27/2021",
+    "temperature": 80.2,
+    "humidity": 74.76666667,
+    "Population Staying at Home": 6017556,
+    "Population Not Staying at Home": 22978325,
+    "Number of Trips": 104752670,
+    "cases": 6543.571429,
+    "deaths": 34.28571429
+  },
+  {
+    "Date": "7/28/2021",
+    "temperature": 80.5,
+    "humidity": 77.82352941,
+    "Population Staying at Home": 6097480,
+    "Population Not Staying at Home": 22898401,
+    "Number of Trips": 98243272,
+    "cases": 6680.571429,
+    "deaths": 34.14285714
+  },
+  {
+    "Date": "7/29/2021",
+    "temperature": 79.85714286,
+    "humidity": 81.07142857,
+    "Population Staying at Home": 5942969,
+    "Population Not Staying at Home": 23052912,
+    "Number of Trips": 109464548,
+    "cases": 7811.571429,
+    "deaths": 35.57142857
+  },
+  {
+    "Date": "7/30/2021",
+    "temperature": 82.58333333,
+    "humidity": 72.375,
+    "Population Staying at Home": 5844116,
+    "Population Not Staying at Home": 23151765,
+    "Number of Trips": 107776372,
+    "cases": 8866.285714,
+    "deaths": 37.28571429
+  },
+  {
+    "Date": "7/31/2021",
+    "temperature": 82.86486486,
+    "humidity": 76.24324324,
+    "Population Staying at Home": 6064074,
+    "Population Not Staying at Home": 22931807,
+    "Number of Trips": 98097806,
+    "cases": 8949.857143,
+    "deaths": 37.71428571
+  },
+  {
+    "Date": "8/1/2021",
+    "temperature": 81.72727273,
+    "humidity": 78.60606061,
+    "Population Staying at Home": 6356289,
+    "Population Not Staying at Home": 22639592,
+    "Number of Trips": 87392165,
+    "cases": 9228.285714,
+    "deaths": 39.85714286
+  },
+  {
+    "Date": "8/2/2021",
+    "temperature": 74.72727273,
+    "humidity": 95.21212121,
+    "Population Staying at Home": 5997985,
+    "Population Not Staying at Home": 22997896,
+    "Number of Trips": 106080522,
+    "cases": 9649,
+    "deaths": 43.42857143
+  },
+  {
+    "Date": "8/3/2021",
+    "temperature": 79.89285714,
+    "humidity": 80.28571429,
+    "Population Staying at Home": 5944621,
+    "Population Not Staying at Home": 23051260,
+    "Number of Trips": 106175355,
+    "cases": 10828.14286,
+    "deaths": 43.42857143
+  },
+  {
+    "Date": "8/4/2021",
+    "temperature": 80.125,
+    "humidity": 77.25,
+    "Population Staying at Home": 5777225,
+    "Population Not Staying at Home": 23218656,
+    "Number of Trips": 112634532,
+    "cases": 11239.57143,
+    "deaths": 49.57142857
+  },
+  {
+    "Date": "8/5/2021",
+    "temperature": 77.14814815,
+    "humidity": 88.2962963,
+    "Population Staying at Home": 6364498,
+    "Population Not Staying at Home": 22631383,
+    "Number of Trips": 92928757,
+    "cases": 11533.71429,
+    "deaths": 51.85714286
+  },
+  {
+    "Date": "8/6/2021",
+    "temperature": 80.35294118,
+    "humidity": 81.79411765,
+    "Population Staying at Home": 5864488,
+    "Population Not Staying at Home": 23131393,
+    "Number of Trips": 106683845,
+    "cases": 13014.28571,
+    "deaths": 55.14285714
+  },
+  {
+    "Date": "8/7/2021",
+    "temperature": 80.73333333,
+    "humidity": 80.6,
+    "Population Staying at Home": 6139911,
+    "Population Not Staying at Home": 22855970,
+    "Number of Trips": 96198741,
+    "cases": 13819.14286,
+    "deaths": 56.57142857
+  }
+]

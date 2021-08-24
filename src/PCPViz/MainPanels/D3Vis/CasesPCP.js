@@ -124,6 +124,26 @@ export default function CasesPCP(props) {
                 return (3 + 15 * scaledWeights) * (1 + selectedAxisOrder.length) / (selectedAxisOrder.length);
             });
 
+        // svg.append("g")
+        //     .selectAll("g")
+        //     .data(selectedAxisOrder)
+        //     .join("g")
+        //     .attr("transform", d => `translate( ${xScale(d) + 5}, 0) rotate(90)`)
+        //     .each(function (d) {
+        //         d3.select(this).call(d3.axisBottom(y[d](d[d])));
+        //     })
+        //     .call(g => g.append("text")
+        //         .attr("x", 30)
+        //         .attr("y", -3)
+        //         .attr("text-anchor", "start")
+        //         .attr("fill", "currentColor")
+        //         .text(d => d)
+        //         .style("font", function (d) {
+        //             var size = (25);
+        //             return size + "px times";
+        //         })
+        //     )
+
         svg.selectAll()
             .data(selectedAxisOrder, function (d) {
                 return d;

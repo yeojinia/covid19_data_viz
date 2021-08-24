@@ -225,7 +225,6 @@ export default function CasesMain() {
                 <div id="my-cases-vis-wrapper">
                     &nbsp;
                     <div id="cases-pcp-wrapper" style={{width: '1050px', height: '500px'}}>
-                        {/*<b style={{height: '20px'}}> state-by-state variables</b>*/}
                         <CasesPCP selectedAxes={selectedAxes} selectedData={selectedData}
                                   targetPlace={targetPlace}
                                   crossStress={crossStress}
