@@ -47,7 +47,7 @@ class PCPViz extends Component{
             <div className="pcp">
                 <div className = "cases-pcp">
                     <h2>
-                        Potential spreading factors for COVID-19
+                        Potential spreading factors for COVID-19 (total 2020)
                     </h2>
                     &nbsp;
 
@@ -72,8 +72,9 @@ class PCPViz extends Component{
                     {/*</div>*/}
                 </div>
 
+                <div className = "cases-pcp">
                 <h2>
-                    Time-dependent spreading factors for COVID-19
+                    Time-dependent spreading factors for COVID-19 (Apr, 2020 ~ Aug, 2021)
                 </h2>
                 <h5>
                     Click the State!
@@ -89,6 +90,7 @@ class PCPViz extends Component{
                     <div style={{width: 1200, height: 900}}>
                         <BrushablePCP state_name={this.state.state_name} ></BrushablePCP>
                     </div>
+                </div>
 
 
                 {/*<div className="deaths-pcp">*/}

@@ -42,9 +42,9 @@ export function OptAxes(corrSlider, corrThreshold, miSlider, miThreshold) {
 
 export default function CasesPCP(props) {
 
-    const side_margin = 80;
-    const cases_pcp_width = 1000 - 2 * side_margin;
-    const cases_pcp_height = 500 -  side_margin;
+    const side_margin = 50;
+    const cases_pcp_width = 1200 -  side_margin;
+    const cases_pcp_height = 600 -  side_margin;
 
     var formatDecimalComma = d3.format(",.2f");
 

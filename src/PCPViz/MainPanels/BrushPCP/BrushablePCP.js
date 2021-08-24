@@ -133,7 +133,7 @@ export default function BrushablePCP(props) {
         }
     },[props.state_name])
 
-    return <div id="brushable-pcp-wrapper"> </div>
+    return <div id="brushable-pcp-wrapper" style={{ "margin": "auto", "width": "90%"}}> </div>
     // return svg.property("value", data2).node();
 
 }

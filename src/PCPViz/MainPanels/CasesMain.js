@@ -224,7 +224,7 @@ export default function CasesMain() {
             <div id="cases-vis-brush-and-pcp" style={{border: 'solid #F5F5F5'}}>
                 <div id="my-cases-vis-wrapper">
                     &nbsp;
-                    <div id="cases-pcp-wrapper" style={{width: '1050px', height: '500px'}}>
+                    <div id="cases-pcp-wrapper" style={{width: '1250px', height: '500px'}}>
                         <CasesPCP selectedAxes={selectedAxes} selectedData={selectedData}
                                   targetPlace={targetPlace}
                                   crossStress={crossStress}
@@ -232,16 +232,7 @@ export default function CasesMain() {
                                   bundleChecked={bundleChecked}></CasesPCP>
                     </div>
 
-                    <div id="cases-sub-multibrush">
-                        <CasesMultiBrushes setSelectedData={setSelectedData}
-                                           setSelectedAxes={setSelectedAxes}></CasesMultiBrushes>
-                    </div>
-
-
                 </div>
-            </div>
-
-            <div id="cases-sub-wrapper">
                 <div id="cases-interaction-board"
                      style={{marginLeft: '1.8rem', marginTop: '0.8rem', textAlign: 'left'}}>
 
@@ -408,6 +399,13 @@ export default function CasesMain() {
                     {/*    </div>*/}
                     {/*</div>*/}
                 </div>
+            </div>
+
+            <div id="cases-sub-wrapper">
+                <div id="cases-sub-multibrush" style={{marginLeft: '4.8rem', marginTop: '0.8rem'}}>
+                    <CasesMultiBrushes setSelectedData={setSelectedData}
+                                       setSelectedAxes={setSelectedAxes} ></CasesMultiBrushes>
+                </div>
 
                 <div className="cases-sub-heatmap" id="cases-sub-heatmap-vis">
                     <CasesHeatMapViz setScatterHorizontal={setScatterHorizontal} setScatterVertical={setScatterVertical}
@@ -420,24 +418,24 @@ export default function CasesMain() {
                 <div id="color-scale-wrapper">
                     <ColorInterpolationScale colorScheme={colorScheme}></ColorInterpolationScale>
                 </div>
-                <div className="cases-sub-scatterplot" id="cases-sub-scatterplot-vis">
-                    <div className="cases-sub-scatterplot-left" id="cases-sub-scatterplot-vis-left">
-                        <CasesScatterPlotLeftLabel scatterHorizontal={scatterHorizontal}
-                                                   scatterVertical={scatterVertical}
-                                                   colorScheme={colorScheme}></CasesScatterPlotLeftLabel>
-                    </div>
-                    <div className="cases-sub-scatterplot-right" id="cases-sub-scatterplot-vis-right">
-                        <div className="cases-sub-scatterplot-right-top" id="cases-sub-scatterplot-vis-right-top">
-                            <CasesScatterPlotViz scatterHorizontal={scatterHorizontal}
-                                                 scatterVertical={scatterVertical}></CasesScatterPlotViz>
-                        </div>
-                        <div className="cases-sub-scatterplot-right-bot" id="cases-sub-scatterplot-vis-right-bot"
-                             style={{height: '50px'}}>
-                            <CasesScatterPlotBottomLabel scatterHorizontal={scatterHorizontal}
-                                                         scatterVertical={scatterVertical}></CasesScatterPlotBottomLabel>
-                        </div>
-                    </div>
-                </div>
+                {/*<div className="cases-sub-scatterplot" id="cases-sub-scatterplot-vis">*/}
+                {/*    <div className="cases-sub-scatterplot-left" id="cases-sub-scatterplot-vis-left">*/}
+                {/*        <CasesScatterPlotLeftLabel scatterHorizontal={scatterHorizontal}*/}
+                {/*                                   scatterVertical={scatterVertical}*/}
+                {/*                                   colorScheme={colorScheme}></CasesScatterPlotLeftLabel>*/}
+                {/*    </div>*/}
+                {/*    <div className="cases-sub-scatterplot-right" id="cases-sub-scatterplot-vis-right">*/}
+                {/*        <div className="cases-sub-scatterplot-right-top" id="cases-sub-scatterplot-vis-right-top">*/}
+                {/*            <CasesScatterPlotViz scatterHorizontal={scatterHorizontal}*/}
+                {/*                                 scatterVertical={scatterVertical}></CasesScatterPlotViz>*/}
+                {/*        </div>*/}
+                {/*        <div className="cases-sub-scatterplot-right-bot" id="cases-sub-scatterplot-vis-right-bot"*/}
+                {/*             style={{height: '50px'}}>*/}
+                {/*            <CasesScatterPlotBottomLabel scatterHorizontal={scatterHorizontal}*/}
+                {/*                                         scatterVertical={scatterVertical}></CasesScatterPlotBottomLabel>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
 
         </div>
