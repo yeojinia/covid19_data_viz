@@ -4,6 +4,7 @@ import casesFactor from "./../../Data/CasesFactorsAddedNorm.json";
 import {CorrelationMatrix} from "../../DataProcessing/CorrelationTable";
 import {dimensions, maximums, minimums, modelWeights} from "../../DataProcessing/CasesFactors";
 import crossInfo from "../../Data/CasesFactorsAddedNormCrossInfo.json";
+import {timeToIndex} from "../BrushPCP/TimeFormat";
 // import MI from "./../../Data/MutualInfo.json";
 
 let corrMat = CorrelationMatrix(casesFactor)[1];
@@ -124,87 +125,99 @@ export default function CasesPCP(props) {
                 return (3 + 15 * scaledWeights) * (1 + selectedAxisOrder.length) / (selectedAxisOrder.length);
             });
 
-        // svg.append("g")
-        //     .selectAll("g")
-        //     .data(selectedAxisOrder)
-        //     .join("g")
-        //     .attr("transform", d => `translate( ${xScale(d) + 5}, 0) rotate(90)`)
-        //     .each(function (d) {
-        //         d3.select(this).call(d3.axisBottom(y[d](d[d])));
+        const y_axis = new Map(Array.from(selectedAxisOrder, function(key) {
+            return [key, d3.scaleLinear(d3.extent(casesFactor,
+                function(d){
+                    return d[key]
+                }), [cases_pcp_height, 5])];
+        }));
+        const keyz = "cases";
+        const colors = d3.interpolateCubehelixLong("#E9CFEC", "green");
+        const z = d3.scaleSequential(y_axis.get(keyz).domain().reverse(), colors);
+
+        svg.append("g")
+            .selectAll("g")
+            .data(selectedAxisOrder)
+            .join("g")
+            .attr("transform", d => `translate( ${xScale(d) + 5}, 0) rotate(90)`)
+            .each(function (d) {
+                // console.log(y_axis.get(d));
+                d3.select(this).call(d3.axisBottom(y_axis.get(d)));
+            })
+            .call(g => g.append("text")
+                .attr("x", 5)
+                .attr("y", -3)
+                .attr("text-anchor", "start")
+                .attr("fill", "currentColor")
+                .text(d => d)
+                .style("font", function (d) {
+                    var size = (20);
+                    return size + "px times bold";
+                })
+                .style("font-weight", "bold")
+            )
+
+        // svg.selectAll()
+        //     .data(selectedAxisOrder, function (d) {
+        //         return d;
         //     })
-        //     .call(g => g.append("text")
-        //         .attr("x", 30)
-        //         .attr("y", -3)
-        //         .attr("text-anchor", "start")
-        //         .attr("fill", "currentColor")
-        //         .text(d => d)
-        //         .style("font", function (d) {
-        //             var size = (25);
-        //             return size + "px times";
-        //         })
-        //     )
+        //     .enter()
+        //     .append("g")
+        //     .attr("transform", function (d) {
+        //         return "translate(" + xScale(d) + "," + cases_pcp_height + ") rotate(90)";
+        //     })
+        //     .append("text")
+        //     .text(function (d) {
+        //         if(d === "cases") return "cases";
+        //         return d;
+        //     })
+        //     .style("font", function (d) {
+        //         var size = (25- 0.5*(selectedAxisOrder.length));
+        //         return size+"px";
+        //     })
+        //     .style("fill", "black")
 
-        svg.selectAll()
-            .data(selectedAxisOrder, function (d) {
-                return d;
-            })
-            .enter()
-            .append("g")
-            .attr("transform", function (d) {
-                return "translate(" + xScale(d) + "," + cases_pcp_height + ") rotate(90)";
-            })
-            .append("text")
-            .text(function (d) {
-                if(d === "cases") return "cases";
-                return d;
-            })
-            .style("font", function (d) {
-                var size = (25- 0.5*(selectedAxisOrder.length));
-                return size+"px";
-            })
-            .style("fill", "black")
-
-        svg.selectAll()
-            .data(selectedAxisOrder, function (d) {
-                return d;
-            })
-            .enter()
-            .append("g")
-            .attr("transform", function (d) {
-                return "translate(" + xScale(d) + "," + cases_pcp_height + ") rotate(90)";
-            })
-            .append("text")
-            .attr("y", (25 - 0.5*(selectedAxisOrder.length)) + "px")
-            .text(function (d) {
-                if(minimums[d] >= 1000) {return d3.format(".4s")(Math.round(minimums[d]));}
-                return formatDecimalComma(minimums[d]);
-            })
-            .style("font", function (d) {
-                var size = (25- 0.5*(selectedAxisOrder.length));
-                return size+"px times";
-            })
-            .style("fill", "#0d98ba")
-
-        svg.selectAll()
-            .data(selectedAxisOrder, function (d) {
-                return d;
-            })
-            .enter()
-            .append("g")
-            .attr("transform", function (d) {
-                return "translate(" + xScale(d) + ",0) rotate(90)";
-            })
-            .append("text")
-            .attr("y", (25 - 0.5*(selectedAxisOrder.length)) + "px")
-            .text(function (d) {
-                if(maximums[d] >= 1000) {return d3.format(".4s")(Math.round(maximums[d]))};
-                return formatDecimalComma(maximums[d]);
-            })
-            .style("font", function (d) {
-                var size = (25- 0.5*(selectedAxisOrder.length));
-                return size+"px times";
-            })
-            .style("fill", "#0d98ba")
+        // svg.selectAll()
+        //     .data(selectedAxisOrder, function (d) {
+        //         return d;
+        //     })
+        //     .enter()
+        //     .append("g")
+        //     .attr("transform", function (d) {
+        //         return "translate(" + xScale(d) + "," + cases_pcp_height + ") rotate(90)";
+        //     })
+        //     .append("text")
+        //     .attr("y", (25 - 0.5*(selectedAxisOrder.length)) + "px")
+        //     .text(function (d) {
+        //         if(minimums[d] >= 1000) {return d3.format(".4s")(Math.round(minimums[d]));}
+        //         return formatDecimalComma(minimums[d]);
+        //     })
+        //     .style("font", function (d) {
+        //         var size = (25- 0.5*(selectedAxisOrder.length));
+        //         return size+"px times";
+        //     })
+        //     .style("fill", "#0d98ba")
+        //
+        // svg.selectAll()
+        //     .data(selectedAxisOrder, function (d) {
+        //         return d;
+        //     })
+        //     .enter()
+        //     .append("g")
+        //     .attr("transform", function (d) {
+        //         return "translate(" + xScale(d) + ",0) rotate(90)";
+        //     })
+        //     .append("text")
+        //     .attr("y", (25 - 0.5*(selectedAxisOrder.length)) + "px")
+        //     .text(function (d) {
+        //         if(maximums[d] >= 1000) {return d3.format(".4s")(Math.round(maximums[d]))};
+        //         return formatDecimalComma(maximums[d]);
+        //     })
+        //     .style("font", function (d) {
+        //         var size = (25- 0.5*(selectedAxisOrder.length));
+        //         return size+"px times";
+        //     })
+        //     .style("fill", "#0d98ba")
 
         // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
         function curve_path(d, bundleSlider) {
@@ -241,7 +254,9 @@ export default function CasesPCP(props) {
             .style("fill", "none")
             .style("stroke", function (d) {
                 if (!(d.states in props.selectedData)){
-                    return "rgb(57, 57, 255)";//"#EA22A8";
+
+                    return z(d[keyz]);
+                    // return "rgb(57, 57, 255)";//"#EA22A8";
                 } //"#0d98ba"; //"#A2CCB6";
                 return props.selectedData[d.states];
             })

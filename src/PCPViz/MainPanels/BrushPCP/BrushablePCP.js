@@ -90,6 +90,7 @@ export default function BrushablePCP(props) {
                     var size = (25);
                     return size + "px times";
                 })
+                .style("font-weight", "bold")
             )
             .call(g => g.selectAll("text")
                 .clone(true).lower()
