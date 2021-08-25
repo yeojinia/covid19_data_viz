@@ -85,7 +85,7 @@ class PCPViz extends Component{
                 </h5>
                     <div onChange={this.handleChange}>
                         <input type="radio" value="CA" name="state-name" /> CA &nbsp;
-                        {/*<input type="radio" value="NY" name="state-name" /> NY &nbsp;*/}
+                        <input type="radio" value="NY" name="state-name" /> NY &nbsp;
                         <input type="radio" value="TX" name="state-name" /> TX &nbsp;
                         <input type="radio" value="FL" name="state-name" /> FL &nbsp;
                         {/*<input type="radio" value="WA" name="state-name" /> WA &nbsp;*/}
