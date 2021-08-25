@@ -120,7 +120,7 @@ export default function CasesPCP(props) {
             .attr('y', (s) => 0)
             .attr('height', (s) => cases_pcp_height)
             .attr('width', function (d) {
-                if (d === "cases") return 3 * (1 + selectedAxisOrder.length) / (selectedAxisOrder.length);
+                if (d === "cases") return 5 * (1 + selectedAxisOrder.length) / (selectedAxisOrder.length);
                 var scaledWeights = ((Math.abs(modelWeights[d]) - wMin) / (wMax - wMin));
                 return (3 + 15 * scaledWeights) * (1 + selectedAxisOrder.length) / (selectedAxisOrder.length);
             });
@@ -151,11 +151,21 @@ export default function CasesPCP(props) {
                 .attr("fill", "currentColor")
                 .text(d => d)
                 .style("font", function (d) {
-                    var size = (20);
+                    var size = (25);
                     return size + "px times bold";
                 })
                 .style("font-weight", "bold")
             )
+            .call(g => g.selectAll("text")
+                .clone(true).lower()
+                .attr("fill", "none")
+                .attr("stroke-width", "5px")
+                .attr("stroke-linejoin", "round")
+                .attr("stroke", "white"))
+             .style("font", function (d) {
+                var size = (15);
+                return size + "px";
+            })
 
         // svg.selectAll()
         //     .data(selectedAxisOrder, function (d) {

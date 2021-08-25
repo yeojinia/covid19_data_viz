@@ -8,7 +8,7 @@ const margin = ({top: 30, right: 30, bottom: 30, left: 30});
 const brushHeight = 60;
 
 const keyz = "cases";
-const colors = d3.interpolateRdBu;
+const colors = d3.interpolateRdBu; //d3.quantize(d3.interpolateHcl("#60c96e", "#4d4193"), 10)
 const deselectedColor = "#eee";
 
 export default function BrushablePCP(props) {
