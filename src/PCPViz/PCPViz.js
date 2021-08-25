@@ -51,7 +51,7 @@ class PCPViz extends Component{
             <div className="pcp">
                 <div className = "cases-pcp">
                     <h2>
-                        Potential spreading factors for COVID-19 (total 2020)
+                        US Potential Spreading Factors for COVID-19, Cumulative Cases in 2020
                     </h2>
                     &nbsp;
 
@@ -78,7 +78,7 @@ class PCPViz extends Component{
 
                 <div className = "cases-pcp">
                 <h2>
-                    Time-dependent spreading factors for COVID-19 (Apr, 2020 ~ Aug, 2021)
+                    US Time-Varying Environmental Factors for COVID-19 (Apr 1st, 2020 ~ Aug 7th, 2021)
                 </h2>
                 <h5>
                     Click the State!
