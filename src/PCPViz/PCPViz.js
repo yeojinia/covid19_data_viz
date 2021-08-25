@@ -95,7 +95,7 @@ class PCPViz extends Component{
                     US Time-Varying Environmental Factors for COVID-19 (Apr 1st, 2020 ~ Aug 7th, 2021)
                 </h2>
                     <h5>
-                        Set the color!
+                        Set the axis for color interpolation!
                     </h5>
                     <div id="color-select-wrapper" style={{height: '50px'}}>
                         {/*style={{display:"flex",top: "50%", left: "50%",  transform: "translate(50%, 0%)"}}>*/}
