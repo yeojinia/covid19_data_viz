@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import * as d3 from "d3";
 
-var width_ = 40,
+var width_ = 25,
     height_ = 410;
 
 var inferno = d3.scaleSequential()

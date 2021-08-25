@@ -2,13 +2,14 @@ import * as d3 from 'd3';
 import {timeVaryingStateData} from "./ExtractTVStateData";
 import {timeToIndex} from "./TimeFormat";
 import React, {useEffect} from "react";
+import ColorLegend from "./ColorLegend";
 const width = 1200;
 const height = 900;
 const margin = ({top: 30, right: 30, bottom: 30, left: 30});
 const brushHeight = 60;
 
-const keyz = "cases";
-const colors = d3.interpolateRdBu; //d3.quantize(d3.interpolateHcl("#60c96e", "#4d4193"), 10)
+let keyz = "cases";
+let colors = d3.interpolateRdBu; //d3.quantize(d3.interpolateHcl("#60c96e", "#4d4193"), 10)
 const deselectedColor = "#eee";
 
 export default function BrushablePCP(props) {
@@ -17,6 +18,10 @@ export default function BrushablePCP(props) {
     var label_position = {"2020-6-1":61, "2020-9-1":153, "2020-12-1":244, "2021-3-1":334, "2021-6-1":426};
 
     useEffect(() => {
+        // console.log(props.color);
+        // console.log(props.key_to_interpolate)
+        keyz = props.key_to_interpolate;
+        colors = props.color;
         data2 = timeVaryingStateData[props.state_name+String(props.count)];
         // console.log(props.state_name+String(props.count));
         // const svg = d3.create("svg")
@@ -36,6 +41,9 @@ export default function BrushablePCP(props) {
                 }), [height - margin.bottom, margin.top])];
         }));
         const z = d3.scaleSequential(y.get(keyz).domain().reverse(), colors);
+
+        // let legend = Legend({color: z, title: this.state.color});
+
 
         const line =d3.line()
             .defined(function([value]){ return value != null})
@@ -154,9 +162,14 @@ export default function BrushablePCP(props) {
             });
             svg.property("value", selected).dispatch("input");
         }
-    },[props.state_name, props.count])
 
-    return <div id="brushable-pcp-wrapper" style={{ "margin": "auto", "width": "90%"}}> </div>
+    },[props.state_name, props.count, props.color, props.key_to_interpolate])
+
+    return(<div style={{display:"flex"}}>
+        <ColorLegend color={props.color} />
+        <div id="brushable-pcp-wrapper" style={{ "margin": "auto", "width": "90%"}}> </div>
+        </div>)
+    // min={props.key_to_interpolate}
     // return svg.property("value", data2).node();
 
 }

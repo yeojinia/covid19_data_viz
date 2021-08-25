@@ -5,6 +5,7 @@ import {CorrelationMatrix} from "../../DataProcessing/CorrelationTable";
 import {dimensions, maximums, minimums, modelWeights} from "../../DataProcessing/CasesFactors";
 import crossInfo from "../../Data/CasesFactorsAddedNormCrossInfo.json";
 import {timeToIndex} from "../BrushPCP/TimeFormat";
+import ColorLegend from "./ColorLegend";
 // import MI from "./../../Data/MutualInfo.json";
 
 let corrMat = CorrelationMatrix(casesFactor)[1];
@@ -55,7 +56,7 @@ export default function CasesPCP(props) {
 
         var selectedAxesObj = props.selectedAxes;
         var selectedAxes = Object.keys(selectedAxesObj);
-        console.log(selectedAxes);
+        // console.log(selectedAxes);
 
         const crossRate = crossInfo.map((casesFactor, index) => {
             let sum =0;
@@ -282,8 +283,10 @@ export default function CasesPCP(props) {
 
     }, [props.selectedAxes, props.selectedData, props.targetPlace, props.crossStress, props.bundleSliderPlace, props.bundleChecked, cases_pcp_height, cases_pcp_width, wMin, wMax, formatDecimalComma])
 
-    return (
+    return (<div style={{display:"flex"}}>
+        <ColorLegend/>
         <div className="cases-pcp-d3-wrapper" width="800px" height="580px">
+        </div>
         </div>
     );
 
