@@ -17,7 +17,7 @@ const keys_to_interpolate_color= [
 ];
 
 const options_to_color = [
-    {label: "blue_to_red", value: "temperature"}
+    {label: "Blue to Red", value: d3.interpolateRdBu}
 ];
 
 class PCPViz extends Component{
@@ -102,19 +102,19 @@ class PCPViz extends Component{
                         <div style={{  display:"flex", justifyContent:"center", alignItems: "center"}}>
                         Color &nbsp;
                             <div style={{width: "150px"}}>
-                            <Select options={keys_to_interpolate_color} defaultValue={{label: "cases", value: "cases"}}
-                                onChange={v => {
-                                    this.setState({key_to_interpolate: v.value});
-                                }}
-                                style={{width: '100%'}}/>
+                                <Select options={options_to_color} defaultValue={{label: "Blue to Red", value: d3.interpolateRdBu}}
+                                        onChange={v => {
+                                            this.setState({color: v.value});
+                                        }}
+                                        style={{width: '100%'}}/>
                             </div>
                             &nbsp; is interpolated for the range of axis: &nbsp;
                             <div  style={{width: "150px"}}>
-                            <Select options={options_to_color} defaultValue={{label: "blue_to_red", value: d3.interpolateRdBu}}
-                                onChange={v => {
-                                    this.setState({color: v.value});
-                                }}
-                                style={{width: '100%'}}/>
+                                <Select options={keys_to_interpolate_color} defaultValue={{label: "cases", value: "cases"}}
+                                        onChange={v => {
+                                            this.setState({key_to_interpolate: v.value});
+                                        }}
+                                        style={{width: '100%'}}/>
                             </div>
                         </div>
                     </div>
