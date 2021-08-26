@@ -9,7 +9,7 @@ const margin = ({top: 30, right: 30, bottom: 30, left: 30});
 const brushHeight = 60;
 
 let keyz = "cases";
-let colors = d3.interpolateRdBu; //d3.quantize(d3.interpolateHcl("#60c96e", "#4d4193"), 10)
+let colors = d3.interpolateYlGn; //d3.quantize(d3.interpolateHcl("#60c96e", "#4d4193"), 10)
 const deselectedColor = "#eee";
 
 export default function BrushablePCP(props) {
@@ -21,7 +21,7 @@ export default function BrushablePCP(props) {
         // console.log(props.color);
         // console.log(props.key_to_interpolate)
         keyz = props.key_to_interpolate;
-        colors = props.color;
+        colors =   props.color;
         data2 = timeVaryingStateData[props.state_name+String(props.count)];
         // console.log(props.state_name+String(props.count));
         // const svg = d3.create("svg")

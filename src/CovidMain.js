@@ -6,7 +6,7 @@ export default function CovidMain() {
     return (
         <div className="Covid">
             <header className="App-header">
-                COVID-19 Data Visualization in USA - MS Capstone Project
+                COVID-19 Data Visualization in USA - MS Project
             </header>
                 <PCPViz/>
         </div>

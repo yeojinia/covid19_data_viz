@@ -314,8 +314,8 @@ export default function MultipleBrushes(props) {
             bottom: 10,
             left: 10
         },
-        width = window_width - margin.left - margin.right,
-        height = window_height - margin.top - margin.bottom;
+        width = window_width ; //- margin.left - margin.right,
+        var height = window_height ; //- margin.top - margin.bottom;
 
     useEffect(() => {
 
@@ -358,7 +358,7 @@ export default function MultipleBrushes(props) {
 
         // Add Y axis
         var y = d3.scaleLinear()
-            .domain([-1, 1])
+            .domain([-1.05, 1.05])
             .range([height, 0]);
 
         myCircle = svg.selectAll('g')
