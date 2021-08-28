@@ -12,12 +12,18 @@ import Select from "react-select";
 
 const keys_to_interpolate_color= [
     {label: "temperature", value: "temperature"},
+    {label: "humidity", value: "humidity"},
     {label: "cases", value: "cases"},
     {label: "deaths", value: "deaths"},
 ];
+var white_to_deep_blue = d3.scaleLinear()
+    .domain([0, 0.8])
+    .range(['#0000ff','#dbf3fa'])
+    .interpolate(d3.interpolateHcl);
 
 const options_to_color = [
-    {label: "Blue to Red", value: d3.interpolateRdBu}
+    {label: "Blue to Red", value: d3.interpolateRdBu},
+    {label: "White to Blue", value: white_to_deep_blue}
 ];
 
 class PCPViz extends Component{

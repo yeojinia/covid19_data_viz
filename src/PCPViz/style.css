@@ -109,7 +109,7 @@
     /*-o-box-shadow: #555 0 0 8px;*/
     /*box-shadow: #555 0 0 8px;*/
 }
-#color-scale-range-values{
+#color-scale-range-values, pcp2-color-scale-range-values{
     flex-direction: column;
 }
 #range-top-value{
@@ -117,6 +117,13 @@
 }
 #range-bot-value{
     position:absolute;
+    bottom:120px;
+}
+#pcp2-range-top-value{
+    margin-top: 20px;
+}
+#pcp2-range-bot-value{
+    /*position:absolute;*/
     bottom:120px;
 }
 #color-scale-wrapper{

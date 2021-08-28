@@ -1,8 +1,11 @@
 import * as d3 from 'd3';
 import {timeVaryingStateData} from "./ExtractTVStateData";
 import {timeToIndex} from "./TimeFormat";
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import ColorLegend from "./ColorLegend";
+import "./../../style.css"
+import casesFactor from "../../Data/CasesFactorsAddedNorm.json";
+import {dimensions, maximums, minimums} from "../../DataProcessing/CasesFactors";
 const width = 1200;
 const height = 900;
 const margin = ({top: 30, right: 30, bottom: 30, left: 30});
@@ -16,16 +19,34 @@ export default function BrushablePCP(props) {
     let data2 = timeVaryingStateData["CA1"];
     const keys = Object.keys(data2[0]); //data2.columns.slice(1);
     var label_position = {"2020-6-1":61, "2020-9-1":153, "2020-12-1":244, "2021-3-1":334, "2021-6-1":426};
+    const [keyMin, setKeyMin] = useState();
+    const [keyMax, setKeyMax] = useState();
 
     useEffect(() => {
         // console.log(props.color);
         // console.log(props.key_to_interpolate)
         keyz = props.key_to_interpolate;
-        colors =   props.color;
+        colors = props.color;
         data2 = timeVaryingStateData[props.state_name+String(props.count)];
         // console.log(props.state_name+String(props.count));
         // const svg = d3.create("svg")
         //     .attr("viewBox", [0, 0, width, height]);
+
+        var minimum;
+        var maximum;
+
+        function getMax(data, key) {
+            for(var i=0; i<data.length; i++){
+                if(maximum == null || data[i][key] > maximum)
+                    maximum = data[i][key];
+                if(minimum == null || data[i][key] < minimum)
+                    minimum = data[i][key];
+            }
+            setKeyMax(maximum);
+            setKeyMin(minimum);
+            return [maximum, minimum];
+        }
+        getMax(data2, keyz);
 
         const x = d3.scalePoint(keys, [margin.left, width - margin.right]);
         const y = new Map(Array.from(keys, function(key) {
@@ -154,6 +175,7 @@ export default function BrushablePCP(props) {
                     }
                     return d[key] >= min && d[key] <= max
                 });
+                //d3.select(this).style("stroke", active ? "blue" : deselectedColor);
                 d3.select(this).style("stroke", active ? z(d[keyz]) : deselectedColor);
                 if (active) {
                     d3.select(this).raise();
@@ -166,10 +188,13 @@ export default function BrushablePCP(props) {
     },[props.state_name, props.count, props.color, props.key_to_interpolate])
 
     return(<div style={{display:"flex"}}>
-        <ColorLegend color={props.color} />
+        <div id="pcp2-color-scale-range-values" style={{height:"300px"}}>
+            <div id="pcp2-range-top-value"> {Number(keyMax).toFixed(2)}</div>
+            <div style={{height: "250px"}}></div>
+            <div id="pcp2-range-bot-value"> {Number(keyMin).toFixed(2)}</div>
+        </div>
+        <ColorLegend color={props.color} maximum={keyMax} minimum={keyMin}/>
         <div id="brushable-pcp-wrapper" style={{ "margin": "auto", "width": "90%"}}> </div>
         </div>)
-    // min={props.key_to_interpolate}
-    // return svg.property("value", data2).node();
 
 }

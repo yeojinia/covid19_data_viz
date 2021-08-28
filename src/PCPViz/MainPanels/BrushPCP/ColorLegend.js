@@ -42,7 +42,7 @@ const ColorLegend = (props) => {
 
          useEffect(() => {
             // console.log(props.color);
-            ColorFunc(props.color);
+            ColorFunc(props.color, props.maximum, props.minimum);
         }, [props.color])
 
         return (
