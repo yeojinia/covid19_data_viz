@@ -47,7 +47,7 @@ const ColorLegend = (props) => {
 
         return (
             <>
-            <div id="brushable-color-interpolator" style={{marginTop: '1rem', marginLeft: '1rem'}}></div>
+            <div id="brushable-color-interpolator" style={{marginTop: '2rem', marginLeft: '1rem'}}></div>
             </>
         )
 

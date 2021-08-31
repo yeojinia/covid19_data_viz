@@ -188,7 +188,8 @@ export default function BrushablePCP(props) {
     },[props.state_name, props.count, props.color, props.key_to_interpolate])
 
     return(<div style={{display:"flex"}}>
-        <div id="pcp2-color-scale-range-values" style={{height:"300px"}}>
+        <div id="pcp2-color-scale-range-values" style={{height:"300px"}} style={{marginLeft: '0.6rem'}}>
+            <h5> {keyz} </h5>
             <div id="pcp2-range-top-value"> {Number(keyMax).toFixed(2)}</div>
             <div style={{height: "250px"}}></div>
             <div id="pcp2-range-bot-value"> {Number(keyMin).toFixed(2)}</div>

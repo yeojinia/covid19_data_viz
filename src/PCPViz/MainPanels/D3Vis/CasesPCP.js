@@ -52,6 +52,7 @@ export default function CasesPCP(props) {
     let wMax = Math.max.apply(null, (Object.values(modelWeights)).map(Math.abs));
     let wMin = 0;
 
+
     useEffect(() => {
 
         var selectedAxesObj = props.selectedAxes;
@@ -284,7 +285,14 @@ export default function CasesPCP(props) {
     }, [props.selectedAxes, props.selectedData, props.targetPlace, props.crossStress, props.bundleSliderPlace, props.bundleChecked, cases_pcp_height, cases_pcp_width, wMin, wMax, formatDecimalComma])
 
     return (<div style={{display:"flex"}}>
-        <ColorLegend/>
+            <div>
+                <h5> cases per capita </h5>
+                <div id="pcp2-range-top-value"> {Number(maximums["cases"]).toFixed(2)} </div>
+                <div style={{height: "230px"}}></div>
+                <div id="pcp2-range-bot-value"> {Number(minimums["cases"]).toFixed(2)} </div>
+            </div>
+            <ColorLegend/>
+
         <div className="cases-pcp-d3-wrapper" width="800px" height="580px">
         </div>
         </div>

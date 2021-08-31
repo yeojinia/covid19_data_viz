@@ -47,7 +47,7 @@ const ColorLegend = (props) => {
 
         return (
             <>
-            <div id="cases-pcp-color-interpolator" style={{marginTop: '1rem', marginLeft: '0.5rem'}}></div>
+            <div id="cases-pcp-color-interpolator" style={{marginTop: '4rem', marginLeft: '0.5rem'}}></div>
             </>
         )
 
