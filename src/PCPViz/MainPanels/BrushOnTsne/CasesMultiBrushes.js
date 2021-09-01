@@ -113,6 +113,9 @@ function brushed(myCircle, setSelectedData, x, y) {
             }
         }
         return false;
+    }).style("fill", function(d){
+        if(selected_state[d[2]] === undefined) return "blue";
+        return selected_state[d[2]];
     });
     setSelectedData(selected_state);
 
@@ -377,7 +380,8 @@ export default function MultipleBrushes(props) {
             })
             .attr("r", 6)
             .style("fill", function (d) {
-                // console.log(props.selectedData, d[2]);
+                //console.log(d);
+                console.log(props.selectedData, d[2]);
                 return "blue";                // return "#EE786E"//"red"
             })
             .style("opacity", 0.5);
@@ -405,7 +409,7 @@ export default function MultipleBrushes(props) {
         newBrush(gBrushes, myCircle, props.setSelectedData, x, y);
         drawBrushes(gBrushes);
 
-    }, [props.selectedData, projectMethod, brushes]);
+    }, [ projectMethod, brushes]);
 
     return (
         <div id="multi-brushes-wrapper">

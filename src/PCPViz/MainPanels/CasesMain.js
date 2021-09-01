@@ -311,7 +311,7 @@ export default function CasesMain() {
                         //     setMiSlider(false);
                         // }
                     }} style={{height: '60px'}}>
-                        <b> Selection Method </b>
+                        <b> Dimension Selection </b>
                         {/*<div style={{height: '40px'}}>*/}
                         {/*    <input type="radio" value="mutualInformation" name="extract-method"*/}
                         {/*           style={{marginTop: '0.3rem'}}/>*/}
@@ -328,8 +328,8 @@ export default function CasesMain() {
                         {/*        style={{width: 200, marginTop: '0.3rem'}}/>*/}
                         {/*</div>*/}
                         <div style={{height: '40px'}}>
-                            <input type="radio" value="correlation" name="extract-method" defaultChecked/>
-                            &nbsp; Correlation
+                            {/*<input type="radio" value="correlation" name="extract-method" defaultChecked/>*/}
+                            {/*&nbsp; Correlation*/}
                             <RSlider
                                 min={0}
                                 max={1}
@@ -425,7 +425,7 @@ export default function CasesMain() {
 
             <div id="cases-sub-wrapper">
                 <div id="cases-sub-multibrush" style={{marginLeft: '4.8rem', marginTop: '0.8rem'}}>
-                    <CasesMultiBrushes setSelectedData={setSelectedData}
+                    <CasesMultiBrushes selectedData={selectedData} setSelectedData={setSelectedData}
                                        setSelectedAxes={setSelectedAxes} ></CasesMultiBrushes>
                 </div>
 
