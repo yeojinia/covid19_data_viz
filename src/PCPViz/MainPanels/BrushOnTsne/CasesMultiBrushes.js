@@ -72,6 +72,8 @@ function ReleaseButton(props) {
 
         myCircle.classed("selected", function () {
             return false;
+        }).style("fill", function(d){
+          return "blue";
         });
         props.setSelectedData({});
         // document.getElementById("#brush-" + defaultID).setAttribute("id", "brush-0");
@@ -114,6 +116,7 @@ function brushed(myCircle, setSelectedData, x, y) {
         }
         return false;
     }).style("fill", function(d){
+       // console.log(selected_state)
         if(selected_state[d[2]] === undefined) return "blue";
         return selected_state[d[2]];
     });

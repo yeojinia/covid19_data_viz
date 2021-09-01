@@ -135,7 +135,7 @@ export default function CasesPCP(props) {
                 }), [cases_pcp_height, 5])];
         }));
         const keyz = "cases";
-        const colors = d3.interpolateCubehelixLong("#E9CFEC", "green");
+        const colors = d3.interpolateCubehelixLong("red", "green");
         const z = d3.scaleSequential(y_axis.get(keyz).domain().reverse(), colors);
 
         svg.append("g")
