@@ -127,6 +127,7 @@ export default function CasesPCP(props) {
                 return (3 + 15 * scaledWeights) * (1 + selectedAxisOrder.length) / (selectedAxisOrder.length);
             });
 
+        //console.log(selectedAxisOrder);
         const y_axis = new Map(Array.from(selectedAxisOrder, function(key) {
             return [key, d3.scaleLinear(d3.extent(casesFactor,
                 function(d){

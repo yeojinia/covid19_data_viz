@@ -2,7 +2,8 @@ import React, {useEffect, useState} from 'react';
 import {CorrelationMatrix} from "../DataProcessing/CorrelationTable";
 import CasesMultiBrushes from "./BrushOnTsne/CasesMultiBrushes";
 import casesFactor from "../Data/CasesFactorsAddedNorm.json";
-import {Slider} from "rsuite";
+import {Slider as RSlider} from "rsuite";
+import Slider from '@material-ui/core/Slider';
 import CasesHeatMapViz from "../SubPanels/CorrHeatMap/CasesHeatMap";
 import CasesScatterPlotViz, {CasesScatterPlotLeftLabel, CasesScatterPlotBottomLabel}
     from "../SubPanels/ScatterPlot/CasesScatterPlot";
@@ -238,7 +239,7 @@ export default function CasesMain() {
 
                     <div id="axis-order-slider-wrapper" style={{height: '30px', width: '210px'}}>
                         <b> Objective Variable </b>
-                        <Slider
+                        <RSlider
                             min={0}
                             max={1}
                             step={0.01}
@@ -256,7 +257,7 @@ export default function CasesMain() {
 
                     <div id="cross-line-highlight-wrapper" style={{height: '30px', width: '210px'}}>
                         <b> Highlight </b>
-                        <Slider
+                        <RSlider
                             min={0}
                             max={1}
                             step={0.01}
@@ -271,7 +272,7 @@ export default function CasesMain() {
                     <div id="bundling-slider-wrapper" style={{height: '30px', width: '210px'}}>
                         <b> Bundling </b>
                         <input type="checkbox" checked={bundleChecked} onChange={()=> setBundleChecked(!bundleChecked)} />
-                        <Slider
+                        <RSlider
                             min={0}
                             max={1}
                             step={0.01}
@@ -329,15 +330,35 @@ export default function CasesMain() {
                         <div style={{height: '40px'}}>
                             <input type="radio" value="correlation" name="extract-method" defaultChecked/>
                             &nbsp; Correlation
-                            <Slider
+                            <RSlider
                                 min={0}
                                 max={1}
                                 step={0.01}
                                 defaultValue={1.0}
-                                onChange={v => {
+                                onChange={(v) => {
+                                    //console.log(corrThreshold)
                                     setCorrThreshold({corrThreshold: v});
                                 }}
-                                disabled={corrSlider}
+                                // onChange={(v, number) => {
+                                //     //console.log(corrThreshold)
+                                //     setCorrThreshold({corrThreshold: number});
+                                // }}
+                                // onChangeCommitted = {() => {
+                                //     var selected_axes = OptAxes(corrSlider, corrThreshold, miSlider, miThreshold);
+                                //  //   console.log(selected_axes);
+                                //     setSelectedAxes(selected_axes);
+                                //
+                                //     var target_pos = getAxesOrderChange(selected_axes, sliderPlace);
+                                //   //  console.log(targetPlace);
+                                //     if (target_pos !== targetPlace) {
+                                //         setTargetPlace(target_pos);
+                                //     }
+                                //     if (Object.keys(selected_axes).length <= 1) {
+                                //         setScatterHorizontal({horizon: "None"});
+                                //         setScatterVertical({vert: "None"});
+                                //     }
+                                // }}
+                               disabled={corrSlider}
                                 style={{width: 200, marginTop: '0.3rem'}}/>
                         </div>
                     </div>
@@ -350,6 +371,7 @@ export default function CasesMain() {
                                 variant="ui-primary"
                                 onClick={() => {
                                     var selected_axes = OptAxes(corrSlider, corrThreshold, miSlider, miThreshold);
+                                    console.log(selected_axes);
                                     setSelectedAxes(selected_axes);
 
                                     var target_pos = getAxesOrderChange(selected_axes, sliderPlace);
@@ -412,8 +434,9 @@ export default function CasesMain() {
                                      colorScheme={colorScheme} selectedAxes={selectedAxes}></CasesHeatMapViz>
                 </div>
                 <div id="color-scale-range-values">
-                    <div id="range-top-value"> +1</div>
-                    <div id="range-bot-value"> -1</div>
+                    <div id="range-top-value-1" style={{marginTop: '1.5rem'}}> +1</div>
+                    <div style={{height: "350px"}}></div>
+                    <div id="range-bot-value-1"> -1</div>
                 </div>
                 <div id="color-scale-wrapper">
                     <ColorInterpolationScale colorScheme={colorScheme}></ColorInterpolationScale>
