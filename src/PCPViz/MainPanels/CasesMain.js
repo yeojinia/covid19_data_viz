@@ -22,7 +22,7 @@ corrMat.forEach(function (item) {
         caseObj[item["y_feature"]] = item["coeff"];
     }
 });
-console.log(caseObj);
+// console.log(caseObj);
 
 // const handleStyle = {
 //     color: '#fff',

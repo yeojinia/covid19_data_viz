@@ -18,12 +18,12 @@ const keys_to_interpolate_color= [
 ];
 var white_to_deep_blue = d3.scaleLinear()
     .domain([0, 0.8])
-    .range(['#0000ff','#dbf3fa'])
+    .range(['#3B89FE','#8bDbfb'])
     .interpolate(d3.interpolateHcl);
 
 const options_to_color = [
     {label: "Blue to Red", value: d3.interpolateRdBu},
-    {label: "White to Blue", value: white_to_deep_blue}
+    {label: "Light Blue to Sky Blue", value: white_to_deep_blue}
 ];
 
 class PCPViz extends Component{
