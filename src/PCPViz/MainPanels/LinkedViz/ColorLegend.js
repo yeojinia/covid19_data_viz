@@ -14,7 +14,7 @@ const ColorFunc = () => {
         .attr("height", height_)
         .append("g");
 
-    var colorScale = d3.scaleSequential(d3.interpolateCubehelixLong("red", "green"))
+    var colorScale = d3.scaleSequential(d3.interpolateCubehelixLong("#000080", "#3DED80"))
         .domain([0, width_])
 
 

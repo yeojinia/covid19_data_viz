@@ -3,8 +3,7 @@ import {Router, Route, Switch} from "react-router-dom";
 // import logo from './logo.svg';
 import './App.css';
 import Home from "./Home";
-import CovidMain from "./CovidMain";
-import OtherVis from "./MyOthers";
+import Main from "./Main";
 import history from "./history";
 
 function App() {
@@ -14,8 +13,7 @@ function App() {
             <div className="main">
                 <Router history={history}>
                     <Switch>
-                <Route path ="/" exact component={CovidMain}/>
-                <Route path ="/Others" component={OtherVis}/>
+                <Route path ="/" exact component={Main}/>
                     </Switch>
                 <Home />
                 </Router>

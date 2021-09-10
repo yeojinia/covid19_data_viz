@@ -3,7 +3,7 @@ import {timeVaryingStateData} from "./ExtractTVStateData";
 import {timeToIndex} from "./TimeFormat";
 import React, {useEffect, useState} from "react";
 import ColorLegend from "./ColorLegend";
-import "./../../style.css"
+import "./../../VizMain/style.css"
 import casesFactor from "../../Data/CasesFactorsAddedNorm.json";
 import {dimensions, maximums, minimums} from "../../DataProcessing/CasesFactors";
 const width = 1200;
@@ -15,7 +15,7 @@ let keyz = "cases";
 let colors = d3.interpolateYlGn; //d3.quantize(d3.interpolateHcl("#60c96e", "#4d4193"), 10)
 const deselectedColor = "#eee";
 
-export default function BrushablePCP(props) {
+export default function DynamicFactorsPCP(props) {
     let data2 = timeVaryingStateData["CA1"];
     const keys = Object.keys(data2[0]); //data2.columns.slice(1);
     var label_position = {"2020-6-1":61, "2020-9-1":153, "2020-12-1":244, "2021-3-1":334, "2021-6-1":426};

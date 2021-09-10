@@ -4,7 +4,7 @@ import casesFactor from "./../../Data/CasesFactorsAddedNorm.json";
 import {CorrelationMatrix} from "../../DataProcessing/CorrelationTable";
 import {dimensions, maximums, minimums, modelWeights} from "../../DataProcessing/CasesFactors";
 import crossInfo from "../../Data/CasesFactorsAddedNormCrossInfo.json";
-import {timeToIndex} from "../BrushPCP/TimeFormat";
+import {timeToIndex} from "../StandAloneViz/TimeFormat";
 import ColorLegend from "./ColorLegend";
 // import MI from "./../../Data/MutualInfo.json";
 
@@ -41,7 +41,7 @@ export function OptAxes(corrSlider, corrThreshold, miSlider, miThreshold) {
     return axesChosen;
 }
 
-export default function CasesPCP(props) {
+export default function StaticFactorsPCP(props) {
 
     const side_margin = 50;
     const cases_pcp_width = 1200 -  side_margin;
@@ -91,9 +91,6 @@ export default function CasesPCP(props) {
         svg.selectAll('path').style('stroke', 'none');
 
         var selectedAxisOrder = [];
-        // selectedAxisOrder = ["alcohol", "malic acid", "ash", "alcalinity of ash",
-        // "magnesium", "total phenols", "flavanoids", "nonflavanoid phenols", "proanthocyanins",
-        // "color intensity", "hue", "OD280/OD315 of diluted wines", "proline", "cases"]
 
         for (var idx = 0; idx < selectedAxes.length; idx++) {
             if (props.targetPlace === idx) {
@@ -102,6 +99,10 @@ export default function CasesPCP(props) {
             if (selectedAxes[idx] !== "cases")
                 selectedAxisOrder.push(selectedAxes[idx]);
         }
+
+        if( selectedAxisOrder.includes("cases") === false )
+            selectedAxisOrder.push("cases");
+        // console.log(selectedAxisOrder)
 
         const xScale = d3.scaleBand()
             .domain(selectedAxisOrder)
@@ -135,7 +136,7 @@ export default function CasesPCP(props) {
                 }), [cases_pcp_height, 5])];
         }));
         const keyz = "cases";
-        const colors = d3.interpolateCubehelixLong("red", "green");
+        const colors = d3.interpolateCubehelixLong("#000080", "#3DED80");
         const z = d3.scaleSequential(y_axis.get(keyz).domain().reverse(), colors);
 
         svg.append("g")

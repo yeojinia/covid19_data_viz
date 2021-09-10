@@ -1,0 +1,197 @@
+.dropdown {
+    width: 100%;
+}
+.btn-primary{
+    float: right;
+    /*margin-top: -2rem;*/
+}
+.btn-ui-primary{
+    float: left;
+    margin-left: 10px;
+    /*margin-top: -2rem;*/
+}
+.selected {
+    opacity: 1 !important;
+    stroke: black;
+    stroke-width: 1px;
+}
+#brush-release-button-wrapper{
+    margin-left: 10px;
+}
+#cases-brush-wrapper, #deaths-brush-wrapper{
+    display:grid;
+}
+#my-cases-vis-wrapper, #my-deaths-vis-wrapper{
+    display: flex;
+}
+#pcp-labels{
+
+}
+#multi-brushes-wrapper{
+    flex-direction: column;
+}
+#brush-container{
+    display: flex;
+}
+#cases-interaction-board{
+    flex-direction: column;
+
+    -moz-box-shadow: #555 0 0 8px;
+    -webkit-box-shadow: #555 0 0 8px;
+    -o-box-shadow: #555 0 0 8px;
+    box-shadow: #555 0 0 8px;
+}
+#cases-vis-brush-and-pcp, #deaths-vis-brush-and-pcp{
+    border: 3px solid #fff;
+    padding: 20px;
+    display: flex;
+    height: 600px;
+
+}
+#cases-pcp, #time-var-pcp{
+    display:grid;
+    position: relative;
+    /*top:0px; left:0px;*/
+    /*width:50%;*/
+    /*height:400px;*/
+    /*padding:10px;*/
+}
+#axis-order-slider-wrapper{
+    margin-left: 0px;
+}
+#cross-line-highlight-wrapper, #cross-line-lowlight-wrapper, #bundling-slider-wrapper{
+    margin-left: 10px;
+}
+#pcp-cases-brush-wrapper{
+    /*border: 3px solid #fff;*/
+    /*position:relative;*/
+    width:50%;
+    height:570px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+
+    /*-moz-box-shadow: #555 0 0 8px;*/
+    /*-webkit-box-shadow: #555 0 0 8px;*/
+    /*-o-box-shadow: #555 0 0 8px;*/
+    /*box-shadow: #555 0 0 8px;*/
+}
+#cases-sub-heatmap-vis, #deaths-sub-heatmap-vis{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 5px;
+    /*-moz-box-shadow: #555 0 0 8px;*/
+    /*-webkit-box-shadow: #555 0 0 8px;*/
+    /*-o-box-shadow: #555 0 0 8px;*/
+    /*box-shadow: #555 0 0 8px;*/
+}
+#color-text-wrapper{
+    margin-left: 10px;
+}
+#cases-feature-extraction-slider, #selection-method-wrapper{
+    margin-left: 10px;
+}
+#button-wrapper{
+    display:flex;
+}
+#cases-sub-scatterplot-vis, #deaths-sub-scatterplot-vis{
+    display:flex;
+    /*margin-left: 25px;*/
+    margin-top: 5px;
+
+    /*-moz-box-shadow: #555 0 0 8px;*/
+    /*-webkit-box-shadow: #555 0 0 8px;*/
+    /*-o-box-shadow: #555 0 0 8px;*/
+    /*box-shadow: #555 0 0 8px;*/
+}
+/*#covid19-cases-wrapper{*/
+/*    !*-moz-box-shadow: #555 0 0 8px;*!*/
+/*    !*-webkit-box-shadow: #555 0 0 8px;*!*/
+/*    !*-o-box-shadow: #555 0 0 8px;*!*/
+/*    !*box-shadow: #555 0 0 8px;*!*/
+/*}*/
+#color-scale-range-values, pcp2-color-scale-range-values{
+    flex-direction: column;
+}
+#range-top-value{
+    margin-top: 20px;
+}
+#range-bot-value{
+    position:absolute;
+    bottom:120px;
+}
+#pcp2-range-top-value{
+    margin-top: 20px;
+}
+#pcp2-range-bot-value{
+    /*position:absolute;*/
+    bottom:120px;
+}
+#color-scale-wrapper{
+    margin-top: 20px;
+}
+#cases-sub-scatterplot-vis-right{
+    flex-direction: column;
+}
+#cases-sub-multibrush{
+    flex-direction: column;
+}
+#cases-sub-multi-brush-vis{
+    /*-moz-box-shadow: #555 0 0 8px;*/
+    /*-webkit-box-shadow: #555 0 0 8px;*/
+    -o-box-shadow: #555 0 0 8px;
+    box-shadow: #555 0 0 8px;
+}
+#pcp-cases-pcp-wrapper, #pcp-deaths-wrapper{
+    position:relative;
+    margin: 5px;
+
+    /*-moz-box-shadow: #555 0 0 8px;*/
+    /*-webkit-box-shadow: #555 0 0 8px;*/
+    /*-o-box-shadow: #555 0 0 8px;*/
+    /*box-shadow: #555 0 0 8px;*/
+    /*margin: auto;*/
+    /*width:50%;*/
+ /*   width:600px;
+    height:400px;*/
+}
+#cases-svg-interpolation-container, #deaths-svg-interpolation-container{
+    /*position: relative;*/
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-left: 10px;
+
+}
+#cases-sub-wrapper, #deaths-sub-wrapper{
+    display:flex;
+    /*flex-direction: row;*/
+   /* display: inline-block;*/
+}
+#cases_webgl,#text,#deaths_webgl,#text2,#axes_label_canvas,#webgl2_canvas{
+    position:absolute; top:0px; left:0px;
+    margin-top:35px;
+    /*width:50%;*/
+    width:600px;
+    height:400px;
+}
+#correlation-table{
+    color: white;
+    padding: 15px;
+    position: relative;
+    margin: auto;
+}
+table {
+    font-family: sans-serif;
+    border: 1px;
+    border-color:#f5f5f5;
+
+}
+#correlation-table{
+    color: #a1a1a1;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+}
+tr:hover {background-color: #f5f5f5;}
