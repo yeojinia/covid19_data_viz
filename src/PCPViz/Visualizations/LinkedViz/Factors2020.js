@@ -5,9 +5,9 @@ import casesFactor from "../../Data/CasesFactorsAddedNorm.json";
 import {Slider as RSlider} from "rsuite";
 import Slider from '@material-ui/core/Slider';
 import CasesHeatMapViz from "./CasesHeatMap";
-import ColorInterpolationScale from '../../MainPanels/ColorInterpolationScale';
+import ColorInterpolationScale from '../ColorInterpolationScale';
 import StaticFactorsPCP, {OptAxes} from "./../LinkedViz/StaticFactorsPCP";
-import {Button} from "react-bootstrap";
+
 
 let corrMat = CorrelationMatrix(casesFactor)[1];
 

@@ -2,9 +2,9 @@ import React, {Component, useState} from 'react';
 import './style.css';
 import worker from "./../../worker.js";
 import WebWorker from "./../../workerSetup";
-import Factors2020 from "./../MainPanels/LinkedViz/Factors2020";
+import Factors2020 from "../Visualizations/LinkedViz/Factors2020";
 import 'rsuite/dist/styles/rsuite-default.css';
-import DynamicFactorsPCP from "./../MainPanels/StandAloneViz/DynamicFactorsPCP.js";
+import DynamicFactorsPCP from "../Visualizations/StandAloneViz/DynamicFactorsPCP.js";
 import * as d3 from 'd3';
 import Select from "react-select";
 
