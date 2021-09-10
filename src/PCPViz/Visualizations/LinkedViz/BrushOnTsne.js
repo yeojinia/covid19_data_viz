@@ -383,8 +383,7 @@ export default function MultipleBrushes(props) {
             })
             .attr("r", 6)
             .style("fill", function (d) {
-                //console.log(d);
-                console.log(props.selectedData, d[2]);
+               // console.log(props.selectedData, d[2]);
                 return "blue";                // return "#EE786E"//"red"
             })
             .style("opacity", 0.5);

@@ -114,22 +114,22 @@ export default function Factors2020() {
 
                     &nbsp;
 
-                    <div id="cross-line-highlight-wrapper" style={{height: '30px', width: '210px'}}>
-                        <b> Highlight </b>
-                        <Slider
-                            min={0}
-                            max={1}
-                            step={0.01}
-                            defaultValue={0.5}
-                            onChange={(e, v) => {
-                                setCrossStress(v);
-                            }}
-                            style={{width: 200, marginTop: '0.3rem'}}/>
-                    </div>
+                    {/*<div id="cross-line-highlight-wrapper" style={{height: '30px', width: '280px'}}>*/}
+                    {/*    <b> Highlight </b>*/}
+                    {/*    <Slider*/}
+                    {/*        min={0}*/}
+                    {/*        max={1}*/}
+                    {/*        step={0.01}*/}
+                    {/*        defaultValue={0.5}*/}
+                    {/*        onChange={(e, v) => {*/}
+                    {/*            setCrossStress(v);*/}
+                    {/*        }}*/}
+                    {/*        style={{width: 270, marginTop: '0.3rem'}}/>*/}
+                    {/*</div>*/}
                     &nbsp;
 
-                    <div id="bundling-slider-wrapper" style={{height: '30px', width: '210px'}}>
-                        <b> Bundling </b>
+                    <div id="bundling-slider-wrapper" style={{height: '30px', width: '280px'}}>
+                        <b> Bundle data lines </b>
                         <input type="checkbox" checked={bundleChecked} onChange={()=> setBundleChecked(!bundleChecked)} />
                         <Slider
                             min={0}
@@ -139,7 +139,7 @@ export default function Factors2020() {
                             onChange={(e, v) => {
                                 setBundleSliderPlace(v);
                             }}
-                            style={{width: 200, marginTop: '0.3rem'}}/>
+                            style={{width: 270, marginTop: '0.3rem'}}/>
                     </div>
                     &nbsp;
 
@@ -154,7 +154,7 @@ export default function Factors2020() {
                         //     setMiSlider(false);
                         // }
                     }} style={{height: '60px'}}>
-                        <b> Dimension Selection </b>
+                        <b> Reduce variables by correlation coefficient </b>
                         {/*<div style={{height: '40px'}}>*/}
                         {/*    <input type="radio" value="mutualInformation" name="extract-method"*/}
                         {/*           style={{marginTop: '0.3rem'}}/>*/}
@@ -181,10 +181,6 @@ export default function Factors2020() {
                                 onChange={(v) => {
                                     setCorrThreshold({corrThreshold: v});
                                 }}
-                                // onChange={(v, number) => {
-                                //     //console.log(corrThreshold)
-                                //     setCorrThreshold({corrThreshold: number});
-                                // }}
                                 onChangeCommitted = {(e, v) => {
                                     var threshold = {"corrThreshold": v};
                                     var selected_axes = OptAxes(corrSlider, threshold, miSlider, threshold);
@@ -201,11 +197,11 @@ export default function Factors2020() {
                                         setScatterVertical({vert: "None"});
                                     }
                                 }}
-                                style={{width: 200, marginTop: '0.3rem'}}/>
+                                style={{width: 270, marginTop: '0.3rem'}}/>
                         </div>
 
                         <div id="axis-order-slider-wrapper" style={{height: '30px', width: '210px'}}>
-                            <b> Objective Variable </b>
+                            <b> Move the location of "cases" </b>
                             <Slider
                                 min={0}
                                 max={1}
@@ -218,7 +214,7 @@ export default function Factors2020() {
                                         setTargetPlace(target_pos);
                                     }
                                 }}
-                                style={{width: 200, marginTop: '0.3rem'}}/>
+                                style={{width: 270, marginTop: '0.3rem'}}/>
                         </div>
                     </div>
                     {/*<div id="button-wrapper">*/}

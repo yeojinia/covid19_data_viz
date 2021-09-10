@@ -87,18 +87,12 @@ const CasesHeatMapViz = (props) => {
         heatMapElement
             .selectAll("text")
             .style("font-size", function (d) {
-                if(d === "cases") return 0+"px";
+                if(d === "cases") return 15+"px";
                 // var size = (25- 0.5*(Object.keys(selectedAxes).length));
                 return 15 + "px";
             })
             .attr("transform", "rotate(90)")
             .style("text-anchor", "start")
-
-
-        // .style("font", function (d) {
-        //     var size = (25- 0.5*(Object.keys(selectedAxes).length));
-        //     return size+"px";
-        // })
 
 
         // Build Y scales and axis
@@ -109,7 +103,6 @@ const CasesHeatMapViz = (props) => {
 
         heatMapElement.append("g")
             .style("font-size", function (d) {
-                // var size = (25- 0.5*(Object.keys(selectedAxes).length));
                 return 15 + "px";
             })
             .call(d3.axisLeft(y).tickSize(0))
@@ -119,34 +112,13 @@ const CasesHeatMapViz = (props) => {
         heatMapElement
             .selectAll("text")
             .style("font-size", function (d) {
-                if(d === "cases") return 0+"px";
-                // var size = (25- 0.5*(Object.keys(selectedAxes).length));
+                if(d === "cases") return 15+"px";
                 return 15 + "px";
             })
 
-
         var myColor = d3.scaleSequential()
-            .interpolator(d3.interpolateRdBu)
+            .interpolator(d3.interpolateRdYlGn)
             .domain([-1, 1]);
-
-        if (props.colorScheme === "Inferno") {
-            myColor = d3.scaleSequential()
-                .interpolator(d3.interpolateInferno)
-                .domain([-1, 1]);
-        } else if (props.colorScheme === "RdBu") {
-            myColor = d3.scaleSequential()
-                .interpolator(d3.interpolateRdBu)
-                .domain([-1, 1]);
-        } else if (props.colorScheme === "RdYlGn") {
-            myColor = d3.scaleSequential()
-                .interpolator(d3.interpolateRdYlGn)
-                .domain([-1, 1]);
-        } else if (props.colorScheme === "RdGy") {
-            myColor = d3.scaleSequential()
-                .interpolator(d3.interpolateRdGy)
-                .domain([-1, 1]);
-        }
-        // console.log(myColor(0.5));
 
         d3.select("#cases-sub-heatmap-map-vis")
             .append("div")

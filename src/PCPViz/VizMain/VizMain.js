@@ -65,7 +65,7 @@ class VizMain extends Component{
             <div className="pcp">
                 <div className = "cases-pcp" style={{border: 'solid #F5F5F5'}}>
                     <h2>
-                        US Potential Spreading Factors for COVID-19 (Cumulative during 2020)
+                        US Potential Spreading Factors for COVID-19 (cumulative cases during 2020)
                     </h2>
                     &nbsp;
 
